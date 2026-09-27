@@ -24,6 +24,8 @@ python -m unittest discover -s tests -v
 
 ## Incident Research Skill
 
+当前纯文档安装包：[incident-research v1.0.3](packages/incident-research/v1.0.3/README.md)，新增最终报告开篇的整体及各应用年度可用性同表、同图总结规则；保留分析优先、官方颜色兜底。该分发包与下述仓库研发源码独立维护。
+
 入口：公开状态网站 URL，例如 `https://status.openai.com`。输出：一行一个事故的 `incident-csv-v1`，保留维护、原文、官方与分析等级、影响阶段、证据、原始 JSON、哈希和质量标记。
 
 Skill 位于 `.agents/skills/incident-research/`，可使用 `$incident-research` 显式调用；也提供只依赖 Python 标准库的命令行。

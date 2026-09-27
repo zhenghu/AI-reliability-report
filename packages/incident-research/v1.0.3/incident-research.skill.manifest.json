@@ -1,0 +1,41 @@
+{
+  "name": "incident-research",
+  "version": "1.0.3",
+  "format": "ZIP (.skill)",
+  "archive_timestamp_policy": "Fixed 1980-01-01 for reproducible ZIP entries; not source creation dates",
+  "created_at_utc": "2026-09-27T19:35:35.599477+00:00",
+  "package": {
+    "filename": "incident-research.skill",
+    "bytes": 21712,
+    "sha256": "90ee9e91f9f545246367544d9d938617f9b840b16e5208c60a1d701117c41f95"
+  },
+  "files": [
+    {
+      "path": "incident-research/SKILL.md",
+      "bytes": 12643,
+      "sha256": "c568c528eb8c67fa12361ecac3ad9e0e3de55196b03bcd5155194df122bd56a0"
+    },
+    {
+      "path": "incident-research/reference/ADAPTERS.md",
+      "bytes": 5257,
+      "sha256": "3b5dba5565d061370cd0e91e61dafee81c0f52653af865b5c11c2344bf47bd54"
+    },
+    {
+      "path": "incident-research/reference/CSV_CONTRACT.md",
+      "bytes": 13807,
+      "sha256": "cfb9f8113a662b4c6f6562eec82bc7d09f67ad40d915618167fd82abc2ce20f9"
+    },
+    {
+      "path": "incident-research/reference/METHODOLOGY.md",
+      "bytes": 10609,
+      "sha256": "ee9bd209d08b436c48820ad06572f7c6612eb1fecd908cb9f535ac0e7935fc41"
+    }
+  ],
+  "validation": {
+    "zip_crc": "passed",
+    "packaged_bytes_equal_installed_skill": "passed",
+    "extracted_skill_quick_validate": "passed",
+    "document_links": "passed",
+    "client_installation": "not_performed"
+  }
+}
