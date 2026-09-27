@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "name": "incident-research",
+  "version": "1.0.1",
+  "variant": "documentation-only",
+  "package_filename": "incident-research.skill",
+  "original_attachment_filename": "incident-research-v1.0.1.skill",
+  "size_bytes": 17732,
+  "sha256": "4604f79f247f628d9f8569fc8deda5d24221d017daf6849f49b5f5a40337a024",
+  "git_blob_sha": "f82ba2a49be65f1fac2d3cb18136e691872898b6",
+  "archive_format": "zip",
+  "archive_root": "incident-research/",
+  "file_count": 4,
+  "identical_to_provided_attachment": true,
+  "contains_executable_scripts": false,
+  "zip_crc_validation": "passed",
+  "expected_file_set_validation": "passed",
+  "symlink_check": "passed",
+  "client_installation_verified": false,
+  "repository_source_modified": false,
+  "notes": [
+    "Uploaded without repacking; only the repository filename differs from the supplied attachment.",
+    "Contains SKILL.md and reference/*.md only; no scripts, agents configuration, standalone examples or previous test records.",
+    "The deleted v1.0.0 distribution has not been restored.",
+    "Repository development source under .agents and existing reports remain unchanged. This documentation-only package is not a full mirror of that source tree."
+  ],
+  "files": [
+    {"path": "incident-research/SKILL.md", "bytes": 10352, "sha256": "f53f0c9a08672c2152bf6ef57da055c071339d6227347001d8f14b7bac737ab8"},
+    {"path": "incident-research/reference/ADAPTERS.md", "bytes": 5257, "sha256": "3b5dba5565d061370cd0e91e61dafee81c0f52653af865b5c11c2344bf47bd54"},
+    {"path": "incident-research/reference/CSV_CONTRACT.md", "bytes": 11698, "sha256": "fe233fd2a2189d0c0ee99179e919fd9ab0c51d31f1c83f93090705690bee9677"},
+    {"path": "incident-research/reference/METHODOLOGY.md", "bytes": 5661, "sha256": "c4bc29fc6a95b7998137dbbfa143ab55bf891095667e919b8003927a2104ec12"}
+  ]
+}
