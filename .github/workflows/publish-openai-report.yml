@@ -1,0 +1,49 @@
+name: Publish OpenAI report reading files
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [scripts/publish_openai_report.py]
+permissions:
+  contents: write
+concurrency:
+  group: publish-openai-report
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Fetch the exact publication commit
+        env:
+          TARGET_SHA: ${{ github.sha }}
+          REPOSITORY: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          git init .
+          git remote add origin "https://github.com/${REPOSITORY}.git"
+          git fetch --depth=1 origin "$TARGET_SHA"
+          git checkout -b main FETCH_HEAD
+      - name: Install report rendering dependencies
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo apt-get install -y fonts-noto-cjk
+          python3 -m venv .venv
+          .venv/bin/pip install matplotlib==3.10.7 mistune==3.1.4
+      - name: Render frozen report and verify its data
+        env:
+          MPLBACKEND: Agg
+        run: .venv/bin/python scripts/publish_openai_report.py
+      - name: Commit report reading files
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add OpenAI/2026-09-27/v1.1/
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'docs(openai): publish report charts and offline HTML reading copy'
+          AUTH=$(printf 'x-access-token:%s' "$GH_TOKEN" | base64 -w0)
+          git -c "http.https://github.com/.extraheader=AUTHORIZATION: basic $AUTH" push origin HEAD:main
