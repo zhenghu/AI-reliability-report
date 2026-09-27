@@ -1,0 +1,14 @@
+{
+  "company_id": "example",
+  "overall_group": "Overall",
+  "service_windows": {
+    "Overall": {
+      "start": "2024-01-01T00:00:00Z",
+      "end": "2024-01-03T00:00:00Z"
+    },
+    "API": {
+      "start": "2024-01-01T00:00:00Z",
+      "end": "2024-01-03T00:00:00Z"
+    }
+  }
+}

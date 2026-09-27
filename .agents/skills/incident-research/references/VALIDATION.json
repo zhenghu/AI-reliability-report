@@ -1,0 +1,81 @@
+{
+  "skill": "incident-research",
+  "version": "1.0.0",
+  "date": "2026-09-27",
+  "repository_base_commit": "62f8216eb521f18e9a8eb2f45f98c273fca549ba",
+  "repository_write_status": "Not committed or PR-created; GitHub code write blocked by tool safety check.",
+  "unit_tests": {
+    "new_skill_tests": 50,
+    "existing_report_tests": 41,
+    "total": 91,
+    "result": "passed"
+  },
+  "tests_use_network": false,
+  "network_execution": "Local direct network is unavailable; adapters tested with offline simulated responses, not a live end-to-end crawl.",
+  "frozen_dataset_roundtrip": {
+    "input_records": 1007,
+    "output_records": 1007,
+    "incidents": 1006,
+    "maintenance": 1,
+    "unknown_severity_records": 142,
+    "unknown_time_records": 146,
+    "description": "Existing OpenAI frozen CSV parsing/serialization only. Original report corrections were not migrated; no fresh collection and no reclassified reliability claims."
+  },
+  "csv_fields": 48,
+  "csv_encoding": "UTF-8 BOM",
+  "synthetic_example": {
+    "export": "passed",
+    "csv_to_trend_data": "passed",
+    "existing_report_model_validation": "passed"
+  },
+  "files": {
+    "SKILL.md": {
+      "bytes": 9843,
+      "sha256": "36b2af905199386514b7fb951ccfa2d37ea6ee3bae2cf9b24a30ce02ebdfc4d6"
+    },
+    "agents/openai.yaml": {
+      "bytes": 384,
+      "sha256": "a18e8a4ed20483725c9d968722b3df84320244f3445c9e6350f93669183915d7"
+    },
+    "examples/analysis.json": {
+      "bytes": 1495,
+      "sha256": "25d6ab5647dae64af09e481e5a72a55101c6ec053a3d66c6e0bf5cce8c1b2969"
+    },
+    "examples/service_windows.json": {
+      "bytes": 281,
+      "sha256": "1604f5e5251f7c56254afa966eff51a26242bc5ba5a65bdf14b6bc2568366c12"
+    },
+    "examples/snapshot.json": {
+      "bytes": 1714,
+      "sha256": "58764df7a231f0f46514fc1a1bd78d5b5303713fbcb3056b19a560e1ecefccaa"
+    },
+    "references/ADAPTERS.md": {
+      "bytes": 4442,
+      "sha256": "058a715dde6ba4c93deb0dcd12aed896ea247741ff058c6b02f5bb77d0e48b44"
+    },
+    "references/CSV_CONTRACT.md": {
+      "bytes": 7295,
+      "sha256": "bcf8d10e41a57daf2cc17d1abcb4dba6b8c4615c17047374e62dbd7247f8ac46"
+    },
+    "references/METHODOLOGY.md": {
+      "bytes": 5017,
+      "sha256": "586b4cf0f387e71ca0caea0a1b358e85bd5e0b27704802f67f885f164c13f833"
+    },
+    "scripts/adapters.py": {
+      "bytes": 13867,
+      "sha256": "b20d0ad837fc377e64e5f6ecea5f022d1ad10dea89c309b80a26aa8b956bca0e"
+    },
+    "scripts/aggregate.py": {
+      "bytes": 5772,
+      "sha256": "4f89c0361ae57f3212c599cd90b1851f8b16aa49f98299d6185b9182418e9c3a"
+    },
+    "scripts/core.py": {
+      "bytes": 26624,
+      "sha256": "0fa2b75315abbe0f29a70b0b0d545546a6238166ce3a0d0b02d30b039b89c275"
+    },
+    "scripts/incident_pipeline.py": {
+      "bytes": 3765,
+      "sha256": "96b36193185ce4125f9933d45246259381316505746a5db9f4cd65afb044a7de"
+    }
+  }
+}

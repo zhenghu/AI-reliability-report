@@ -19,7 +19,28 @@ python -m unittest discover -s tests -v
 
 生成文件默认在 `build/公司/日期/版本/`，不会覆盖原有归档。原 `publish_openai_report.py` 和 `render_openai_trends.py` 已替换，旧命令请迁移到 `--config` 入口。
 
-**这是展示与打包管线，不是自动研究系统。** 不采集新事故、不重新判级、不从原始事故重算可用性。正式研究应先生成经过校验的公司统计数据和报告正文，再由此管线出版。
+**报告构建器仍是展示与打包层。** 上游新增 [Incident Research Skill](.agents/skills/incident-research/SKILL.md)：从公开状态网站采集、校验与分析事故，输出单一 CSV；可通过显式观察窗口聚合成构建器所需的 `trend_data.json`。语义分级由执行 Skill 的智能体结合证据完成，不把采集脚本的默认映射冒充最终分析。
+
+
+## Incident Research Skill
+
+入口：公开状态网站 URL，例如 `https://status.openai.com`。输出：一行一个事故的 `incident-csv-v1`，保留维护、原文、官方与分析等级、影响阶段、证据、原始 JSON、哈希和质量标记。
+
+Skill 位于 `.agents/skills/incident-research/`，可使用 `$incident-research` 显式调用；也提供只依赖 Python 标准库的命令行。
+
+```sh
+python scripts/collect_incidents.py collect https://status.openai.com \
+  --company-id openai --start 2021-02-01T00:00:00Z --output work/openai-run
+# 智能体依据保存的公告与复盘生成 analysis.json 后：
+python scripts/collect_incidents.py export \
+  --snapshot work/openai-run/snapshot.json --analysis work/openai-run/analysis.json \
+  --output work/openai-run/incidents.csv
+python scripts/collect_incidents.py validate work/openai-run/incidents.csv
+```
+
+支持 incident.io 自定义域名与 Statuspage 公共 JSON 的自动发现；其它页面通过获授权的浏览器采集并导入证据快照。公开接口枚举完成不等于未披露事故或真实影响全量已经证明。
+
+[使用、安装与验证说明](docs/INCIDENT_RESEARCH.md) · [CSV 数据契约](.agents/skills/incident-research/references/CSV_CONTRACT.md)
 
 ## OpenAI · 2026-09-27 · v1.1
 

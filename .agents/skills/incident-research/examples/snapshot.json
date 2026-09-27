@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "platform": "incidentio",
+  "company": {
+    "id": "example",
+    "name": "ExampleAI"
+  },
+  "status_page_url": "https://status.example.com",
+  "start_utc": "2024-01-01T00:00:00Z",
+  "cutoff_utc": "2024-01-03T00:00:00Z",
+  "retrieved_at_utc": "2024-01-03T00:00:00Z",
+  "run_id": "synthetic-test",
+  "components": {
+    "api": {
+      "id": "api",
+      "name": "Inference",
+      "group": "API"
+    }
+  },
+  "coverage": {
+    "status": "enumerated",
+    "cross_check": "synthetic_fixture_only_not_real_site",
+    "errors": []
+  },
+  "records": [
+    {
+      "raw": {
+        "id": "one",
+        "name": "Synthetic API incident",
+        "published_at": "2024-01-01T00:00:00Z",
+        "status": "resolved",
+        "type": "incident",
+        "updates": [
+          {
+            "id": "u1",
+            "published_at": "2024-01-01T00:00:00Z",
+            "to_status": "investigating",
+            "message_string": "All API requests failed from 00:00 UTC to 00:10 UTC on January 1, 2024."
+          },
+          {
+            "id": "u2",
+            "published_at": "2024-01-01T00:10:00Z",
+            "to_status": "resolved",
+            "message_string": "Restored."
+          }
+        ],
+        "affected_components": [
+          {
+            "component_id": "api",
+            "status": "full_outage"
+          }
+        ],
+        "component_impacts": [
+          {
+            "start_at": "2024-01-01T00:00:00Z",
+            "end_at": "2024-01-01T00:10:00Z",
+            "component_id": "api",
+            "status": "full_outage"
+          }
+        ]
+      },
+      "source_urls": [
+        "https://status.example.com/incidents/one"
+      ]
+    }
+  ],
+  "synthetic": true
+}

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Incident 可靠性研究"
+  short_description: "从状态网站搜集、校验与分析历史事故，导出可审计 CSV"
+  default_prompt: "使用 $incident-research，从我提供的公开状态网站搜集可得事故历史，校验完整性与证据，分析严重等级和影响阶段，输出统一 CSV。"
+policy:
+  allow_implicit_invocation: true

@@ -3,3 +3,6 @@ __pycache__/
 .venv/
 .pytest_cache/
 build/
+
+# Raw incident captures are local unless explicitly archived.
+work/

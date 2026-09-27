@@ -2,7 +2,7 @@
 
 ## 范围
 
-`publish_report.py` 与 `render_trends.py` 面向任意公司。公司、报告日期、版本、服务名称、输入路径、输出目录和输入校验值来自 JSON 配置；年份范围、观察窗口、图表范围来自数据。**脚本只构建冻结研究结果的阅读版本，不采集新事故、不重新判级、不从原始事故重算可用性。** 不同供应商的采集与口径映射应在上游完成，不能仅凭字段同名就认定可横向比较。
+`publish_report.py` 与 `render_trends.py` 面向任意公司。公司、报告日期、版本、服务名称、输入路径、输出目录和输入校验值来自 JSON 配置；年份范围、观察窗口、图表范围来自数据。**脚本只构建冻结研究结果的阅读版本，不采集新事故、不重新判级、不从原始事故重算可用性。** 不同供应商的采集与口径映射在上游 [Incident Research Skill](INCIDENT_RESEARCH.md) 中处理；其 CSV 可经显式窗口聚合为本契约。不能仅凭字段同名就认定可横向比较。
 
 原 `publish_openai_report.py`、`render_openai_trends.py` 和专用发布工作流已由通用入口替代。没有保留内嵌 OpenAI 默认参数的旧入口。原有 `OpenAI/2026-09-27/v1.1/` 报告、图表与冻结 JSON 保持不变；新的构建默认写入 `build/`，不反向覆盖历史归档。
 
@@ -155,4 +155,4 @@ configs/                      # 每家公司/日期/版本一个配置
 examples/sample-provider/     # 明确标记的合成示例
 ```
 
-上游未来可增加供应商采集适配器、统一事故结构和可用性计算模块；它们输出上述契约即可复用本构建管线。当前不会宣称这些上游能力已经实现。
+上游现已增加 Incident Research Skill（`.agents/skills/incident-research/`）：公开状态页采集、证据分析协议、统一事故 CSV 与按年区间并集桥接。供应商之外的自定义页面仍需智能体/浏览器导入，语义判级不由机械映射替代；查看 [INCIDENT_RESEARCH.md](INCIDENT_RESEARCH.md)。本构建管线本身仍不发起网络采集，也不修改已发表的 OpenAI v1.1 归档。

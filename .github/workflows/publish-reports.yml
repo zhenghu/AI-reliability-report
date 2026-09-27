@@ -10,6 +10,7 @@ on:
   push:
     branches: [main]
     paths:
+      - '.agents/skills/incident-research/**'
       - 'scripts/**'
       - 'configs/**'
       - 'examples/**'
@@ -20,6 +21,7 @@ on:
       - '**/*Report*.md'
   pull_request:
     paths:
+      - '.agents/skills/incident-research/**'
       - 'scripts/**'
       - 'configs/**'
       - 'examples/**'
