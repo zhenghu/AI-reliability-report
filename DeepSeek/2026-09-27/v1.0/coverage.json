@@ -1,0 +1,37 @@
+{
+  "status": "enumerated",
+  "query_start_utc": "2024-01-01T00:00:00Z",
+  "observation_start_utc": "2024-02-01T00:00:00Z",
+  "cutoff_utc": "2026-09-27T19:36:20Z",
+  "monthly_windows": 33,
+  "unique_records": 105,
+  "history_cross_check": "passed: union of 17 overlapping two-month History payloads equals all 105 API IDs",
+  "history_pages": 17,
+  "browser_spot_check": {
+    "2026-09": {
+      "September": 8,
+      "August": 16,
+      "July_displayed_zero_despite_API_8": true
+    },
+    "2026-07": {
+      "July": 8,
+      "June": 3,
+      "May_displayed_zero_despite_API_7": true
+    },
+    "finding": "History header spans 3 months but visible/data events cover only the last 2; overlapping History pages used to avoid this gap."
+  },
+  "all_314_update_descriptions_match_list_and_detail": true,
+  "split_window_checks": [
+    "2025-01",
+    "2026-08"
+  ],
+  "prestart_query": "2023-01-01 through 2024-02-01 returned zero; official oldest component availability date 2024-02-01 is the stopping boundary, not proof of no earlier undisclosed incidents",
+  "verified_http_response_hashes": 199,
+  "unknown_legacy_component_extra_overall_seconds": [],
+  "collection_interruption": {
+    "type": "connection reset during one detail request",
+    "recovery": "resumed once from saved responses; all 105 details completed",
+    "remaining_failed_windows": []
+  },
+  "postmortem_check": "All detail objects and all 314 updates examined; no separate postmortem fields or external document links; five important HTML detail pages also saved. This is not a claim that no external postmortem exists."
+}

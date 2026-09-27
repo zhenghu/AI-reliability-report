@@ -1,0 +1,396 @@
+[
+  {
+    "start": "2024-01-01T00:00:00Z",
+    "end": "2024-02-01T00:00:00Z",
+    "count": 0,
+    "ids": [],
+    "url": "https://status.deepseek.com/api/status-page/6410630422455/change/list?start_at_seconds=1704067200&end_at_seconds=1706745600",
+    "extra_keys": []
+  },
+  {
+    "start": "2024-02-01T00:00:00Z",
+    "end": "2024-03-01T00:00:00Z",
+    "count": 0,
+    "ids": [],
+    "url": "https://status.deepseek.com/api/status-page/6410630422455/change/list?start_at_seconds=1706745600&end_at_seconds=1709251200",
+    "extra_keys": []
+  },
+  {
+    "start": "2024-03-01T00:00:00Z",
+    "end": "2024-04-01T00:00:00Z",
+    "count": 0,
+    "ids": [],
+    "url": "https://status.deepseek.com/api/status-page/6410630422455/change/list?start_at_seconds=1709251200&end_at_seconds=1711929600",
+    "extra_keys": []
+  },
+  {
+    "start": "2024-04-01T00:00:00Z",
+    "end": "2024-05-01T00:00:00Z",
+    "count": 0,
+    "ids": [],
+    "url": "https://status.deepseek.com/api/status-page/6410630422455/change/list?start_at_seconds=1711929600&end_at_seconds=1714521600",
+    "extra_keys": []
+  },
+  {
+    "start": "2024-05-01T00:00:00Z",
+    "end": "2024-06-01T00:00:00Z",
+    "count": 3,
+    "ids": [
+      4439641513760287,
+      4510010257938287,
+      4580379002115287
+    ],
+    "url": "https://status.deepseek.com/api/status-page/6410630422455/change/list?start_at_seconds=1714521600&end_at_seconds=1717200000",
+    "extra_keys": []
+  },
+  {
+    "start": "2024-06-01T00:00:00Z",
+    "end": "2024-07-01T00:00:00Z",
+    "count": 2,
+    "ids": [
+      4298904025405287,
+      4369272769582287
+    ],
+    "url": "https://status.deepseek.com/api/status-page/6410630422455/change/list?start_at_seconds=1717200000&end_at_seconds=1719792000",
+    "extra_keys": []
+  },
+  {
+    "start": "2024-07-01T00:00:00Z",
+    "end": "2024-08-01T00:00:00Z",
+    "count": 4,
+    "ids": [
+      4017429048694287,
+      4087797792872287,
+      4158166537049287,
+      4228535281227287
+    ],
+    "url": "https://status.deepseek.com/api/status-page/6410630422455/change/list?start_at_seconds=1719792000&end_at_seconds=1722470400",
+    "extra_keys": []
+  },
+  {
+    "start": "2024-08-01T00:00:00Z",
+    "end": "2024-09-01T00:00:00Z",
+    "count": 6,
+    "ids": [
+      3595216583628287,
+      3665585327806287,
+      3735954071983287,
+      3806322816161287,
+      3876691560339287,
+      3947060304516287
+    ],
+    "url": "https://status.deepseek.com/api/status-page/6410630422455/change/list?start_at_seconds=1722470400&end_at_seconds=1725148800",
+    "extra_keys": []
+  },
+  {
+    "start": "2024-09-01T00:00:00Z",
+    "end": "2024-10-01T00:00:00Z",
+    "count": 2,
+    "ids": [
+      3454479095273287,
+      3524847839450287
+    ],
+    "url": "https://status.deepseek.com/api/status-page/6410630422455/change/list?start_at_seconds=1725148800&end_at_seconds=1727740800",
+    "extra_keys": []
+  },
+  {
+    "start": "2024-10-01T00:00:00Z",
+    "end": "2024-11-01T00:00:00Z",
+    "count": 2,
+    "ids": [
+      3313741606917287,
+      3384110351095287
+    ],
+    "url": "https://status.deepseek.com/api/status-page/6410630422455/change/list?start_at_seconds=1727740800&end_at_seconds=1730419200",
+    "extra_keys": []
+  },
+  {
+    "start": "2024-11-01T00:00:00Z",
+    "end": "2024-12-01T00:00:00Z",
+    "count": 2,
+    "ids": [
+      3173004118562287,
+      3243372862740287
+    ],
+    "url": "https://status.deepseek.com/api/status-page/6410630422455/change/list?start_at_seconds=1730419200&end_at_seconds=1733011200",
+    "extra_keys": []
+  },
+  {
+    "start": "2024-12-01T00:00:00Z",
+    "end": "2025-01-01T00:00:00Z",
+    "count": 2,
+    "ids": [
+      3032266630207287,
+      3102635374384287
+    ],
+    "url": "https://status.deepseek.com/api/status-page/6410630422455/change/list?start_at_seconds=1733011200&end_at_seconds=1735689600",
+    "extra_keys": []
+  },
+  {
+    "start": "2025-01-01T00:00:00Z",
+    "end": "2025-02-01T00:00:00Z",
+    "count": 10,
+    "ids": [
+      2328579188430287,
+      2398947932608287,
+      2469316676785287,
+      2539685420963287,
+      2610054165141287,
+      2680422909318287,
+      2750791653496287,
+      2821160397674287,
+      2891529141851287,
+      2961897886029287
+    ],
+    "url": "https://status.deepseek.com/api/status-page/6410630422455/change/list?start_at_seconds=1735689600&end_at_seconds=1738368000",
+    "extra_keys": []
+  },
+  {
+    "start": "2025-02-01T00:00:00Z",
+    "end": "2025-03-01T00:00:00Z",
+    "count": 2,
+    "ids": [
+      2258210444252287,
+      2328579188430287
+    ],
+    "url": "https://status.deepseek.com/api/status-page/6410630422455/change/list?start_at_seconds=1738368000&end_at_seconds=1740787200",
+    "extra_keys": []
+  },
+  {
+    "start": "2025-03-01T00:00:00Z",
+    "end": "2025-04-01T00:00:00Z",
+    "count": 3,
+    "ids": [
+      2047104211719287,
+      2117472955897287,
+      2187841700075287
+    ],
+    "url": "https://status.deepseek.com/api/status-page/6410630422455/change/list?start_at_seconds=1740787200&end_at_seconds=1743465600",
+    "extra_keys": []
+  },
+  {
+    "start": "2025-04-01T00:00:00Z",
+    "end": "2025-05-01T00:00:00Z",
+    "count": 0,
+    "ids": [],
+    "url": "https://status.deepseek.com/api/status-page/6410630422455/change/list?start_at_seconds=1743465600&end_at_seconds=1746057600",
+    "extra_keys": []
+  },
+  {
+    "start": "2025-05-01T00:00:00Z",
+    "end": "2025-06-01T00:00:00Z",
+    "count": 2,
+    "ids": [
+      1906366723364287,
+      1976735467542287
+    ],
+    "url": "https://status.deepseek.com/api/status-page/6410630422455/change/list?start_at_seconds=1746057600&end_at_seconds=1748736000",
+    "extra_keys": []
+  },
+  {
+    "start": "2025-06-01T00:00:00Z",
+    "end": "2025-07-01T00:00:00Z",
+    "count": 0,
+    "ids": [],
+    "url": "https://status.deepseek.com/api/status-page/6410630422455/change/list?start_at_seconds=1748736000&end_at_seconds=1751328000",
+    "extra_keys": []
+  },
+  {
+    "start": "2025-07-01T00:00:00Z",
+    "end": "2025-08-01T00:00:00Z",
+    "count": 3,
+    "ids": [
+      1695260490831287,
+      1765629235009287,
+      1835997979186287
+    ],
+    "url": "https://status.deepseek.com/api/status-page/6410630422455/change/list?start_at_seconds=1751328000&end_at_seconds=1754006400",
+    "extra_keys": []
+  },
+  {
+    "start": "2025-08-01T00:00:00Z",
+    "end": "2025-09-01T00:00:00Z",
+    "count": 1,
+    "ids": [
+      1624891746653287
+    ],
+    "url": "https://status.deepseek.com/api/status-page/6410630422455/change/list?start_at_seconds=1754006400&end_at_seconds=1756684800",
+    "extra_keys": []
+  },
+  {
+    "start": "2025-09-01T00:00:00Z",
+    "end": "2025-10-01T00:00:00Z",
+    "count": 0,
+    "ids": [],
+    "url": "https://status.deepseek.com/api/status-page/6410630422455/change/list?start_at_seconds=1756684800&end_at_seconds=1759276800",
+    "extra_keys": []
+  },
+  {
+    "start": "2025-10-01T00:00:00Z",
+    "end": "2025-11-01T00:00:00Z",
+    "count": 0,
+    "ids": [],
+    "url": "https://status.deepseek.com/api/status-page/6410630422455/change/list?start_at_seconds=1759276800&end_at_seconds=1761955200",
+    "extra_keys": []
+  },
+  {
+    "start": "2025-11-01T00:00:00Z",
+    "end": "2025-12-01T00:00:00Z",
+    "count": 3,
+    "ids": [
+      1413785514120287,
+      1484154258298287,
+      1554523002476287
+    ],
+    "url": "https://status.deepseek.com/api/status-page/6410630422455/change/list?start_at_seconds=1761955200&end_at_seconds=1764547200",
+    "extra_keys": []
+  },
+  {
+    "start": "2025-12-01T00:00:00Z",
+    "end": "2026-01-01T00:00:00Z",
+    "count": 4,
+    "ids": [
+      1132310537410287,
+      1202679281587287,
+      1273048025765287,
+      1343416769943287
+    ],
+    "url": "https://status.deepseek.com/api/status-page/6410630422455/change/list?start_at_seconds=1764547200&end_at_seconds=1767225600",
+    "extra_keys": []
+  },
+  {
+    "start": "2026-01-01T00:00:00Z",
+    "end": "2026-02-01T00:00:00Z",
+    "count": 0,
+    "ids": [],
+    "url": "https://status.deepseek.com/api/status-page/6410630422455/change/list?start_at_seconds=1767225600&end_at_seconds=1769904000",
+    "extra_keys": []
+  },
+  {
+    "start": "2026-02-01T00:00:00Z",
+    "end": "2026-03-01T00:00:00Z",
+    "count": 4,
+    "ids": [
+      850835560699287,
+      921204304877287,
+      991573049054287,
+      1061941793232287
+    ],
+    "url": "https://status.deepseek.com/api/status-page/6410630422455/change/list?start_at_seconds=1769904000&end_at_seconds=1772323200",
+    "extra_keys": []
+  },
+  {
+    "start": "2026-03-01T00:00:00Z",
+    "end": "2026-04-01T00:00:00Z",
+    "count": 6,
+    "ids": [
+      428623095633287,
+      498991839811287,
+      569360583988287,
+      639729328166287,
+      710098072344287,
+      780466816521287
+    ],
+    "url": "https://status.deepseek.com/api/status-page/6410630422455/change/list?start_at_seconds=1772323200&end_at_seconds=1775001600",
+    "extra_keys": []
+  },
+  {
+    "start": "2026-04-01T00:00:00Z",
+    "end": "2026-05-01T00:00:00Z",
+    "count": 3,
+    "ids": [
+      217516863100287,
+      287885607278287,
+      358254351455287
+    ],
+    "url": "https://status.deepseek.com/api/status-page/6410630422455/change/list?start_at_seconds=1775001600&end_at_seconds=1777593600",
+    "extra_keys": []
+  },
+  {
+    "start": "2026-05-01T00:00:00Z",
+    "end": "2026-06-01T00:00:00Z",
+    "count": 7,
+    "ids": [
+      6499101276287,
+      6497432543287,
+      6480608319287,
+      6467187538287,
+      6410630567287,
+      76779374745287,
+      147148118922287
+    ],
+    "url": "https://status.deepseek.com/api/status-page/6410630422455/change/list?start_at_seconds=1777593600&end_at_seconds=1780272000",
+    "extra_keys": []
+  },
+  {
+    "start": "2026-06-01T00:00:00Z",
+    "end": "2026-07-01T00:00:00Z",
+    "count": 3,
+    "ids": [
+      6622241641287,
+      6582247566287,
+      6551550194287
+    ],
+    "url": "https://status.deepseek.com/api/status-page/6410630422455/change/list?start_at_seconds=1780272000&end_at_seconds=1782864000",
+    "extra_keys": []
+  },
+  {
+    "start": "2026-07-01T00:00:00Z",
+    "end": "2026-08-01T00:00:00Z",
+    "count": 8,
+    "ids": [
+      6781859712287,
+      6781516431287,
+      6776768579287,
+      6773072313287,
+      6768454253287,
+      6750347231287,
+      6741259174287,
+      6653444512287
+    ],
+    "url": "https://status.deepseek.com/api/status-page/6410630422455/change/list?start_at_seconds=1782864000&end_at_seconds=1785542400",
+    "extra_keys": []
+  },
+  {
+    "start": "2026-08-01T00:00:00Z",
+    "end": "2026-09-01T00:00:00Z",
+    "count": 16,
+    "ids": [
+      6877795382287,
+      6874252609287,
+      6865326525287,
+      6864747482287,
+      6861035747287,
+      6843256773287,
+      6842626394287,
+      6826137995287,
+      6825777576287,
+      6812292150287,
+      6811604236287,
+      6800501267287,
+      6800013176287,
+      6798495647287,
+      6798182760287,
+      6794441261287
+    ],
+    "url": "https://status.deepseek.com/api/status-page/6410630422455/change/list?start_at_seconds=1785542400&end_at_seconds=1788220800",
+    "extra_keys": []
+  },
+  {
+    "start": "2026-09-01T00:00:00Z",
+    "end": "2026-09-27T19:36:20Z",
+    "count": 8,
+    "ids": [
+      7023110499287,
+      7020391134287,
+      7007335047287,
+      6994064302287,
+      6985724403287,
+      6985247573287,
+      7010698581287,
+      6927183076287
+    ],
+    "url": "https://status.deepseek.com/api/status-page/6410630422455/change/list?start_at_seconds=1788220800&end_at_seconds=1790537780",
+    "extra_keys": []
+  }
+]

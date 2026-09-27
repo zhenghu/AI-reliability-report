@@ -1,0 +1,18 @@
+{
+  "url": "https://status.deepseek.com/api/status-page/6410630422455/change/list?start_at_seconds=1711929600&end_at_seconds=1714521600",
+  "retrieved_at_utc": "2026-09-27T19:40:34.960419Z",
+  "status": 200,
+  "headers": {
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Cache-Control": "public, max-age=0, must-revalidate, s-maxage=10, stale-while-revalidate=30",
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Sun, 27 Sep 2026 19:40:34 GMT",
+    "Vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "Via": "1.1 Caddy",
+    "X-Request-Id": "ae9d590e-e573-4267-90ee-c56cae9b6c4e",
+    "Connection": "close",
+    "Transfer-Encoding": "chunked"
+  },
+  "sha256": "73d1a566a4480c2b7eaf89b7c859e957757115c007a7e2e4d17904c6e8c8ae0a",
+  "hash_object": "HTTP response body bytes"
+}

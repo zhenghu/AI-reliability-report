@@ -1,0 +1,7 @@
+﻿group,scenario,availability_pct,impact_hours
+Overall,All disclosed episodes,91.70753741755455,726.4197222222223
+Overall,Exclude two long episodes,99.79459982242517,17.993055555555557
+API,All disclosed episodes,91.75433789954339,722.32
+API,Exclude two long episodes,99.84140030441401,13.893333333333333
+Chat,All disclosed episodes,91.74557331303906,723.0877777777778
+Chat,Exclude two long episodes,99.82901445966515,14.978333333333333

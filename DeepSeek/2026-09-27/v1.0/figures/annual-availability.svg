@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="1000" height="600" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1000 600" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="1000" height="600"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-600)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="1000" height="600" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(98%,98%,99%); fill-rule: evenodd;"/>
+			<text x="42" y="560" style="font-family: Helvetica; font-size: 22px;fill: rgb(18%,28%,36%); stroke:none;" transform="translate(0,1120) scale(1,-1)">DeepSeek: annual availability by application</text>
+			<text x="42" y="536" style="font-family: Helvetica; font-size: 11px;fill: rgb(18%,28%,36%); stroke:none;" transform="translate(0,1072) scale(1,-1)">One metric for every series: F + P + D | Application colors | Truncated vertical axis: 90-100%</text>
+			<text x="42" y="22" style="font-family: Helvetica; font-size: 9px;fill: rgb(18%,28%,36%); stroke:none;" transform="translate(0,44) scale(1,-1)">Source: status.deepseek.com | Frozen: 2026-09-27 19:36:20 UTC | Public-incident time estimates, not request success rates</text>
+			<path d="M 100,235 L 880,235 Z" style="stroke: rgb(86%,89%,92%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="64.99000000000001" y="231" style="font-family: Helvetica; font-size: 10px;fill: rgb(18%,28%,36%); stroke:none;" transform="translate(0,462) scale(1,-1)">90%</text>
+			<path d="M 100,287 L 880,287 Z" style="stroke: rgb(86%,89%,92%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="64.99000000000001" y="283" style="font-family: Helvetica; font-size: 10px;fill: rgb(18%,28%,36%); stroke:none;" transform="translate(0,566) scale(1,-1)">92%</text>
+			<path d="M 100,339 L 880,339 Z" style="stroke: rgb(86%,89%,92%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="64.99000000000001" y="335" style="font-family: Helvetica; font-size: 10px;fill: rgb(18%,28%,36%); stroke:none;" transform="translate(0,670) scale(1,-1)">94%</text>
+			<path d="M 100,391 L 880,391 Z" style="stroke: rgb(86%,89%,92%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="64.99000000000001" y="387" style="font-family: Helvetica; font-size: 10px;fill: rgb(18%,28%,36%); stroke:none;" transform="translate(0,774) scale(1,-1)">96%</text>
+			<path d="M 100,443 L 880,443 Z" style="stroke: rgb(86%,89%,92%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="64.99000000000001" y="439" style="font-family: Helvetica; font-size: 10px;fill: rgb(18%,28%,36%); stroke:none;" transform="translate(0,878) scale(1,-1)">98%</text>
+			<path d="M 100,495 L 880,495 Z" style="stroke: rgb(86%,89%,92%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="59.43" y="491" style="font-family: Helvetica; font-size: 10px;fill: rgb(18%,28%,36%); stroke:none;" transform="translate(0,982) scale(1,-1)">100%</text>
+			<text x="84.322" y="212" style="font-family: Helvetica; font-size: 12px;fill: rgb(18%,28%,36%); stroke:none;" transform="translate(0,424) scale(1,-1)">2024*</text>
+			<text x="476.656" y="212" style="font-family: Helvetica; font-size: 12px;fill: rgb(18%,28%,36%); stroke:none;" transform="translate(0,424) scale(1,-1)">2025</text>
+			<text x="864.322" y="212" style="font-family: Helvetica; font-size: 12px;fill: rgb(18%,28%,36%); stroke:none;" transform="translate(0,424) scale(1,-1)">2026*</text>
+			<path d="M 100,484.319106 L 490,279.395973 Z" style="stroke: rgb(7%,18%,25%); stroke-linecap: butt; stroke-width: 3.2; stroke-dasharray: 6, 3;"/>
+			<path d="M 490,279.395973 L 880,476.920481 Z" style="stroke: rgb(7%,18%,25%); stroke-linecap: butt; stroke-width: 3.2; stroke-dasharray: 6, 3;"/>
+			<circle cx="100" cy="484.319105859591" r="5" style="stroke: rgb(7%,18%,25%); stroke-linecap: butt; stroke-width: 1.7; fill: rgb(98%,98%,99%); fill-rule: evenodd;"/>
+			<circle cx="490" cy="279.3959728564182" r="5" style="stroke: rgb(7%,18%,25%); stroke-linecap: butt; stroke-width: 1.7; fill: rgb(7%,18%,25%); fill-rule: evenodd;"/>
+			<circle cx="880" cy="476.920481053252" r="5" style="stroke: rgb(7%,18%,25%); stroke-linecap: butt; stroke-width: 1.7; fill: rgb(98%,98%,99%); fill-rule: evenodd;"/>
+			<path d="M 45,174 L 67,174 Z" style="stroke: rgb(7%,18%,25%); stroke-linecap: butt; stroke-width: 3;"/>
+			<text x="76" y="170" style="font-family: Helvetica; font-size: 10px;fill: rgb(7%,18%,25%); stroke:none;" transform="translate(0,340) scale(1,-1)">Overall: any included application  (99.3046%)</text>
+			<path d="M 100,484.319106 L 490,280.612785 Z" style="stroke: rgb(15%,46%,72%); stroke-linecap: butt; stroke-width: 1.9; stroke-dasharray: 6, 3;"/>
+			<path d="M 490,280.612785 L 880,487.664135 Z" style="stroke: rgb(15%,46%,72%); stroke-linecap: butt; stroke-width: 1.9; stroke-dasharray: 6, 3;"/>
+			<circle cx="100" cy="484.319105859591" r="3.6" style="stroke: rgb(15%,46%,72%); stroke-linecap: butt; stroke-width: 1.7; fill: rgb(98%,98%,99%); fill-rule: evenodd;"/>
+			<circle cx="490" cy="280.61278538812803" r="3.6" style="stroke: rgb(15%,46%,72%); stroke-linecap: butt; stroke-width: 1.7; fill: rgb(15%,46%,72%); fill-rule: evenodd;"/>
+			<circle cx="880" cy="487.6641352288803" r="3.6" style="stroke: rgb(15%,46%,72%); stroke-linecap: butt; stroke-width: 1.7; fill: rgb(98%,98%,99%); fill-rule: evenodd;"/>
+			<path d="M 535,174 L 557,174 Z" style="stroke: rgb(15%,46%,72%); stroke-linecap: butt; stroke-width: 3;"/>
+			<text x="566" y="170" style="font-family: Helvetica; font-size: 10px;fill: rgb(15%,46%,72%); stroke:none;" transform="translate(0,340) scale(1,-1)">DeepSeek API (historical aggregate)  (99.7179%)</text>
+			<path d="M 100,484.635752 L 490,280.384906 Z" style="stroke: rgb(84%,49%,14%); stroke-linecap: butt; stroke-width: 1.9; stroke-dasharray: 6, 3;"/>
+			<path d="M 490,280.384906 L 880,480.517202 Z" style="stroke: rgb(84%,49%,14%); stroke-linecap: butt; stroke-width: 1.9; stroke-dasharray: 6, 3;"/>
+			<circle cx="100" cy="484.63575179657266" r="3.6" style="stroke: rgb(84%,49%,14%); stroke-linecap: butt; stroke-width: 1.7; fill: rgb(98%,98%,99%); fill-rule: evenodd;"/>
+			<circle cx="490" cy="280.3849061390156" r="3.6" style="stroke: rgb(84%,49%,14%); stroke-linecap: butt; stroke-width: 1.7; fill: rgb(84%,49%,14%); fill-rule: evenodd;"/>
+			<circle cx="880" cy="480.5172017374611" r="3.6" style="stroke: rgb(84%,49%,14%); stroke-linecap: butt; stroke-width: 1.7; fill: rgb(98%,98%,99%); fill-rule: evenodd;"/>
+			<path d="M 45,147 L 67,147 Z" style="stroke: rgb(84%,49%,14%); stroke-linecap: butt; stroke-width: 3;"/>
+			<text x="76" y="143" style="font-family: Helvetica; font-size: 10px;fill: rgb(84%,49%,14%); stroke:none;" transform="translate(0,286) scale(1,-1)">Chat service (Web / App)  (99.4430%)</text>
+			<circle cx="880" cy="495.0" r="3.6" style="stroke: rgb(16%,54%,45%); stroke-linecap: butt; stroke-width: 1.7; fill: rgb(98%,98%,99%); fill-rule: evenodd;"/>
+			<path d="M 535,147 L 557,147 Z" style="stroke: rgb(16%,54%,45%); stroke-linecap: butt; stroke-width: 3;"/>
+			<text x="566" y="143" style="font-family: Helvetica; font-size: 10px;fill: rgb(16%,54%,45%); stroke:none;" transform="translate(0,286) scale(1,-1)">File upload service  (100.0000%)</text>
+			<circle cx="880" cy="492.6720491662776" r="3.6" style="stroke: rgb(57%,34%,63%); stroke-linecap: butt; stroke-width: 1.7; fill: rgb(98%,98%,99%); fill-rule: evenodd;"/>
+			<path d="M 45,120 L 67,120 Z" style="stroke: rgb(57%,34%,63%); stroke-linecap: butt; stroke-width: 3;"/>
+			<text x="76" y="116" style="font-family: Helvetica; font-size: 10px;fill: rgb(57%,34%,63%); stroke:none;" transform="translate(0,232) scale(1,-1)">Search service  (99.9105%)</text>
+			<text x="42" y="78" style="font-family: Helvetica; font-size: 10px;fill: rgb(18%,28%,36%); stroke:none;" transform="translate(0,156) scale(1,-1)">* 2024 starts Feb 1; 2026 ends at the frozen cutoff. Hollow dots = partial year. No extrapolation.</text>
+			<text x="42" y="58" style="font-family: Helvetica; font-size: 10px;fill: rgb(18%,28%,36%); stroke:none;" transform="translate(0,116) scale(1,-1)">File upload and Search start Jul 22, 2026 (10:19:38 UTC); earlier years are missing, not 100%.</text>
+		</g>
+	</g>
+</svg>

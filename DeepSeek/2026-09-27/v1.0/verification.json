@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "annual_rows_independently_recomputed": 11,
+  "annual_modes_verified": 33,
+  "phase_raw_field_evidence_verified": true,
+  "csv_to_report_values_match": true,
+  "local_report_links_exist": true,
+  "html_incident_index_count": 105,
+  "embedded_charts": 2,
+  "manifest_hashes_verified": 456,
+  "zip_crc_passed": true,
+  "limitations": "Structural and numerical checks do not prove the completeness of real-world incidents or exact impact times."
+}

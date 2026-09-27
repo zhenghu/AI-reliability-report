@@ -1,0 +1,23 @@
+{
+  "structural_validation": "passed",
+  "records": 105,
+  "columns": 48,
+  "utf8_bom": true,
+  "checks": [
+    "unique IDs",
+    "all JSON fields",
+    "raw canonical hashes",
+    "full update text round trip",
+    "evidence quote membership",
+    "UTC and positive intervals",
+    "cutoff bounds",
+    "per-record interval unions",
+    "nested duration monotonicity"
+  ],
+  "csv_sha256": "b1ba8e7733915056c497045a99ef0269e114ed5ae70d18e32fd33c71c1c09191",
+  "not_claimed": [
+    "actual request success rate",
+    "all real outages disclosed",
+    "exact real impact boundaries"
+  ]
+}

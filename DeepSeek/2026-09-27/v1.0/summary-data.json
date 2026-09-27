@@ -1,0 +1,83 @@
+{
+  "counts_by_publication_year": {
+    "2024": {
+      "incident": 21,
+      "maintenance": 2
+    },
+    "2025": {
+      "incident": 27
+    },
+    "2026": {
+      "incident": 55
+    }
+  },
+  "grade_counts": {
+    "full_outage": 34,
+    "partial_outage": 37,
+    "degraded_performance": 32
+  },
+  "basis_counts": {
+    "semantic_assessment": 19,
+    "semantic_plus_official_color_fallback": 31,
+    "official_color_fallback": 53
+  },
+  "unknown_time_ids": [
+    "4087797792872287",
+    "3665585327806287"
+  ],
+  "no_user_impact_incidents": 0,
+  "proxy_ids": [
+    4580379002115287,
+    3173004118562287,
+    3806322816161287
+  ],
+  "root_cause_vendor_stated": 2,
+  "sensitivity_exclude_two_long_2025": [
+    {
+      "year": 2025,
+      "group": "Overall",
+      "window_start": "2025-01-01T00:00:00Z",
+      "window_end": "2026-01-01T00:00:00Z",
+      "denominator_seconds": 31536000,
+      "incident_count": 25,
+      "full_hours": 6.855,
+      "full_partial_hours": 13.171666666666667,
+      "all_hours": 17.993055555555557,
+      "availability_full": 0.9992174657534246,
+      "availability_full_partial": 0.9984963850837139,
+      "availability_all": 0.9979459982242517
+    },
+    {
+      "year": 2025,
+      "group": "API",
+      "window_start": "2025-01-01T00:00:00Z",
+      "window_end": "2026-01-01T00:00:00Z",
+      "denominator_seconds": 31536000,
+      "incident_count": 22,
+      "full_hours": 4.823055555555555,
+      "full_partial_hours": 10.548333333333334,
+      "all_hours": 13.893333333333333,
+      "availability_full": 0.9994494228817858,
+      "availability_full_partial": 0.9987958523592085,
+      "availability_all": 0.9984140030441401
+    },
+    {
+      "year": 2025,
+      "group": "Chat",
+      "window_start": "2025-01-01T00:00:00Z",
+      "window_end": "2026-01-01T00:00:00Z",
+      "denominator_seconds": 31536000,
+      "incident_count": 25,
+      "full_hours": 6.219166666666666,
+      "full_partial_hours": 9.72,
+      "all_hours": 14.978333333333333,
+      "availability_full": 0.9992900494672755,
+      "availability_full_partial": 0.9988904109589041,
+      "availability_all": 0.9982901445966514
+    }
+  ],
+  "earliest_first_update_utc": "2024-05-10T08:30:00Z",
+  "earliest_impact_utc": "2024-05-09T20:30:00Z",
+  "latest_first_update_utc": "2026-09-23T22:20:46Z",
+  "total_updates": 314
+}

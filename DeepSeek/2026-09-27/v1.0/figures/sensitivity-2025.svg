@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="1000" height="600" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1000 600" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="1000" height="600"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-600)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="1000" height="600" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(98%,98%,99%); fill-rule: evenodd;"/>
+			<text x="42" y="560" style="font-family: Helvetica; font-size: 22px;fill: rgb(18%,28%,36%); stroke:none;" transform="translate(0,1120) scale(1,-1)">2025: two long status episodes dominate the estimate</text>
+			<text x="42" y="536" style="font-family: Helvetica; font-size: 11px;fill: rgb(18%,28%,36%); stroke:none;" transform="translate(0,1072) scale(1,-1)">F + P + D | Same full-year denominator | Exclusion is a sensitivity scenario, not a corrected truth</text>
+			<text x="42" y="22" style="font-family: Helvetica; font-size: 9px;fill: rgb(18%,28%,36%); stroke:none;" transform="translate(0,44) scale(1,-1)">Source: status.deepseek.com | Frozen: 2026-09-27 19:36:20 UTC | Public-incident time estimates, not request success rates</text>
+			<path d="M 245,165 L 245,485 Z" style="stroke: rgb(86%,89%,92%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="234.995" y="143" style="font-family: Helvetica; font-size: 10px;fill: rgb(18%,28%,36%); stroke:none;" transform="translate(0,286) scale(1,-1)">90%</text>
+			<path d="M 367,165 L 367,485 Z" style="stroke: rgb(86%,89%,92%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="356.995" y="143" style="font-family: Helvetica; font-size: 10px;fill: rgb(18%,28%,36%); stroke:none;" transform="translate(0,286) scale(1,-1)">92%</text>
+			<path d="M 489,165 L 489,485 Z" style="stroke: rgb(86%,89%,92%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="478.995" y="143" style="font-family: Helvetica; font-size: 10px;fill: rgb(18%,28%,36%); stroke:none;" transform="translate(0,286) scale(1,-1)">94%</text>
+			<path d="M 611,165 L 611,485 Z" style="stroke: rgb(86%,89%,92%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="600.995" y="143" style="font-family: Helvetica; font-size: 10px;fill: rgb(18%,28%,36%); stroke:none;" transform="translate(0,286) scale(1,-1)">96%</text>
+			<path d="M 733,165 L 733,485 Z" style="stroke: rgb(86%,89%,92%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="722.995" y="143" style="font-family: Helvetica; font-size: 10px;fill: rgb(18%,28%,36%); stroke:none;" transform="translate(0,286) scale(1,-1)">98%</text>
+			<path d="M 855,165 L 855,485 Z" style="stroke: rgb(86%,89%,92%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="842.215" y="143" style="font-family: Helvetica; font-size: 10px;fill: rgb(18%,28%,36%); stroke:none;" transform="translate(0,286) scale(1,-1)">100%</text>
+			<text x="42" y="445" style="font-family: Helvetica; font-size: 11px;fill: rgb(18%,28%,36%); stroke:none;" transform="translate(0,890) scale(1,-1)">Overall: any included application</text>
+			<rect x="245" y="434" width="104.1597824708274" height="20" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(15%,46%,72%); fill-rule: evenodd;"/>
+			<text x="357.1597824708274" y="439" style="font-family: Helvetica; font-size: 11px;fill: rgb(18%,28%,36%); stroke:none;" transform="translate(0,878) scale(1,-1)">91.7075%</text>
+			<rect x="245" y="403" width="597.4705891679354" height="20" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(16%,54%,45%); fill-rule: evenodd;"/>
+			<text x="850.4705891679354" y="408" style="font-family: Helvetica; font-size: 11px;fill: rgb(18%,28%,36%); stroke:none;" transform="translate(0,816) scale(1,-1)">99.7946%</text>
+			<text x="42" y="337" style="font-family: Helvetica; font-size: 11px;fill: rgb(18%,28%,36%); stroke:none;" transform="translate(0,674) scale(1,-1)">DeepSeek API</text>
+			<rect x="245" y="326" width="107.01461187214659" height="20" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(15%,46%,72%); fill-rule: evenodd;"/>
+			<text x="360.0146118721466" y="331" style="font-family: Helvetica; font-size: 11px;fill: rgb(18%,28%,36%); stroke:none;" transform="translate(0,662) scale(1,-1)">91.7543%</text>
+			<rect x="245" y="295" width="600.3254185692546" height="20" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(16%,54%,45%); fill-rule: evenodd;"/>
+			<text x="853.3254185692546" y="300" style="font-family: Helvetica; font-size: 11px;fill: rgb(18%,28%,36%); stroke:none;" transform="translate(0,600) scale(1,-1)">99.8414%</text>
+			<text x="42" y="229" style="font-family: Helvetica; font-size: 11px;fill: rgb(18%,28%,36%); stroke:none;" transform="translate(0,458) scale(1,-1)">Chat service</text>
+			<rect x="245" y="218" width="106.47997209538266" height="20" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(15%,46%,72%); fill-rule: evenodd;"/>
+			<text x="359.47997209538266" y="223" style="font-family: Helvetica; font-size: 11px;fill: rgb(18%,28%,36%); stroke:none;" transform="translate(0,446) scale(1,-1)">91.7456%</text>
+			<rect x="245" y="187" width="599.5698820395739" height="20" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(16%,54%,45%); fill-rule: evenodd;"/>
+			<text x="852.5698820395739" y="192" style="font-family: Helvetica; font-size: 11px;fill: rgb(18%,28%,36%); stroke:none;" transform="translate(0,384) scale(1,-1)">99.8290%</text>
+			<text x="42" y="100" style="font-family: Helvetica; font-size: 10px;fill: rgb(18%,28%,36%); stroke:none;" transform="translate(0,200) scale(1,-1)">Blue: all disclosed episodes. Green: exclude incident IDs 2328579188430287 and 2258210444252287.</text>
+			<text x="42" y="77" style="font-family: Helvetica; font-size: 10px;fill: rgb(18%,28%,36%); stroke:none;" transform="translate(0,154) scale(1,-1)">Horizontal axis is truncated to 90-100%. Long status intervals do not mean every request failed throughout.</text>
+			<text x="42" y="55" style="font-family: Helvetica; font-size: 10px;fill: rgb(18%,28%,36%); stroke:none;" transform="translate(0,110) scale(1,-1)">Other overlapping incidents remain included; intervals are re-unioned after exclusion.</text>
+		</g>
+	</g>
+</svg>

@@ -81,6 +81,16 @@ Markdown 原稿与资料库版本按 SHA-256 核对。现存 `_github.html` 是�
 
 本次同时归档原始公开证据、复核记录、图表及复算程序。Anthropic 使用版本目录内的独立分析和报告脚本，尚未接入上述通用配置构建管线；复算步骤见 [v1.2 说明](Anthropic/2026-09-27/v1.2/README.md)。
 
+## DeepSeek · 2026-09-27 · v1.0
+
+**《DeepSeek 可用性与历史事故分析报告》**
+
+- [HTML 报告（下载后离线打开）](DeepSeek/2026-09-27/v1.0/DeepSeek_Availability_Report_2026-09-27_v1.0.html) · [Markdown 报告](DeepSeek/2026-09-27/v1.0/DeepSeek_Availability_Report_2026-09-27_v1.0.md)
+- [事故 CSV](DeepSeek/2026-09-27/v1.0/incidents.csv) · [完整审计资料 ZIP](DeepSeek/2026-09-27/v1.0/DeepSeek_Availability_Audit_2026-09-27_v1.0.zip) · [验证结果](DeepSeek/2026-09-27/v1.0/verification.json)
+- [版本索引](DeepSeek/README.md) · [方法与复算说明](DeepSeek/2026-09-27/v1.0/README.md)
+
+冻结截止 **2026-09-27 19:36:20 UTC**，包含 103 起事故、2 条维护与 314 条更新；公开接口按月枚举，并与 17 个重叠 History 页面核对。开篇同表、同图展示整体及四个应用的年度可用性，正文说明历史组件改名、缺失时长及 2025 年两条多日公告的敏感性。采用版本目录内的 Flashduty 适配与复算脚本，尚未接入通用展示管线。
+
 ## 自动验证
 
 `Build reliability reports` 工作流运行测试并发现 `configs/*.json` 执行构建；也支持手动指定配置文件名。产物作为 Actions artifact 保存14天，工作流不向 `main` 写回生成文件，不定时抓取，不启用 GitHub Pages。

@@ -1,0 +1,28 @@
+{
+  "url": "https://status.deepseek.com/history?month=2026-08",
+  "retrieved_at_utc": "2026-09-27T20:01:02.329805Z",
+  "status": 200,
+  "headers": {
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Cache-Control": "private, no-cache, no-store, max-age=0, must-revalidate",
+    "Content-Type": "text/html; charset=utf-8",
+    "Date": "Sun, 27 Sep 2026 20:01:01 GMT",
+    "Link": "<https://static.flashcat.cloud/status-page/_next/static/media/e4af272ccee01ff0-s.p.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\"",
+    "Vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept-Encoding",
+    "Via": "1.1 Caddy",
+    "X-Locale": "en",
+    "X-Nextjs-Postponed": "1",
+    "X-Nextjs-Prerender": "1",
+    "X-Nextjs-Stale-Time": "300",
+    "X-Powered-By": "Next.js",
+    "X-Request-Id": "f8a9dfaf-e89a-45e1-bc38-555f1961a5b7",
+    "Connection": "close",
+    "Transfer-Encoding": "chunked"
+  },
+  "sha256": "7c8972099ea9375b015b6f2661169a7a0521ea31cb4a005f13132aad8a404484",
+  "hash_object": "HTTP response body bytes",
+  "redacted_response_headers": [
+    "Set-Cookie"
+  ],
+  "redaction_note": "Ephemeral response credential headers omitted from repository archive; response body bytes and SHA-256 unchanged."
+}

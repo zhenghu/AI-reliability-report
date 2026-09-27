@@ -1,0 +1,2954 @@
+[
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 4510010257938287,
+    "start_at_seconds": 1716268210,
+    "end_at_seconds": 1716268781,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 4510010257938287,
+    "start_at_seconds": 1716268210,
+    "end_at_seconds": 1716268781,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 4510010257938287,
+    "start_at_seconds": 1716268210,
+    "end_at_seconds": 1716268781,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 4439641513760287,
+    "start_at_seconds": 1716431714,
+    "end_at_seconds": 1716433231,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 4439641513760287,
+    "start_at_seconds": 1716431714,
+    "end_at_seconds": 1716433231,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 4439641513760287,
+    "start_at_seconds": 1716433231,
+    "end_at_seconds": 1716434980,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 4439641513760287,
+    "start_at_seconds": 1716433231,
+    "end_at_seconds": 1716434980,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 4439641513760287,
+    "start_at_seconds": 1716434980,
+    "end_at_seconds": 1716435239,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 4439641513760287,
+    "start_at_seconds": 1716434980,
+    "end_at_seconds": 1716435239,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 4369272769582287,
+    "start_at_seconds": 1718368855,
+    "end_at_seconds": 1718370710,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 4369272769582287,
+    "start_at_seconds": 1718368855,
+    "end_at_seconds": 1718370710,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 4369272769582287,
+    "start_at_seconds": 1718368855,
+    "end_at_seconds": 1718370710,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 4298904025405287,
+    "start_at_seconds": 1719392366,
+    "end_at_seconds": 1719393568,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 4298904025405287,
+    "start_at_seconds": 1719392366,
+    "end_at_seconds": 1719393568,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 4298904025405287,
+    "start_at_seconds": 1719392366,
+    "end_at_seconds": 1719393568,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 4228535281227287,
+    "start_at_seconds": 1721718733,
+    "end_at_seconds": 1721719081,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 4228535281227287,
+    "start_at_seconds": 1721718733,
+    "end_at_seconds": 1721719081,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 4228535281227287,
+    "start_at_seconds": 1721718733,
+    "end_at_seconds": 1721719081,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 4158166537049287,
+    "start_at_seconds": 1721792822,
+    "end_at_seconds": 1721794620,
+    "status": "under_maintenance"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 4158166537049287,
+    "start_at_seconds": 1721792822,
+    "end_at_seconds": 1721794620,
+    "status": "under_maintenance"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 4158166537049287,
+    "start_at_seconds": 1721792822,
+    "end_at_seconds": 1721794620,
+    "status": "under_maintenance"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 4017429048694287,
+    "start_at_seconds": 1721884202,
+    "end_at_seconds": 1721887800,
+    "status": "under_maintenance"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 4017429048694287,
+    "start_at_seconds": 1721884202,
+    "end_at_seconds": 1721887800,
+    "status": "under_maintenance"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 4017429048694287,
+    "start_at_seconds": 1721884202,
+    "end_at_seconds": 1721887800,
+    "status": "under_maintenance"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 3947060304516287,
+    "start_at_seconds": 1722604389,
+    "end_at_seconds": 1722609528,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 3947060304516287,
+    "start_at_seconds": 1722604389,
+    "end_at_seconds": 1722609528,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 3947060304516287,
+    "start_at_seconds": 1722604389,
+    "end_at_seconds": 1722609528,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 3876691560339287,
+    "start_at_seconds": 1723340629,
+    "end_at_seconds": 1723343066,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 3876691560339287,
+    "start_at_seconds": 1723340629,
+    "end_at_seconds": 1723343066,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 3876691560339287,
+    "start_at_seconds": 1723340629,
+    "end_at_seconds": 1723343066,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 3735954071983287,
+    "start_at_seconds": 1723451968,
+    "end_at_seconds": 1723458268,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 3735954071983287,
+    "start_at_seconds": 1723451968,
+    "end_at_seconds": 1723458268,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 3735954071983287,
+    "start_at_seconds": 1723451968,
+    "end_at_seconds": 1723458268,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 3595216583628287,
+    "start_at_seconds": 1723518527,
+    "end_at_seconds": 1723518699,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 3595216583628287,
+    "start_at_seconds": 1723518527,
+    "end_at_seconds": 1723518699,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 3595216583628287,
+    "start_at_seconds": 1723518527,
+    "end_at_seconds": 1723518699,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 3595216583628287,
+    "start_at_seconds": 1723518699,
+    "end_at_seconds": 1723519629,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 3595216583628287,
+    "start_at_seconds": 1723518699,
+    "end_at_seconds": 1723519629,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 3595216583628287,
+    "start_at_seconds": 1723518699,
+    "end_at_seconds": 1723519629,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 3524847839450287,
+    "start_at_seconds": 1726279040,
+    "end_at_seconds": 1726279469,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 3524847839450287,
+    "start_at_seconds": 1726279040,
+    "end_at_seconds": 1726279469,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 3524847839450287,
+    "start_at_seconds": 1726279040,
+    "end_at_seconds": 1726279469,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 3454479095273287,
+    "start_at_seconds": 1727064275,
+    "end_at_seconds": 1727065677,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 3454479095273287,
+    "start_at_seconds": 1727064275,
+    "end_at_seconds": 1727065677,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 3454479095273287,
+    "start_at_seconds": 1727064275,
+    "end_at_seconds": 1727065677,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 3384110351095287,
+    "start_at_seconds": 1729563454,
+    "end_at_seconds": 1729563942,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 3384110351095287,
+    "start_at_seconds": 1729563454,
+    "end_at_seconds": 1729563942,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 3384110351095287,
+    "start_at_seconds": 1729563454,
+    "end_at_seconds": 1729563942,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 3313741606917287,
+    "start_at_seconds": 1729651313,
+    "end_at_seconds": 1729651979,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 3313741606917287,
+    "start_at_seconds": 1729651313,
+    "end_at_seconds": 1729651979,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 3313741606917287,
+    "start_at_seconds": 1729651313,
+    "end_at_seconds": 1729651979,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 3243372862740287,
+    "start_at_seconds": 1731492770,
+    "end_at_seconds": 1731493364,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 3243372862740287,
+    "start_at_seconds": 1731492770,
+    "end_at_seconds": 1731493364,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 3243372862740287,
+    "start_at_seconds": 1731492770,
+    "end_at_seconds": 1731493364,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 3102635374384287,
+    "start_at_seconds": 1735176868,
+    "end_at_seconds": 1735177159,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 3102635374384287,
+    "start_at_seconds": 1735176868,
+    "end_at_seconds": 1735177159,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 3102635374384287,
+    "start_at_seconds": 1735176868,
+    "end_at_seconds": 1735177159,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 3032266630207287,
+    "start_at_seconds": 1735224259,
+    "end_at_seconds": 1735225075,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 3032266630207287,
+    "start_at_seconds": 1735224259,
+    "end_at_seconds": 1735225075,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 3032266630207287,
+    "start_at_seconds": 1735224259,
+    "end_at_seconds": 1735225075,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 2961897886029287,
+    "start_at_seconds": 1735890580,
+    "end_at_seconds": 1735891450,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 2961897886029287,
+    "start_at_seconds": 1735890580,
+    "end_at_seconds": 1735891450,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 2961897886029287,
+    "start_at_seconds": 1735890580,
+    "end_at_seconds": 1735891450,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 2891529141851287,
+    "start_at_seconds": 1736303346,
+    "end_at_seconds": 1736305014,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 2891529141851287,
+    "start_at_seconds": 1736303346,
+    "end_at_seconds": 1736305014,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 2891529141851287,
+    "start_at_seconds": 1736303346,
+    "end_at_seconds": 1736305014,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 2821160397674287,
+    "start_at_seconds": 1736320324,
+    "end_at_seconds": 1736321177,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 2821160397674287,
+    "start_at_seconds": 1736320324,
+    "end_at_seconds": 1736321177,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 2821160397674287,
+    "start_at_seconds": 1736320324,
+    "end_at_seconds": 1736321177,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 2750791653496287,
+    "start_at_seconds": 1736841251,
+    "end_at_seconds": 1736841324,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 2680422909318287,
+    "start_at_seconds": 1737873289,
+    "end_at_seconds": 1737873568,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 2680422909318287,
+    "start_at_seconds": 1737873289,
+    "end_at_seconds": 1737873568,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 2680422909318287,
+    "start_at_seconds": 1737873289,
+    "end_at_seconds": 1737873568,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 2610054165141287,
+    "start_at_seconds": 1737903551,
+    "end_at_seconds": 1737905291,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 2610054165141287,
+    "start_at_seconds": 1737903551,
+    "end_at_seconds": 1737905291,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 2610054165141287,
+    "start_at_seconds": 1737903551,
+    "end_at_seconds": 1737905291,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 2539685420963287,
+    "start_at_seconds": 1737946521,
+    "end_at_seconds": 1737948035,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 2539685420963287,
+    "start_at_seconds": 1737946521,
+    "end_at_seconds": 1737948035,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 2539685420963287,
+    "start_at_seconds": 1737946521,
+    "end_at_seconds": 1737948035,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 2539685420963287,
+    "start_at_seconds": 1737948035,
+    "end_at_seconds": 1737948751,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 2539685420963287,
+    "start_at_seconds": 1737948035,
+    "end_at_seconds": 1737948751,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 2539685420963287,
+    "start_at_seconds": 1737948751,
+    "end_at_seconds": 1737950333,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 2539685420963287,
+    "start_at_seconds": 1737948751,
+    "end_at_seconds": 1737950333,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 2539685420963287,
+    "start_at_seconds": 1737950333,
+    "end_at_seconds": 1737950421,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 2539685420963287,
+    "start_at_seconds": 1737950333,
+    "end_at_seconds": 1737950421,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 2539685420963287,
+    "start_at_seconds": 1737950421,
+    "end_at_seconds": 1737950522,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 2539685420963287,
+    "start_at_seconds": 1737950421,
+    "end_at_seconds": 1737950522,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 2539685420963287,
+    "start_at_seconds": 1737950522,
+    "end_at_seconds": 1737956557,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 2539685420963287,
+    "start_at_seconds": 1737950522,
+    "end_at_seconds": 1737956557,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 2539685420963287,
+    "start_at_seconds": 1737956557,
+    "end_at_seconds": 1737956917,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 2539685420963287,
+    "start_at_seconds": 1737956557,
+    "end_at_seconds": 1737956917,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 2539685420963287,
+    "start_at_seconds": 1737956917,
+    "end_at_seconds": 1737957585,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 2539685420963287,
+    "start_at_seconds": 1737956917,
+    "end_at_seconds": 1737957585,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 2539685420963287,
+    "start_at_seconds": 1737957585,
+    "end_at_seconds": 1737958888,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 2539685420963287,
+    "start_at_seconds": 1737957585,
+    "end_at_seconds": 1737958888,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 2469316676785287,
+    "start_at_seconds": 1737959836,
+    "end_at_seconds": 1737959871,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 2469316676785287,
+    "start_at_seconds": 1737959871,
+    "end_at_seconds": 1737959942,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 2469316676785287,
+    "start_at_seconds": 1737959942,
+    "end_at_seconds": 1737965257,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 2469316676785287,
+    "start_at_seconds": 1737965257,
+    "end_at_seconds": 1737966830,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 2469316676785287,
+    "start_at_seconds": 1737965257,
+    "end_at_seconds": 1737966830,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 2469316676785287,
+    "start_at_seconds": 1737965257,
+    "end_at_seconds": 1737966830,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 2469316676785287,
+    "start_at_seconds": 1737966830,
+    "end_at_seconds": 1737967398,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 2469316676785287,
+    "start_at_seconds": 1737966830,
+    "end_at_seconds": 1737967398,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 2469316676785287,
+    "start_at_seconds": 1737966830,
+    "end_at_seconds": 1737967398,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 2398947932608287,
+    "start_at_seconds": 1737980211,
+    "end_at_seconds": 1737982547,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 2398947932608287,
+    "start_at_seconds": 1737983102,
+    "end_at_seconds": 1737983175,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 2398947932608287,
+    "start_at_seconds": 1737983175,
+    "end_at_seconds": 1737983496,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 2398947932608287,
+    "start_at_seconds": 1737983175,
+    "end_at_seconds": 1737983496,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 2398947932608287,
+    "start_at_seconds": 1737983175,
+    "end_at_seconds": 1737983496,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 2398947932608287,
+    "start_at_seconds": 1737983496,
+    "end_at_seconds": 1737984749,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 2398947932608287,
+    "start_at_seconds": 1737983496,
+    "end_at_seconds": 1737984749,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 2398947932608287,
+    "start_at_seconds": 1737983496,
+    "end_at_seconds": 1737984749,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 2328579188430287,
+    "start_at_seconds": 1737984815,
+    "end_at_seconds": 1737985957,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 2328579188430287,
+    "start_at_seconds": 1737984815,
+    "end_at_seconds": 1737985957,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 2328579188430287,
+    "start_at_seconds": 1737985957,
+    "end_at_seconds": 1737990931,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 2328579188430287,
+    "start_at_seconds": 1737985957,
+    "end_at_seconds": 1737990931,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 2328579188430287,
+    "start_at_seconds": 1737985957,
+    "end_at_seconds": 1737990931,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 2328579188430287,
+    "start_at_seconds": 1737990931,
+    "end_at_seconds": 1737994002,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 2328579188430287,
+    "start_at_seconds": 1737990931,
+    "end_at_seconds": 1737994002,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 2328579188430287,
+    "start_at_seconds": 1737990931,
+    "end_at_seconds": 1737994002,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 2328579188430287,
+    "start_at_seconds": 1737994002,
+    "end_at_seconds": 1737994759,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 2328579188430287,
+    "start_at_seconds": 1737994002,
+    "end_at_seconds": 1737994759,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 2328579188430287,
+    "start_at_seconds": 1737994002,
+    "end_at_seconds": 1737994759,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 2328579188430287,
+    "start_at_seconds": 1737994759,
+    "end_at_seconds": 1738054865,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 2328579188430287,
+    "start_at_seconds": 1737994759,
+    "end_at_seconds": 1738054865,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 2328579188430287,
+    "start_at_seconds": 1737994759,
+    "end_at_seconds": 1738054865,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 2328579188430287,
+    "start_at_seconds": 1738054865,
+    "end_at_seconds": 1738054980,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 2328579188430287,
+    "start_at_seconds": 1738054865,
+    "end_at_seconds": 1738054980,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 2328579188430287,
+    "start_at_seconds": 1738054865,
+    "end_at_seconds": 1738054980,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 2328579188430287,
+    "start_at_seconds": 1738054980,
+    "end_at_seconds": 1738055186,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 2328579188430287,
+    "start_at_seconds": 1738054980,
+    "end_at_seconds": 1738055186,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 2328579188430287,
+    "start_at_seconds": 1738054980,
+    "end_at_seconds": 1738055186,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 2328579188430287,
+    "start_at_seconds": 1738055186,
+    "end_at_seconds": 1738055230,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 2328579188430287,
+    "start_at_seconds": 1738055186,
+    "end_at_seconds": 1738055230,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 2328579188430287,
+    "start_at_seconds": 1738055186,
+    "end_at_seconds": 1738055230,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 2328579188430287,
+    "start_at_seconds": 1738055230,
+    "end_at_seconds": 1738074638,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 2328579188430287,
+    "start_at_seconds": 1738055230,
+    "end_at_seconds": 1738074638,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 2328579188430287,
+    "start_at_seconds": 1738055230,
+    "end_at_seconds": 1738074638,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 2328579188430287,
+    "start_at_seconds": 1738074638,
+    "end_at_seconds": 1738155428,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 2328579188430287,
+    "start_at_seconds": 1738074638,
+    "end_at_seconds": 1738155428,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 2328579188430287,
+    "start_at_seconds": 1738074638,
+    "end_at_seconds": 1738155428,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 2328579188430287,
+    "start_at_seconds": 1738155428,
+    "end_at_seconds": 1738252774,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 2328579188430287,
+    "start_at_seconds": 1738155428,
+    "end_at_seconds": 1738252774,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 2328579188430287,
+    "start_at_seconds": 1738155428,
+    "end_at_seconds": 1738252774,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 2328579188430287,
+    "start_at_seconds": 1738252774,
+    "end_at_seconds": 1738257543,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 2328579188430287,
+    "start_at_seconds": 1738252774,
+    "end_at_seconds": 1738257543,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 2328579188430287,
+    "start_at_seconds": 1738252774,
+    "end_at_seconds": 1738257543,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 2328579188430287,
+    "start_at_seconds": 1738257543,
+    "end_at_seconds": 1738332614,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 2328579188430287,
+    "start_at_seconds": 1738257543,
+    "end_at_seconds": 1738332614,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 2328579188430287,
+    "start_at_seconds": 1738257543,
+    "end_at_seconds": 1738332614,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 2328579188430287,
+    "start_at_seconds": 1738332614,
+    "end_at_seconds": 1738340238,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 2328579188430287,
+    "start_at_seconds": 1738332614,
+    "end_at_seconds": 1738340238,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 2328579188430287,
+    "start_at_seconds": 1738332614,
+    "end_at_seconds": 1738340238,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 2328579188430287,
+    "start_at_seconds": 1738340238,
+    "end_at_seconds": 1738725600,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 2328579188430287,
+    "start_at_seconds": 1738340238,
+    "end_at_seconds": 1738725600,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 2328579188430287,
+    "start_at_seconds": 1738340238,
+    "end_at_seconds": 1738725600,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 2328579188430287,
+    "start_at_seconds": 1738725600,
+    "end_at_seconds": 1738997340,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 2328579188430287,
+    "start_at_seconds": 1738725600,
+    "end_at_seconds": 1738997340,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 2328579188430287,
+    "start_at_seconds": 1738725600,
+    "end_at_seconds": 1738997340,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 2258210444252287,
+    "start_at_seconds": 1738997556,
+    "end_at_seconds": 1740535367,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 2258210444252287,
+    "start_at_seconds": 1738997556,
+    "end_at_seconds": 1740535367,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 2258210444252287,
+    "start_at_seconds": 1738997556,
+    "end_at_seconds": 1740535367,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 2187841700075287,
+    "start_at_seconds": 1741623172,
+    "end_at_seconds": 1741624687,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 2187841700075287,
+    "start_at_seconds": 1741623172,
+    "end_at_seconds": 1741624687,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 2187841700075287,
+    "start_at_seconds": 1741623172,
+    "end_at_seconds": 1741624687,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 2117472955897287,
+    "start_at_seconds": 1742450662,
+    "end_at_seconds": 1742451117,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 2117472955897287,
+    "start_at_seconds": 1742450662,
+    "end_at_seconds": 1742451117,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 2117472955897287,
+    "start_at_seconds": 1742450662,
+    "end_at_seconds": 1742451117,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 2047104211719287,
+    "start_at_seconds": 1742538514,
+    "end_at_seconds": 1742539088,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 2047104211719287,
+    "start_at_seconds": 1742538514,
+    "end_at_seconds": 1742539088,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 2047104211719287,
+    "start_at_seconds": 1742538514,
+    "end_at_seconds": 1742539088,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 1976735467542287,
+    "start_at_seconds": 1747128165,
+    "end_at_seconds": 1747132285,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 1976735467542287,
+    "start_at_seconds": 1747132285,
+    "end_at_seconds": 1747133715,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 1976735467542287,
+    "start_at_seconds": 1747133715,
+    "end_at_seconds": 1747133728,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 1906366723364287,
+    "start_at_seconds": 1748442813,
+    "end_at_seconds": 1748443138,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 1906366723364287,
+    "start_at_seconds": 1748442813,
+    "end_at_seconds": 1748443138,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 1906366723364287,
+    "start_at_seconds": 1748442813,
+    "end_at_seconds": 1748443138,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 1835997979186287,
+    "start_at_seconds": 1751364338,
+    "end_at_seconds": 1751364959,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 1835997979186287,
+    "start_at_seconds": 1751364338,
+    "end_at_seconds": 1751364959,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 1835997979186287,
+    "start_at_seconds": 1751364338,
+    "end_at_seconds": 1751364959,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 1765629235009287,
+    "start_at_seconds": 1751463148,
+    "end_at_seconds": 1751465609,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 1765629235009287,
+    "start_at_seconds": 1751463148,
+    "end_at_seconds": 1751465609,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 1765629235009287,
+    "start_at_seconds": 1751463148,
+    "end_at_seconds": 1751465609,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 1695260490831287,
+    "start_at_seconds": 1753840865,
+    "end_at_seconds": 1753842591,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 1695260490831287,
+    "start_at_seconds": 1753840865,
+    "end_at_seconds": 1753842591,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 1695260490831287,
+    "start_at_seconds": 1753840865,
+    "end_at_seconds": 1753842591,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 1695260490831287,
+    "start_at_seconds": 1753842591,
+    "end_at_seconds": 1753849191,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 1695260490831287,
+    "start_at_seconds": 1753842591,
+    "end_at_seconds": 1753849191,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 1695260490831287,
+    "start_at_seconds": 1753842591,
+    "end_at_seconds": 1753849191,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 1624891746653287,
+    "start_at_seconds": 1754920541,
+    "end_at_seconds": 1754922483,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 1624891746653287,
+    "start_at_seconds": 1754920541,
+    "end_at_seconds": 1754922483,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 1624891746653287,
+    "start_at_seconds": 1754920541,
+    "end_at_seconds": 1754922483,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 1624891746653287,
+    "start_at_seconds": 1754922483,
+    "end_at_seconds": 1754925161,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 1624891746653287,
+    "start_at_seconds": 1754922483,
+    "end_at_seconds": 1754925161,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 1624891746653287,
+    "start_at_seconds": 1754922483,
+    "end_at_seconds": 1754925161,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 1624891746653287,
+    "start_at_seconds": 1754925161,
+    "end_at_seconds": 1754926798,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 1624891746653287,
+    "start_at_seconds": 1754925161,
+    "end_at_seconds": 1754926798,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 1624891746653287,
+    "start_at_seconds": 1754925161,
+    "end_at_seconds": 1754926798,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 1554523002476287,
+    "start_at_seconds": 1762154901,
+    "end_at_seconds": 1762156391,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 1554523002476287,
+    "start_at_seconds": 1762154901,
+    "end_at_seconds": 1762156391,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 1554523002476287,
+    "start_at_seconds": 1762154901,
+    "end_at_seconds": 1762156391,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 1484154258298287,
+    "start_at_seconds": 1762245632,
+    "end_at_seconds": 1762246383,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 1413785514120287,
+    "start_at_seconds": 1764056796,
+    "end_at_seconds": 1764058049,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 1413785514120287,
+    "start_at_seconds": 1764056796,
+    "end_at_seconds": 1764058049,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 1413785514120287,
+    "start_at_seconds": 1764056796,
+    "end_at_seconds": 1764058049,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 1413785514120287,
+    "start_at_seconds": 1764058049,
+    "end_at_seconds": 1764058728,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 1413785514120287,
+    "start_at_seconds": 1764058049,
+    "end_at_seconds": 1764058728,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 1413785514120287,
+    "start_at_seconds": 1764058049,
+    "end_at_seconds": 1764058728,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 1343416769943287,
+    "start_at_seconds": 1765455803,
+    "end_at_seconds": 1765456792,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 1343416769943287,
+    "start_at_seconds": 1765455803,
+    "end_at_seconds": 1765456792,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 1343416769943287,
+    "start_at_seconds": 1765455803,
+    "end_at_seconds": 1765456792,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 1273048025765287,
+    "start_at_seconds": 1765723187,
+    "end_at_seconds": 1765724075,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 1273048025765287,
+    "start_at_seconds": 1765723187,
+    "end_at_seconds": 1765724075,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 1273048025765287,
+    "start_at_seconds": 1765723187,
+    "end_at_seconds": 1765724075,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 1202679281587287,
+    "start_at_seconds": 1765876313,
+    "end_at_seconds": 1765876686,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 1202679281587287,
+    "start_at_seconds": 1765876313,
+    "end_at_seconds": 1765876686,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 1202679281587287,
+    "start_at_seconds": 1765876313,
+    "end_at_seconds": 1765876686,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 1202679281587287,
+    "start_at_seconds": 1765876686,
+    "end_at_seconds": 1765877346,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 1202679281587287,
+    "start_at_seconds": 1765876686,
+    "end_at_seconds": 1765877346,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 1202679281587287,
+    "start_at_seconds": 1765876686,
+    "end_at_seconds": 1765877346,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 1202679281587287,
+    "start_at_seconds": 1765877346,
+    "end_at_seconds": 1765878342,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 1202679281587287,
+    "start_at_seconds": 1765877346,
+    "end_at_seconds": 1765878342,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 1202679281587287,
+    "start_at_seconds": 1765877346,
+    "end_at_seconds": 1765878342,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 1132310537410287,
+    "start_at_seconds": 1766399483,
+    "end_at_seconds": 1766400145,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 1132310537410287,
+    "start_at_seconds": 1766399483,
+    "end_at_seconds": 1766400145,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 1132310537410287,
+    "start_at_seconds": 1766399483,
+    "end_at_seconds": 1766400145,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 1061941793232287,
+    "start_at_seconds": 1770084187,
+    "end_at_seconds": 1770085854,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 1061941793232287,
+    "start_at_seconds": 1770084187,
+    "end_at_seconds": 1770085854,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 1061941793232287,
+    "start_at_seconds": 1770084187,
+    "end_at_seconds": 1770085854,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 991573049054287,
+    "start_at_seconds": 1770342048,
+    "end_at_seconds": 1770342452,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 991573049054287,
+    "start_at_seconds": 1770342048,
+    "end_at_seconds": 1770342452,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 991573049054287,
+    "start_at_seconds": 1770342048,
+    "end_at_seconds": 1770342452,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 921204304877287,
+    "start_at_seconds": 1770362637,
+    "end_at_seconds": 1770367334,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 921204304877287,
+    "start_at_seconds": 1770362637,
+    "end_at_seconds": 1770367334,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 921204304877287,
+    "start_at_seconds": 1770362637,
+    "end_at_seconds": 1770367334,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 850835560699287,
+    "start_at_seconds": 1772260827,
+    "end_at_seconds": 1772263830,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 780466816521287,
+    "start_at_seconds": 1772682618,
+    "end_at_seconds": 1772682880,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 780466816521287,
+    "start_at_seconds": 1772682880,
+    "end_at_seconds": 1772684621,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 780466816521287,
+    "start_at_seconds": 1772684621,
+    "end_at_seconds": 1772685142,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 780466816521287,
+    "start_at_seconds": 1772685142,
+    "end_at_seconds": 1772685301,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 710098072344287,
+    "start_at_seconds": 1773125651,
+    "end_at_seconds": 1773127665,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 710098072344287,
+    "start_at_seconds": 1773127665,
+    "end_at_seconds": 1773130256,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 639729328166287,
+    "start_at_seconds": 1773836812,
+    "end_at_seconds": 1773836959,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 639729328166287,
+    "start_at_seconds": 1773836959,
+    "end_at_seconds": 1773837427,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 569360583988287,
+    "start_at_seconds": 1774791352,
+    "end_at_seconds": 1774794507,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 569360583988287,
+    "start_at_seconds": 1774794507,
+    "end_at_seconds": 1774796932,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 569360583988287,
+    "start_at_seconds": 1774796932,
+    "end_at_seconds": 1774797797,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 498991839811287,
+    "start_at_seconds": 1774801214,
+    "end_at_seconds": 1774802189,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 498991839811287,
+    "start_at_seconds": 1774802189,
+    "end_at_seconds": 1774805059,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 498991839811287,
+    "start_at_seconds": 1774805059,
+    "end_at_seconds": 1774808176,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 498991839811287,
+    "start_at_seconds": 1774808176,
+    "end_at_seconds": 1774833225,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 498991839811287,
+    "start_at_seconds": 1774833225,
+    "end_at_seconds": 1774838008,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 428623095633287,
+    "start_at_seconds": 1774947760,
+    "end_at_seconds": 1774949734,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 428623095633287,
+    "start_at_seconds": 1774949734,
+    "end_at_seconds": 1774951554,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 358254351455287,
+    "start_at_seconds": 1775205401,
+    "end_at_seconds": 1775205495,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 358254351455287,
+    "start_at_seconds": 1775205495,
+    "end_at_seconds": 1775205598,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 358254351455287,
+    "start_at_seconds": 1775205598,
+    "end_at_seconds": 1775206218,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 287885607278287,
+    "start_at_seconds": 1776688800,
+    "end_at_seconds": 1776701307,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 217516863100287,
+    "start_at_seconds": 1776853398,
+    "end_at_seconds": 1776857192,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 217516863100287,
+    "start_at_seconds": 1776853398,
+    "end_at_seconds": 1776857192,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 147148118922287,
+    "start_at_seconds": 1778039584,
+    "end_at_seconds": 1778040256,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 147148118922287,
+    "start_at_seconds": 1778039584,
+    "end_at_seconds": 1778040256,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 147148118922287,
+    "start_at_seconds": 1778039584,
+    "end_at_seconds": 1778040256,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 76779374745287,
+    "start_at_seconds": 1778051625,
+    "end_at_seconds": 1778052020,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 76779374745287,
+    "start_at_seconds": 1778051625,
+    "end_at_seconds": 1778052020,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 76779374745287,
+    "start_at_seconds": 1778051625,
+    "end_at_seconds": 1778052020,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 6410630567287,
+    "start_at_seconds": 1778232728,
+    "end_at_seconds": 1778234508,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 6410630567287,
+    "start_at_seconds": 1778232728,
+    "end_at_seconds": 1778234508,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 6410630567287,
+    "start_at_seconds": 1778232728,
+    "end_at_seconds": 1778234508,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 6410630567287,
+    "start_at_seconds": 1778234508,
+    "end_at_seconds": 1778234748,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 6410630567287,
+    "start_at_seconds": 1778234508,
+    "end_at_seconds": 1778234748,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 6410630567287,
+    "start_at_seconds": 1778234508,
+    "end_at_seconds": 1778234748,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 6467187538287,
+    "start_at_seconds": 1779344176,
+    "end_at_seconds": 1779345434,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 6467187538287,
+    "start_at_seconds": 1779344176,
+    "end_at_seconds": 1779345434,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 6467187538287,
+    "start_at_seconds": 1779344176,
+    "end_at_seconds": 1779345434,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 6480608319287,
+    "start_at_seconds": 1779606301,
+    "end_at_seconds": 1779606882,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 6480608319287,
+    "start_at_seconds": 1779606301,
+    "end_at_seconds": 1779606882,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 6480608319287,
+    "start_at_seconds": 1779606301,
+    "end_at_seconds": 1779606882,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 6480608319287,
+    "start_at_seconds": 1779606882,
+    "end_at_seconds": 1779607386,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 6480608319287,
+    "start_at_seconds": 1779606882,
+    "end_at_seconds": 1779607386,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 6480608319287,
+    "start_at_seconds": 1779606882,
+    "end_at_seconds": 1779607386,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 6497432543287,
+    "start_at_seconds": 1779934899,
+    "end_at_seconds": 1779935223,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 6497432543287,
+    "start_at_seconds": 1779934899,
+    "end_at_seconds": 1779935223,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 6497432543287,
+    "start_at_seconds": 1779934899,
+    "end_at_seconds": 1779935223,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 6497432543287,
+    "start_at_seconds": 1779935223,
+    "end_at_seconds": 1779936112,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 6497432543287,
+    "start_at_seconds": 1779935223,
+    "end_at_seconds": 1779936112,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 6497432543287,
+    "start_at_seconds": 1779935223,
+    "end_at_seconds": 1779936112,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 6497432543287,
+    "start_at_seconds": 1779936112,
+    "end_at_seconds": 1779936653,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 6499101276287,
+    "start_at_seconds": 1779967491,
+    "end_at_seconds": 1779968182,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 6499101276287,
+    "start_at_seconds": 1779967491,
+    "end_at_seconds": 1779968182,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 6551550194287,
+    "start_at_seconds": 1780991884,
+    "end_at_seconds": 1780994827,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 6582247566287,
+    "start_at_seconds": 1781591442,
+    "end_at_seconds": 1781592454,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 6582247566287,
+    "start_at_seconds": 1781591442,
+    "end_at_seconds": 1781594092,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 6582247566287,
+    "start_at_seconds": 1781591442,
+    "end_at_seconds": 1781592454,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 6622241641287,
+    "start_at_seconds": 1782372576,
+    "end_at_seconds": 1782373337,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 6622241641287,
+    "start_at_seconds": 1782372576,
+    "end_at_seconds": 1782373337,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 6653444512287,
+    "start_at_seconds": 1782982008,
+    "end_at_seconds": 1782982559,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 6653444512287,
+    "start_at_seconds": 1782982008,
+    "end_at_seconds": 1782982559,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 6653444512287,
+    "start_at_seconds": 1782982559,
+    "end_at_seconds": 1782984805,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 6653444512287,
+    "start_at_seconds": 1782982559,
+    "end_at_seconds": 1782984805,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 6653444512287,
+    "start_at_seconds": 1782982559,
+    "end_at_seconds": 1782985524,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 6653444512287,
+    "start_at_seconds": 1782984805,
+    "end_at_seconds": 1782985524,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 6653444512287,
+    "start_at_seconds": 1782984805,
+    "end_at_seconds": 1782985524,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 6653444512287,
+    "start_at_seconds": 1782985524,
+    "end_at_seconds": 1782986182,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 6741259174287,
+    "start_at_seconds": 1784697138,
+    "end_at_seconds": 1784710461,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 6741259174287,
+    "start_at_seconds": 1784710461,
+    "end_at_seconds": 1784711103,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 6750347231287,
+    "start_at_seconds": 1784874638,
+    "end_at_seconds": 1784875753,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 6750347231287,
+    "start_at_seconds": 1784874638,
+    "end_at_seconds": 1784875753,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 6768454253287,
+    "start_at_seconds": 1785228291,
+    "end_at_seconds": 1785228536,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 6768454253287,
+    "start_at_seconds": 1785228291,
+    "end_at_seconds": 1785228715,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4ND2PN6EFSJ4RDYDJYPMNK",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 6773072313287,
+    "start_at_seconds": 1785318488,
+    "end_at_seconds": 1785320932,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 6776768579287,
+    "start_at_seconds": 1785390681,
+    "end_at_seconds": 1785391002,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 6781516431287,
+    "start_at_seconds": 1785483412,
+    "end_at_seconds": 1785483736,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 6781516431287,
+    "start_at_seconds": 1785483412,
+    "end_at_seconds": 1785483736,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 6781516431287,
+    "start_at_seconds": 1785483412,
+    "end_at_seconds": 1785483736,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 6781859712287,
+    "start_at_seconds": 1785490117,
+    "end_at_seconds": 1785490465,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 6794441261287,
+    "start_at_seconds": 1785735850,
+    "end_at_seconds": 1785736717,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 6798182760287,
+    "start_at_seconds": 1785808926,
+    "end_at_seconds": 1785813611,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 6798182760287,
+    "start_at_seconds": 1785809122,
+    "end_at_seconds": 1785809839,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 6798495647287,
+    "start_at_seconds": 1785815037,
+    "end_at_seconds": 1785817249,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 6800013176287,
+    "start_at_seconds": 1785844677,
+    "end_at_seconds": 1785846642,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 6800013176287,
+    "start_at_seconds": 1785846642,
+    "end_at_seconds": 1785849574,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 6800013176287,
+    "start_at_seconds": 1785849574,
+    "end_at_seconds": 1785850241,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 6800501267287,
+    "start_at_seconds": 1785854210,
+    "end_at_seconds": 1785855036,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 6811604236287,
+    "start_at_seconds": 1786071065,
+    "end_at_seconds": 1786072234,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 6811604236287,
+    "start_at_seconds": 1786071065,
+    "end_at_seconds": 1786072234,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 6812292150287,
+    "start_at_seconds": 1786084500,
+    "end_at_seconds": 1786084829,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 6825777576287,
+    "start_at_seconds": 1786347888,
+    "end_at_seconds": 1786348273,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 6826137995287,
+    "start_at_seconds": 1786354927,
+    "end_at_seconds": 1786355079,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 6842626394287,
+    "start_at_seconds": 1786676964,
+    "end_at_seconds": 1786677281,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4ND2PN6EFSJ4RDYDJYPMNK",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 6843256773287,
+    "start_at_seconds": 1786689278,
+    "end_at_seconds": 1786689515,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4ND2PN6EFSJ4RDYDJYPMNK",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 6843256773287,
+    "start_at_seconds": 1786689515,
+    "end_at_seconds": 1786689651,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4ND2PN6EFSJ4RDYDJYPMNK",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 6861035747287,
+    "start_at_seconds": 1787036524,
+    "end_at_seconds": 1787038920,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 6864747482287,
+    "start_at_seconds": 1787109019,
+    "end_at_seconds": 1787109497,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 6865326525287,
+    "start_at_seconds": 1787120328,
+    "end_at_seconds": 1787121254,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 6865326525287,
+    "start_at_seconds": 1787120559,
+    "end_at_seconds": 1787120817,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 6874252609287,
+    "start_at_seconds": 1787294666,
+    "end_at_seconds": 1787296206,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 6877795382287,
+    "start_at_seconds": 1787363860,
+    "end_at_seconds": 1787365024,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 6927183076287,
+    "start_at_seconds": 1788328464,
+    "end_at_seconds": 1788328688,
+    "status": "full_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 6927183076287,
+    "start_at_seconds": 1788328688,
+    "end_at_seconds": 1788329043,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 6927183076287,
+    "start_at_seconds": 1788329043,
+    "end_at_seconds": 1788330133,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 6927183076287,
+    "start_at_seconds": 1788330133,
+    "end_at_seconds": 1788330345,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 7010698581287,
+    "start_at_seconds": 1789410600,
+    "end_at_seconds": 1789421400,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 7010698581287,
+    "start_at_seconds": 1789410600,
+    "end_at_seconds": 1789421400,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 6985247573287,
+    "start_at_seconds": 1789462534,
+    "end_at_seconds": 1789464572,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 6985724403287,
+    "start_at_seconds": 1789471849,
+    "end_at_seconds": 1789472382,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 6985724403287,
+    "start_at_seconds": 1789471849,
+    "end_at_seconds": 1789472382,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 6985724403287,
+    "start_at_seconds": 1789471849,
+    "end_at_seconds": 1789472382,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 6994064302287,
+    "start_at_seconds": 1789634738,
+    "end_at_seconds": 1789635217,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 7007335047287,
+    "start_at_seconds": 1789893932,
+    "end_at_seconds": 1789894726,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 7007335047287,
+    "start_at_seconds": 1789893932,
+    "end_at_seconds": 1789894726,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 7020391134287,
+    "start_at_seconds": 1790148933,
+    "end_at_seconds": 1790149219,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 7020391134287,
+    "start_at_seconds": 1790148933,
+    "end_at_seconds": 1790149219,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 7020391134287,
+    "start_at_seconds": 1790148960,
+    "end_at_seconds": 1790149219,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 7020391134287,
+    "start_at_seconds": 1790149219,
+    "end_at_seconds": 1790149327,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 7020391134287,
+    "start_at_seconds": 1790149219,
+    "end_at_seconds": 1790149327,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 7020391134287,
+    "start_at_seconds": 1790149219,
+    "end_at_seconds": 1790149498,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 7023110499287,
+    "start_at_seconds": 1790202046,
+    "end_at_seconds": 1790203206,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 7023110499287,
+    "start_at_seconds": 1790202046,
+    "end_at_seconds": 1790203206,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 7023110499287,
+    "start_at_seconds": 1790202046,
+    "end_at_seconds": 1790203206,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 7023110499287,
+    "start_at_seconds": 1790203736,
+    "end_at_seconds": 1790204271,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 7023110499287,
+    "start_at_seconds": 1790203736,
+    "end_at_seconds": 1790204271,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 7023110499287,
+    "start_at_seconds": 1790203736,
+    "end_at_seconds": 1790204271,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 7023110499287,
+    "start_at_seconds": 1790204271,
+    "end_at_seconds": 1790204600,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 7023110499287,
+    "start_at_seconds": 1790204271,
+    "end_at_seconds": 1790204600,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 7023110499287,
+    "start_at_seconds": 1790204271,
+    "end_at_seconds": 1790204600,
+    "status": "partial_outage"
+  },
+  {
+    "component_id": "01KY4ND2PNYT9FY5W4ZH80VGJ4",
+    "section_id": "01KY4ND2MQAQKEAGJKTNGREKBR",
+    "change_id": 7023110499287,
+    "start_at_seconds": 1790204600,
+    "end_at_seconds": 1790204930,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BSBSVW6053QJ37RJE",
+    "section_id": "",
+    "change_id": 7023110499287,
+    "start_at_seconds": 1790204600,
+    "end_at_seconds": 1790204930,
+    "status": "degraded"
+  },
+  {
+    "component_id": "01KY4MVS8BM3F9JSYWACGQVG7A",
+    "section_id": "",
+    "change_id": 7023110499287,
+    "start_at_seconds": 1790204600,
+    "end_at_seconds": 1790204930,
+    "status": "degraded"
+  }
+]
