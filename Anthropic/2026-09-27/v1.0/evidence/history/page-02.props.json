@@ -1,0 +1,1168 @@
+{
+  "page_status": {
+    "page": {
+      "name": "Claude",
+      "subdomain": "anthropic",
+      "domain": "status.claude.com",
+      "created_at": "2023-01-25T06:38:50.038Z",
+      "updated_at": "2026-09-27T14:59:31.887Z",
+      "url": "https://status.claude.com",
+      "hidden_from_search": false,
+      "css_body_background_color": "FAF9F5",
+      "css_font_color": "141413",
+      "css_light_font_color": "87867F",
+      "css_greens": "76AD2A",
+      "css_yellows": "FAA72A",
+      "css_oranges": "E86235",
+      "css_reds": "E04343",
+      "allow_page_subscribers": true,
+      "allow_incident_subscribers": true,
+      "notifications_from_email": null,
+      "allow_email_subscribers": true,
+      "allow_sms_subscribers": true,
+      "twitter_username": null,
+      "branding": "basic",
+      "support_url": "https://support.claude.com",
+      "allow_webhook_subscribers": true,
+      "css_border_color": "DEDCD1",
+      "css_graph_color": "2C84DB",
+      "css_link_color": "141413",
+      "page_description": null,
+      "activity_score": 2561,
+      "headline": "Claude API Status",
+      "viewers_must_be_team_members": false,
+      "ip_filters": null,
+      "css_blues": "2C84DB",
+      "time_zone": "UTC",
+      "notifications_reply_to_email": null,
+      "notifications_email_footer": "You received this email because you are subscribed to Claude's service status notifications.",
+      "allow_rss_atom_feeds": true,
+      "black_hole": null,
+      "over_allocations_cohort": null,
+      "over_allocations_resolved_at": null,
+      "custom_components_limit": null,
+      "allow_slack_subscribers": true,
+      "css_no_data": "B0AEA5",
+      "deleted_at": null,
+      "allow_teams_subscription": true,
+      "max_maintenance_automation_allowed": null,
+      "custom_email_template": false,
+      "hero_cover": {
+        "updated_at": null,
+        "original_url": "",
+        "size": null,
+        "normal_url": "",
+        "retina_url": ""
+      },
+      "transactional_logo": {
+        "updated_at": "2025-09-16T16:45:16.000+00:00",
+        "original_url": "//dka575ofm4ao0.cloudfront.net/pages-transactional_logos/original/362807/NEW_claude_status_banner-183284a4-558d-4835-b3a4-a601e0a4daa8.png",
+        "size": 47876,
+        "normal_url": "//dka575ofm4ao0.cloudfront.net/pages-transactional_logos/normal/362807/NEW_claude_status_banner-183284a4-558d-4835-b3a4-a601e0a4daa8.png",
+        "retina_url": "//dka575ofm4ao0.cloudfront.net/pages-transactional_logos/retina/362807/NEW_claude_status_banner-183284a4-558d-4835-b3a4-a601e0a4daa8.png"
+      },
+      "favicon_logo": {
+        "updated_at": "2025-09-16T16:45:21.000+00:00",
+        "size": 3534,
+        "url": "//dka575ofm4ao0.cloudfront.net/pages-favicon_logos/original/362807/NEW_spark-96-96-2225c423-f16f-42a4-b9d1-c58c10b998cb.png"
+      },
+      "email_logo": {
+        "updated_at": "2025-09-16T16:45:42.000+00:00",
+        "original_url": "//dka575ofm4ao0.cloudfront.net/pages-email_logos/original/362807/NEW_claude_status_email.png-d88779a1-c7b3-456d-b84e-1d0cdd4614e9.png",
+        "size": 50640,
+        "normal_url": "//dka575ofm4ao0.cloudfront.net/pages-email_logos/normal/362807/NEW_claude_status_email.png-d88779a1-c7b3-456d-b84e-1d0cdd4614e9.png",
+        "retina_url": "//dka575ofm4ao0.cloudfront.net/pages-email_logos/retina/362807/NEW_claude_status_email.png-d88779a1-c7b3-456d-b84e-1d0cdd4614e9.png"
+      },
+      "twitter_logo": {
+        "updated_at": null,
+        "size": null,
+        "url": ""
+      },
+      "id": "tymt9n04zgry",
+      "organization_id": "bq4z6w6cgm46"
+    }
+  },
+  "components": [
+    {
+      "status": "operational",
+      "name": "claude.ai",
+      "created_at": "2023-07-11T17:52:24.275Z",
+      "updated_at": "2026-09-22T02:11:43.697Z",
+      "position": 1,
+      "description": null,
+      "showcase": true,
+      "start_date": "2023-07-11T00:00:00.000Z",
+      "id": "rwppv331jlwc",
+      "group_id": null,
+      "page_id": "tymt9n04zgry",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "status": "operational",
+      "name": "Claude Console (platform.claude.com)",
+      "created_at": "2023-07-11T17:52:49.982Z",
+      "updated_at": "2026-09-02T01:24:22.227Z",
+      "position": 2,
+      "description": null,
+      "showcase": true,
+      "start_date": "2023-07-11T00:00:00.000Z",
+      "id": "0qbwn08sd68x",
+      "group_id": null,
+      "page_id": "tymt9n04zgry",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "status": "operational",
+      "name": "Claude API (api.anthropic.com)",
+      "created_at": "2023-07-11T17:53:10.880Z",
+      "updated_at": "2026-09-22T02:11:43.710Z",
+      "position": 3,
+      "description": null,
+      "showcase": true,
+      "start_date": "2023-07-11T00:00:00.000Z",
+      "id": "k8w3r06qmzrp",
+      "group_id": null,
+      "page_id": "tymt9n04zgry",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "status": "operational",
+      "name": "Claude Code",
+      "created_at": "2025-05-22T21:35:29.822Z",
+      "updated_at": "2026-09-22T02:11:43.723Z",
+      "position": 4,
+      "description": null,
+      "showcase": true,
+      "start_date": "2025-02-06T00:00:00.000Z",
+      "id": "yyzkbfz2thpt",
+      "group_id": null,
+      "page_id": "tymt9n04zgry",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "status": "operational",
+      "name": "Claude Cowork",
+      "created_at": "2026-04-01T17:39:47.692Z",
+      "updated_at": "2026-09-22T02:11:43.736Z",
+      "position": 5,
+      "description": null,
+      "showcase": true,
+      "start_date": "2026-04-01T00:00:00.000Z",
+      "id": "bpp5gb3hpjcl",
+      "group_id": null,
+      "page_id": "tymt9n04zgry",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "status": "operational",
+      "name": "Claude for Government",
+      "created_at": "2026-02-17T23:24:51.249Z",
+      "updated_at": "2026-06-30T14:45:50.487Z",
+      "position": 6,
+      "description": null,
+      "showcase": true,
+      "start_date": "2026-02-17T00:00:00.000Z",
+      "id": "0scnb50nvy53",
+      "group_id": null,
+      "page_id": "tymt9n04zgry",
+      "group": false,
+      "only_show_if_degraded": false
+    }
+  ],
+  "months": [
+    {
+      "name": "June",
+      "year": 2026,
+      "starts_on": 1,
+      "days": 30,
+      "incidents": [
+        {
+          "code": "7ykkywg6yln4",
+          "name": "Elevated error rates on Opus 4.8",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "Jun <var data-var='date'>30</var>, <var data-var='time'>14:31</var> - <var data-var='time'>15:28</var> UTC"
+        },
+        {
+          "code": "lxpx271gkx7p",
+          "name": "Elevated errors on Opus 4.5",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "Jun <var data-var='date'>29</var>, <var data-var='time'>13:35</var> - <var data-var='time'>14:27</var> UTC"
+        },
+        {
+          "code": "9284yk6xxd0h",
+          "name": "elevated errors on Opus 48",
+          "message": "Elevated errors on Opus-48. It has been mitigated. We are actively monitoring the system.",
+          "impact": "none",
+          "timestamp": "Jun <var data-var='date'>27</var>, <var data-var='time'>18:00</var> - <var data-var='time'>18:00</var> UTC"
+        },
+        {
+          "code": "wkzf38t1yh8z",
+          "name": "Elevated errors on Opus 4.8 Fast",
+          "message": "This incident has been resolved.",
+          "impact": "none",
+          "timestamp": "Jun <var data-var='date'>24</var>, <var data-var='time'>18:22</var> - <var data-var='time'>18:33</var> UTC"
+        },
+        {
+          "code": "8b0rggdfh1hv",
+          "name": "Elevated error rate on Claude Opus 4.8",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "Jun <var data-var='date'>24</var>, <var data-var='time'>13:16</var> - <var data-var='time'>14:56</var> UTC"
+        },
+        {
+          "code": "18bq2kw867g5",
+          "name": "Claude.ai is experiencing elevated error rates",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "Jun <var data-var='date'>23</var>, <var data-var='time'>18:24</var> - <var data-var='time'>18:32</var> UTC"
+        },
+        {
+          "code": "jbhf20wjmzrf",
+          "name": "Elevated error rate across multiple models",
+          "message": "This incident has been resolved.",
+          "impact": "critical",
+          "timestamp": "Jun <var data-var='date'>23</var>, <var data-var='time'>14:19</var> - <var data-var='time'>16:44</var> UTC"
+        },
+        {
+          "code": "2stpj60m2fr9",
+          "name": "Elevated errors for Claude Opus 4.8",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "Jun <var data-var='date'>23</var>, <var data-var='time'>06:28</var> - <var data-var='time'>08:45</var> UTC"
+        },
+        {
+          "code": "bbcpk0t2cj4p",
+          "name": "Elevated errors across many models",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "Jun <var data-var='date'>22</var>, <var data-var='time'>19:14</var> - <var data-var='time'>19:45</var> UTC"
+        },
+        {
+          "code": "dymmnf6xk0mg",
+          "name": "Elevated errors for Claude Opus 4.8",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "Jun <var data-var='date'>22</var>, <var data-var='time'>08:11</var> - <var data-var='time'>14:44</var> UTC"
+        },
+        {
+          "code": "lv35v0q9nsj2",
+          "name": "Elevated Error Rates for Opus 4.8, Opus 4.7, Opus 4.6, Sonnet 4.6, and Haiku 4.5",
+          "message": "This incident has been resolved.",
+          "impact": "major",
+          "timestamp": "Jun <var data-var='date'>22</var>, <var data-var='time'>00:37</var> - <var data-var='time'>02:06</var> UTC"
+        },
+        {
+          "code": "nbp7j8k3kgw2",
+          "name": "Opus 4.8 errors",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "Jun <var data-var='date'>20</var>, <var data-var='time'>17:07</var> - <var data-var='time'>18:02</var> UTC"
+        },
+        {
+          "code": "1p98mj17s1z2",
+          "name": "Elevated error rates on the Claude API",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "Jun <var data-var='date'>19</var>, <var data-var='time'>08:17</var> - <var data-var='time'>08:45</var> UTC"
+        },
+        {
+          "code": "46z2bnxchg61",
+          "name": "Elevated errors for Claude Opus 4.8",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "Jun <var data-var='date'>19</var>, <var data-var='time'>06:07</var> - <var data-var='time'>07:17</var> UTC"
+        },
+        {
+          "code": "jlbvcpfwwq8z",
+          "name": "Service disruption on Claude services",
+          "message": "The issue affecting Claude services has been resolved. Impact occurred from 06:55 to 07:40 UTC.",
+          "impact": "major",
+          "timestamp": "Jun <var data-var='date'>18</var>, <var data-var='time'>07:41</var> - <var data-var='time'>08:19</var> UTC"
+        },
+        {
+          "code": "s107yx224p9r",
+          "name": "Elevated errors for Claude Opus 4.8",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "Jun <var data-var='date'>17</var>, <var data-var='time'>15:34</var> - <var data-var='time'>16:28</var> UTC"
+        },
+        {
+          "code": "k8563n9wd0r8",
+          "name": "Elevated errors for Claude Opus 4.8",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "Jun <var data-var='date'>17</var>, <var data-var='time'>08:24</var> - <var data-var='time'>10:03</var> UTC"
+        },
+        {
+          "code": "zw75lhl39skc",
+          "name": "Elevated errors for Claude Opus 4.8",
+          "message": "This incident has been resolved. Requests to Claude Opus 4.8 received elevated errors between 9:59pm PT / 04:59 UTC and 10:41pm PT / 05:41 UTC.",
+          "impact": "minor",
+          "timestamp": "Jun <var data-var='date'>17</var>, <var data-var='time'>05:08</var> - <var data-var='time'>06:37</var> UTC"
+        },
+        {
+          "code": "8chgzf3fs27n",
+          "name": "Elevated errors on Claude Sonnet 4.6 and Opus 4.8",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "Jun <var data-var='date'>17</var>, <var data-var='time'>00:47</var> - <var data-var='time'>02:50</var> UTC"
+        },
+        {
+          "code": "41395mspl1rf",
+          "name": "Elevated errors for Claude Opus 4.8",
+          "message": "This issue has been resolved. We saw elevated errors on requests to Claude Opus 4.8 between 1:45pm PT / 20:45 UTC and 1:58pm PT / 20:58 UTC.",
+          "impact": "major",
+          "timestamp": "Jun <var data-var='date'>16</var>, <var data-var='time'>20:50</var> - <var data-var='time'>22:02</var> UTC"
+        },
+        {
+          "code": "8q88rrz9rjd0",
+          "name": "Opus 4.8 errors",
+          "message": "This incident has been resolved.",
+          "impact": "none",
+          "timestamp": "Jun <var data-var='date'>16</var>, <var data-var='time'>19:59</var> - <var data-var='time'>20:16</var> UTC"
+        },
+        {
+          "code": "xmhsglsz3h3w",
+          "name": "Elevated errors across many models",
+          "message": "The incident has now been resolved. We had two phases:\n* between 10:23 PT / 17:23 UTC to 11:00 PT / 18:00 UTC -- all Sonnet and Opus models were affected, reaching an error rate of around 10%\n* after 11:00 PT / 18:00 UTC and until 12:20 PT / 19:20 UTC -- Opus 4.8 had an average error rate of 10%\n\nThe incident is now resolved.",
+          "impact": "minor",
+          "timestamp": "Jun <var data-var='date'>16</var>, <var data-var='time'>17:29</var> - <var data-var='time'>19:32</var> UTC"
+        },
+        {
+          "code": "slm0mhv6r1pf",
+          "name": "Elevated errors on Claude Opus 4.8",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "Jun <var data-var='date'>15</var>, <var data-var='time'>06:20</var> - <var data-var='time'>08:56</var> UTC"
+        },
+        {
+          "code": "1trjx6gxk1bt",
+          "name": "Elevated errors on Claude Opus 4.8",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "Jun <var data-var='date'>13</var>, <var data-var='time'>02:03</var> - <var data-var='time'>02:11</var> UTC"
+        },
+        {
+          "code": "j8ghp7dk6lym",
+          "name": "Elevated errors across models",
+          "message": "The issue affecting various models has been resolved. Impact occurred from 09:42am PT / 16:42 UTC to 10:03am PT / 17:03 UTC.",
+          "impact": "major",
+          "timestamp": "Jun <var data-var='date'>11</var>, <var data-var='time'>16:54</var> - <var data-var='time'>17:56</var> UTC"
+        },
+        {
+          "code": "sp7cf0cghqsk",
+          "name": "Elevated errors on Claude Opus 4.6",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "Jun <var data-var='date'>11</var>, <var data-var='time'>14:37</var> - <var data-var='time'>15:01</var> UTC"
+        },
+        {
+          "code": "32lyxmplb5wz",
+          "name": "Elevated errors on Claude Haiku 4.5",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "Jun <var data-var='date'>10</var>, <var data-var='time'>13:06</var> - <var data-var='time'>17:21</var> UTC"
+        },
+        {
+          "code": "xwrtmlm3tnxf",
+          "name": "Elevated errors on Claude Opus 4.6",
+          "message": "From 1:20pm PT / 20:20 UTC through 2:05pm PT / 21:05 PT, we saw elevated errors on requests to Claude Opus 4.6. This issue has been resolved.",
+          "impact": "minor",
+          "timestamp": "Jun <var data-var='date'>9</var>, <var data-var='time'>20:32</var> - <var data-var='time'>22:10</var> UTC"
+        },
+        {
+          "code": "wtcn4knnnfzc",
+          "name": "Fable not available in the model picker in Claude Code Desktop",
+          "message": "This issue has been resolved. If you are experiencing issues with selecting Claude Fable within the Claude Code Desktop application, please ensure you have updated to the latest version.",
+          "impact": "major",
+          "timestamp": "Jun <var data-var='date'>9</var>, <var data-var='time'>18:24</var> - <var data-var='time'>21:03</var> UTC"
+        },
+        {
+          "code": "cmsxwks3fzd9",
+          "name": "Elevated errors on Claude Opus 4.8 (Fast Mode)",
+          "message": "This issue has been resolved. Claude Opus 4.8 (Fast Mode) saw elevated errors from 7:50 PM PT / 02:50 UTC to 8:30 PM PT / 03:30 UTC.",
+          "impact": "minor",
+          "timestamp": "Jun <var data-var='date'>9</var>, <var data-var='time'>03:13</var> - <var data-var='time'>03:42</var> UTC"
+        },
+        {
+          "code": "1gjynxqv85rk",
+          "name": "Elevated errors on Claude Opus 4.8",
+          "message": "This issue has been resolved. Claude Opus 4.8 saw elevated errors from 3:06 PT / 22:06 UTC through 3:28 PT / 22:28 UTC.",
+          "impact": "minor",
+          "timestamp": "Jun <var data-var='date'>8</var>, <var data-var='time'>22:20</var> - <var data-var='time'>22:36</var> UTC"
+        },
+        {
+          "code": "8b7xx9g8rkhm",
+          "name": "Elevated errors on Claude Opus 4.7",
+          "message": "This issue has been resolved. Claude Opus 4.7 saw elevated errors from 2:01 PT / 21:01 UTC through 2:27 PT / 21:27 UTC.",
+          "impact": "minor",
+          "timestamp": "Jun <var data-var='date'>8</var>, <var data-var='time'>21:05</var> - <var data-var='time'>21:56</var> UTC"
+        },
+        {
+          "code": "829kf0y1f7pn",
+          "name": "Elevated errors on Claude Haiku 4.5",
+          "message": "The incident is now resolved. The impact started at 11:35 PT / 18:35 UTC and ended at 12:30 PT / 19:30 UTC.",
+          "impact": "minor",
+          "timestamp": "Jun <var data-var='date'>8</var>, <var data-var='time'>19:10</var> - <var data-var='time'>19:52</var> UTC"
+        },
+        {
+          "code": "3n1flr3mnpgl",
+          "name": "Elevated errors on Claude Opus 4.7",
+          "message": "This issue has been resolved. We saw errors affecting Opus 4.7 from 16:56–17:47 UTC.",
+          "impact": "minor",
+          "timestamp": "Jun <var data-var='date'>8</var>, <var data-var='time'>17:15</var> - <var data-var='time'>19:22</var> UTC"
+        },
+        {
+          "code": "1h2k3ryt64wl",
+          "name": "Elevated errors on Claude Opus 4.7",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "Jun <var data-var='date'>7</var>, <var data-var='time'>14:35</var> - <var data-var='time'>15:41</var> UTC"
+        },
+        {
+          "code": "s4pq658bt69h",
+          "name": "Degraded performance for multiple models",
+          "message": "We have resolved an issue resulting in elevated errors on requests to some Claude Models.",
+          "impact": "minor",
+          "timestamp": "Jun <var data-var='date'>7</var>, <var data-var='time'>03:31</var> - <var data-var='time'>04:28</var> UTC"
+        },
+        {
+          "code": "6ptd5skgmy3v",
+          "name": "Elevated errors on Claude Opus 4.8",
+          "message": "From 18:12–18:55, we saw elevated errors on requests to Claude Opus 4.8. This issue has been resolved.",
+          "impact": "minor",
+          "timestamp": "Jun <var data-var='date'>6</var>, <var data-var='time'>18:37</var> - <var data-var='time'>19:05</var> UTC"
+        },
+        {
+          "code": "b1gzqlnpxxxk",
+          "name": "Opus 4.8 degraded service",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "Jun <var data-var='date'>6</var>, <var data-var='time'>09:27</var> - <var data-var='time'>10:14</var> UTC"
+        },
+        {
+          "code": "fprlnsvdnr2k",
+          "name": "Elevated errors on many Claude models",
+          "message": "This incident has been resolved.",
+          "impact": "major",
+          "timestamp": "Jun <var data-var='date'>5</var>, <var data-var='time'>15:19</var> - <var data-var='time'>18:28</var> UTC"
+        },
+        {
+          "code": "thp2kyjx60qn",
+          "name": "Elevated errors on Opus 4.7",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "Jun <var data-var='date'>3</var>, <var data-var='time'>07:10</var> - <var data-var='time'>07:38</var> UTC"
+        },
+        {
+          "code": "0w1blp7cngrr",
+          "name": "Issue affecting some Claude Code services",
+          "message": "This incident has been resolved.",
+          "impact": "major",
+          "timestamp": "Jun <var data-var='date'>3</var>, <var data-var='time'>04:17</var> - <var data-var='time'>07:36</var> UTC"
+        },
+        {
+          "code": "zkr25thltwc9",
+          "name": "Elevated errors on multiple models",
+          "message": "This incident has been resolved.",
+          "impact": "major",
+          "timestamp": "Jun <var data-var='date'>2</var>, <var data-var='time'>06:04</var> - <var data-var='time'>11:49</var> UTC"
+        },
+        {
+          "code": "vxp8fdrckj7q",
+          "name": "Degraded performance for Claude Sonnet 4.6",
+          "message": "This issue has been resolved.",
+          "impact": "minor",
+          "timestamp": "Jun <var data-var='date'>1</var>, <var data-var='time'>18:28</var> - <var data-var='time'>19:06</var> UTC"
+        },
+        {
+          "code": "8p6f4r16xxmp",
+          "name": "Elevated errors on Claude Sonnet 4.6",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "Jun <var data-var='date'>1</var>, <var data-var='time'>14:40</var> - <var data-var='time'>15:41</var> UTC"
+        },
+        {
+          "code": "qc88nvqjv99m",
+          "name": "Elevated errors for Claude Opus 4.7",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "Jun <var data-var='date'>1</var>, <var data-var='time'>12:15</var> - <var data-var='time'>13:33</var> UTC"
+        },
+        {
+          "code": "z4pz8z34hr4x",
+          "name": "Sonnet 4.5 elevated errors",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "Jun <var data-var='date'>1</var>, <var data-var='time'>09:08</var> - <var data-var='time'>09:28</var> UTC"
+        },
+        {
+          "code": "rk70zc69m54p",
+          "name": "Opus 4.7 elevated errors",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "Jun <var data-var='date'>1</var>, <var data-var='time'>06:48</var> - <var data-var='time'>07:22</var> UTC"
+        }
+      ]
+    },
+    {
+      "name": "May",
+      "year": 2026,
+      "starts_on": 5,
+      "days": 31,
+      "incidents": [
+        {
+          "code": "694jznhm6tsl",
+          "name": "opus 4.7 elevated errors",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "May <var data-var='date'>30</var>, <var data-var='time'>22:58</var> - May <var data-var='date'>31</var>, <var data-var='time'>00:16</var> UTC"
+        },
+        {
+          "code": "2zr0rkdxjdtc",
+          "name": "Elevated errors for Claude Opus 4.8",
+          "message": "This issue has been resolved.",
+          "impact": "major",
+          "timestamp": "May <var data-var='date'>29</var>, <var data-var='time'>18:35</var> - <var data-var='time'>19:12</var> UTC"
+        },
+        {
+          "code": "5s24h0pbdj5d",
+          "name": "Elevated errors on Claude Opus 4.8",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "May <var data-var='date'>29</var>, <var data-var='time'>08:30</var> - <var data-var='time'>08:45</var> UTC"
+        },
+        {
+          "code": "8q00jfj4yfv6",
+          "name": "Billing and subscription management issues",
+          "message": "The issue affecting Claude services has been resolved. Impact occurred from 18:27 UTC to 19:05 UTC.",
+          "impact": "minor",
+          "timestamp": "May <var data-var='date'>28</var>, <var data-var='time'>19:04</var> - <var data-var='time'>19:23</var> UTC"
+        },
+        {
+          "code": "0w1bqsc12lt8",
+          "name": "Elevated errors on Claude Opus 4.7",
+          "message": "This incident has been resolved.",
+          "impact": "major",
+          "timestamp": "May <var data-var='date'>28</var>, <var data-var='time'>08:38</var> - <var data-var='time'>09:17</var> UTC"
+        },
+        {
+          "code": "rtr7z82cqmp9",
+          "name": "Elevated errors on Claude Opus 4.7",
+          "message": "This incident has been resolved.",
+          "impact": "major",
+          "timestamp": "May <var data-var='date'>27</var>, <var data-var='time'>08:04</var> - <var data-var='time'>09:41</var> UTC"
+        },
+        {
+          "code": "fw96fnc5bw45",
+          "name": "Elevated errors on Claude Opus 4.7",
+          "message": "This incident has been resolved.",
+          "impact": "major",
+          "timestamp": "May <var data-var='date'>27</var>, <var data-var='time'>05:43</var> - <var data-var='time'>06:40</var> UTC"
+        },
+        {
+          "code": "fl8sx824x72r",
+          "name": "Elevated errors for Claude Code in Slack",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "May <var data-var='date'>26</var>, <var data-var='time'>01:56</var> - <var data-var='time'>05:19</var> UTC"
+        },
+        {
+          "code": "44pgyz54d48z",
+          "name": "Elevated error rates on Opus 4.7",
+          "message": "This incident has been resolved.",
+          "impact": "none",
+          "timestamp": "May <var data-var='date'>25</var>, <var data-var='time'>10:32</var> - <var data-var='time'>10:39</var> UTC"
+        },
+        {
+          "code": "r1prbh7v5gcn",
+          "name": "Elevated errors on Claude Opus 4.7",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "May <var data-var='date'>22</var>, <var data-var='time'>10:17</var> - <var data-var='time'>10:31</var> UTC"
+        },
+        {
+          "code": "p0mgnjv3bj97",
+          "name": "Elevated error rate on multiple models",
+          "message": "This issue has been resolved.",
+          "impact": "major",
+          "timestamp": "May <var data-var='date'>22</var>, <var data-var='time'>04:16</var> - <var data-var='time'>08:50</var> UTC"
+        },
+        {
+          "code": "zvlgr3k8lny0",
+          "name": "Elevated errors on Claude.ai",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "May <var data-var='date'>21</var>, <var data-var='time'>20:24</var> - <var data-var='time'>21:08</var> UTC"
+        },
+        {
+          "code": "4znk51f63g93",
+          "name": "Elevated errors on Claude Opus 4.7",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "May <var data-var='date'>20</var>, <var data-var='time'>14:43</var> - <var data-var='time'>16:04</var> UTC"
+        },
+        {
+          "code": "vpwz6hxsvgs3",
+          "name": "Elevated errors on Claude Haiku 4.5",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "May <var data-var='date'>20</var>, <var data-var='time'>08:14</var> - <var data-var='time'>08:49</var> UTC"
+        },
+        {
+          "code": "f9yk8lqw384x",
+          "name": "Elevated errors on Claude Opus 4.7",
+          "message": "This incident has been resolved.",
+          "impact": "major",
+          "timestamp": "May <var data-var='date'>19</var>, <var data-var='time'>14:03</var> - <var data-var='time'>15:40</var> UTC"
+        },
+        {
+          "code": "qkwdrjxvkb9s",
+          "name": "Elevated errors on Claude Opus 4.7",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "May <var data-var='date'>19</var>, <var data-var='time'>08:41</var> - <var data-var='time'>10:08</var> UTC"
+        },
+        {
+          "code": "0y2vzr60dktt",
+          "name": "Elevated errors on Claude Haiku 4.5",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "May <var data-var='date'>19</var>, <var data-var='time'>07:00</var> - <var data-var='time'>08:30</var> UTC"
+        },
+        {
+          "code": "cgwwyh79gpm3",
+          "name": "Elevated errors on Claude.ai and Claude Code login",
+          "message": "This issue has been resolved.",
+          "impact": "minor",
+          "timestamp": "May <var data-var='date'>19</var>, <var data-var='time'>04:46</var> - <var data-var='time'>04:51</var> UTC"
+        },
+        {
+          "code": "6qbg6ft2r9j4",
+          "name": "Elevated errors for Claude Opus 4.7",
+          "message": "The issue affecting Claude services has been resolved. Impact occurred from 21:47 to 22:18 UTC.",
+          "impact": "major",
+          "timestamp": "May <var data-var='date'>18</var>, <var data-var='time'>22:10</var> - <var data-var='time'>22:19</var> UTC"
+        },
+        {
+          "code": "fvddmdx8z6y7",
+          "name": "Elevated errors on Claude Haiku 4.5",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "May <var data-var='date'>18</var>, <var data-var='time'>06:12</var> - <var data-var='time'>08:07</var> UTC"
+        },
+        {
+          "code": "v9s6d0jt84hj",
+          "name": "Elevated error rates on requests to multiple models",
+          "message": "This incident has been resolved.",
+          "impact": "major",
+          "timestamp": "May <var data-var='date'>16</var>, <var data-var='time'>18:08</var> - <var data-var='time'>18:24</var> UTC"
+        },
+        {
+          "code": "8z7l5zcy0v3b",
+          "name": "Elevated error rates on requests to some models",
+          "message": "This incident has been resolved.",
+          "impact": "major",
+          "timestamp": "May <var data-var='date'>15</var>, <var data-var='time'>00:18</var> - <var data-var='time'>01:46</var> UTC"
+        },
+        {
+          "code": "6f1wzlw5cjqx",
+          "name": "Elevated errors on Claude Opus 4.7",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "May <var data-var='date'>14</var>, <var data-var='time'>20:33</var> - <var data-var='time'>22:25</var> UTC"
+        },
+        {
+          "code": "yn24rtdnf77b",
+          "name": "Claude.ai is experiencing elevated error rates",
+          "message": "This incident has been resolved.",
+          "impact": "major",
+          "timestamp": "May <var data-var='date'>13</var>, <var data-var='time'>12:21</var> - <var data-var='time'>14:45</var> UTC"
+        },
+        {
+          "code": "sb7byp4h7yp8",
+          "name": "Claude.ai is experiencing elevated error rates",
+          "message": "This incident has been resolved.",
+          "impact": "major",
+          "timestamp": "May <var data-var='date'>13</var>, <var data-var='time'>11:25</var> - <var data-var='time'>11:57</var> UTC"
+        },
+        {
+          "code": "3kkmgccb9z85",
+          "name": "Elevated errors on Claude Opus 4.7",
+          "message": "This incident has been resolved.",
+          "impact": "major",
+          "timestamp": "May <var data-var='date'>12</var>, <var data-var='time'>23:38</var> - <var data-var='time'>23:58</var> UTC"
+        },
+        {
+          "code": "c2hjyfpgsprx",
+          "name": "Elevated errors for Claude Sonnet 4.6 and Haiku 4.5",
+          "message": "This incident has been resolved.",
+          "impact": "major",
+          "timestamp": "May <var data-var='date'>12</var>, <var data-var='time'>19:36</var> - <var data-var='time'>20:13</var> UTC"
+        },
+        {
+          "code": "n0c72xml12l4",
+          "name": "Elevated Error Rate for Vaults and Credentials",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "May <var data-var='date'>12</var>, <var data-var='time'>18:47</var> - <var data-var='time'>18:57</var> UTC"
+        },
+        {
+          "code": "4b7cjct792q2",
+          "name": "Claude Code on the Web Partial Outage",
+          "message": "This incident has been resolved",
+          "impact": "minor",
+          "timestamp": "May <var data-var='date'>9</var>, <var data-var='time'>23:33</var> - <var data-var='time'>23:51</var> UTC"
+        },
+        {
+          "code": "1m6xs1xcw9kk",
+          "name": "Elevated errors on Claude Opus 4.1",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "May <var data-var='date'>9</var>, <var data-var='time'>07:57</var> - <var data-var='time'>08:22</var> UTC"
+        },
+        {
+          "code": "w5cw47ytckzx",
+          "name": "Claude Code IDE extension unable to load on Windows",
+          "message": "This incident has been resolved in v2.1.137. Please update to get the fix.",
+          "impact": "major",
+          "timestamp": "May <var data-var='date'>8</var>, <var data-var='time'>22:30</var> - May <var data-var='date'>9</var>, <var data-var='time'>00:24</var> UTC"
+        },
+        {
+          "code": "5p98r08qfvwl",
+          "name": "Elevated errors on Claude Opus 4.7",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "May <var data-var='date'>8</var>, <var data-var='time'>17:01</var> - <var data-var='time'>17:25</var> UTC"
+        },
+        {
+          "code": "vtt35dc73941",
+          "name": "Elevated Errors on File Operations",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "May <var data-var='date'>8</var>, <var data-var='time'>14:12</var> - <var data-var='time'>15:17</var> UTC"
+        },
+        {
+          "code": "fv8psq0wdpkn",
+          "name": "Elevated errors on Claude Sonnet 4.6",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "May <var data-var='date'>8</var>, <var data-var='time'>15:03</var> - <var data-var='time'>15:11</var> UTC"
+        },
+        {
+          "code": "378dqscjgghp",
+          "name": "Elevated errors across Claude Models",
+          "message": "This incident has been resolved.",
+          "impact": "major",
+          "timestamp": "May <var data-var='date'>8</var>, <var data-var='time'>09:49</var> - <var data-var='time'>11:40</var> UTC"
+        },
+        {
+          "code": "snxm62gpxfc9",
+          "name": "Connection failures for organizations restricting GitHub access by IP address",
+          "message": "This incident has been resolved.",
+          "impact": "major",
+          "timestamp": "May <var data-var='date'>6</var>, <var data-var='time'>22:32</var> - May <var data-var='date'>7</var>, <var data-var='time'>16:36</var> UTC"
+        },
+        {
+          "code": "9h32bh60z06w",
+          "name": "Elevated errors on Claude Opus 4.7",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "May <var data-var='date'>7</var>, <var data-var='time'>12:10</var> - <var data-var='time'>12:45</var> UTC"
+        },
+        {
+          "code": "437swp24nrf4",
+          "name": "Elevated errors across multiple models",
+          "message": "This incident has been resolved.",
+          "impact": "major",
+          "timestamp": "May <var data-var='date'>6</var>, <var data-var='time'>15:29</var> - <var data-var='time'>16:51</var> UTC"
+        },
+        {
+          "code": "77j6yv8kc0vn",
+          "name": "Elevated errors on Claude Opus 4.5 and Sonnet 4.5",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "May <var data-var='date'>4</var>, <var data-var='time'>13:59</var> - <var data-var='time'>14:45</var> UTC"
+        },
+        {
+          "code": "89vbl7qk5dqp",
+          "name": "Elevated errors on Claude Opus 4.7",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "May <var data-var='date'>4</var>, <var data-var='time'>14:07</var> - <var data-var='time'>14:33</var> UTC"
+        },
+        {
+          "code": "zxv1xv501678",
+          "name": "Elevated errors on Claude Opus 4.5",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "May <var data-var='date'>4</var>, <var data-var='time'>08:09</var> - <var data-var='time'>09:49</var> UTC"
+        }
+      ]
+    },
+    {
+      "name": "April",
+      "year": 2026,
+      "starts_on": 3,
+      "days": 30,
+      "incidents": [
+        {
+          "code": "dv9r688vqt8s",
+          "name": "Elevated errors on Claude Haiku 4.5",
+          "message": "The incident has been resolved. Error rates were elevated between 5:20 PT / 12:48 PT and 6:48 PT / 13:48 PT.",
+          "impact": "minor",
+          "timestamp": "Apr <var data-var='date'>30</var>, <var data-var='time'>13:10</var> - <var data-var='time'>14:01</var> UTC"
+        },
+        {
+          "code": "2gf1jpyty350",
+          "name": "claude.ai and API unavailable",
+          "message": "This incident has been resolved.",
+          "impact": "critical",
+          "timestamp": "Apr <var data-var='date'>30</var>, <var data-var='time'>01:20</var> - <var data-var='time'>01:51</var> UTC"
+        },
+        {
+          "code": "3yxsctr39y3j",
+          "name": "Elevated errors on Claude Haiku 4.5",
+          "message": "The incident is resolved. The elevated error rate was between 05:37 PT / 12:37 UTC and 06:58 PT / 13:37 UTC.",
+          "impact": "minor",
+          "timestamp": "Apr <var data-var='date'>29</var>, <var data-var='time'>13:47</var> - <var data-var='time'>14:14</var> UTC"
+        },
+        {
+          "code": "lryjwwy0q9pl",
+          "name": "Elevated errors on Claude Opus 4.7",
+          "message": "The incident is now resolved. The impact was between 16:25 PT / 23:25 UTC and 16:33 PT / 23:33 UTC.",
+          "impact": "minor",
+          "timestamp": "Apr <var data-var='date'>28</var>, <var data-var='time'>23:33</var> - Apr <var data-var='date'>29</var>, <var data-var='time'>00:00</var> UTC"
+        },
+        {
+          "code": "9l93x2ht4s5w",
+          "name": "Claude.ai unavailable and elevated errors on the API",
+          "message": "This incident has been resolved.",
+          "impact": "major",
+          "timestamp": "Apr <var data-var='date'>28</var>, <var data-var='time'>17:41</var> - <var data-var='time'>19:15</var> UTC"
+        },
+        {
+          "code": "x1y91zcb2rp2",
+          "name": "Elevated errors on Claude Sonnet 4.5",
+          "message": "The incident has now been resolved. The timeline for the elevated errors was 6:22 PT / 13:22 UTC -> 6:39 PT / 13:39 UTC.",
+          "impact": "minor",
+          "timestamp": "Apr <var data-var='date'>28</var>, <var data-var='time'>13:29</var> - <var data-var='time'>13:50</var> UTC"
+        },
+        {
+          "code": "c20m4lbfd6pm",
+          "name": "Elevated errors on Claude Haiku 4.5",
+          "message": "The incident has now been resolved. The elevated error rate for Haiku 4.5 was between 4:53 PT / 11:53 UTC and 5:36 PT / 12:44 UTC.",
+          "impact": "minor",
+          "timestamp": "Apr <var data-var='date'>28</var>, <var data-var='time'>12:24</var> - <var data-var='time'>12:45</var> UTC"
+        },
+        {
+          "code": "7bk0ftl0mpny",
+          "name": "Claude Code Code Review was intermittently failing",
+          "message": "Claude Code Code Review intermittently wasn't starting sessions.",
+          "impact": "none",
+          "timestamp": "Apr <var data-var='date'>28</var>, <var data-var='time'>06:00</var> - <var data-var='time'>06:00</var> UTC"
+        },
+        {
+          "code": "mct55f8gxb7k",
+          "name": "Elevated billing related errors on Claude.ai",
+          "message": "This incident has been resolved.",
+          "impact": "none",
+          "timestamp": "Apr <var data-var='date'>27</var>, <var data-var='time'>14:11</var> - <var data-var='time'>15:18</var> UTC"
+        },
+        {
+          "code": "c3km369dp85h",
+          "name": "Investigated elevated errors and slower responses on claude.ai",
+          "message": "This incident has been resolved.",
+          "impact": "none",
+          "timestamp": "Apr <var data-var='date'>25</var>, <var data-var='time'>18:42</var> - <var data-var='time'>19:02</var> UTC"
+        },
+        {
+          "code": "87m29x6sk78g",
+          "name": "Elevated errors on Claude Opus 4.7",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "Apr <var data-var='date'>25</var>, <var data-var='time'>08:43</var> - <var data-var='time'>11:58</var> UTC"
+        },
+        {
+          "code": "29ryc4sj27jk",
+          "name": "Elevated errors on Claude Opus 4.7",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "Apr <var data-var='date'>25</var>, <var data-var='time'>07:48</var> - <var data-var='time'>08:37</var> UTC"
+        },
+        {
+          "code": "zqsk02ryfmrd",
+          "name": "Claude Code v2.1.120 Crashes on Startup",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "Apr <var data-var='date'>25</var>, <var data-var='time'>01:45</var> - <var data-var='time'>02:35</var> UTC"
+        },
+        {
+          "code": "q93x64nrhwnn",
+          "name": "Elevated error rates on Claude Opus 4.7",
+          "message": "The issue affecting requests to Claude Opus 4.7 has been resolved. Impact occurred from 01:24–01:59 UTC.",
+          "impact": "minor",
+          "timestamp": "Apr <var data-var='date'>25</var>, <var data-var='time'>01:35</var> - <var data-var='time'>02:34</var> UTC"
+        },
+        {
+          "code": "s0lttkq5mmt2",
+          "name": "Issues with sign-ups on platform.claude.com",
+          "message": "This incident has been resolved.",
+          "impact": "major",
+          "timestamp": "Apr <var data-var='date'>24</var>, <var data-var='time'>17:03</var> - <var data-var='time'>17:32</var> UTC"
+        },
+        {
+          "code": "1mx31vhgl3ms",
+          "name": "Elevated errors on Claude Opus 4.7",
+          "message": "The incident has been resolved. We had 3 blips of unavailability:\n* 2:53 PT / 9:53 UTC -- 2:57 PT / 9:57 UTC\n* 3:01 PT / 10:01 UTC -- 3:06 PT / 10:06 UTC\n* 3:34 PT / 10:34 UTC -- 3:36 PT / 10:36 UTC",
+          "impact": "minor",
+          "timestamp": "Apr <var data-var='date'>24</var>, <var data-var='time'>10:06</var> - <var data-var='time'>10:59</var> UTC"
+        },
+        {
+          "code": "wlysnq540b32",
+          "name": "Elevated errors on Sonnet 4.6",
+          "message": "This incident has been resolved.",
+          "impact": "critical",
+          "timestamp": "Apr <var data-var='date'>24</var>, <var data-var='time'>02:55</var> - <var data-var='time'>03:34</var> UTC"
+        },
+        {
+          "code": "1gz3fcvd76fx",
+          "name": "Elevated errors on Claude Opus 4.7",
+          "message": "We've had an incident between 08:23 PT / 15:23 UTC and 8:35 PT / 15:35 UTC. We have fully recovered.",
+          "impact": "minor",
+          "timestamp": "Apr <var data-var='date'>23</var>, <var data-var='time'>15:29</var> - <var data-var='time'>15:59</var> UTC"
+        },
+        {
+          "code": "9tyl1z4b03cs",
+          "name": "MCP apps unavailable on Claude.ai",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "Apr <var data-var='date'>23</var>, <var data-var='time'>00:41</var> - <var data-var='time'>02:09</var> UTC"
+        },
+        {
+          "code": "t6v0k97s0802",
+          "name": "Issues with responses using structured outputs on the API",
+          "message": "We have identified and resolved an issue which resulted in issues with model responses when making use of structured outputs via the Anthropic API between 16:10 UTC on April 22 and 01:59 UTC on April 23. During this period, structured outputs containing some forms of grammar requirements returned with reduced quality. This did not impact any requests not using structured outputs, as detailed here: https://platform.claude.com/docs/en/build-with-claude/structured-outputs.",
+          "impact": "none",
+          "timestamp": "Apr <var data-var='date'>23</var>, <var data-var='time'>02:00</var> - <var data-var='time'>02:00</var> UTC"
+        },
+        {
+          "code": "8482mmb5n1n1",
+          "name": "Elevated errors for uploading files",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "Apr <var data-var='date'>20</var>, <var data-var='time'>13:31</var> - <var data-var='time'>14:21</var> UTC"
+        },
+        {
+          "code": "8rg3l7v56ngc",
+          "name": "Claude Sonnet 4.5 error spike",
+          "message": "This incident has been resolved.",
+          "impact": "major",
+          "timestamp": "Apr <var data-var='date'>20</var>, <var data-var='time'>06:14</var> - <var data-var='time'>07:25</var> UTC"
+        },
+        {
+          "code": "34yy5hskyw2v",
+          "name": "Elevated errors on Opus 4.6",
+          "message": "This incident has been resolved.",
+          "impact": "none",
+          "timestamp": "Apr <var data-var='date'>19</var>, <var data-var='time'>22:44</var> - Apr <var data-var='date'>20</var>, <var data-var='time'>00:00</var> UTC"
+        },
+        {
+          "code": "4t4qg3vkrz6z",
+          "name": "Errors uploading documents to Google Drive in Claude.ai",
+          "message": "The issue affecting uploads to Google Drive has been resolved.",
+          "impact": "minor",
+          "timestamp": "Apr <var data-var='date'>17</var>, <var data-var='time'>18:59</var> - <var data-var='time'>19:56</var> UTC"
+        },
+        {
+          "code": "fkltkq8kgjkh",
+          "name": "Failures to add Credentials to Vaults",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "Apr <var data-var='date'>16</var>, <var data-var='time'>22:26</var> - <var data-var='time'>22:41</var> UTC"
+        },
+        {
+          "code": "qj05p69fff9h",
+          "name": "Claude Cowork not starting for some users",
+          "message": "This incident has been resolved in the v1.3109.0 release of Claude Desktop. Please \"Check for Updates\".",
+          "impact": "major",
+          "timestamp": "Apr <var data-var='date'>16</var>, <var data-var='time'>19:24</var> - <var data-var='time'>21:29</var> UTC"
+        },
+        {
+          "code": "7jbzthbc1dwr",
+          "name": "Opus 4.6 elevated rate of errors",
+          "message": "Earlier today we had an outage on Opus 4.6 that started at 23:03 PT / 6:03 UTC and ended at 00:26 PT / 7:26 UTC.",
+          "impact": "minor",
+          "timestamp": "Apr <var data-var='date'>16</var>, <var data-var='time'>06:50</var> - <var data-var='time'>07:43</var> UTC"
+        },
+        {
+          "code": "f00h6l76tsjs",
+          "name": "Elevated errors on Claude.ai, API, Claude Code",
+          "message": "This incident has been resolved.",
+          "impact": "critical",
+          "timestamp": "Apr <var data-var='date'>15</var>, <var data-var='time'>14:53</var> - <var data-var='time'>17:42</var> UTC"
+        },
+        {
+          "code": "w3389p5qg7kp",
+          "name": "Degraded service on usage and analytics admin API endpoints",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "Apr <var data-var='date'>14</var>, <var data-var='time'>09:24</var> - <var data-var='time'>15:21</var> UTC"
+        },
+        {
+          "code": "6jd2m42f8mld",
+          "name": "Claude.ai down",
+          "message": "We have resolved the issue resulting in elevated errors on login for Claude.ai and Claude Code betwen 15:31 to 16:19 UTC.",
+          "impact": "critical",
+          "timestamp": "Apr <var data-var='date'>13</var>, <var data-var='time'>15:40</var> - <var data-var='time'>16:35</var> UTC"
+        },
+        {
+          "code": "qcfvv041lb1k",
+          "name": "Email login down",
+          "message": "Email login was broken between approximately 3:46 PM and 4:52 PM PDT on April 10, 2026.",
+          "impact": "major",
+          "timestamp": "Apr <var data-var='date'>11</var>, <var data-var='time'>00:00</var> - <var data-var='time'>00:00</var> UTC"
+        },
+        {
+          "code": "411xbc51v608",
+          "name": "Elevated errors on requests to Claude models",
+          "message": "The issue affecting requests to non-Opus models has been resolved.",
+          "impact": "minor",
+          "timestamp": "Apr <var data-var='date'>10</var>, <var data-var='time'>16:30</var> - <var data-var='time'>16:51</var> UTC"
+        },
+        {
+          "code": "ccm8hy0pld48",
+          "name": "Some Claude.ai share links were inaccessible",
+          "message": "Between April 2 and April 10, some users who were not signed in to Claude.ai (web, mobile, desktop) were not able to access some Claude.ai sharing links.",
+          "impact": "minor",
+          "timestamp": "Apr <var data-var='date'>10</var>, <var data-var='time'>14:00</var> - <var data-var='time'>14:00</var> UTC"
+        },
+        {
+          "code": "2z4mf00ffcwd",
+          "name": "Degraded Performance on Vaults",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "Apr <var data-var='date'>10</var>, <var data-var='time'>04:28</var> - <var data-var='time'>04:38</var> UTC"
+        },
+        {
+          "code": "cb0h2zyzl0kd",
+          "name": "Elevated Connector Error Rates",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "Apr <var data-var='date'>9</var>, <var data-var='time'>16:54</var> - <var data-var='time'>17:34</var> UTC"
+        },
+        {
+          "code": "v0t3z924dbhg",
+          "name": "Sonnet 4.6 elevated rate of errors",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "Apr <var data-var='date'>9</var>, <var data-var='time'>08:07</var> - <var data-var='time'>08:53</var> UTC"
+        },
+        {
+          "code": "hsgj6gh6rlck",
+          "name": "Errors when connecting to Claude.ai",
+          "message": "Some users experienced an error when trying to access Claude.ai on desktop and the web from 23:22–23:50 UTC. This issue has now been resolved.",
+          "impact": "none",
+          "timestamp": "Apr <var data-var='date'>8</var>, <var data-var='time'>23:57</var> - <var data-var='time'>23:57</var> UTC"
+        },
+        {
+          "code": "z0bqmftj68dr",
+          "name": "Outage affecting Workspace Creation",
+          "message": "The issue affecting API workspace creation has been resolved. Impact occurred from approximately 4:15 PM to 7:30 PM UTC.",
+          "impact": "none",
+          "timestamp": "Apr <var data-var='date'>8</var>, <var data-var='time'>19:22</var> - <var data-var='time'>19:40</var> UTC"
+        },
+        {
+          "code": "5f418rpyb84x",
+          "name": "Elevated errors on Claude.ai, API, Claude Code",
+          "message": "From 17:25–17:44 UTC, we saw elevated errors on attempts to log into Claude.ai (mobile, web, and desktop) and platform.claude.com, as well as /login attempts via Claude Code. This issue is now resolved.",
+          "impact": "minor",
+          "timestamp": "Apr <var data-var='date'>8</var>, <var data-var='time'>17:46</var> - <var data-var='time'>17:50</var> UTC"
+        },
+        {
+          "code": "lhws0phdvzz3",
+          "name": "Sonnet 4.6 elevated rate of errors",
+          "message": "The incident is now resolved. Sonnet 4.6 exhibited errors above baseline between 23:00 PT / 7:00 UTC and 1:50 PT / 9:50 UTC.",
+          "impact": "major",
+          "timestamp": "Apr <var data-var='date'>8</var>, <var data-var='time'>06:23</var> - <var data-var='time'>09:33</var> UTC"
+        },
+        {
+          "code": "124yr07585k9",
+          "name": "Elevated errors on Claude.ai",
+          "message": "From 14:32–15:12 UTC, we saw elevated errors impacting various Claude services, including Claude.ai and Claude Code authentication. These errors have been resolved.",
+          "impact": "critical",
+          "timestamp": "Apr <var data-var='date'>7</var>, <var data-var='time'>14:32</var> - <var data-var='time'>15:59</var> UTC"
+        },
+        {
+          "code": "xmqkb966qt1h",
+          "name": "Sonnet 4.6 elevated rate of errors",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "Apr <var data-var='date'>6</var>, <var data-var='time'>21:26</var> - <var data-var='time'>21:45</var> UTC"
+        },
+        {
+          "code": "vfjv5x6qkd4j",
+          "name": "Elevated errors on Claude.ai",
+          "message": "From 15:00–16:30 UTC on April 6, we saw elevated errors on login for Claude.ai and Claude Code. This issue also affected some Claude.ai conversations and other product functionality such as voice mode. This issue is now resolved.",
+          "impact": "major",
+          "timestamp": "Apr <var data-var='date'>6</var>, <var data-var='time'>15:45</var> - <var data-var='time'>17:16</var> UTC"
+        },
+        {
+          "code": "7n7xgqws441v",
+          "name": "Sonnet 4.6 and Opus 4.6 elevated error rate",
+          "message": "Between 10:09 and 10:31 PDT, Sonnet 4.6 and Opus 4.6 experienced elevated error rates across most product surfaces.",
+          "impact": "none",
+          "timestamp": "Apr <var data-var='date'>4</var>, <var data-var='time'>17:30</var> - <var data-var='time'>17:30</var> UTC"
+        },
+        {
+          "code": "fznql3y9tpn7",
+          "name": "Elevated errors on requests to Claude Sonnet 4.6",
+          "message": "This incident has been resolved.",
+          "impact": "major",
+          "timestamp": "Apr <var data-var='date'>3</var>, <var data-var='time'>18:12</var> - <var data-var='time'>19:21</var> UTC"
+        },
+        {
+          "code": "z22j49ktx41d",
+          "name": "Errors on the Claude.ai desktop application",
+          "message": "This incident has been resolved.",
+          "impact": "major",
+          "timestamp": "Apr <var data-var='date'>1</var>, <var data-var='time'>22:15</var> - <var data-var='time'>22:16</var> UTC"
+        },
+        {
+          "code": "3bg93cy9bk1v",
+          "name": "Elevated errors on requests to Claude Opus 4.6",
+          "message": "This incident has been resolved.",
+          "impact": "major",
+          "timestamp": "Apr <var data-var='date'>1</var>, <var data-var='time'>09:06</var> - <var data-var='time'>10:40</var> UTC"
+        },
+        {
+          "code": "fvj2fgqrchsj",
+          "name": "Elevated timeouts on requests to Claude Opus 4.6 and Sonnet 4.6",
+          "message": "We have identified an issue which resulted in elevated rates of timeouts when making requests to Claude Opus 4.6 and Sonnet 4.6 from 17:45 UTC on March 31 through 05:52 UTC on April 1. This issue has been resolved.",
+          "impact": "major",
+          "timestamp": "Apr <var data-var='date'>1</var>, <var data-var='time'>07:01</var> - <var data-var='time'>07:01</var> UTC"
+        },
+        {
+          "code": "cbffv7jf2jck",
+          "name": "Elevated errors and latency on Claude Haiku 4.5",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "Apr <var data-var='date'>1</var>, <var data-var='time'>01:27</var> - <var data-var='time'>02:14</var> UTC"
+        }
+      ]
+    }
+  ],
+  "show_component_filter": true,
+  "show_uptime_calendar": true,
+  "component_filter": null,
+  "start_time": "2026-04-01T00:00:00Z",
+  "end_time": "2026-06-30T23:59:59Z",
+  "a11yHeadings": true
+}

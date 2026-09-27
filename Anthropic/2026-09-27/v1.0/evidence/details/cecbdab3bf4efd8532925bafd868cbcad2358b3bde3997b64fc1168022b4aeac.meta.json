@@ -1,0 +1,9 @@
+{
+  "url": "https://status.claude.com/api/v2/incidents/g65k3tpgpy25.json",
+  "final_url": "https://status.claude.com/api/v2/incidents/g65k3tpgpy25.json",
+  "status": 200,
+  "retrieved_at_utc": "2026-09-27T16:15:02.871277Z",
+  "sha256": "8fdf7aba6ce86dce7db87fa53aea3ce9d95d62bf765e8c380c0a8bdfd3fe4bde",
+  "bytes": 3631,
+  "cache_file": "raw/cecbdab3bf4efd8532925bafd868cbcad2358b3bde3997b64fc1168022b4aeac.json"
+}

@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "by_publication_year_utc": {
+    "2023": {
+      "incidents": 30,
+      "maintenance": 0
+    },
+    "2024": {
+      "incidents": 188,
+      "maintenance": 3
+    },
+    "2025": {
+      "incidents": 334,
+      "maintenance": 1
+    },
+    "2026": {
+      "incidents": 364,
+      "maintenance": 0
+    }
+  },
+  "rows": 920,
+  "unique_incidents_and_maintenance": 920,
+  "incidents": 916,
+  "maintenance": 4,
+  "unknown_time_records": 869,
+  "unknown_severity_records": 855,
+  "validation": "passed",
+  "semantic_evidence_validation": "agent_responsibility",
+  "csv_sha256": "b50a7d41560e6b95a1976bf5301980dbdc2b0466d587dba0aa05156300282416",
+  "coverage": {
+    "status": "enumerated",
+    "method": "HistoryIndex 3-month windows through pre-page-creation empty quarter plus per-ID detail API",
+    "cross_check": "All 920 History IDs matched to individual incident or maintenance objects; recent API 50 IDs subset of History. History rendered browser cross-check not performed; HTML embedded state checked.",
+    "history_unique_ids": 920,
+    "detail_count": 920,
+    "recent_list_missing_from_history": [],
+    "history_windows": 16,
+    "page_created_at": "2023-01-25T06:38:50.038Z",
+    "declared_data_available_since": null,
+    "pagination_complete": true,
+    "maintenance_api_complete": false,
+    "known_failed_path": "incidents.json?page=2 repeats page=1; not used to establish full coverage",
+    "boundary_policy": "Collected all History through before page creation; undisclosed or deleted records and pre-page incidents cannot be ruled out.",
+    "resolved_endpoint_errors": [
+      {
+        "id": "16z0qdmy3qv2",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "id": "x017628t2rl5",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "resource": "maintenance",
+        "error": "repeated page; history is alternative enumeration"
+      }
+    ],
+    "errors": [],
+    "maintenance_coverage_basis": "Complete History enumeration includes four maintenance records; two typed maintenance records additionally verified via scheduled-maintenances/{id}.json; list pagination repeats and is not coverage basis."
+  },
+  "review_counts": {
+    "assessed": 87,
+    "needs_review": 833
+  },
+  "assessed_exact_timeline_count": 16,
+  "reference_unknown_time_count": 121,
+  "reference_timing_counts": {
+    "explicit_impact": 29,
+    "announcement_proxy": 30,
+    "official_component_interval": 4038
+  },
+  "checks": {
+    "BOM": true,
+    "column_count": 48,
+    "history_ids_equal_snapshot_ids": true
+  }
+}

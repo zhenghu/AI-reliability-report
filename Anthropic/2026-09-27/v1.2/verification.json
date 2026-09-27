@@ -1,0 +1,54 @@
+{
+  "validation": "passed",
+  "csv_structure": {
+    "schema_version": 1,
+    "by_publication_year_utc": {
+      "2023": {
+        "incidents": 30,
+        "maintenance": 0
+      },
+      "2024": {
+        "incidents": 188,
+        "maintenance": 3
+      },
+      "2025": {
+        "incidents": 334,
+        "maintenance": 1
+      },
+      "2026": {
+        "incidents": 364,
+        "maintenance": 0
+      }
+    },
+    "rows": 920,
+    "unique_incidents_and_maintenance": 920,
+    "incidents": 916,
+    "maintenance": 4,
+    "unknown_time_records": 80,
+    "unknown_severity_records": 11,
+    "validation": "passed",
+    "semantic_evidence_validation": "agent_responsibility"
+  },
+  "official_color_fallback_phase_checks": 531,
+  "original_semantic_phases_preserved": 2685,
+  "semantic_review_records": 920,
+  "pending_review_records": 0,
+  "review_scope": "Reuses full v1.1 semantic review; user-approved official color fallback validated directly against raw fields; no new timing invented",
+  "source_objects_identical_to_frozen_snapshot": 920,
+  "quotes_checked": 1618,
+  "phases_checked": 3221,
+  "independent_interval_and_ratio_checks": 762,
+  "raw_HTTP_body_hashes_checked": 944,
+  "v1_0_manifest_files_unchanged": 1935,
+  "v1_1_archive_manifest_files_checked": 56,
+  "history_contiguous_pages": 16,
+  "HTML_index_records": 920,
+  "embedded_SVG_figures": 6,
+  "local_and_anchor_links": "passed",
+  "not_measured": [
+    "Actual request-weighted success rates",
+    "Undisclosed/deleted incidents",
+    "Full bodies of inaccessible supplementary postmortems",
+    "True duration of unlocated or intermittent effects"
+  ]
+}

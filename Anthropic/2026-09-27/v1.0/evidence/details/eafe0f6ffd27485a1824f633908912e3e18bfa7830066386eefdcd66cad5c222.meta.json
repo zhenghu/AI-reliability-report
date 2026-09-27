@@ -1,0 +1,9 @@
+{
+  "url": "https://status.claude.com/api/v2/incidents/gg215bzz7rhm.json",
+  "final_url": "https://status.claude.com/api/v2/incidents/gg215bzz7rhm.json",
+  "status": 200,
+  "retrieved_at_utc": "2026-09-27T16:15:02.811262Z",
+  "sha256": "d421ce4fc1be62a6017b17dcbbd1e6da5c0dd4412b6e72a2362850b3e2a9c810",
+  "bytes": 929,
+  "cache_file": "raw/eafe0f6ffd27485a1824f633908912e3e18bfa7830066386eefdcd66cad5c222.json"
+}

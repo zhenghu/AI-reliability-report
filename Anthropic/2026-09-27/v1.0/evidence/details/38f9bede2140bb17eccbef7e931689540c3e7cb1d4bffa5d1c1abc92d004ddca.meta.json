@@ -1,0 +1,9 @@
+{
+  "url": "https://status.claude.com/api/v2/incidents/cgwwyh79gpm3.json",
+  "final_url": "https://status.claude.com/api/v2/incidents/cgwwyh79gpm3.json",
+  "status": 200,
+  "retrieved_at_utc": "2026-09-27T16:14:47.296116Z",
+  "sha256": "0f5a7dd0c1233e7f34fe0ba5b1cfd46dbb503c2e3ec0df130cd2db8c7e50ede8",
+  "bytes": 2587,
+  "cache_file": "raw/38f9bede2140bb17eccbef7e931689540c3e7cb1d4bffa5d1c1abc92d004ddca.json"
+}

@@ -1,0 +1,524 @@
+{
+  "page_status": {
+    "page": {
+      "name": "Claude",
+      "subdomain": "anthropic",
+      "domain": "status.claude.com",
+      "created_at": "2023-01-25T06:38:50.038Z",
+      "updated_at": "2026-09-27T14:59:31.887Z",
+      "url": "https://status.claude.com",
+      "hidden_from_search": false,
+      "css_body_background_color": "FAF9F5",
+      "css_font_color": "141413",
+      "css_light_font_color": "87867F",
+      "css_greens": "76AD2A",
+      "css_yellows": "FAA72A",
+      "css_oranges": "E86235",
+      "css_reds": "E04343",
+      "allow_page_subscribers": true,
+      "allow_incident_subscribers": true,
+      "notifications_from_email": null,
+      "allow_email_subscribers": true,
+      "allow_sms_subscribers": true,
+      "twitter_username": null,
+      "branding": "basic",
+      "support_url": "https://support.claude.com",
+      "allow_webhook_subscribers": true,
+      "css_border_color": "DEDCD1",
+      "css_graph_color": "2C84DB",
+      "css_link_color": "141413",
+      "page_description": null,
+      "activity_score": 2561,
+      "headline": "Claude API Status",
+      "viewers_must_be_team_members": false,
+      "ip_filters": null,
+      "css_blues": "2C84DB",
+      "time_zone": "UTC",
+      "notifications_reply_to_email": null,
+      "notifications_email_footer": "You received this email because you are subscribed to Claude's service status notifications.",
+      "allow_rss_atom_feeds": true,
+      "black_hole": null,
+      "over_allocations_cohort": null,
+      "over_allocations_resolved_at": null,
+      "custom_components_limit": null,
+      "allow_slack_subscribers": true,
+      "css_no_data": "B0AEA5",
+      "deleted_at": null,
+      "allow_teams_subscription": true,
+      "max_maintenance_automation_allowed": null,
+      "custom_email_template": false,
+      "hero_cover": {
+        "updated_at": null,
+        "original_url": "",
+        "size": null,
+        "normal_url": "",
+        "retina_url": ""
+      },
+      "transactional_logo": {
+        "updated_at": "2025-09-16T16:45:16.000+00:00",
+        "original_url": "//dka575ofm4ao0.cloudfront.net/pages-transactional_logos/original/362807/NEW_claude_status_banner-183284a4-558d-4835-b3a4-a601e0a4daa8.png",
+        "size": 47876,
+        "normal_url": "//dka575ofm4ao0.cloudfront.net/pages-transactional_logos/normal/362807/NEW_claude_status_banner-183284a4-558d-4835-b3a4-a601e0a4daa8.png",
+        "retina_url": "//dka575ofm4ao0.cloudfront.net/pages-transactional_logos/retina/362807/NEW_claude_status_banner-183284a4-558d-4835-b3a4-a601e0a4daa8.png"
+      },
+      "favicon_logo": {
+        "updated_at": "2025-09-16T16:45:21.000+00:00",
+        "size": 3534,
+        "url": "//dka575ofm4ao0.cloudfront.net/pages-favicon_logos/original/362807/NEW_spark-96-96-2225c423-f16f-42a4-b9d1-c58c10b998cb.png"
+      },
+      "email_logo": {
+        "updated_at": "2025-09-16T16:45:42.000+00:00",
+        "original_url": "//dka575ofm4ao0.cloudfront.net/pages-email_logos/original/362807/NEW_claude_status_email.png-d88779a1-c7b3-456d-b84e-1d0cdd4614e9.png",
+        "size": 50640,
+        "normal_url": "//dka575ofm4ao0.cloudfront.net/pages-email_logos/normal/362807/NEW_claude_status_email.png-d88779a1-c7b3-456d-b84e-1d0cdd4614e9.png",
+        "retina_url": "//dka575ofm4ao0.cloudfront.net/pages-email_logos/retina/362807/NEW_claude_status_email.png-d88779a1-c7b3-456d-b84e-1d0cdd4614e9.png"
+      },
+      "twitter_logo": {
+        "updated_at": null,
+        "size": null,
+        "url": ""
+      },
+      "id": "tymt9n04zgry",
+      "organization_id": "bq4z6w6cgm46"
+    }
+  },
+  "components": [
+    {
+      "status": "operational",
+      "name": "claude.ai",
+      "created_at": "2023-07-11T17:52:24.275Z",
+      "updated_at": "2026-09-22T02:11:43.697Z",
+      "position": 1,
+      "description": null,
+      "showcase": true,
+      "start_date": "2023-07-11T00:00:00.000Z",
+      "id": "rwppv331jlwc",
+      "group_id": null,
+      "page_id": "tymt9n04zgry",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "status": "operational",
+      "name": "Claude Console (platform.claude.com)",
+      "created_at": "2023-07-11T17:52:49.982Z",
+      "updated_at": "2026-09-02T01:24:22.227Z",
+      "position": 2,
+      "description": null,
+      "showcase": true,
+      "start_date": "2023-07-11T00:00:00.000Z",
+      "id": "0qbwn08sd68x",
+      "group_id": null,
+      "page_id": "tymt9n04zgry",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "status": "operational",
+      "name": "Claude API (api.anthropic.com)",
+      "created_at": "2023-07-11T17:53:10.880Z",
+      "updated_at": "2026-09-22T02:11:43.710Z",
+      "position": 3,
+      "description": null,
+      "showcase": true,
+      "start_date": "2023-07-11T00:00:00.000Z",
+      "id": "k8w3r06qmzrp",
+      "group_id": null,
+      "page_id": "tymt9n04zgry",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "status": "operational",
+      "name": "Claude Code",
+      "created_at": "2025-05-22T21:35:29.822Z",
+      "updated_at": "2026-09-22T02:11:43.723Z",
+      "position": 4,
+      "description": null,
+      "showcase": true,
+      "start_date": "2025-02-06T00:00:00.000Z",
+      "id": "yyzkbfz2thpt",
+      "group_id": null,
+      "page_id": "tymt9n04zgry",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "status": "operational",
+      "name": "Claude Cowork",
+      "created_at": "2026-04-01T17:39:47.692Z",
+      "updated_at": "2026-09-22T02:11:43.736Z",
+      "position": 5,
+      "description": null,
+      "showcase": true,
+      "start_date": "2026-04-01T00:00:00.000Z",
+      "id": "bpp5gb3hpjcl",
+      "group_id": null,
+      "page_id": "tymt9n04zgry",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "status": "operational",
+      "name": "Claude for Government",
+      "created_at": "2026-02-17T23:24:51.249Z",
+      "updated_at": "2026-06-30T14:45:50.487Z",
+      "position": 6,
+      "description": null,
+      "showcase": true,
+      "start_date": "2026-02-17T00:00:00.000Z",
+      "id": "0scnb50nvy53",
+      "group_id": null,
+      "page_id": "tymt9n04zgry",
+      "group": false,
+      "only_show_if_degraded": false
+    }
+  ],
+  "months": [
+    {
+      "name": "June",
+      "year": 2024,
+      "starts_on": 6,
+      "days": 30,
+      "incidents": [
+        {
+          "code": "8p49xrt1lmzy",
+          "name": "Claude.ai iOS logins unavailable",
+          "message": "This incident has been resolved.",
+          "impact": "none",
+          "timestamp": "Jun <var data-var='date'>28</var>, <var data-var='time'>15:45</var> - <var data-var='time'>17:20</var> UTC"
+        },
+        {
+          "code": "k0pfr0kyyzjb",
+          "name": "Increase error rates on Opus",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "Jun <var data-var='date'>24</var>, <var data-var='time'>07:06</var> - <var data-var='time'>07:53</var> UTC"
+        },
+        {
+          "code": "vc4jcltdwzg8",
+          "name": "Claude.ai and Console Outage",
+          "message": "This incident has been resolved.",
+          "impact": "critical",
+          "timestamp": "Jun <var data-var='date'>21</var>, <var data-var='time'>14:52</var> - <var data-var='time'>16:08</var> UTC"
+        },
+        {
+          "code": "dpy9ymcrmltg",
+          "name": "Degraded claude-3-5-sonnet latency",
+          "message": "This incident has been resolved. There was a latency degradation of all models, specially claude-3-5-sonnet, from 2:30am UTC until 10:30am UTC.",
+          "impact": "minor",
+          "timestamp": "Jun <var data-var='date'>21</var>, <var data-var='time'>14:16</var> - <var data-var='time'>14:38</var> UTC"
+        },
+        {
+          "code": "t39s5hjpbs9v",
+          "name": "Elevated error rates in Claude.ai and Console",
+          "message": "This incident has been resolved.",
+          "impact": "none",
+          "timestamp": "Jun <var data-var='date'>21</var>, <var data-var='time'>11:09</var> - <var data-var='time'>11:56</var> UTC"
+        },
+        {
+          "code": "jryzc0zn3k8c",
+          "name": "Degraded performance on Haiku and Sonnet",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "Jun <var data-var='date'>21</var>, <var data-var='time'>08:19</var> - <var data-var='time'>09:34</var> UTC"
+        },
+        {
+          "code": "6y3n60jm23w1",
+          "name": "Elevated errors on Console billing UI",
+          "message": "This incident has been resolved.",
+          "impact": "none",
+          "timestamp": "Jun <var data-var='date'>20</var>, <var data-var='time'>23:47</var> - Jun <var data-var='date'>21</var>, <var data-var='time'>05:08</var> UTC"
+        },
+        {
+          "code": "ttsdth94gxz9",
+          "name": "Elevated error rates in the API",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "Jun <var data-var='date'>21</var>, <var data-var='time'>02:02</var> - <var data-var='time'>03:30</var> UTC"
+        },
+        {
+          "code": "r8dfsq0893sn",
+          "name": "Partial disruption for text attachments",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "Jun <var data-var='date'>18</var>, <var data-var='time'>20:14</var> - <var data-var='time'>20:19</var> UTC"
+        },
+        {
+          "code": "2vfzrjrysfqy",
+          "name": "Elevated errors on Haiku",
+          "message": "This incident has been resolved.",
+          "impact": "major",
+          "timestamp": "Jun <var data-var='date'>13</var>, <var data-var='time'>17:16</var> - <var data-var='time'>17:31</var> UTC"
+        },
+        {
+          "code": "dh75z61fyv1n",
+          "name": "Elevated error rates on Claude 3 Haiku",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "Jun <var data-var='date'>12</var>, <var data-var='time'>02:40</var> - <var data-var='time'>03:36</var> UTC"
+        },
+        {
+          "code": "ysbg73gy3ctm",
+          "name": "Opus in Vertex Complete Outage",
+          "message": "Opus in Vertex was completely unreachable from 1:58pm PT until 8:26pm PT",
+          "impact": "major",
+          "timestamp": "Jun <var data-var='date'>4</var>, <var data-var='time'>21:00</var> - <var data-var='time'>21:00</var> UTC"
+        },
+        {
+          "code": "gm6vlw4gc377",
+          "name": "Partial Outage on claude.ai and console.anthropic.com",
+          "message": "This incident has been resolved.",
+          "impact": "major",
+          "timestamp": "Jun <var data-var='date'>4</var>, <var data-var='time'>14:53</var> - <var data-var='time'>16:45</var> UTC"
+        },
+        {
+          "code": "q44nvw2pmhpt",
+          "name": "Haiku Partial Outage",
+          "message": "This incident has been resolved.",
+          "impact": "major",
+          "timestamp": "Jun <var data-var='date'>3</var>, <var data-var='time'>16:58</var> - <var data-var='time'>17:15</var> UTC"
+        },
+        {
+          "code": "95hjzp5m60n8",
+          "name": "Elevated error rate on Claude 3 Opus",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "Jun <var data-var='date'>3</var>, <var data-var='time'>14:14</var> - <var data-var='time'>15:58</var> UTC"
+        },
+        {
+          "code": "vyw1vz0h6c1x",
+          "name": "Images Cropped to Square",
+          "message": "Due to a bug, all user-provided images (via 1P API, Claude.AI, and Console) were cropped to square.\n\nThe issue affected all images uploaded from 5am to 9am Pacific Time",
+          "impact": "none",
+          "timestamp": "Jun <var data-var='date'>3</var>, <var data-var='time'>12:00</var> - <var data-var='time'>12:00</var> UTC"
+        }
+      ]
+    },
+    {
+      "name": "May",
+      "year": 2024,
+      "starts_on": 3,
+      "days": 31,
+      "incidents": [
+        {
+          "code": "dmqg1fbfs0wq",
+          "name": "Haiku sampling errors",
+          "message": "This incident has been resolved.",
+          "impact": "none",
+          "timestamp": "May <var data-var='date'>29</var>, <var data-var='time'>13:45</var> - <var data-var='time'>13:50</var> UTC"
+        },
+        {
+          "code": "mq3nthmx16ly",
+          "name": "Increase error rates on Opus",
+          "message": "This incident has been resolved.",
+          "impact": "none",
+          "timestamp": "May <var data-var='date'>23</var>, <var data-var='time'>13:35</var> - <var data-var='time'>14:16</var> UTC"
+        },
+        {
+          "code": "fh1r1ypgykk6",
+          "name": "Opus Partial Outage",
+          "message": "This incident has been resolved.",
+          "impact": "major",
+          "timestamp": "May <var data-var='date'>22</var>, <var data-var='time'>15:31</var> - <var data-var='time'>15:45</var> UTC"
+        },
+        {
+          "code": "h70zgz99hzxd",
+          "name": "Claude 3 Haiku Outage",
+          "message": "This incident has been resolved.",
+          "impact": "major",
+          "timestamp": "May <var data-var='date'>20</var>, <var data-var='time'>20:31</var> - <var data-var='time'>20:58</var> UTC"
+        },
+        {
+          "code": "gkbl04hwljz2",
+          "name": "Claude 3 Haiku Outage",
+          "message": "Claude 3 Haiku was partially down for 7 minutes",
+          "impact": "none",
+          "timestamp": "May <var data-var='date'>16</var>, <var data-var='time'>22:29</var> - <var data-var='time'>22:29</var> UTC"
+        },
+        {
+          "code": "m5y2l11f5qjw",
+          "name": "Claude Instant 1.2 Elevated Error Rates",
+          "message": "This incident has been resolved.",
+          "impact": "major",
+          "timestamp": "May <var data-var='date'>16</var>, <var data-var='time'>16:27</var> - <var data-var='time'>16:34</var> UTC"
+        },
+        {
+          "code": "5ycpp6c9901y",
+          "name": "Delays delivering emails",
+          "message": "As of 5pm Pacific, all new emails should be delivered as expected. Login attempts can now be retried.",
+          "impact": "minor",
+          "timestamp": "May <var data-var='date'>14</var>, <var data-var='time'>22:37</var> - May <var data-var='date'>15</var>, <var data-var='time'>00:27</var> UTC"
+        },
+        {
+          "code": "sr8swn3xvzg4",
+          "name": "Haiku Partial Outage",
+          "message": "This incident has been resolved.",
+          "impact": "major",
+          "timestamp": "May <var data-var='date'>6</var>, <var data-var='time'>18:44</var> - <var data-var='time'>18:54</var> UTC"
+        },
+        {
+          "code": "0qyp857kns2b",
+          "name": "Claude Instant 1.2 Partial Outage",
+          "message": "This incident has been resolved.",
+          "impact": "none",
+          "timestamp": "Apr <var data-var='date'>30</var>, <var data-var='time'>22:22</var> - May <var data-var='date'>1</var>, <var data-var='time'>00:54</var> UTC"
+        }
+      ]
+    },
+    {
+      "name": "April",
+      "year": 2024,
+      "starts_on": 1,
+      "days": 30,
+      "incidents": [
+        {
+          "code": "nx9mszx03jvk",
+          "name": "Opus Partially Down",
+          "message": "This incident has been resolved.",
+          "impact": "major",
+          "timestamp": "Apr <var data-var='date'>30</var>, <var data-var='time'>18:48</var> - <var data-var='time'>19:11</var> UTC"
+        },
+        {
+          "code": "ryf4wfgywsq5",
+          "name": "Opus Partial Outage",
+          "message": "This incident has been resolved.",
+          "impact": "major",
+          "timestamp": "Apr <var data-var='date'>30</var>, <var data-var='time'>15:13</var> - <var data-var='time'>15:33</var> UTC"
+        },
+        {
+          "code": "rbz4my9kg9dp",
+          "name": "Elevated Errors on Claude-2.0",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "Apr <var data-var='date'>29</var>, <var data-var='time'>06:49</var> - <var data-var='time'>07:26</var> UTC"
+        },
+        {
+          "code": "lptmw6gj0vdz",
+          "name": "Website maintenance",
+          "message": "The maintenance is completed",
+          "impact": "maintenance",
+          "timestamp": "Apr <var data-var='date'>25</var>, <var data-var='time'>05:10</var> - <var data-var='time'>05:24</var> UTC"
+        },
+        {
+          "code": "4p353c7twb1k",
+          "name": "Login and account creation partial outage",
+          "message": "Login and account creation via email address was broken on claude.ai and console.anthropic.com from 16:02-16:39 UTC.",
+          "impact": "none",
+          "timestamp": "Apr <var data-var='date'>22</var>, <var data-var='time'>16:35</var> - <var data-var='time'>16:35</var> UTC"
+        },
+        {
+          "code": "wnf493j31fyb",
+          "name": "Elevated error rate on Claude 3 Opus",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "Apr <var data-var='date'>22</var>, <var data-var='time'>02:52</var> - <var data-var='time'>04:13</var> UTC"
+        },
+        {
+          "code": "y4fmbrf3wztd",
+          "name": "Claude 3 Opus partially down",
+          "message": "We are currently investigating this issue.",
+          "impact": "none",
+          "timestamp": "Apr <var data-var='date'>21</var>, <var data-var='time'>17:30</var> - <var data-var='time'>17:30</var> UTC"
+        },
+        {
+          "code": "f8qfyzkbs439",
+          "name": "Haiku Partial Outage",
+          "message": "This incident has been resolved.",
+          "impact": "major",
+          "timestamp": "Apr <var data-var='date'>18</var>, <var data-var='time'>23:20</var> - <var data-var='time'>23:40</var> UTC"
+        },
+        {
+          "code": "3ndhz9s72dhx",
+          "name": "Haiku down again",
+          "message": "This incident has been resolved.",
+          "impact": "major",
+          "timestamp": "Apr <var data-var='date'>18</var>, <var data-var='time'>19:44</var> - <var data-var='time'>20:01</var> UTC"
+        },
+        {
+          "code": "2hr8fkgz317g",
+          "name": "Haiku outage",
+          "message": "This incident has been resolved.",
+          "impact": "major",
+          "timestamp": "Apr <var data-var='date'>18</var>, <var data-var='time'>19:09</var> - <var data-var='time'>19:26</var> UTC"
+        },
+        {
+          "code": "s33hv3bdp2s8",
+          "name": "Sonnet outage",
+          "message": "This incident has been resolved.",
+          "impact": "major",
+          "timestamp": "Apr <var data-var='date'>18</var>, <var data-var='time'>18:30</var> - <var data-var='time'>18:46</var> UTC"
+        },
+        {
+          "code": "58vcrhzjsngy",
+          "name": "Claude 2.1 partially unavailable",
+          "message": "Claude 2.1 had a partial outage where a large fraction of requests failed",
+          "impact": "none",
+          "timestamp": "Apr <var data-var='date'>18</var>, <var data-var='time'>09:00</var> - <var data-var='time'>09:00</var> UTC"
+        },
+        {
+          "code": "0dv5d8qb9gy2",
+          "name": "Outage affecting account creation and document upload",
+          "message": "Account creation on claude.ai and console.anthropic.com, document upload on claude.ai, and the usage dashboard on console.anthropic.com were down from 02:06-02:45 UTC (Feb 18).",
+          "impact": "none",
+          "timestamp": "Apr <var data-var='date'>18</var>, <var data-var='time'>02:00</var> - <var data-var='time'>02:00</var> UTC"
+        },
+        {
+          "code": "t2459rjyvh85",
+          "name": "Opus elevated error rate",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "Apr <var data-var='date'>17</var>, <var data-var='time'>16:55</var> - <var data-var='time'>17:12</var> UTC"
+        },
+        {
+          "code": "86fff0g4f2wh",
+          "name": "Degraded Performance on Claude Instant 1.1",
+          "message": "This incident has been resolved.",
+          "impact": "none",
+          "timestamp": "Apr <var data-var='date'>9</var>, <var data-var='time'>16:23</var> - <var data-var='time'>19:57</var> UTC"
+        },
+        {
+          "code": "gl42kz9j07rr",
+          "name": "High Opus Error Rates",
+          "message": "This incident has been resolved.",
+          "impact": "major",
+          "timestamp": "Apr <var data-var='date'>5</var>, <var data-var='time'>00:53</var> - <var data-var='time'>02:10</var> UTC"
+        },
+        {
+          "code": "99zylp2nfykq",
+          "name": "Opus partially down",
+          "message": "This incident has been resolved.",
+          "impact": "major",
+          "timestamp": "Apr <var data-var='date'>3</var>, <var data-var='time'>17:52</var> - <var data-var='time'>18:42</var> UTC"
+        },
+        {
+          "code": "jgqkj2cjxwml",
+          "name": "Partial outage on claude.ai and console.anthropic.com",
+          "message": "This incident has been resolved.",
+          "impact": "major",
+          "timestamp": "Apr <var data-var='date'>2</var>, <var data-var='time'>17:02</var> - <var data-var='time'>18:08</var> UTC"
+        },
+        {
+          "code": "s1zv2h77jgw4",
+          "name": "Partial login failure on claude.ai",
+          "message": "The issues have been resolved and Claude.ai logins are now working properly.",
+          "impact": "minor",
+          "timestamp": "Apr <var data-var='date'>2</var>, <var data-var='time'>16:41</var> - <var data-var='time'>16:57</var> UTC"
+        },
+        {
+          "code": "yk00k5x6jzc3",
+          "name": "Sonnet Partial Outage",
+          "message": "Claude 3 Sonnet was partially unavailable and returned 529 status codes on many requests",
+          "impact": "none",
+          "timestamp": "Apr <var data-var='date'>1</var>, <var data-var='time'>16:00</var> - <var data-var='time'>16:00</var> UTC"
+        }
+      ]
+    }
+  ],
+  "show_component_filter": true,
+  "show_uptime_calendar": true,
+  "component_filter": null,
+  "start_time": "2024-04-01T00:00:00Z",
+  "end_time": "2024-06-30T23:59:59Z",
+  "a11yHeadings": true
+}

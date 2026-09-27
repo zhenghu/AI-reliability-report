@@ -1,0 +1,9 @@
+{
+  "url": "https://status.claude.com/api/v2/incidents/bh62vm741g0w.json",
+  "final_url": "https://status.claude.com/api/v2/incidents/bh62vm741g0w.json",
+  "status": 200,
+  "retrieved_at_utc": "2026-09-27T16:14:41.634549Z",
+  "sha256": "119d1028e0210d36421e57e011d2e703f554cc172ab14a6e760860a55c7fad64",
+  "bytes": 1789,
+  "cache_file": "raw/f8c65687818d723b98ade244eb3d61613a4490e5157c45460b5ae4787d1f10af.json"
+}

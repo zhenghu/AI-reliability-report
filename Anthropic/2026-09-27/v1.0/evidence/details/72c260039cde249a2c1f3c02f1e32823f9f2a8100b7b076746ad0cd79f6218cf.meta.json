@@ -1,0 +1,9 @@
+{
+  "url": "https://status.claude.com/api/v2/incidents/kmbpgrsszf72.json",
+  "final_url": "https://status.claude.com/api/v2/incidents/kmbpgrsszf72.json",
+  "status": 200,
+  "retrieved_at_utc": "2026-09-27T16:15:27.712176Z",
+  "sha256": "81e90330a1970b4fe86ee4a246619564d4a0d5af06aeeb9bb746c05845f9824e",
+  "bytes": 1417,
+  "cache_file": "raw/72c260039cde249a2c1f3c02f1e32823f9f2a8100b7b076746ad0cd79f6218cf.json"
+}

@@ -1,0 +1,258 @@
+{
+  "page_status": {
+    "page": {
+      "name": "Claude",
+      "subdomain": "anthropic",
+      "domain": "status.claude.com",
+      "created_at": "2023-01-25T06:38:50.038Z",
+      "updated_at": "2026-09-27T14:59:31.887Z",
+      "url": "https://status.claude.com",
+      "hidden_from_search": false,
+      "css_body_background_color": "FAF9F5",
+      "css_font_color": "141413",
+      "css_light_font_color": "87867F",
+      "css_greens": "76AD2A",
+      "css_yellows": "FAA72A",
+      "css_oranges": "E86235",
+      "css_reds": "E04343",
+      "allow_page_subscribers": true,
+      "allow_incident_subscribers": true,
+      "notifications_from_email": null,
+      "allow_email_subscribers": true,
+      "allow_sms_subscribers": true,
+      "twitter_username": null,
+      "branding": "basic",
+      "support_url": "https://support.claude.com",
+      "allow_webhook_subscribers": true,
+      "css_border_color": "DEDCD1",
+      "css_graph_color": "2C84DB",
+      "css_link_color": "141413",
+      "page_description": null,
+      "activity_score": 2561,
+      "headline": "Claude API Status",
+      "viewers_must_be_team_members": false,
+      "ip_filters": null,
+      "css_blues": "2C84DB",
+      "time_zone": "UTC",
+      "notifications_reply_to_email": null,
+      "notifications_email_footer": "You received this email because you are subscribed to Claude's service status notifications.",
+      "allow_rss_atom_feeds": true,
+      "black_hole": null,
+      "over_allocations_cohort": null,
+      "over_allocations_resolved_at": null,
+      "custom_components_limit": null,
+      "allow_slack_subscribers": true,
+      "css_no_data": "B0AEA5",
+      "deleted_at": null,
+      "allow_teams_subscription": true,
+      "max_maintenance_automation_allowed": null,
+      "custom_email_template": false,
+      "hero_cover": {
+        "updated_at": null,
+        "original_url": "",
+        "size": null,
+        "normal_url": "",
+        "retina_url": ""
+      },
+      "transactional_logo": {
+        "updated_at": "2025-09-16T16:45:16.000+00:00",
+        "original_url": "//dka575ofm4ao0.cloudfront.net/pages-transactional_logos/original/362807/NEW_claude_status_banner-183284a4-558d-4835-b3a4-a601e0a4daa8.png",
+        "size": 47876,
+        "normal_url": "//dka575ofm4ao0.cloudfront.net/pages-transactional_logos/normal/362807/NEW_claude_status_banner-183284a4-558d-4835-b3a4-a601e0a4daa8.png",
+        "retina_url": "//dka575ofm4ao0.cloudfront.net/pages-transactional_logos/retina/362807/NEW_claude_status_banner-183284a4-558d-4835-b3a4-a601e0a4daa8.png"
+      },
+      "favicon_logo": {
+        "updated_at": "2025-09-16T16:45:21.000+00:00",
+        "size": 3534,
+        "url": "//dka575ofm4ao0.cloudfront.net/pages-favicon_logos/original/362807/NEW_spark-96-96-2225c423-f16f-42a4-b9d1-c58c10b998cb.png"
+      },
+      "email_logo": {
+        "updated_at": "2025-09-16T16:45:42.000+00:00",
+        "original_url": "//dka575ofm4ao0.cloudfront.net/pages-email_logos/original/362807/NEW_claude_status_email.png-d88779a1-c7b3-456d-b84e-1d0cdd4614e9.png",
+        "size": 50640,
+        "normal_url": "//dka575ofm4ao0.cloudfront.net/pages-email_logos/normal/362807/NEW_claude_status_email.png-d88779a1-c7b3-456d-b84e-1d0cdd4614e9.png",
+        "retina_url": "//dka575ofm4ao0.cloudfront.net/pages-email_logos/retina/362807/NEW_claude_status_email.png-d88779a1-c7b3-456d-b84e-1d0cdd4614e9.png"
+      },
+      "twitter_logo": {
+        "updated_at": null,
+        "size": null,
+        "url": ""
+      },
+      "id": "tymt9n04zgry",
+      "organization_id": "bq4z6w6cgm46"
+    }
+  },
+  "components": [
+    {
+      "status": "operational",
+      "name": "claude.ai",
+      "created_at": "2023-07-11T17:52:24.275Z",
+      "updated_at": "2026-09-22T02:11:43.697Z",
+      "position": 1,
+      "description": null,
+      "showcase": true,
+      "start_date": "2023-07-11T00:00:00.000Z",
+      "id": "rwppv331jlwc",
+      "group_id": null,
+      "page_id": "tymt9n04zgry",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "status": "operational",
+      "name": "Claude Console (platform.claude.com)",
+      "created_at": "2023-07-11T17:52:49.982Z",
+      "updated_at": "2026-09-02T01:24:22.227Z",
+      "position": 2,
+      "description": null,
+      "showcase": true,
+      "start_date": "2023-07-11T00:00:00.000Z",
+      "id": "0qbwn08sd68x",
+      "group_id": null,
+      "page_id": "tymt9n04zgry",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "status": "operational",
+      "name": "Claude API (api.anthropic.com)",
+      "created_at": "2023-07-11T17:53:10.880Z",
+      "updated_at": "2026-09-22T02:11:43.710Z",
+      "position": 3,
+      "description": null,
+      "showcase": true,
+      "start_date": "2023-07-11T00:00:00.000Z",
+      "id": "k8w3r06qmzrp",
+      "group_id": null,
+      "page_id": "tymt9n04zgry",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "status": "operational",
+      "name": "Claude Code",
+      "created_at": "2025-05-22T21:35:29.822Z",
+      "updated_at": "2026-09-22T02:11:43.723Z",
+      "position": 4,
+      "description": null,
+      "showcase": true,
+      "start_date": "2025-02-06T00:00:00.000Z",
+      "id": "yyzkbfz2thpt",
+      "group_id": null,
+      "page_id": "tymt9n04zgry",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "status": "operational",
+      "name": "Claude Cowork",
+      "created_at": "2026-04-01T17:39:47.692Z",
+      "updated_at": "2026-09-22T02:11:43.736Z",
+      "position": 5,
+      "description": null,
+      "showcase": true,
+      "start_date": "2026-04-01T00:00:00.000Z",
+      "id": "bpp5gb3hpjcl",
+      "group_id": null,
+      "page_id": "tymt9n04zgry",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "status": "operational",
+      "name": "Claude for Government",
+      "created_at": "2026-02-17T23:24:51.249Z",
+      "updated_at": "2026-06-30T14:45:50.487Z",
+      "position": 6,
+      "description": null,
+      "showcase": true,
+      "start_date": "2026-02-17T00:00:00.000Z",
+      "id": "0scnb50nvy53",
+      "group_id": null,
+      "page_id": "tymt9n04zgry",
+      "group": false,
+      "only_show_if_degraded": false
+    }
+  ],
+  "months": [
+    {
+      "name": "December",
+      "year": 2023,
+      "starts_on": 5,
+      "days": 31,
+      "incidents": [
+        {
+          "code": "xw2dtvb27gjf",
+          "name": "API Errors for Claude Instant",
+          "message": "This incident has been resolved.",
+          "impact": "none",
+          "timestamp": "Dec <var data-var='date'>18</var>, <var data-var='time'>16:43</var> - <var data-var='time'>17:03</var> UTC"
+        },
+        {
+          "code": "z3v941z3z11b",
+          "name": "API Outage",
+          "message": "From 3:55 PST to 4:00 PST, API requests were returning errors. This has been resolved and we are actively monitoring.",
+          "impact": "none",
+          "timestamp": "Dec <var data-var='date'>12</var>, <var data-var='time'>00:03</var> - <var data-var='time'>00:03</var> UTC"
+        }
+      ]
+    },
+    {
+      "name": "November",
+      "year": 2023,
+      "starts_on": 3,
+      "days": 30,
+      "incidents": [
+        {
+          "code": "1k1dv2q3vhb6",
+          "name": "Intermittent API errors for Claude Instant",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "Nov <var data-var='date'>30</var>, <var data-var='time'>17:18</var> - <var data-var='time'>19:01</var> UTC"
+        },
+        {
+          "code": "6hkxdyybn6dp",
+          "name": "Elevated error rate while accessing claude-instant models",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "Nov <var data-var='date'>28</var>, <var data-var='time'>21:58</var> - <var data-var='time'>23:07</var> UTC"
+        },
+        {
+          "code": "llqq0177mckq",
+          "name": "Elevated API error rate",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "Nov <var data-var='date'>15</var>, <var data-var='time'>09:10</var> - <var data-var='time'>09:10</var> UTC"
+        }
+      ]
+    },
+    {
+      "name": "October",
+      "year": 2023,
+      "starts_on": 0,
+      "days": 31,
+      "incidents": [
+        {
+          "code": "306rf7bb75mm",
+          "name": "Elevated API error rate",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "Oct <var data-var='date'>11</var>, <var data-var='time'>18:09</var> - Oct <var data-var='date'>12</var>, <var data-var='time'>03:02</var> UTC"
+        },
+        {
+          "code": "j7ctkj41pkjp",
+          "name": "Payment Failures for Pro Subscriptions",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "Oct <var data-var='date'>2</var>, <var data-var='time'>19:32</var> - <var data-var='time'>23:15</var> UTC"
+        }
+      ]
+    }
+  ],
+  "show_component_filter": true,
+  "show_uptime_calendar": true,
+  "component_filter": null,
+  "start_time": "2023-10-01T00:00:00Z",
+  "end_time": "2023-12-31T23:59:59Z",
+  "a11yHeadings": true
+}

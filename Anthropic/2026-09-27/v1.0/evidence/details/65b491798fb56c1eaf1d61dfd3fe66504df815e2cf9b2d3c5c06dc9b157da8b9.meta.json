@@ -1,0 +1,9 @@
+{
+  "url": "https://status.claude.com/api/v2/incidents/grxm3346ch8b.json",
+  "final_url": "https://status.claude.com/api/v2/incidents/grxm3346ch8b.json",
+  "status": 200,
+  "retrieved_at_utc": "2026-09-27T16:15:10.062283Z",
+  "sha256": "aee3a439a86f7725d862d2e12a488666ab0ebfa9c10fcd01c53e3c8cc9f7920d",
+  "bytes": 5185,
+  "cache_file": "raw/65b491798fb56c1eaf1d61dfd3fe66504df815e2cf9b2d3c5c06dc9b157da8b9.json"
+}

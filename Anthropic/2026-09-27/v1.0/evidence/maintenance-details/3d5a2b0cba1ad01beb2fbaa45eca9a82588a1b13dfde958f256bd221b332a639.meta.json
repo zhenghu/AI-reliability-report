@@ -1,0 +1,9 @@
+{
+  "url": "https://status.claude.com/api/v2/scheduled-maintenances/16z0qdmy3qv2.json",
+  "final_url": "https://status.claude.com/api/v2/scheduled-maintenances/16z0qdmy3qv2.json",
+  "status": 200,
+  "retrieved_at_utc": "2026-09-27T16:15:03.982218Z",
+  "sha256": "f020c56828d7db12ff8f007e4b9b28d0eb50956ea670988ac1c6977b36a6e3af",
+  "bytes": 3474,
+  "cache_file": "raw/3d5a2b0cba1ad01beb2fbaa45eca9a82588a1b13dfde958f256bd221b332a639.json"
+}

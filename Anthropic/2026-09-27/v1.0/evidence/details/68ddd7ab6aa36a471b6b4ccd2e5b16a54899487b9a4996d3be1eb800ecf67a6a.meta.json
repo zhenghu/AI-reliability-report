@@ -1,0 +1,9 @@
+{
+  "url": "https://status.claude.com/api/v2/incidents/dpy9ymcrmltg.json",
+  "final_url": "https://status.claude.com/api/v2/incidents/dpy9ymcrmltg.json",
+  "status": 200,
+  "retrieved_at_utc": "2026-09-27T16:14:53.652465Z",
+  "sha256": "ffe98f69df1bfce4f3a7ca343f884de0fd14d72ea10e253be118320fe4f8fefb",
+  "bytes": 3610,
+  "cache_file": "raw/68ddd7ab6aa36a471b6b4ccd2e5b16a54899487b9a4996d3be1eb800ecf67a6a.json"
+}

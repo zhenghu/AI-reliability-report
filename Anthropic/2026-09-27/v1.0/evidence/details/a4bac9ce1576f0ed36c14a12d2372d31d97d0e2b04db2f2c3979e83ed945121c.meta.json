@@ -1,0 +1,9 @@
+{
+  "url": "https://status.claude.com/api/v2/incidents/nchdhw4rmpd2.json",
+  "final_url": "https://status.claude.com/api/v2/incidents/nchdhw4rmpd2.json",
+  "status": 200,
+  "retrieved_at_utc": "2026-09-27T16:15:44.666554Z",
+  "sha256": "cdab4cb716ad3b26ca3e2e38252243511f1ea528881e854cd4fc926ebe21f963",
+  "bytes": 1994,
+  "cache_file": "raw/a4bac9ce1576f0ed36c14a12d2372d31d97d0e2b04db2f2c3979e83ed945121c.json"
+}

@@ -1,0 +1,9 @@
+{
+  "url": "https://status.claude.com/api/v2/incidents/41395mspl1rf.json",
+  "final_url": "https://status.claude.com/api/v2/incidents/41395mspl1rf.json",
+  "status": 200,
+  "retrieved_at_utc": "2026-09-27T16:13:58.362556Z",
+  "sha256": "b584049904f58ed74583ddd17603c696b9abf050cbce1021cf493af7ff972454",
+  "bytes": 4399,
+  "cache_file": "raw/c3433811c80a32cd8bdd4891e3a5601bc167ed94c85ed3c2979b002a8bb6cb99.json"
+}

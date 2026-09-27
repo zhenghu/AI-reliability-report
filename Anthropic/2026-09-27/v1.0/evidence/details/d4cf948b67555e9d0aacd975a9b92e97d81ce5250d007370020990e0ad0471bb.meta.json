@@ -1,0 +1,9 @@
+{
+  "url": "https://status.claude.com/api/v2/incidents/m5glt80lf5v5.json",
+  "final_url": "https://status.claude.com/api/v2/incidents/m5glt80lf5v5.json",
+  "status": 200,
+  "retrieved_at_utc": "2026-09-27T16:15:37.848080Z",
+  "sha256": "2a64ac03c44d86fe4f3c26887887074b58f4e85624e3f1ee165a2327350f84b8",
+  "bytes": 2276,
+  "cache_file": "raw/d4cf948b67555e9d0aacd975a9b92e97d81ce5250d007370020990e0ad0471bb.json"
+}

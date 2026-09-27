@@ -1,0 +1,9 @@
+{
+  "url": "https://status.claude.com/api/v2/incidents/gtj167mtk9pg.json",
+  "final_url": "https://status.claude.com/api/v2/incidents/gtj167mtk9pg.json",
+  "status": 200,
+  "retrieved_at_utc": "2026-09-27T16:15:10.611598Z",
+  "sha256": "8f9c5003352e79ca928283b9668874cdef9bc37ab150153669e8667f68bd5295",
+  "bytes": 4016,
+  "cache_file": "raw/e8dd0b539fa5e1bb0ff1853fa920142eafdd30510e9d3674713109c0e935814e.json"
+}

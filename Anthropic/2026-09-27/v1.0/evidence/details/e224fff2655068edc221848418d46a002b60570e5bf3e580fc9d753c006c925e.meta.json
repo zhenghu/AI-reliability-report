@@ -1,0 +1,9 @@
+{
+  "url": "https://status.claude.com/api/v2/incidents/mq3nthmx16ly.json",
+  "final_url": "https://status.claude.com/api/v2/incidents/mq3nthmx16ly.json",
+  "status": 200,
+  "retrieved_at_utc": "2026-09-27T16:15:41.613423Z",
+  "sha256": "2b43b6bbd93b15dbc0d1ed87e2eb361b59a6157240588a045431a34ccd76fb2c",
+  "bytes": 1755,
+  "cache_file": "raw/e224fff2655068edc221848418d46a002b60570e5bf3e580fc9d753c006c925e.json"
+}

@@ -1,0 +1,9 @@
+{
+  "url": "https://status.claude.com/api/v2/incidents/rypj3860pyv0.json",
+  "final_url": "https://status.claude.com/api/v2/incidents/rypj3860pyv0.json",
+  "status": 200,
+  "retrieved_at_utc": "2026-09-27T16:16:03.840882Z",
+  "sha256": "72d256a17e6723ef5409b3da06d01d999fcd9924a3d402ad221d26d208544037",
+  "bytes": 2276,
+  "cache_file": "raw/e095f1a6155e61450e4668e44bdde4f1ec05943248310b38c64e3e0e2794b819.json"
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "by_publication_year_utc": {
+    "2023": {
+      "incidents": 30,
+      "maintenance": 0
+    },
+    "2024": {
+      "incidents": 188,
+      "maintenance": 3
+    },
+    "2025": {
+      "incidents": 334,
+      "maintenance": 1
+    },
+    "2026": {
+      "incidents": 364,
+      "maintenance": 0
+    }
+  },
+  "rows": 920,
+  "unique_incidents_and_maintenance": 920,
+  "incidents": 916,
+  "maintenance": 4,
+  "unknown_time_records": 80,
+  "unknown_severity_records": 11,
+  "validation": "passed",
+  "semantic_evidence_validation": "agent_responsibility",
+  "sha256": "4aa72387190eaa3be98fb337ad886312d2f6aff8b7bb6b366309169612b3e0a9",
+  "review_counts": {
+    "assessed": 920
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "url": "https://status.claude.com/api/v2/incidents/cns634h0tfmv.json",
+  "final_url": "https://status.claude.com/api/v2/incidents/cns634h0tfmv.json",
+  "status": 200,
+  "retrieved_at_utc": "2026-09-27T16:14:49.392187Z",
+  "sha256": "0c10d0b5e35a3828ee4d0a32be8c5ed102650b29ae107243e7ef23a70da4b653",
+  "bytes": 4934,
+  "cache_file": "raw/74dd5e4abc89fa9f88963d7ef7c70a52878229ebaf87ab1303b5c1a0ce847340.json"
+}

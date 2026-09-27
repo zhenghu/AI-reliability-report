@@ -1,0 +1,9 @@
+{
+  "url": "https://status.claude.com/api/v2/incidents/grnfqny54ntc.json",
+  "final_url": "https://status.claude.com/api/v2/incidents/grnfqny54ntc.json",
+  "status": 200,
+  "retrieved_at_utc": "2026-09-27T16:15:09.621314Z",
+  "sha256": "cbfdc2be9c28d281992b0f45627c38db4e5d99966b6744a67b6813bf3410d98b",
+  "bytes": 5628,
+  "cache_file": "raw/33f5ee9e4dc9ae5c2aedabc9884a57d153125d75888397bc0fa24c1b69119c4a.json"
+}

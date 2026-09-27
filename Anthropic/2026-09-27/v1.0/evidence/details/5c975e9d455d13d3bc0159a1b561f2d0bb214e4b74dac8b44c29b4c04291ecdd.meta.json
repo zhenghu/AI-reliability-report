@@ -1,0 +1,9 @@
+{
+  "url": "https://status.claude.com/api/v2/incidents/w604spz451n2.json",
+  "final_url": "https://status.claude.com/api/v2/incidents/w604spz451n2.json",
+  "status": 200,
+  "retrieved_at_utc": "2026-09-27T16:16:28.547921Z",
+  "sha256": "1862e3d07203ef0df97c0d09d5f6b107d21535a97e5e1289f09d4fe269c158f9",
+  "bytes": 2349,
+  "cache_file": "raw/5c975e9d455d13d3bc0159a1b561f2d0bb214e4b74dac8b44c29b4c04291ecdd.json"
+}

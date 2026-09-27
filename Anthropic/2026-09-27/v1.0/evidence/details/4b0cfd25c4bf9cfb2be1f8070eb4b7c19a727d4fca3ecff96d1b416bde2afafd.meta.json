@@ -1,0 +1,9 @@
+{
+  "url": "https://status.claude.com/api/v2/incidents/vjfp60ngq2zj.json",
+  "final_url": "https://status.claude.com/api/v2/incidents/vjfp60ngq2zj.json",
+  "status": 200,
+  "retrieved_at_utc": "2026-09-27T16:16:24.298739Z",
+  "sha256": "59c135c2c5121ccf657e2d1b521d43d5f7ab761e0af4c515fcfe9869c93d6e21",
+  "bytes": 3948,
+  "cache_file": "raw/4b0cfd25c4bf9cfb2be1f8070eb4b7c19a727d4fca3ecff96d1b416bde2afafd.json"
+}

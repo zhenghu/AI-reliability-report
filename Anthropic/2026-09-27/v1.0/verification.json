@@ -1,0 +1,45 @@
+{
+  "validation": "passed",
+  "csv_structure": {
+    "schema_version": 1,
+    "by_publication_year_utc": {
+      "2023": {
+        "incidents": 30,
+        "maintenance": 0
+      },
+      "2024": {
+        "incidents": 188,
+        "maintenance": 3
+      },
+      "2025": {
+        "incidents": 334,
+        "maintenance": 1
+      },
+      "2026": {
+        "incidents": 364,
+        "maintenance": 0
+      }
+    },
+    "rows": 920,
+    "unique_incidents_and_maintenance": 920,
+    "incidents": 916,
+    "maintenance": 4,
+    "unknown_time_records": 869,
+    "unknown_severity_records": 855,
+    "validation": "passed",
+    "semantic_evidence_validation": "agent_responsibility"
+  },
+  "raw_HTTP_body_hashes_checked": 944,
+  "evidence_quotes_checked": 734,
+  "independent_interval_and_ratio_checks": 138,
+  "history_pages_contiguous": 16,
+  "HTML_index_records": 920,
+  "HTML_local_and_anchor_links": "passed",
+  "semantic_completeness": "NOT complete; report explicitly discloses pending records",
+  "not_verified": [
+    "All event semantics and historical component assignment",
+    "Actual request-weighted uptime",
+    "Vendor undisclosed outages",
+    "Extra linked postmortem full HTTP body (403)"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "by_publication_year_utc": {
+    "2023": {
+      "incidents": 30,
+      "maintenance": 0
+    },
+    "2024": {
+      "incidents": 188,
+      "maintenance": 3
+    },
+    "2025": {
+      "incidents": 334,
+      "maintenance": 1
+    },
+    "2026": {
+      "incidents": 364,
+      "maintenance": 0
+    }
+  },
+  "rows": 920,
+  "unique_incidents_and_maintenance": 920,
+  "incidents": 916,
+  "maintenance": 4,
+  "unknown_time_records": 869,
+  "unknown_severity_records": 855,
+  "validation": "passed",
+  "semantic_evidence_validation": "agent_responsibility",
+  "csv_sha256": "b50a7d41560e6b95a1976bf5301980dbdc2b0466d587dba0aa05156300282416",
+  "coverage": {
+    "status": "enumerated",
+    "method": "HistoryIndex 3-month windows through pre-page-creation empty quarter plus per-ID detail API",
+    "cross_check": "All 920 History IDs matched to individual incident or maintenance objects; recent API 50 IDs subset of History. History rendered browser cross-check not performed; HTML embedded state checked.",
+    "history_unique_ids": 920,
+    "detail_count": 920,
+    "recent_list_missing_from_history": [],
+    "history_windows": 16,
+    "page_created_at": "2023-01-25T06:38:50.038Z",
+    "declared_data_available_since": null,
+    "pagination_complete": true,
+    "maintenance_api_complete": false,
+    "known_failed_path": "incidents.json?page=2 repeats page=1; not used to establish full coverage",
+    "boundary_policy": "Collected all History through before page creation; undisclosed or deleted records and pre-page incidents cannot be ruled out.",
+    "resolved_endpoint_errors": [
+      {
+        "id": "16z0qdmy3qv2",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "id": "x017628t2rl5",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "resource": "maintenance",
+        "error": "repeated page; history is alternative enumeration"
+      }
+    ],
+    "errors": [],
+    "maintenance_coverage_basis": "Complete History enumeration includes four maintenance records; two typed maintenance records additionally verified via scheduled-maintenances/{id}.json; list pagination repeats and is not coverage basis."
+  },
+  "review_counts": {
+    "assessed": 87,
+    "needs_review": 833
+  },
+  "assessed_exact_timeline_count": 16,
+  "reference_unknown_time_count": 121,
+  "reference_timing_counts": {
+    "explicit_impact": 29,
+    "announcement_proxy": 30,
+    "official_component_interval": 4038
+  },
+  "checks": {
+    "BOM": true,
+    "column_count": 48,
+    "history_ids_equal_snapshot_ids": true
+  }
+}
+ANNUAL [{"year": 2026, "group": "Overall", "window_start": "2026-01-01T00:00:00Z", "window_end": "2026-09-27T16:10:43Z", "denominator_seconds": 23299843.0, "incident_count": 340, "unknown_time_count": 7, "full_hours": 15.998815555555558, "full_partial_hours": 976.6418899999999, "all_hours": 1254.5094177777776, "availability_full": 0.9975280633436028, "availability_full_partial": 0.8491015238171348, "availability_all": 0.8061689126403127, "count_basis": "published_at_utc", "metric_scope": "any_observed_core_component", "estimate": true, "series": "official_state_reference_with_focused_corrections", "exclude_intentional_suspension": false}, {"year": 2026, "group": "Claude.ai", "window_start": "2026-01-01T00:00:00Z", "window_end": "2026-09-27T16:10:43Z", "denominator_seconds": 23299843.0, "incident_count": 300, "unknown_time_count": 6, "full_hours": 15.998815555555558, "full_partial_hours": 849.2763019444441, "all_hours": 1083.183255833333, "availability_full": 0.9975280633436028, "availability_full_partial": 0.8687804597224111, "availability_all": 0.8326400859868455, "count_basis": "published_at_utc", "metric_scope": "any_observed_core_component", "estimate": true, "series": "official_state_reference_with_focused_corrections", "exclude_intentional_suspension": false}, {"year": 2026, "group": "API", "window_start": "2026-01-01T00:00:00Z", "window_end": "2026-09-27T16:10:43Z", "denominator_seconds": 23299843.0, "incident_count": 252, "unknown_time_count": 4, "full_hours": 13.282928333333334, "full_partial_hours": 718.1404541666667, "all_hours": 907.7131866666667, "availability_full": 0.9979476882312039, "availability_full_partial": 0.8890419289520535, "availability_all": 0.8597515239909557, "count_basis": "published_at_utc", "metric_scope": "any_observed_core_component", "estimate": true, "series": "official_state_reference_with_focused_corrections", "exclude_intentional_suspension": false}, {"year": 2026, "group": "Console", "window_start": "2026-01-01T00:00:00Z", "window_end": "2026-09-27T16:10:43Z", "denominator_seconds": 23299843.0, "incident_count": 157, "unknown_time_count": 2, "full_hours": 3.790560277777778, "full_partial_hours": 72.53355388888889, "all_hours": 205.80234555555555, "availability_full": 0.9994143300879753, "availability_full_partial": 0.9887930234551365, "availability_all": 0.9682019984426504, "count_basis": "published_at_utc", "metric_scope": "any_observed_core_component", "estimate": true, "series": "official_state_reference_with_focused_corrections", "exclude_intentional_suspension": false}, {"year": 2026, "group": "Claude Code", "window_start": "2026-01-01T00:00:00Z", "window_end": "2026-09-27T16:10:43Z", "denominator_seconds": 23299843.0, "incident_count": 270, "unknown_time_count": 5, "full_hours": 13.363995555555556, "full_partial_hours": 621.4098130555556, "all_hours": 849.781033055556, "availability_full": 0.9979351627390795, "availability_full_partial": 0.9039875364396233, "availability_all": 0.8687024749909258, "count_basis": "published_at_utc", "metric_scope": "any_observed_core_component", "estimate": true, "series": "official_state_reference_with_focused_corrections", "exclude_intentional_suspension": false}, {"year": 2026, "group": "Cowork", "window_start": "2026-04-02T00:00:00Z", "window_end": "2026-09-27T16:10:43Z", "denominator_seconds": 15437443.0, "incident_count": 149, "unknown_time_count": 2, "full_hours": 4.9959475, "full_partial_hours": 602.8899799999999, "all_hours": 687.5707377777775, "availability_full": 0.9988349488318758, "availability_full_partial": 0.8594065138896383, "availability_all": 0.8396590253968874, "count_basis": "published_at_utc", "metric_scope": "any_observed_core_component", "estimate": true, "series": "official_state_reference_with_focused_corrections", "exclude_intentional_suspension": false}, {"year": 2026, "group": "Government", "window_start": "2026-02-18T00:00:00Z", "window_end": "2026-09-27T16:10:43Z", "denominator_seconds": 19152643.0, "incident_count": 21, "unknown_time_count": 0, "full_hours": 0.6414136111111111, "full_partial_hours": 3.9409394444444446, "all_hours": 11.555501666666668, "availability_full": 0.9998794375794505, "availability_full_partial": 0.99925924677863, "availability_all": 0.9978279861426959, "count_basis": "published_at_utc", "metric_scope": "any_observed_core_component", "estimate": true, "series": "official_state_reference_with_focused_corrections", "exclude_intentional_suspension": false}]

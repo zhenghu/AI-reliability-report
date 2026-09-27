@@ -1,0 +1,9 @@
+{
+  "url": "https://status.claude.com/api/v2/incidents/pmx7385vm0z1.json",
+  "final_url": "https://status.claude.com/api/v2/incidents/pmx7385vm0z1.json",
+  "status": 200,
+  "retrieved_at_utc": "2026-09-27T16:15:50.438294Z",
+  "sha256": "097bb0e925a2025c87c7cc2c72b3841012ddfa7c6bd4ce88fcb569129ef3b70d",
+  "bytes": 2930,
+  "cache_file": "raw/5ed075b4faad66d43813d88df5d17a64b31f590008d79ae36666b9ead507db67.json"
+}

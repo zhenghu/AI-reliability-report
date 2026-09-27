@@ -1,0 +1,9 @@
+{
+  "company_id": "anthropic",
+  "company_name": "Anthropic (Claude)",
+  "status_page_url": "https://status.claude.com",
+  "cutoff_utc": "2026-09-27T16:10:43Z",
+  "run_id": "anthropic-20260927T161043Z",
+  "selection": "all available announcements before cutoff",
+  "requested_start_utc": null
+}

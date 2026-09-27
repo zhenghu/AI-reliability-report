@@ -1,0 +1,9 @@
+{
+  "url": "https://status.claude.com/api/v2/incidents/yn24rtdnf77b.json",
+  "final_url": "https://status.claude.com/api/v2/incidents/yn24rtdnf77b.json",
+  "status": 200,
+  "retrieved_at_utc": "2026-09-27T16:16:39.323670Z",
+  "sha256": "5e25262c5a3d11845b98217d0d7679409ad2aa4be94d238beda4203c3f16f31e",
+  "bytes": 2823,
+  "cache_file": "raw/6d811b40449ec73733c31fc5e898aea859a9d650931d0b716e7a920e79e509e5.json"
+}

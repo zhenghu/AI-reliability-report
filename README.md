@@ -68,6 +68,17 @@ Markdown 原稿与资料库版本按 SHA-256 核对。现存 `_github.html` 是�
 
 > 本报告的可用性基于公开事故记录、重分类和去重时间区间估计，不是官方 uptime、合同 SLA、真实请求成功率或单个用户可用率。方法、服务范围、未知区间与推断限制见报告正文。
 
+## Anthropic / Claude · 2026-09-27 · v1.2
+
+**《Claude 可用性与事故复核报告》——整体与各应用年度趋势版**
+
+- [Markdown 主报告](Anthropic/Anthropic_Claude_Availability_Report_2026-09-27_v1.2.md) · [HTML 主报告（下载后离线打开）](Anthropic/Anthropic_Claude_Availability_Report_2026-09-27_v1.2.html)
+- [版本索引与历史归档](Anthropic/README.md) · [事故 CSV](Anthropic/2026-09-27/v1.2/incidents.csv) · [验证结果](Anthropic/2026-09-27/v1.2/verification.json)
+
+快照截止 **2026-09-27 16:10:43 UTC**，包含 916 起事故、4 条维护。开篇用一张表和一张折线图汇总整体及六个应用的年度可用性；采用分析优先、官方颜色兜底，明确标注部分年度与未知证据。最新主报告位于 `Anthropic/` 根目录，旧版位于对应版本目录。
+
+本次同时归档原始公开证据、复核记录、图表及复算程序。Anthropic 使用版本目录内的独立分析和报告脚本，尚未接入上述通用配置构建管线；复算步骤见 [v1.2 说明](Anthropic/2026-09-27/v1.2/README.md)。
+
 ## 自动验证
 
 `Build reliability reports` 工作流运行测试并发现 `configs/*.json` 执行构建；也支持手动指定配置文件名。产物作为 Actions artifact 保存14天，工作流不向 `main` 写回生成文件，不定时抓取，不启用 GitHub Pages。

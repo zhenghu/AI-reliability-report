@@ -1,0 +1,9 @@
+{
+  "url": "https://status.claude.com/api/v2/incidents/tm75470v3g1b.json",
+  "final_url": "https://status.claude.com/api/v2/incidents/tm75470v3g1b.json",
+  "status": 200,
+  "retrieved_at_utc": "2026-09-27T16:16:18.749469Z",
+  "sha256": "09cc3b34a0ce3b6bb90275177fd7eb46fdc035f7d2f9d0a15b0c4e0d39dfdd13",
+  "bytes": 2272,
+  "cache_file": "raw/093cabbdb1aa072891154960f83af9be07369101956705d0de29869b23a5d45f.json"
+}

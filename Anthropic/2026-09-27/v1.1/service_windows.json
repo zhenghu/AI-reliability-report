@@ -1,0 +1,35 @@
+{
+  "company_id": "anthropic",
+  "overall_group": "Overall",
+  "service_windows": {
+    "Overall": {
+      "start": "2023-07-11T00:00:00Z",
+      "end": "2026-09-27T16:10:43Z"
+    },
+    "Claude.ai": {
+      "start": "2023-07-11T00:00:00Z",
+      "end": "2026-09-27T16:10:43Z"
+    },
+    "API": {
+      "start": "2023-07-11T00:00:00Z",
+      "end": "2026-09-27T16:10:43Z"
+    },
+    "Console": {
+      "start": "2023-07-11T00:00:00Z",
+      "end": "2026-09-27T16:10:43Z"
+    },
+    "Claude Code": {
+      "start": "2025-05-23T00:00:00Z",
+      "end": "2026-09-27T16:10:43Z"
+    },
+    "Cowork": {
+      "start": "2026-04-02T00:00:00Z",
+      "end": "2026-09-27T16:10:43Z"
+    },
+    "Government": {
+      "start": "2026-02-18T00:00:00Z",
+      "end": "2026-09-27T16:10:43Z"
+    }
+  },
+  "basis": "Core three components use official start_date; newer components use first full UTC day after created_at to avoid pre-creation backfill. Not product launch dates. Overall includes components only after their own observation start."
+}

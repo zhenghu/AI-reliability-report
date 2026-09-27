@@ -1,0 +1,9 @@
+{
+  "url": "https://status.claude.com/api/v2/incidents/xwrtmlm3tnxf.json",
+  "final_url": "https://status.claude.com/api/v2/incidents/xwrtmlm3tnxf.json",
+  "status": 200,
+  "retrieved_at_utc": "2026-09-27T16:16:35.822355Z",
+  "sha256": "de5901505711310930361756b771b174075b623338baa34ec2ee55ab9189523f",
+  "bytes": 3478,
+  "cache_file": "raw/2f16d7ec58f766e83ff8663e0b1f01bb3d28e0fc53361b36e42c6792ce971cc1.json"
+}

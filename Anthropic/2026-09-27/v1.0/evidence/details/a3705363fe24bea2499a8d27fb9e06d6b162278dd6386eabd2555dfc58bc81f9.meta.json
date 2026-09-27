@@ -1,0 +1,9 @@
+{
+  "url": "https://status.claude.com/api/v2/incidents/cpssy4797smx.json",
+  "final_url": "https://status.claude.com/api/v2/incidents/cpssy4797smx.json",
+  "status": 200,
+  "retrieved_at_utc": "2026-09-27T16:14:49.461005Z",
+  "sha256": "c0411ee26a2a0d5918cc5091b0725d8c7017df132404e0c5e6a3295d09305a0d",
+  "bytes": 935,
+  "cache_file": "raw/a3705363fe24bea2499a8d27fb9e06d6b162278dd6386eabd2555dfc58bc81f9.json"
+}

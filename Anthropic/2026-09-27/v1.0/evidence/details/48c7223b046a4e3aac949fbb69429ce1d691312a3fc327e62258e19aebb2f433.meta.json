@@ -1,0 +1,9 @@
+{
+  "url": "https://status.claude.com/api/v2/incidents/thplgp0flkgb.json",
+  "final_url": "https://status.claude.com/api/v2/incidents/thplgp0flkgb.json",
+  "status": 200,
+  "retrieved_at_utc": "2026-09-27T16:16:17.173980Z",
+  "sha256": "ee171687c341adbd76687678bff687467026e383d0a1cf025a49002b493b23a1",
+  "bytes": 2961,
+  "cache_file": "raw/48c7223b046a4e3aac949fbb69429ce1d691312a3fc327e62258e19aebb2f433.json"
+}

@@ -1,0 +1,9 @@
+{
+  "url": "https://status.claude.com/api/v2/incidents/y2dry64545ng.json",
+  "final_url": "https://status.claude.com/api/v2/incidents/y2dry64545ng.json",
+  "status": 200,
+  "retrieved_at_utc": "2026-09-27T16:16:36.926388Z",
+  "sha256": "3b5372db3e168fd41bf3772524904cfe866d4d51e9ab6da53de07934224a08f3",
+  "bytes": 3531,
+  "cache_file": "raw/46fc7feb0c08508abc019cd01664a611ab755a0c7bb2b69c28438d764889c0e5.json"
+}

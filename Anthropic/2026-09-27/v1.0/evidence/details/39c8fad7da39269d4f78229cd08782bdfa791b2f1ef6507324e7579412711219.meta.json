@@ -1,0 +1,9 @@
+{
+  "url": "https://status.claude.com/api/v2/incidents/zchm8l8spmrv.json",
+  "final_url": "https://status.claude.com/api/v2/incidents/zchm8l8spmrv.json",
+  "status": 200,
+  "retrieved_at_utc": "2026-09-27T16:16:43.214136Z",
+  "sha256": "b704a773a55b3450ac43792943d4f0ac665d71ce2bbe4a415a3a24469c24c1f9",
+  "bytes": 1002,
+  "cache_file": "raw/39c8fad7da39269d4f78229cd08782bdfa791b2f1ef6507324e7579412711219.json"
+}

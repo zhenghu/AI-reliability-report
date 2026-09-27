@@ -1,0 +1,9 @@
+{
+  "url": "https://status.claude.com/api/v2/incidents/p70ytf88h7d5.json",
+  "final_url": "https://status.claude.com/api/v2/incidents/p70ytf88h7d5.json",
+  "status": 200,
+  "retrieved_at_utc": "2026-09-27T16:15:48.003589Z",
+  "sha256": "cda2f292da3ef13a49d93ee6f3a7a272215478a5282f544c386303bf16a56b8a",
+  "bytes": 4337,
+  "cache_file": "raw/e7165e668c47561c0dea094771549644b5232e268b948ee42634c6f237db083a.json"
+}

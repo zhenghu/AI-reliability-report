@@ -1,0 +1,236 @@
+{
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1585,
+      "sha256": "6fb4fb89ddd6464a398f6ff3c93a8fbcc8dcb569849802a5dd0a435a68215907"
+    },
+    {
+      "path": "analysis.json",
+      "bytes": 3659049,
+      "sha256": "8682dd1128d7cf58b694236aee1262b85afb3c771a96baa18747cf0a148ea100"
+    },
+    {
+      "path": "annual-results.csv",
+      "bytes": 5104,
+      "sha256": "5de86d056f78c51c5e4359dfc919797205b2912b032e95155cc0572d59f8f7ea"
+    },
+    {
+      "path": "assessed-intervals.json",
+      "bytes": 2079482,
+      "sha256": "a8084a7dfd1b7b08c7a9f9da70f9bdc22793b45bf09467ffca2ddb3d5a96f93e"
+    },
+    {
+      "path": "figures/01_same_period_counts.csv",
+      "bytes": 66,
+      "sha256": "a74be72fea3d712e68c7a5dd9d28a4fdd0c511fa15001c59cbdf43028a01bc71"
+    },
+    {
+      "path": "figures/01_same_period_counts.pdf",
+      "bytes": 2603,
+      "sha256": "d780cdfcaff4f07bd76d9899aa97a9674b23a9b4e0dbaf54a7a17faa3ac07c1a"
+    },
+    {
+      "path": "figures/01_same_period_counts.png",
+      "bytes": 64539,
+      "sha256": "c6dd38925cf6a843fdd9cacbf8ac54ad7ada219d1ba7debc3ee58530f5cfd3d8"
+    },
+    {
+      "path": "figures/01_same_period_counts.svg",
+      "bytes": 7150,
+      "sha256": "1b0376266857a8c5417cd1a6d20e4481ed6db5d4f7e7f3eca5f59d8c44da633d"
+    },
+    {
+      "path": "figures/02_annual_availability.csv",
+      "bytes": 1527,
+      "sha256": "3cc252dfea82687d87d07c1edfd88661f87c2970106c7e125da0df66f1941f20"
+    },
+    {
+      "path": "figures/02_annual_availability.pdf",
+      "bytes": 4759,
+      "sha256": "3dd1e3d62765069c7a22c0a0479f49e44b38cd579d297f20920152574762d46b"
+    },
+    {
+      "path": "figures/02_annual_availability.png",
+      "bytes": 184503,
+      "sha256": "cd3a227724fbf6e84d41c7364cae3ed1ce45b3f4f23ac1b3f7407fddcdd4cf3d"
+    },
+    {
+      "path": "figures/02_annual_availability.svg",
+      "bytes": 11901,
+      "sha256": "a4bf41a53f5cd9c577e119cff2f7bb9aceacdcc598c2b73a9c263a47c8a46784"
+    },
+    {
+      "path": "figures/03_product_availability.csv",
+      "bytes": 334,
+      "sha256": "24fb9b7cda5a171c07fc14e0aa57545767fa941baf44def9f33030157bbf57ab"
+    },
+    {
+      "path": "figures/03_product_availability.pdf",
+      "bytes": 3609,
+      "sha256": "ae7eeda80f94da373602bb74e516df60f82005e77785e4ff73bb713031add97b"
+    },
+    {
+      "path": "figures/03_product_availability.png",
+      "bytes": 94684,
+      "sha256": "acb8ae13ce4a1a863dae1bda1ec8d4232a7f2043e1534005339c9d92d75f7d54"
+    },
+    {
+      "path": "figures/03_product_availability.svg",
+      "bytes": 18520,
+      "sha256": "be0092d23bbb4525ecf19a80a68559d85e881798b45682ca6f8c4d9f6c4f2a14"
+    },
+    {
+      "path": "figures/04_sensitivity.csv",
+      "bytes": 269,
+      "sha256": "59c3f9a596b4a6c1b5a0882acdbd7983b952080ff5ab3d9bb3ab4e6f89a93c76"
+    },
+    {
+      "path": "figures/04_sensitivity.pdf",
+      "bytes": 3114,
+      "sha256": "b5e75f7a2389193cf7ba6896ffab97f35a00b5e51b74f763bcf2f7639f7a323b"
+    },
+    {
+      "path": "figures/04_sensitivity.png",
+      "bytes": 88550,
+      "sha256": "4192a45c6b2f3994fc893e514d28c929ef0e90cd9f401bdc8cc75a57a1c511e1"
+    },
+    {
+      "path": "figures/04_sensitivity.svg",
+      "bytes": 13229,
+      "sha256": "7346e385aa0cd663fb0d2e6aeae70f9c649263185d13c4fe617b22646d3c6cb1"
+    },
+    {
+      "path": "figures/05_monthly_availability.csv",
+      "bytes": 1907,
+      "sha256": "ccef70134aa4e892cd10028a92bdb8679a358c743e562cafc531491ad0baa607"
+    },
+    {
+      "path": "figures/05_monthly_availability.pdf",
+      "bytes": 4243,
+      "sha256": "fae4b9d2af90891eda2c14f0c333ed9d4cf8bff716747a8a438a86012716f789"
+    },
+    {
+      "path": "figures/05_monthly_availability.png",
+      "bytes": 117406,
+      "sha256": "9ca00830ab3ff19b150297f6d0e475bf3e4bcf97f263dcb4c3dab3e7a5fa766e"
+    },
+    {
+      "path": "figures/05_monthly_availability.svg",
+      "bytes": 22225,
+      "sha256": "1d8995f98e279b0a1d5d90368ce5256ffc2b9739d408d98b9af20fda1f792063"
+    },
+    {
+      "path": "figures/06_reviewed_grades.csv",
+      "bytes": 85,
+      "sha256": "3d6e77d4d68fb82c1d5beef13f5cfc764b97ef07b69f8b68377914a94ed20273"
+    },
+    {
+      "path": "figures/06_reviewed_grades.pdf",
+      "bytes": 2698,
+      "sha256": "deb2cb255c38546a14030b46b8ce9ad9ac293099c6109fba68ec8e0db9a79d28"
+    },
+    {
+      "path": "figures/06_reviewed_grades.png",
+      "bytes": 67806,
+      "sha256": "11efed2da51986637f4434f22c1bdf02aaa8827fe5e5256bac1f83dceeb2676b"
+    },
+    {
+      "path": "figures/06_reviewed_grades.svg",
+      "bytes": 8247,
+      "sha256": "e54d9858d4a47f5ad81c08a843d53057c88fce28a68148794aa33a7d69d6cfab"
+    },
+    {
+      "path": "incidents.csv",
+      "bytes": 14131521,
+      "sha256": "4aa72387190eaa3be98fb337ad886312d2f6aff8b7bb6b366309169612b3e0a9"
+    },
+    {
+      "path": "incidents.validation.json",
+      "bytes": 704,
+      "sha256": "51accd58199b0879087ca7f7b25326f0088e34e5cf083c56ff3af715e2a0aa68"
+    },
+    {
+      "path": "matched-window-results.csv",
+      "bytes": 3213,
+      "sha256": "b7efc5658048662ec4bfdaf93a45771ce002a7bb3660a909bacb6d544fb26dfc"
+    },
+    {
+      "path": "monthly-results.csv",
+      "bytes": 42933,
+      "sha256": "9c2d5f3de5b4eccaa4236371dd72f8451cc389e7eddc36659e33a3c64bee8e8d"
+    },
+    {
+      "path": "sensitivity-2026.csv",
+      "bytes": 9028,
+      "sha256": "f716c9c531374aa285a758412c88a5c1fb77ecbc9d93e13f9582ed716b815fe3"
+    },
+    {
+      "path": "service_windows.json",
+      "bytes": 1030,
+      "sha256": "02621a5705bafc9c10d76297d1dd00c75ebcb9af940b8d58e2dc742cc44c392b"
+    },
+    {
+      "path": "summary-data.json",
+      "bytes": 25755,
+      "sha256": "f390a82516c2c5317f58f2ce04d71581f4ff43cfab84e99b19e73b66ba2f3981"
+    },
+    {
+      "path": "tools/analyze.py",
+      "bytes": 17890,
+      "sha256": "e3c41acd36657531cef5859222a720168566281cde541292cbfe71a93565d8e8"
+    },
+    {
+      "path": "tools/build_report.py",
+      "bytes": 29994,
+      "sha256": "cee38b431dc99dd644ccf09ae3f1847f87aa0c6ffd41093a5a70a273c8e79153"
+    },
+    {
+      "path": "tools/charts.py",
+      "bytes": 9596,
+      "sha256": "9ab0813cda2dbb47dc27438819e7a0a8e7e6db5cc21d81819d8581ae20a05341"
+    },
+    {
+      "path": "tools/fallback_list.py",
+      "bytes": 2501,
+      "sha256": "858eb6598e7681f655fd3965095e19d7810fefc4ddbf561b34ab38f49b305a0b"
+    },
+    {
+      "path": "tools/verify.py",
+      "bytes": 11298,
+      "sha256": "6621fdc2ecfeb5e72a764a43579688ff03765c66f3f1bac0009a07260de0b96a"
+    },
+    {
+      "path": "trend_data.json",
+      "bytes": 155967,
+      "sha256": "c9618f8378131ec3ea0f14585688734e66efa3812545669244840638bfccac12"
+    },
+    {
+      "path": "verification.json",
+      "bytes": 1630,
+      "sha256": "4afcea268202132395d968bdcad484b5cd05df72cc52f4c4a0753d2b022bf57f"
+    },
+    {
+      "path": "事故等级定义.md",
+      "bytes": 3638,
+      "sha256": "0055d40fedfc6becb7abec548607435bcd5ef0468957dfbb610699804096cd48"
+    },
+    {
+      "path": "官方颜色兜底调整明细.md",
+      "bytes": 21022,
+      "sha256": "9b6a187c4496628d3d98d87df45e19a7a91bce4f4eb0ac693327b058c90a64a6"
+    },
+    {
+      "path": "../../Anthropic_Claude_Availability_Report_2026-09-27_v1.2.html",
+      "bytes": 4357601,
+      "sha256": "b86173ed75367a8cf180d15856bd391de9e34a305824b6e77d0a04a75aeaadcb"
+    },
+    {
+      "path": "../../Anthropic_Claude_Availability_Report_2026-09-27_v1.2.md",
+      "bytes": 35698,
+      "sha256": "c955252fb5d550eb96d4f83329ec490cdf2d808a169c060381da19563091354b"
+    }
+  ],
+  "frozen_input_snapshot_sha256": "8640df4db07717aa32f4d26b6c913c95bca43f455ea24af74f05bb3b10786969",
+  "cutoff_utc": "2026-09-27T16:10:43Z"
+}

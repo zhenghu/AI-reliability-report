@@ -1,0 +1,9 @@
+{
+  "url": "https://status.claude.com/api/v2/incidents/spntkr42n4w3.json",
+  "final_url": "https://status.claude.com/api/v2/incidents/spntkr42n4w3.json",
+  "status": 200,
+  "retrieved_at_utc": "2026-09-27T16:16:10.544949Z",
+  "sha256": "4ae2e3551b54d04ba437e391d760d8669ad7a006bdfd3b36ae8d795f62872ab1",
+  "bytes": 6067,
+  "cache_file": "raw/f65b2fff3f5a27a7c042099459f58a0816f24c7895ad6cf8f8003fd3a74b2ea3.json"
+}

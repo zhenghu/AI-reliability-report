@@ -1,0 +1,9 @@
+{
+  "url": "https://status.claude.com/api/v2/incidents/svk9pskgp576.json",
+  "final_url": "https://status.claude.com/api/v2/incidents/svk9pskgp576.json",
+  "status": 200,
+  "retrieved_at_utc": "2026-09-27T16:16:11.665082Z",
+  "sha256": "752b7ba88b505771e5f051f0703b6bd0cc3bf6a3edf6d216d52343fb42a9b2b3",
+  "bytes": 2293,
+  "cache_file": "raw/0eedb74eeca641657bd4647d08a1270d519021796df182351fdc182447d87276.json"
+}

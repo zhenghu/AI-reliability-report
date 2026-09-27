@@ -1,0 +1,9 @@
+{
+  "url": "https://status.claude.com/api/v2/incidents/lgt2850shqzv.json",
+  "final_url": "https://status.claude.com/api/v2/incidents/lgt2850shqzv.json",
+  "status": 200,
+  "retrieved_at_utc": "2026-09-27T16:15:32.349258Z",
+  "sha256": "99c4b10f6330b622dfa4fd5452bc76062e77da570fab5205d2c8918e241a270a",
+  "bytes": 2682,
+  "cache_file": "raw/c996c671fd1453b310d7e5636e2d01237d63a39b40cdad1fc598fc72cb429dd7.json"
+}

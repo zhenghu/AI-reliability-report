@@ -1,0 +1,9 @@
+{
+  "url": "https://status.claude.com/api/v2/incidents/72htcpnbt13m.json",
+  "final_url": "https://status.claude.com/api/v2/incidents/72htcpnbt13m.json",
+  "status": 200,
+  "retrieved_at_utc": "2026-09-27T16:14:19.505060Z",
+  "sha256": "e6e2476f9053d0333240cf6ad104e6bfd0a3dc73926543c7314749ee4cd2a585",
+  "bytes": 2789,
+  "cache_file": "raw/f080c359ebb25809e8db6dc45b0253708788e58edaf4e06991c2a6f4273315bc.json"
+}

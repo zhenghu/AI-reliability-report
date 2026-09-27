@@ -1,0 +1,9 @@
+{
+  "url": "https://status.claude.com/api/v2/incidents/gps47bz19yxk.json",
+  "final_url": "https://status.claude.com/api/v2/incidents/gps47bz19yxk.json",
+  "status": 200,
+  "retrieved_at_utc": "2026-09-27T16:15:08.810669Z",
+  "sha256": "176fb05070b4ad9f9bc24ebd381da456a10d2e447c9a81c22289b2ead5dadfff",
+  "bytes": 3025,
+  "cache_file": "raw/640540662c8167fc91c881e662714bf81292732592e1278ab84c4e0ab0bef050.json"
+}

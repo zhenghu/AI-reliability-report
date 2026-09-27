@@ -1,0 +1,9 @@
+{
+  "url": "https://status.claude.com/api/v2/incidents/jlty46kc6750.json",
+  "final_url": "https://status.claude.com/api/v2/incidents/jlty46kc6750.json",
+  "status": 200,
+  "retrieved_at_utc": "2026-09-27T16:15:22.266470Z",
+  "sha256": "0f2ecbc571f39d0e4816e6f58b21e75927cf1efbd4680a6626672cccac4665fc",
+  "bytes": 1778,
+  "cache_file": "raw/1d47eb58f9ac54626ad634d152559f60726499d46e3ce9636bb396ebf74de080.json"
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "url": "https://www.anthropic.com/engineering/a-postmortem-of-three-recent-issues",
+    "retrieval": "web tool rendered text read in this session; later direct HTTP body request returned 403 and was stopped",
+    "quote": "three infrastructure bugs intermittently degraded Claude's response quality",
+    "analysis": "公开复盘说明上下文路由、输出损坏和采样计算导致质量退化；日期粒度不足以定位每个阶段的 UTC 秒级窗口。",
+    "full_http_body_saved": false,
+    "excerpt_utf8_sha256": "7601d57bd8375f6c8fa65a241a48f00e30dc25a24816f1abb4bf8f436079a2a1",
+    "hash_object": "retained excerpt UTF-8 bytes, NOT raw HTTP bytes"
+  },
+  {
+    "url": "https://www.anthropic.com/news/fable-mythos-access",
+    "retrieval": "web tool rendered text; retained excerpt only",
+    "quote": "Access to all other Anthropic models will not be affected.",
+    "analysis": "说明主动暂停仅限所指定模型，不可提升为全部 Claude 服务 Full。",
+    "full_http_body_saved": false,
+    "excerpt_utf8_sha256": "c4c3ac6230a69c06cdfa5f3d58bece1d6e2278de9e10c2a06c7bf46c49733628",
+    "hash_object": "retained excerpt UTF-8 bytes, NOT raw HTTP bytes"
+  },
+  {
+    "url": "https://www.anthropic.com/news/redeploying-fable-5",
+    "retrieval": "web tool rendered text; retained excerpt only",
+    "quote": "Access to Claude Fable 5 and Mythos 5 is now restored.",
+    "analysis": "官方页面有 7 月 1 日更新；不能据日期陈述为所有平台捏造相同恢复秒数。",
+    "full_http_body_saved": false,
+    "excerpt_utf8_sha256": "b0ec64d5648d529d87cc5df26cf0876e4c5575b13832aae18472b85728122d83",
+    "hash_object": "retained excerpt UTF-8 bytes, NOT raw HTTP bytes"
+  }
+]

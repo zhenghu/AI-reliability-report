@@ -1,0 +1,9 @@
+{
+  "url": "https://status.claude.com/api/v2/incidents/h04m7sftmtk5.json",
+  "final_url": "https://status.claude.com/api/v2/incidents/h04m7sftmtk5.json",
+  "status": 200,
+  "retrieved_at_utc": "2026-09-27T16:15:12.205770Z",
+  "sha256": "869d051ccee6184f77c5054b6bf4ce38a8865cddf4b7adcecc0a4349e756680f",
+  "bytes": 5187,
+  "cache_file": "raw/18991e285271bf0e8e18f92da9075493ff34bcb7f1179f4440a983213726f1c6.json"
+}

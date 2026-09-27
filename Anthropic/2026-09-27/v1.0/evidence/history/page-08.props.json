@@ -1,0 +1,629 @@
+{
+  "page_status": {
+    "page": {
+      "name": "Claude",
+      "subdomain": "anthropic",
+      "domain": "status.claude.com",
+      "created_at": "2023-01-25T06:38:50.038Z",
+      "updated_at": "2026-09-27T14:59:31.887Z",
+      "url": "https://status.claude.com",
+      "hidden_from_search": false,
+      "css_body_background_color": "FAF9F5",
+      "css_font_color": "141413",
+      "css_light_font_color": "87867F",
+      "css_greens": "76AD2A",
+      "css_yellows": "FAA72A",
+      "css_oranges": "E86235",
+      "css_reds": "E04343",
+      "allow_page_subscribers": true,
+      "allow_incident_subscribers": true,
+      "notifications_from_email": null,
+      "allow_email_subscribers": true,
+      "allow_sms_subscribers": true,
+      "twitter_username": null,
+      "branding": "basic",
+      "support_url": "https://support.claude.com",
+      "allow_webhook_subscribers": true,
+      "css_border_color": "DEDCD1",
+      "css_graph_color": "2C84DB",
+      "css_link_color": "141413",
+      "page_description": null,
+      "activity_score": 2561,
+      "headline": "Claude API Status",
+      "viewers_must_be_team_members": false,
+      "ip_filters": null,
+      "css_blues": "2C84DB",
+      "time_zone": "UTC",
+      "notifications_reply_to_email": null,
+      "notifications_email_footer": "You received this email because you are subscribed to Claude's service status notifications.",
+      "allow_rss_atom_feeds": true,
+      "black_hole": null,
+      "over_allocations_cohort": null,
+      "over_allocations_resolved_at": null,
+      "custom_components_limit": null,
+      "allow_slack_subscribers": true,
+      "css_no_data": "B0AEA5",
+      "deleted_at": null,
+      "allow_teams_subscription": true,
+      "max_maintenance_automation_allowed": null,
+      "custom_email_template": false,
+      "hero_cover": {
+        "updated_at": null,
+        "original_url": "",
+        "size": null,
+        "normal_url": "",
+        "retina_url": ""
+      },
+      "transactional_logo": {
+        "updated_at": "2025-09-16T16:45:16.000+00:00",
+        "original_url": "//dka575ofm4ao0.cloudfront.net/pages-transactional_logos/original/362807/NEW_claude_status_banner-183284a4-558d-4835-b3a4-a601e0a4daa8.png",
+        "size": 47876,
+        "normal_url": "//dka575ofm4ao0.cloudfront.net/pages-transactional_logos/normal/362807/NEW_claude_status_banner-183284a4-558d-4835-b3a4-a601e0a4daa8.png",
+        "retina_url": "//dka575ofm4ao0.cloudfront.net/pages-transactional_logos/retina/362807/NEW_claude_status_banner-183284a4-558d-4835-b3a4-a601e0a4daa8.png"
+      },
+      "favicon_logo": {
+        "updated_at": "2025-09-16T16:45:21.000+00:00",
+        "size": 3534,
+        "url": "//dka575ofm4ao0.cloudfront.net/pages-favicon_logos/original/362807/NEW_spark-96-96-2225c423-f16f-42a4-b9d1-c58c10b998cb.png"
+      },
+      "email_logo": {
+        "updated_at": "2025-09-16T16:45:42.000+00:00",
+        "original_url": "//dka575ofm4ao0.cloudfront.net/pages-email_logos/original/362807/NEW_claude_status_email.png-d88779a1-c7b3-456d-b84e-1d0cdd4614e9.png",
+        "size": 50640,
+        "normal_url": "//dka575ofm4ao0.cloudfront.net/pages-email_logos/normal/362807/NEW_claude_status_email.png-d88779a1-c7b3-456d-b84e-1d0cdd4614e9.png",
+        "retina_url": "//dka575ofm4ao0.cloudfront.net/pages-email_logos/retina/362807/NEW_claude_status_email.png-d88779a1-c7b3-456d-b84e-1d0cdd4614e9.png"
+      },
+      "twitter_logo": {
+        "updated_at": null,
+        "size": null,
+        "url": ""
+      },
+      "id": "tymt9n04zgry",
+      "organization_id": "bq4z6w6cgm46"
+    }
+  },
+  "components": [
+    {
+      "status": "operational",
+      "name": "claude.ai",
+      "created_at": "2023-07-11T17:52:24.275Z",
+      "updated_at": "2026-09-22T02:11:43.697Z",
+      "position": 1,
+      "description": null,
+      "showcase": true,
+      "start_date": "2023-07-11T00:00:00.000Z",
+      "id": "rwppv331jlwc",
+      "group_id": null,
+      "page_id": "tymt9n04zgry",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "status": "operational",
+      "name": "Claude Console (platform.claude.com)",
+      "created_at": "2023-07-11T17:52:49.982Z",
+      "updated_at": "2026-09-02T01:24:22.227Z",
+      "position": 2,
+      "description": null,
+      "showcase": true,
+      "start_date": "2023-07-11T00:00:00.000Z",
+      "id": "0qbwn08sd68x",
+      "group_id": null,
+      "page_id": "tymt9n04zgry",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "status": "operational",
+      "name": "Claude API (api.anthropic.com)",
+      "created_at": "2023-07-11T17:53:10.880Z",
+      "updated_at": "2026-09-22T02:11:43.710Z",
+      "position": 3,
+      "description": null,
+      "showcase": true,
+      "start_date": "2023-07-11T00:00:00.000Z",
+      "id": "k8w3r06qmzrp",
+      "group_id": null,
+      "page_id": "tymt9n04zgry",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "status": "operational",
+      "name": "Claude Code",
+      "created_at": "2025-05-22T21:35:29.822Z",
+      "updated_at": "2026-09-22T02:11:43.723Z",
+      "position": 4,
+      "description": null,
+      "showcase": true,
+      "start_date": "2025-02-06T00:00:00.000Z",
+      "id": "yyzkbfz2thpt",
+      "group_id": null,
+      "page_id": "tymt9n04zgry",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "status": "operational",
+      "name": "Claude Cowork",
+      "created_at": "2026-04-01T17:39:47.692Z",
+      "updated_at": "2026-09-22T02:11:43.736Z",
+      "position": 5,
+      "description": null,
+      "showcase": true,
+      "start_date": "2026-04-01T00:00:00.000Z",
+      "id": "bpp5gb3hpjcl",
+      "group_id": null,
+      "page_id": "tymt9n04zgry",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "status": "operational",
+      "name": "Claude for Government",
+      "created_at": "2026-02-17T23:24:51.249Z",
+      "updated_at": "2026-06-30T14:45:50.487Z",
+      "position": 6,
+      "description": null,
+      "showcase": true,
+      "start_date": "2026-02-17T00:00:00.000Z",
+      "id": "0scnb50nvy53",
+      "group_id": null,
+      "page_id": "tymt9n04zgry",
+      "group": false,
+      "only_show_if_degraded": false
+    }
+  ],
+  "months": [
+    {
+      "name": "December",
+      "year": 2024,
+      "starts_on": 0,
+      "days": 31,
+      "incidents": [
+        {
+          "code": "gskh67r0t1d0",
+          "name": "Elevated error rate on Claude 3 Opus",
+          "message": "This incident has been resolved.",
+          "impact": "major",
+          "timestamp": "Dec <var data-var='date'>30</var>, <var data-var='time'>03:02</var> - <var data-var='time'>03:44</var> UTC"
+        },
+        {
+          "code": "4tmfb76h9mpz",
+          "name": "Elevated errors for requests to Claude 3.0 Opus and Claude 3.5 Sonnet",
+          "message": "This incident has been resolved.",
+          "impact": "major",
+          "timestamp": "Dec <var data-var='date'>20</var>, <var data-var='time'>14:24</var> - <var data-var='time'>18:00</var> UTC"
+        },
+        {
+          "code": "mzyhcbn140fg",
+          "name": "Unauthorized post from @AnthropicAI X.com account",
+          "message": "We have identified and addressed the root cause of unauthorized posts on @AnthropicAI, our official X account. No Anthropic systems or services were affected in this incident.",
+          "impact": "none",
+          "timestamp": "Dec <var data-var='date'>17</var>, <var data-var='time'>16:04</var> - <var data-var='time'>21:16</var> UTC"
+        },
+        {
+          "code": "16z0qdmy3qv2",
+          "name": "[Scheduled] Scheduled maintenance for Claude.ai and Anthropic Console",
+          "message": "The scheduled maintenance has been completed.",
+          "impact": "maintenance",
+          "timestamp": "Dec <var data-var='date'>15</var>, <var data-var='time'>01:00</var> - <var data-var='time'>01:26</var> UTC"
+        },
+        {
+          "code": "vz3gjb2k455l",
+          "name": "Claude 3 Opus experience degraded",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "Dec <var data-var='date'>14</var>, <var data-var='time'>21:21</var> - <var data-var='time'>23:04</var> UTC"
+        },
+        {
+          "code": "441srscwpqfm",
+          "name": "Elevated errors for requests to Claude 3.5 Sonnet",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "Dec <var data-var='date'>14</var>, <var data-var='time'>01:05</var> - <var data-var='time'>01:32</var> UTC"
+        },
+        {
+          "code": "nh9j7wwgn40f",
+          "name": "Elevated errors on the Anthropic API",
+          "message": "From 20:04–20:10 UTC, requests to the Anthropic API experienced elevated errors. This issue is now resolved.",
+          "impact": "none",
+          "timestamp": "Dec <var data-var='date'>13</var>, <var data-var='time'>21:58</var> - <var data-var='time'>21:58</var> UTC"
+        },
+        {
+          "code": "s9yk4l23th4d",
+          "name": "Elevated error rates and latency on requests to the Anthropic API",
+          "message": "This incident has been resolved.",
+          "impact": "major",
+          "timestamp": "Dec <var data-var='date'>12</var>, <var data-var='time'>02:38</var> - Dec <var data-var='date'>13</var>, <var data-var='time'>17:29</var> UTC"
+        },
+        {
+          "code": "vyh6hw9q7glg",
+          "name": "Claude.ai and Console experiencing increased latency and intermittent unavailability",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "Dec <var data-var='date'>3</var>, <var data-var='time'>19:08</var> - Dec <var data-var='date'>4</var>, <var data-var='time'>00:06</var> UTC"
+        },
+        {
+          "code": "lq1wnj3bp7sc",
+          "name": "Elevated errors for request to Anthropic API",
+          "message": "This incident has been resolved and a fix was deployed to mitigate 500 errors that were arising from API requests containing images.",
+          "impact": "none",
+          "timestamp": "Dec <var data-var='date'>2</var>, <var data-var='time'>02:42</var> - <var data-var='time'>08:22</var> UTC"
+        },
+        {
+          "code": "b3zd1rqxycty",
+          "name": "Elevated errors for requests to Anthropic API",
+          "message": "This incident has been resolved and we are observing fewer 529 errors.",
+          "impact": "none",
+          "timestamp": "Dec <var data-var='date'>1</var>, <var data-var='time'>06:51</var> - Dec <var data-var='date'>2</var>, <var data-var='time'>02:30</var> UTC"
+        }
+      ]
+    },
+    {
+      "name": "November",
+      "year": 2024,
+      "starts_on": 5,
+      "days": 30,
+      "incidents": [
+        {
+          "code": "ff02srsfxr0d",
+          "name": "Elevated errors for requests to Anthropic API",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "Nov <var data-var='date'>28</var>, <var data-var='time'>20:02</var> - Nov <var data-var='date'>29</var>, <var data-var='time'>00:47</var> UTC"
+        },
+        {
+          "code": "w276phztyhp9",
+          "name": "Elevated errors for requests to Anthropic API",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "Nov <var data-var='date'>28</var>, <var data-var='time'>06:35</var> - <var data-var='time'>16:23</var> UTC"
+        },
+        {
+          "code": "zcsrfy26xq27",
+          "name": "Elevated errors for requests to Anthropic API",
+          "message": "This incident has been resolved.",
+          "impact": "major",
+          "timestamp": "Nov <var data-var='date'>27</var>, <var data-var='time'>15:29</var> - <var data-var='time'>18:57</var> UTC"
+        },
+        {
+          "code": "nwn20mzh9v1k",
+          "name": "Elevated errors for requests to Claude 3.5 Sonnet",
+          "message": "This incident has been resolved.",
+          "impact": "none",
+          "timestamp": "Nov <var data-var='date'>27</var>, <var data-var='time'>08:53</var> - <var data-var='time'>09:17</var> UTC"
+        },
+        {
+          "code": "vwxx2jj0zsj0",
+          "name": "Elevated errors on Claude 3.5 Sonnet",
+          "message": "This incident has been resolved.",
+          "impact": "major",
+          "timestamp": "Nov <var data-var='date'>26</var>, <var data-var='time'>14:17</var> - <var data-var='time'>18:12</var> UTC"
+        },
+        {
+          "code": "hqw2xgvt17tx",
+          "name": "Elevated errors on Claude 3.5 Haiku",
+          "message": "This incident has been resolved.",
+          "impact": "major",
+          "timestamp": "Nov <var data-var='date'>25</var>, <var data-var='time'>20:15</var> - <var data-var='time'>20:39</var> UTC"
+        },
+        {
+          "code": "klgjmlv6z0d2",
+          "name": "Elevated errors for requests to Claude 3.5 Sonnet",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "Nov <var data-var='date'>22</var>, <var data-var='time'>14:08</var> - <var data-var='time'>18:15</var> UTC"
+        },
+        {
+          "code": "plmm7pp994w1",
+          "name": "Elevated latency and errors on the Anthropic API",
+          "message": "This incident has been resolved.",
+          "impact": "major",
+          "timestamp": "Nov <var data-var='date'>21</var>, <var data-var='time'>02:03</var> - <var data-var='time'>05:10</var> UTC"
+        },
+        {
+          "code": "7qwmbhnk74bz",
+          "name": "Elevated error rate on anthropic.com",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "Nov <var data-var='date'>20</var>, <var data-var='time'>11:32</var> - <var data-var='time'>12:02</var> UTC"
+        },
+        {
+          "code": "qq84x115p0ly",
+          "name": "Elevated error rate on Claude 3 Haiku and Claude 3.5 Sonnet (old)",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "Nov <var data-var='date'>19</var>, <var data-var='time'>15:24</var> - <var data-var='time'>18:49</var> UTC"
+        },
+        {
+          "code": "63g2v72fv7nf",
+          "name": "Connectivity issues to api.anthropic.com via IPv6",
+          "message": "We have identified an issue causing elevated latency and connectivity issues when attempting to reach the Anthropic API via IPv6. We have temporarily disabled IPv6 support on our API while the underlying issue is resolved, and expect to re-enable IPv6 support within the next 24 hours.",
+          "impact": "none",
+          "timestamp": "Nov <var data-var='date'>18</var>, <var data-var='time'>22:15</var> - <var data-var='time'>22:15</var> UTC"
+        },
+        {
+          "code": "9jbp2mpxqkxl",
+          "name": "Newly generated API keys are unable to be used",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "Nov <var data-var='date'>16</var>, <var data-var='time'>16:30</var> - <var data-var='time'>18:18</var> UTC"
+        },
+        {
+          "code": "cm416m2m0p83",
+          "name": "Errors on Claude.ai and Console for logins and requests",
+          "message": "From 22:17–22:24 UTC, attempts to login or make requests on Claude.ai or the Anthropic Console resulted in errors. This issue has now been resolved. Requests to the API were unaffected.",
+          "impact": "critical",
+          "timestamp": "Nov <var data-var='date'>15</var>, <var data-var='time'>22:21</var> - <var data-var='time'>22:26</var> UTC"
+        },
+        {
+          "code": "7c55pwnprty2",
+          "name": "Claude.ai PDF upload issues",
+          "message": "This incident has been resolved.",
+          "impact": "major",
+          "timestamp": "Nov <var data-var='date'>14</var>, <var data-var='time'>10:18</var> - <var data-var='time'>16:58</var> UTC"
+        },
+        {
+          "code": "7svmbgb2b28x",
+          "name": "Elevated errors on the API",
+          "message": "From 04:12–04:33 UTC, requests to the Anthropic API experienced errors. This incident has been resolved.",
+          "impact": "critical",
+          "timestamp": "Nov <var data-var='date'>14</var>, <var data-var='time'>04:22</var> - <var data-var='time'>05:20</var> UTC"
+        },
+        {
+          "code": "tw3w5ddv028j",
+          "name": "Elevated error rate on Haiku, Sonnet, and Opus",
+          "message": "This incident has been resolved.",
+          "impact": "major",
+          "timestamp": "Nov <var data-var='date'>13</var>, <var data-var='time'>14:30</var> - <var data-var='time'>17:08</var> UTC"
+        },
+        {
+          "code": "m76bldqdnwbm",
+          "name": "Claude.ai and console.anthropic.com login issues",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "Nov <var data-var='date'>7</var>, <var data-var='time'>23:38</var> - Nov <var data-var='date'>8</var>, <var data-var='time'>00:06</var> UTC"
+        },
+        {
+          "code": "9x13dhrf7nxf",
+          "name": "Elevated errors for requests to Claude 3.5 Sonnet",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "Nov <var data-var='date'>7</var>, <var data-var='time'>13:39</var> - <var data-var='time'>16:14</var> UTC"
+        },
+        {
+          "code": "xy2wvb6y2rt1",
+          "name": "Delayed processing on Message Batches API",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "Nov <var data-var='date'>6</var>, <var data-var='time'>18:29</var> - Nov <var data-var='date'>7</var>, <var data-var='time'>01:27</var> UTC"
+        },
+        {
+          "code": "9106zhgcm1ds",
+          "name": "Elevated errors for requests to Claude 3.5 Sonnet",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "Nov <var data-var='date'>6</var>, <var data-var='time'>13:40</var> - <var data-var='time'>18:17</var> UTC"
+        },
+        {
+          "code": "5lbk0j79c20r",
+          "name": "Invalid responses to some prompts on Sonnet 3.5",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "Nov <var data-var='date'>5</var>, <var data-var='time'>23:47</var> - Nov <var data-var='date'>6</var>, <var data-var='time'>03:39</var> UTC"
+        },
+        {
+          "code": "hc6p15sbcx11",
+          "name": "Elevated errors for requests to Claude 3.5 Sonnet",
+          "message": "This incident has been resolved.",
+          "impact": "major",
+          "timestamp": "Nov <var data-var='date'>5</var>, <var data-var='time'>18:57</var> - <var data-var='time'>20:43</var> UTC"
+        },
+        {
+          "code": "gps47bz19yxk",
+          "name": "Elevated errors on Message Batches API",
+          "message": "This incident has been resolved.",
+          "impact": "major",
+          "timestamp": "Nov <var data-var='date'>4</var>, <var data-var='time'>03:03</var> - <var data-var='time'>23:50</var> UTC"
+        },
+        {
+          "code": "jqtqjmst3gld",
+          "name": "Elevated errors for requests to Claude 3.5 Sonnet and Claude 3 Haiku",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "Nov <var data-var='date'>4</var>, <var data-var='time'>15:19</var> - <var data-var='time'>17:39</var> UTC"
+        },
+        {
+          "code": "hbnr2ffn9b9p",
+          "name": "Elevated errors on Anthropic API",
+          "message": "This incident has been resolved.",
+          "impact": "major",
+          "timestamp": "Nov <var data-var='date'>1</var>, <var data-var='time'>20:52</var> - <var data-var='time'>22:35</var> UTC"
+        }
+      ]
+    },
+    {
+      "name": "October",
+      "year": 2024,
+      "starts_on": 2,
+      "days": 31,
+      "incidents": [
+        {
+          "code": "tlhshxr13647",
+          "name": "Billing Maintenance - Billing Delays",
+          "message": "Maintenance has been completed, functionality restored to normal",
+          "impact": "maintenance",
+          "timestamp": "Oct <var data-var='date'>31</var>, <var data-var='time'>05:31</var> - <var data-var='time'>23:46</var> UTC"
+        },
+        {
+          "code": "69qlg67hcvzf",
+          "name": "Elevated errors for requests to Claude 3.5 Sonnet",
+          "message": "This incident has been resolved.",
+          "impact": "none",
+          "timestamp": "Oct <var data-var='date'>30</var>, <var data-var='time'>12:11</var> - <var data-var='time'>18:13</var> UTC"
+        },
+        {
+          "code": "yf39k9sw8rqx",
+          "name": "Tool use errors",
+          "message": "Between 21:00 UTC on October 28 through 04:15 UTC on October 30, API calls invoking tool use intermittently failed to include all parameters, including required parameters. This issue primarily affected requests to claude-3-5-sonnet-20241022 and claude-3-haiku-20240307, and has now been resolved.",
+          "impact": "minor",
+          "timestamp": "Oct <var data-var='date'>29</var>, <var data-var='time'>16:52</var> - Oct <var data-var='date'>30</var>, <var data-var='time'>04:15</var> UTC"
+        },
+        {
+          "code": "mwl16r45ph0h",
+          "name": "Elevated errors for requests to Claude 3.5 Sonnet",
+          "message": "Success rates on Claude 3.5 Sonnet have remained at normal levels, and this incident is resolved.",
+          "impact": "minor",
+          "timestamp": "Oct <var data-var='date'>29</var>, <var data-var='time'>14:03</var> - <var data-var='time'>17:10</var> UTC"
+        },
+        {
+          "code": "s1ssnw8w5gt3",
+          "name": "Elevated errors on Claude 3.5 Sonnet",
+          "message": "This incident has been resolved, and free Claude.ai usage has been returned to 3.5 Sonnet.",
+          "impact": "major",
+          "timestamp": "Oct <var data-var='date'>29</var>, <var data-var='time'>02:26</var> - <var data-var='time'>05:15</var> UTC"
+        },
+        {
+          "code": "t6cf9660c3fh",
+          "name": "Analysis tool prevents viewing of Artifacts on Claude.ai",
+          "message": "This incident has been resolved.",
+          "impact": "major",
+          "timestamp": "Oct <var data-var='date'>29</var>, <var data-var='time'>01:49</var> - <var data-var='time'>02:56</var> UTC"
+        },
+        {
+          "code": "dvgk0n5jtt4x",
+          "name": "Claude Instant 1.2 Outage",
+          "message": "This incident has been resolved.",
+          "impact": "major",
+          "timestamp": "Oct <var data-var='date'>29</var>, <var data-var='time'>00:40</var> - <var data-var='time'>01:26</var> UTC"
+        },
+        {
+          "code": "sddrn39zm1j9",
+          "name": "Elevated error rate on Claude 3.5 Sonnet 20240620",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "Oct <var data-var='date'>28</var>, <var data-var='time'>13:37</var> - <var data-var='time'>18:09</var> UTC"
+        },
+        {
+          "code": "m4p95rky6xr2",
+          "name": "Errors logging into Claude.ai",
+          "message": "This incident has been resolved.",
+          "impact": "major",
+          "timestamp": "Oct <var data-var='date'>28</var>, <var data-var='time'>02:38</var> - <var data-var='time'>03:34</var> UTC"
+        },
+        {
+          "code": "0449yjr4gfg1",
+          "name": "Errors on requests to 3.5 Sonnet v2 on Claude for AWS Bedrock",
+          "message": "We are continuing to work on a fix for this issue, and have identified an issue additionally impacting the availability of Claude 3 Haiku in us-east-2. We will provide an update as soon as possible.",
+          "impact": "major",
+          "timestamp": "Oct <var data-var='date'>25</var>, <var data-var='time'>18:36</var> - <var data-var='time'>20:29</var> UTC"
+        },
+        {
+          "code": "7hfbq9s08kqt",
+          "name": "Elevated errors for requests to Claude 3.5 Sonnet",
+          "message": "This incident has been resolved.",
+          "impact": "major",
+          "timestamp": "Oct <var data-var='date'>25</var>, <var data-var='time'>17:50</var> - <var data-var='time'>19:38</var> UTC"
+        },
+        {
+          "code": "b28yjffskl0w",
+          "name": "Elevated error rate on 3.5 Sonnet 20240620",
+          "message": "This incident has been resolved.",
+          "impact": "major",
+          "timestamp": "Oct <var data-var='date'>25</var>, <var data-var='time'>16:00</var> - <var data-var='time'>16:11</var> UTC"
+        },
+        {
+          "code": "83x0s66mkvz6",
+          "name": "API Account Activation on Credit Purchases",
+          "message": "We have deployed a fix for this issue. Only a very small cohort of brand new users using 3DS was impacted, and were not properly activated when they first purchased credits. Those users have had their access restored, and all purchased credits have been properly applied.",
+          "impact": "minor",
+          "timestamp": "Oct <var data-var='date'>24</var>, <var data-var='time'>00:33</var> - Oct <var data-var='date'>25</var>, <var data-var='time'>04:14</var> UTC"
+        },
+        {
+          "code": "9qyxn1yxnr0z",
+          "name": "Sonnet 3.5 v2 elevated error rate on AWS Bedrock.",
+          "message": "This incident has been resolved.",
+          "impact": "major",
+          "timestamp": "Oct <var data-var='date'>24</var>, <var data-var='time'>19:40</var> - <var data-var='time'>20:31</var> UTC"
+        },
+        {
+          "code": "7gftd1ybnk3v",
+          "name": "Claude 3.5 Sonnet elevated error rate",
+          "message": "This incident has been resolved.",
+          "impact": "major",
+          "timestamp": "Oct <var data-var='date'>24</var>, <var data-var='time'>14:21</var> - <var data-var='time'>16:09</var> UTC"
+        },
+        {
+          "code": "m5glt80lf5v5",
+          "name": "Claude.ai Project Knowledge file visibility",
+          "message": "This incident has been resolved.",
+          "impact": "major",
+          "timestamp": "Oct <var data-var='date'>23</var>, <var data-var='time'>22:01</var> - <var data-var='time'>22:12</var> UTC"
+        },
+        {
+          "code": "c7zb8khbgqvm",
+          "name": "Delayed billing events for API and Console requests",
+          "message": "This incident has been resolved.",
+          "impact": "major",
+          "timestamp": "Oct <var data-var='date'>22</var>, <var data-var='time'>18:44</var> - <var data-var='time'>22:59</var> UTC"
+        },
+        {
+          "code": "j5cdq83mncqv",
+          "name": "Elevated errors for requests to the Anthropic API",
+          "message": "From 18:42–19:52, users experienced elevated rates of errors on requests to the Anthropic API. This issue has been resolved.",
+          "impact": "major",
+          "timestamp": "Oct <var data-var='date'>22</var>, <var data-var='time'>20:55</var> - <var data-var='time'>21:56</var> UTC"
+        },
+        {
+          "code": "9h8b9q9lnpfh",
+          "name": "Intermittent errors on docs.anthropic.com",
+          "message": "This incident has been resolved.",
+          "impact": "major",
+          "timestamp": "Oct <var data-var='date'>21</var>, <var data-var='time'>19:20</var> - <var data-var='time'>20:19</var> UTC"
+        },
+        {
+          "code": "wt8hdbnvl37j",
+          "name": "Elevated Sonnet 3.5 and Haiku error rate",
+          "message": "This incident has been resolved. Free Claude.ai usage has been returned to 3.5 Sonnet.",
+          "impact": "minor",
+          "timestamp": "Oct <var data-var='date'>21</var>, <var data-var='time'>13:57</var> - <var data-var='time'>18:54</var> UTC"
+        },
+        {
+          "code": "r138v2fp6l2s",
+          "name": "Elevated API errors on Claude 3.5 Sonnet",
+          "message": "From 18:07–18:42 UTC, some users experienced elevated errors on requests to Claude 3.5 Sonnet. This is now resolved.",
+          "impact": "major",
+          "timestamp": "Oct <var data-var='date'>17</var>, <var data-var='time'>18:34</var> - <var data-var='time'>18:47</var> UTC"
+        },
+        {
+          "code": "d0ckfl8wb0n0",
+          "name": "Elevated errors on Claude 3 Opus",
+          "message": "This incident has been resolved.",
+          "impact": "major",
+          "timestamp": "Oct <var data-var='date'>16</var>, <var data-var='time'>15:56</var> - <var data-var='time'>18:11</var> UTC"
+        },
+        {
+          "code": "whtx5sq6d3fg",
+          "name": "Unavailability of docs.anthropic.com",
+          "message": "This incident has been resolved.",
+          "impact": "major",
+          "timestamp": "Oct <var data-var='date'>1</var>, <var data-var='time'>18:15</var> - <var data-var='time'>18:25</var> UTC"
+        },
+        {
+          "code": "jwjmzwrmqjl9",
+          "name": "Elevated latency on some requests to Claude 3.5 Sonnet",
+          "message": "This incident has been resolved.",
+          "impact": "minor",
+          "timestamp": "Oct <var data-var='date'>1</var>, <var data-var='time'>17:36</var> - <var data-var='time'>18:12</var> UTC"
+        }
+      ]
+    }
+  ],
+  "show_component_filter": true,
+  "show_uptime_calendar": true,
+  "component_filter": null,
+  "start_time": "2024-10-01T00:00:00Z",
+  "end_time": "2024-12-31T23:59:59Z",
+  "a11yHeadings": true
+}

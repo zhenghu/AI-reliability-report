@@ -1,0 +1,9 @@
+{
+  "url": "https://status.claude.com/api/v2/incidents/vknvjsgvplr4.json",
+  "final_url": "https://status.claude.com/api/v2/incidents/vknvjsgvplr4.json",
+  "status": 200,
+  "retrieved_at_utc": "2026-09-27T16:16:24.623722Z",
+  "sha256": "31cc004508df5bdbf80fba545ade3c2143ae4c4950181e9b644ce0a105c18f71",
+  "bytes": 3741,
+  "cache_file": "raw/c548ef3f442d827b9df9568ec5d52d14a6ad2ca89a01ed40f4b03a40f39b6014.json"
+}

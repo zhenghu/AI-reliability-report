@@ -1,0 +1,9 @@
+{
+  "url": "https://status.claude.com/api/v2/incidents/mtwbm879wdqn.json",
+  "final_url": "https://status.claude.com/api/v2/incidents/mtwbm879wdqn.json",
+  "status": 200,
+  "retrieved_at_utc": "2026-09-27T16:15:42.041174Z",
+  "sha256": "19a9adfb70ac506018922edd83086565bb1e87357043066304e3dd5d90d64542",
+  "bytes": 1876,
+  "cache_file": "raw/bdca69927084bbb3e19c17e32d183a1cf0e1f4dac4fff521c88601b46585c51e.json"
+}

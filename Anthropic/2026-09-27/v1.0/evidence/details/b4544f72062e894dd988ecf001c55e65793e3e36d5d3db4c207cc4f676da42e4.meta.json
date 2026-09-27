@@ -1,0 +1,9 @@
+{
+  "url": "https://status.claude.com/api/v2/incidents/knvc7pysrw63.json",
+  "final_url": "https://status.claude.com/api/v2/incidents/knvc7pysrw63.json",
+  "status": 200,
+  "retrieved_at_utc": "2026-09-27T16:15:28.079921Z",
+  "sha256": "c56b4d8ee70421e509d654925c278c82ceaa9099e8aa418436e5b4b9c7bef0b3",
+  "bytes": 2827,
+  "cache_file": "raw/b4544f72062e894dd988ecf001c55e65793e3e36d5d3db4c207cc4f676da42e4.json"
+}

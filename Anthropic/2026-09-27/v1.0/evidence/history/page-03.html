@@ -1,0 +1,1276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- force IE browsers in compatibility mode to use their most aggressive rendering engine -->
+
+    <meta charset="utf-8">
+    <title>Claude Status - Incident History</title>
+    <meta name="description" content="Claude&#39;s Incident and Scheduled Maintenance History">
+
+    <!-- Mobile viewport optimization -->
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+
+    <!-- Time this page was rendered - http://purl.org/dc/terms/issued -->
+    <meta name="issued" content="1790525603">
+
+    <!-- Mobile IE allows us to activate ClearType technology for smoothing fonts for easy reading -->
+    <meta http-equiv="cleartype" content="on">
+
+      <!-- Atlassian Sans & Mono Fonts -->
+<link
+  rel="preconnect"
+  href="https://ds-cdn.prod-east.frontend.public.atl-paas.net" />
+<link
+  rel="preload"
+  href="https://ds-cdn.prod-east.frontend.public.atl-paas.net/assets/fonts/atlassian-sans/v3/AtlassianSans-latin.woff2"
+  as="font" type="font/woff2" crossorigin />
+<link
+  rel="preload"
+  href="https://ds-cdn.prod-east.frontend.public.atl-paas.net/assets/font-rules/v5/atlassian-fonts.css"
+  as="style" crossorigin />
+
+    <style>
+  /* Dynamic Font Stack based on Feature Flag */
+    /* Using Atlassian Sans & Mono */
+    :root {
+      --font-stack-a: "Atlassian Sans", "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+      --font-stack-b: "Atlassian Mono", "SFMono-Medium", "SF Mono", "Segoe UI Mono", "Roboto Mono", "Ubuntu Mono", Menlo, Consolas, Courier, monospace;
+    }
+</style>
+
+
+      <link rel="shortcut icon" type="image/x-icon" href="//dka575ofm4ao0.cloudfront.net/pages-favicon_logos/original/362807/NEW_spark-96-96-2225c423-f16f-42a4-b9d1-c58c10b998cb.png" />
+
+    <link rel="shortcut icon" href='//dka575ofm4ao0.cloudfront.net/pages-favicon_logos/original/362807/NEW_spark-96-96-2225c423-f16f-42a4-b9d1-c58c10b998cb.png'>
+
+    <link rel="alternate" type="application/atom+xml" href="https://status.claude.com/history.atom" title="Claude Status History - Atom Feed">
+    <link rel="alternate" type="application/rss+xml" href="https://status.claude.com/history.rss" title="Claude Status History - RSS Feed">
+
+      <!-- Canonical Link to ensure that only the custom domain is indexed when present -->
+      <link rel="canonical" href="https://status.claude.com/history">
+
+    <meta name="_globalsign-domain-verification" content="y_VzfckMy4iePo5oDJNivyYIjh8LffYa4jzUndm_bZ"/>
+
+
+    <link rel="alternate" type="application/atom+xml" title="ATOM" href="https://status.claude.com/history.atom" />
+
+    <!-- Le styles -->
+    <link rel="stylesheet" media="screen" href="https://dka575ofm4ao0.cloudfront.net/packs/0.0a745ca4388adf42edc8.css" /><link rel="stylesheet" media="screen" href="https://dka575ofm4ao0.cloudfront.net/packs/191.0a745ca4388adf42edc8.css" /><link rel="stylesheet" media="screen" href="https://dka575ofm4ao0.cloudfront.net/packs/155.0a745ca4388adf42edc8.css" />
+    <link rel="stylesheet" media="all" href="https://dka575ofm4ao0.cloudfront.net/assets/status/status_manifest-19b68a8f793ed050a7f9e78ef2d70934373d3bbdf4498869f2c2758b49fc946c.css" />
+
+    <script src="https://dka575ofm4ao0.cloudfront.net/assets/jquery-3.5.1.min-729e416557a365062a8a20f0562f18aa171da57298005d392312670c706c68de.js"></script>
+
+    <script>
+      window.pageColorData = {"blue":"#2C84DB","border":"#DEDCD1","body_background":"#FAF9F5","font":"#141413","graph":"#2C84DB","green":"#76AD2A","light_font":"#87867F","link":"#141413","orange":"#E86235","red":"#E04343","yellow":"#FAA72A","no_data":"#B0AEA5"};
+    </script>
+    <style>
+  /* BODY BACKGROUND */ /* BODY BACKGROUND */ /* BODY BACKGROUND */ /* BODY BACKGROUND */ /* BODY BACKGROUND */
+  body,
+  .layout-content.status.status-api .section .example-container .example-opener .color-secondary,
+  .grouped-items-selector,
+  .layout-content.status.status-full-history .history-nav a.current,
+  div[id^="subscribe-modal"] .modal-footer,
+  div[id^="subscribe-modal"],
+  div[id^="updates-dropdown"] .updates-dropdown-section,
+  #uptime-tooltip .tooltip-box {
+    background-color:#FAF9F5;
+  }
+
+  #uptime-tooltip .pointer-container .pointer-smaller {
+    border-bottom-color:#FAF9F5;
+  }
+
+
+
+
+  /* PRIMARY FONT COLOR */ /* PRIMARY FONT COLOR */ /* PRIMARY FONT COLOR */ /* PRIMARY FONT COLOR */
+  body.status,
+  .color-primary,
+  .color-primary:hover,
+  .layout-content.status-index .status-day .update-title.impact-none a,
+  .layout-content.status-index .status-day .update-title.impact-none a:hover,
+  .layout-content.status-index .timeframes-container .timeframe.active,
+  .layout-content.status-full-history .month .incident-container .impact-none,
+  .layout-content.status.status-index .incidents-list .incident-title.impact-none a,
+  .incident-history .impact-none,
+  .layout-content.status .grouped-items-selector.inline .grouped-item.active,
+  .layout-content.status.status-full-history .history-nav a.current,
+  .layout-content.status.status-full-history .history-nav a:not(.current):hover,
+  div[id^="subscribe-modal"] .modal-header .close,
+  .grouped-item-label,
+  #uptime-tooltip .tooltip-box .tooltip-content .related-events .related-event a.related-event-link {
+    color:#141413;
+  }
+
+  .layout-content.status.status-index .components-statuses .component-container .name {
+    color:#141413;
+    color:rgba(20,20,19,.8);
+  }
+
+
+
+
+  /* SECONDARY FONT COLOR */ /* SECONDARY FONT COLOR */ /* SECONDARY FONT COLOR */ /* SECONDARY FONT COLOR */
+  small,
+  .layout-content.status .table-row .date,
+  .color-secondary,
+  .layout-content.status .grouped-items-selector.inline .grouped-item,
+  .layout-content.status.status-full-history .history-footer .pagination a.disabled,
+  .layout-content.status.status-full-history .history-nav a,
+  #uptime-tooltip .tooltip-box .tooltip-content .related-events #related-event-header {
+    color:#87867F;
+  }
+
+
+
+
+  /* BORDER COLOR */  /* BORDER COLOR */  /* BORDER COLOR */  /* BORDER COLOR */  /* BORDER COLOR */  /* BORDER COLOR */
+  body.status .layout-content.status .border-color,
+  hr,
+  .tooltip-base,
+  .markdown-display table,
+  div[id^="subscribe-modal"],
+  #uptime-tooltip .tooltip-box {
+    border-color:#DEDCD1;
+  }
+
+  div[id^="subscribe-modal"] .modal-footer,
+  .markdown-display table td {
+    border-top-color:#DEDCD1;
+  }
+
+  .markdown-display table td + td, .markdown-display table th + th {
+    border-left-color:#DEDCD1;
+  }
+
+  div[id^="subscribe-modal"] .modal-header,
+  #uptime-tooltip .pointer-container .pointer-larger {
+    border-bottom-color:#DEDCD1;
+  }
+
+  #uptime-tooltip .tooltip-box .outage-field {
+    /*
+      Generate the background-color for the outage-field from the css_body_background_color and css_border_color.
+
+      For the default background (#ffffff) and default css_border_color (#e0e0e0), use the luminosity of the default background with a magic number to arrive at
+      the original outage-field background color (#f4f5f7). I used the formula Target Color = Color * alpha + Background * (1 - alpha) to find the magic number of ~0.08.
+
+      For darker css_body_background_color, luminosity values are lower so alpha trends toward becoming transparent (thus outage-field background becomes same as css_body_background_color).
+    */
+    background-color: rgba(222,220,209,0.3);
+
+    /*
+      outage-field border-color alpha is inverse to the luminosity of css_body_background_color.
+      That is to say, with a default white background this border is transparent, but on a black background, it's opaque css_border_color.
+    */
+    border-color: rgba(222,220,209,0.0);
+  }
+
+
+
+
+  /* CSS REDS */ /* CSS REDS */ /* CSS REDS */ /* CSS REDS */ /* CSS REDS */ /* CSS REDS */ /* CSS REDS */
+  .layout-content.status.status-index .status-day .update-title.impact-critical a,
+  .layout-content.status.status-index .status-day .update-title.impact-critical a:hover,
+  .layout-content.status.status-index .page-status.status-critical,
+  .layout-content.status.status-index .unresolved-incident.impact-critical .incident-title,
+  .flat-button.background-red {
+    background-color:#E04343;
+  }
+
+  .layout-content.status-index .components-statuses .component-container.status-red:after,
+  .layout-content.status-full-history .month .incident-container .impact-critical,
+  .layout-content.status-incident .incident-name.impact-critical,
+  .layout-content.status.status-index .incidents-list .incident-title.impact-critical a,
+  .status-red .icon-indicator,
+  .incident-history .impact-critical,
+  .components-container .component-inner-container.status-red .component-status,
+  .components-container .component-inner-container.status-red .icon-indicator {
+    color:#E04343;
+  }
+
+  .layout-content.status.status-index .unresolved-incident.impact-critical .updates {
+    border-color:#E04343;
+  }
+
+
+
+
+  /* CSS ORANGES */ /* CSS ORANGES */ /* CSS ORANGES */ /* CSS ORANGES */ /* CSS ORANGES */ /* CSS ORANGES */
+  .layout-content.status.status-index .status-day .update-title.impact-major a,
+  .layout-content.status.status-index .status-day .update-title.impact-major a:hover,
+  .layout-content.status.status-index .page-status.status-major,
+  .layout-content.status.status-index .unresolved-incident.impact-major .incident-title {
+    background-color:#E86235;
+  }
+
+  .layout-content.status-index .components-statuses .component-container.status-orange:after,
+  .layout-content.status-full-history .month .incident-container .impact-major,
+  .layout-content.status-incident .incident-name.impact-major,
+  .layout-content.status.status-index .incidents-list .incident-title.impact-major a,
+  .status-orange .icon-indicator,
+  .incident-history .impact-major,
+  .components-container .component-inner-container.status-orange .component-status,
+  .components-container .component-inner-container.status-orange .icon-indicator {
+    color:#E86235;
+  }
+
+  .layout-content.status.status-index .unresolved-incident.impact-major .updates {
+    border-color:#E86235;
+  }
+
+
+
+
+  /* CSS YELLOWS */ /* CSS YELLOWS */ /* CSS YELLOWS */ /* CSS YELLOWS */ /* CSS YELLOWS */ /* CSS YELLOWS */
+  .layout-content.status.status-index .status-day .update-title.impact-minor a,
+  .layout-content.status.status-index .status-day .update-title.impact-minor a:hover,
+  .layout-content.status.status-index .page-status.status-minor,
+  .layout-content.status.status-index .unresolved-incident.impact-minor .incident-title,
+  .layout-content.status.status-index .scheduled-incidents-container .tab {
+    background-color:#FAA72A;
+  }
+
+  .layout-content.status-index .components-statuses .component-container.status-yellow:after,
+  .layout-content.status-full-history .month .incident-container .impact-minor,
+  .layout-content.status-incident .incident-name.impact-minor,
+  .layout-content.status.status-index .incidents-list .incident-title.impact-minor a,
+  .status-yellow .icon-indicator,
+  .incident-history .impact-minor,
+  .components-container .component-inner-container.status-yellow .component-status,
+  .components-container .component-inner-container.status-yellow .icon-indicator,
+  .layout-content.status.manage-subscriptions .confirmation-infobox .fa {
+    color:#FAA72A;
+  }
+
+  .layout-content.status.status-index .unresolved-incident.impact-minor .updates,
+  .layout-content.status.status-index .scheduled-incidents-container {
+    border-color:#FAA72A;
+  }
+
+
+
+
+  /* CSS BLUES */ /* CSS BLUES */ /* CSS BLUES */ /* CSS BLUES */ /* CSS BLUES */ /* CSS BLUES */
+  .layout-content.status.status-index .status-day .update-title.impact-maintenance a,
+  .layout-content.status.status-index .status-day .update-title.impact-maintenance a:hover,
+  .layout-content.status.status-index .page-status.status-maintenance,
+  .layout-content.status.status-index .unresolved-incident.impact-maintenance .incident-title,
+  .layout-content.status.status-index .scheduled-incidents-container .tab {
+    background-color:#2C84DB;
+  }
+
+  .layout-content.status-index .components-statuses .component-container.status-blue:after,
+  .layout-content.status-full-history .month .incident-container .impact-maintenance,
+  .layout-content.status-incident .incident-name.impact-maintenance,
+  .layout-content.status.status-index .incidents-list .incident-title.impact-maintenance a,
+  .status-blue .icon-indicator,
+  .incident-history .impact-maintenance,
+  .components-container .component-inner-container.status-blue .component-status,
+  .components-container .component-inner-container.status-blue .icon-indicator {
+    color:#2C84DB;
+  }
+
+  .layout-content.status.status-index .unresolved-incident.impact-maintenance .updates,
+  .layout-content.status.status-index .scheduled-incidents-container {
+    border-color:#2C84DB;
+  }
+
+
+
+
+  /* CSS GREENS */ /* CSS GREENS */ /* CSS GREENS */ /* CSS GREENS */ /* CSS GREENS */ /* CSS GREENS */ /* CSS GREENS */
+  .layout-content.status.status-index .page-status.status-none {
+    background-color:#76AD2A;
+  }
+  .layout-content.status-index .components-statuses .component-container.status-green:after,
+  .status-green .icon-indicator,
+  .components-container .component-inner-container.status-green .component-status,
+  .components-container .component-inner-container.status-green .icon-indicator {
+    color:#76AD2A;
+  }
+
+
+
+
+  /* CSS LINK COLOR */  /* CSS LINK COLOR */  /* CSS LINK COLOR */  /* CSS LINK COLOR */  /* CSS LINK COLOR */  /* CSS LINK COLOR */
+  a,
+  a:hover,
+  .layout-content.status-index .page-footer span a:hover,
+  .layout-content.status-index .timeframes-container .timeframe:not(.active):hover,
+  .layout-content.status-incident .subheader a:hover {
+    color:#141413;
+  }
+
+  .flat-button,
+  .masthead .updates-dropdown-container .show-updates-dropdown,
+  .layout-content.status-full-history .show-filter.open  {
+    background-color:#141413;
+  }
+
+
+
+
+  /* CUSTOM COLOR OVERRIDES FOR UPTIME SHOWCASE */
+  .components-section .components-uptime-link {
+    color: #87867f;
+  }
+
+  .layout-content.status .shared-partial.uptime-90-days-wrapper .legend .legend-item {
+    color: #87867f;
+    opacity: 1;
+  }
+  .layout-content.status .shared-partial.uptime-90-days-wrapper .legend .legend-item.light {
+    color: #87867f;
+    opacity: 1;
+  }
+  .layout-content.status .shared-partial.uptime-90-days-wrapper .legend .spacer {
+    background: #87867f;
+    opacity: 1;
+  }
+</style>
+
+
+    <!-- custom css -->
+
+      <!-- polyfills -->
+        <script crossorigin="anonymous" src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.js"></script>
+
+    <!-- Le HTML5 shim -->
+    <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- injection for static -->
+
+
+    
+  </head>
+
+
+  <body class="status history status-none sp-a11y-status-focus-visibility a11y-focus-indicators">
+
+    
+<div class="layout-content status status-full-history starter">
+
+    <div class="masthead-container basic">
+
+    <div class="masthead has-logo">
+        <div class="logo-container">
+          <a href="https://status.claude.com"><img alt="Claude logo" src="//dka575ofm4ao0.cloudfront.net/pages-transactional_logos/retina/362807/NEW_claude_status_banner-183284a4-558d-4835-b3a4-a601e0a4daa8.png" /></a>
+        </div>
+
+        
+  <div class="updates-dropdown-container" data-js-hook="updates-dropdown-container">
+    <a href="#" data-js-hook="show-updates-dropdown" id="show-updates-dropdown" class="show-updates-dropdown" aria-label="Subscribe to updates" aria-expanded="false" aria-haspopup="dialog" role="button">
+      <span class="subscribe-text-full">Subscribe to Updates</span><span class="subscribe-text-short">Subscribe</span>
+    </a>
+
+<!--    Accessibility guidelines for tabs: https://www.w3.org/TR/wai-aria-practices-1.1/examples/tabs/tabs-1/tabs.html -->
+    <div class="updates-dropdown" data-js-hook="updates-dropdown" id="updates-dropdown" style="display:none" role="dialog" aria-modal="false" aria-label="Subscribe to updates">
+      <div class="updates-dropdown-nav nav-items-8" role="tablist" aria-label="Subscribe to updates">
+          <a href="#updates-dropdown-email" aria-controls="updates-dropdown-email" aria-label="Subscribe via email" role="tab" aria-selected="true" id="updates-dropdown-email-btn">
+            <span class="icon-container email">
+          </a>
+          <a href="#updates-dropdown-sms" aria-controls="updates-dropdown-sms" aria-label="Subscribe via SMS" role="tab" id="updates-dropdown-sms-btn">
+            <span class="icon-container sms">
+          </a>
+          <a href="#updates-dropdown-slack" aria-controls="updates-dropdown-slack" aria-label="Subscribe via slack" role="tab" id="updates-dropdown-slack-btn">
+            <span class="icon-container slack">
+          </a>
+          <a href="#updates-dropdown-teams" aria-controls="updates-dropdown-teams" aria-label="Subscribe via teams" role="tab" id="updates-dropdown-teams-btn">
+            <span class="icon-container teams">
+          </a>
+          <a href="#updates-dropdown-webhook" aria-controls="updates-dropdown-webhook" aria-label="Subscribe via webhook" role="tab" id="updates-dropdown-webhook-btn">
+            <span class="icon-container webhook">
+          </a>
+          <a href="#updates-dropdown-support" aria-controls="updates-dropdown-support" aria-label="Contact support" role="tab" id="updates-dropdown-support-btn">
+            <span class="icon-container support">
+          </a>
+          <a href="#updates-dropdown-atom" aria-controls="updates-dropdown-atom" aria-label="Subscribe via RSS" role="tab" id="updates-dropdown-atom-btn">
+            <span class="icon-container rss">
+          </a>
+        <button data-js-hook="updates-dropdown-close" aria-label="Close subscribe form" id="updates-dropdown-close-btn">
+          x
+        </button>
+      </div>
+      <div class="updates-dropdown-sections-container">
+          <div class="updates-dropdown-section email" id="updates-dropdown-email" style="display:none" role="tabpanel" aria-labelledby="updates-dropdown-email-btn">
+            <div class="directions">
+              Get email notifications whenever Claude <strong>creates</strong>,  <strong>updates</strong> or <strong>resolves</strong> an incident.
+            </div>
+            <form id="subscribe-form-email" action="/subscriptions/new-email" accept-charset="UTF-8" data-remote="true" method="post">
+              <input type="hidden" name="email_otp_verify_flow" id="email_otp_verify_flow" value="false" autocomplete="off" />
+                <!-- make sure not to put cookie values in here since this gets cached -->
+                <label for="email">Email address:</label>
+                <input name="email" id="email" type="text" class="full-width" data-js-hook="email-notification-field" autocomplete="email">
+                <input name="email_otp_auth_token" type='hidden' id="email-otp-token-field">
+                <div class="opt-container-section" id="email-otp-container", style="display:none" >
+                  <label for="email-otp">Enter OTP:</label>
+                  <input name="otp" id="email-otp" type="text" value="" class="prepend full-width">
+                  <p id="email-otp-timer">Resend OTP in: <span id="email-otp-countdown"></span> seconds </p>
+                  <p id="resend-email-otp">
+                    Didn't receive the OTP?
+                    <a href="#" id="resend-email-otp-btn" >Resend OTP </a>
+                  </p>
+                </div>
+                  <input type="hidden" name="captcha_error" id="captcha_error" value="false" autocomplete="off" />
+                  <input type="submit" value="Subscribe via Email" class="flat-button full-width g-recaptcha" id="subscribe-btn-email" data-disabled-text="Subscribing..." data-sitekey=6LdTS8AUAAAAAOIbCKoCAP4LQku1olYGrywPTaZz data-callback="submitNewEmailSubscriber" data-error-callback="emailSubscriberCaptchaError" >
+                  <div class="terms_and_privacy_information bottom small"><div class="privacy_policy_information small">By subscribing you agree to our <a target="_blank" rel="noopener" class="accessible-link" href="https://www.anthropic.com/privacy">Privacy Policy</a>.</div> This site is protected by reCAPTCHA and the Google <a target="_blank" rel="noopener" class="accessible-link" href="https://policies.google.com/privacy">Privacy Policy</a> and <a target="_blank" rel="noopener" class="accessible-link" data-js-hook="captcha-terms-of-service-link" href="https://policies.google.com/terms">Terms of Service</a> apply.</div>
+</form>          </div>
+
+          <div class="updates-dropdown-section phone" id="updates-dropdown-sms" style="display:none" role="tabpanel" aria-labelledby="updates-dropdown-sms-btn">
+            <div class="directions">
+                Get text message notifications whenever Claude <strong>creates</strong> or <strong>resolves</strong> an incident.
+            </div>
+            <form id="subscribe-form-sms" action="/subscriptions/new-sms" accept-charset="UTF-8" data-remote="true" method="post">
+              <input type="hidden" name="otp_verify_flow" id="otp_verify_flow" value="false" autocomplete="off" />
+              <input type="hidden" name="subscriber_code" id="subscriber_code" value="" autocomplete="off" />
+              <div class="control-group">
+                <div class="controls externalities-sms-container">
+                  <!-- make sure not to put cookie values in here since this gets cached -->
+                  <label for="phone-country">Country code:</label>
+                  <div id="phone-number-country-code" class="phone-country-wrapper"
+                      data-otp-enabled="false">
+                      <select name="phone_country" id="phone-country" data-js-hook="phone-country" class="phone-country"><option value="af" data-otp-enabled="false" >Afghanistan (+93)</option>
+<option value="al" data-otp-enabled="false" >Albania (+355)</option>
+<option value="dz" data-otp-enabled="false" >Algeria (+213)</option>
+<option value="as" data-otp-enabled="false" >American Samoa (+1)</option>
+<option value="ad" data-otp-enabled="false" >Andorra (+376)</option>
+<option value="ao" data-otp-enabled="false" >Angola (+244)</option>
+<option value="ai" data-otp-enabled="false" >Anguilla (+1)</option>
+<option value="ag" data-otp-enabled="false" >Antigua and Barbuda (+1)</option>
+<option value="ar" data-otp-enabled="false" >Argentina (+54)</option>
+<option value="am" data-otp-enabled="false" >Armenia (+374)</option>
+<option value="aw" data-otp-enabled="false" >Aruba (+297)</option>
+<option value="au" data-otp-enabled="false" >Australia/Cocos/Christmas Island (+61)</option>
+<option value="at" data-otp-enabled="false" >Austria (+43)</option>
+<option value="az" data-otp-enabled="false" >Azerbaijan (+994)</option>
+<option value="bs" data-otp-enabled="false" >Bahamas (+1)</option>
+<option value="bh" data-otp-enabled="false" >Bahrain (+973)</option>
+<option value="bd" data-otp-enabled="false" >Bangladesh (+880)</option>
+<option value="bb" data-otp-enabled="false" >Barbados (+1)</option>
+<option value="by" data-otp-enabled="false" >Belarus (+375)</option>
+<option value="be" data-otp-enabled="false" >Belgium (+32)</option>
+<option value="bz" data-otp-enabled="false" >Belize (+501)</option>
+<option value="bj" data-otp-enabled="false" >Benin (+229)</option>
+<option value="bm" data-otp-enabled="false" >Bermuda (+1)</option>
+<option value="bo" data-otp-enabled="false" >Bolivia (+591)</option>
+<option value="ba" data-otp-enabled="false" >Bosnia and Herzegovina (+387)</option>
+<option value="bw" data-otp-enabled="false" >Botswana (+267)</option>
+<option value="br" data-otp-enabled="false" >Brazil (+55)</option>
+<option value="bn" data-otp-enabled="false" >Brunei (+673)</option>
+<option value="bg" data-otp-enabled="false" >Bulgaria (+359)</option>
+<option value="bf" data-otp-enabled="false" >Burkina Faso (+226)</option>
+<option value="bi" data-otp-enabled="false" >Burundi (+257)</option>
+<option value="kh" data-otp-enabled="false" >Cambodia (+855)</option>
+<option value="cm" data-otp-enabled="false" >Cameroon (+237)</option>
+<option value="ca" data-otp-enabled="false" >Canada (+1)</option>
+<option value="cv" data-otp-enabled="false" >Cape Verde (+238)</option>
+<option value="ky" data-otp-enabled="false" >Cayman Islands (+1)</option>
+<option value="cf" data-otp-enabled="false" >Central Africa (+236)</option>
+<option value="td" data-otp-enabled="false" >Chad (+235)</option>
+<option value="cl" data-otp-enabled="false" >Chile (+56)</option>
+<option value="cn" data-otp-enabled="false" >China (+86)</option>
+<option value="co" data-otp-enabled="false" >Colombia (+57)</option>
+<option value="km" data-otp-enabled="false" >Comoros (+269)</option>
+<option value="cg" data-otp-enabled="false" >Congo (+242)</option>
+<option value="cd" data-otp-enabled="false" >Congo, Dem Rep (+243)</option>
+<option value="cr" data-otp-enabled="false" >Costa Rica (+506)</option>
+<option value="hr" data-otp-enabled="false" >Croatia (+385)</option>
+<option value="cy" data-otp-enabled="false" >Cyprus (+357)</option>
+<option value="cz" data-otp-enabled="false" >Czech Republic (+420)</option>
+<option value="dk" data-otp-enabled="false" >Denmark (+45)</option>
+<option value="dj" data-otp-enabled="false" >Djibouti (+253)</option>
+<option value="dm" data-otp-enabled="false" >Dominica (+1)</option>
+<option value="do" data-otp-enabled="false" >Dominican Republic (+1)</option>
+<option value="eg" data-otp-enabled="false" >Egypt (+20)</option>
+<option value="sv" data-otp-enabled="false" >El Salvador (+503)</option>
+<option value="gq" data-otp-enabled="false" >Equatorial Guinea (+240)</option>
+<option value="ee" data-otp-enabled="false" >Estonia (+372)</option>
+<option value="et" data-otp-enabled="false" >Ethiopia (+251)</option>
+<option value="fo" data-otp-enabled="false" >Faroe Islands (+298)</option>
+<option value="fj" data-otp-enabled="false" >Fiji (+679)</option>
+<option value="fi" data-otp-enabled="false" >Finland/Aland Islands (+358)</option>
+<option value="fr" data-otp-enabled="false" >France (+33)</option>
+<option value="gf" data-otp-enabled="false" >French Guiana (+594)</option>
+<option value="pf" data-otp-enabled="false" >French Polynesia (+689)</option>
+<option value="ga" data-otp-enabled="false" >Gabon (+241)</option>
+<option value="gm" data-otp-enabled="false" >Gambia (+220)</option>
+<option value="ge" data-otp-enabled="false" >Georgia (+995)</option>
+<option value="de" data-otp-enabled="false" >Germany (+49)</option>
+<option value="gh" data-otp-enabled="false" >Ghana (+233)</option>
+<option value="gi" data-otp-enabled="false" >Gibraltar (+350)</option>
+<option value="gr" data-otp-enabled="false" >Greece (+30)</option>
+<option value="gl" data-otp-enabled="false" >Greenland (+299)</option>
+<option value="gd" data-otp-enabled="false" >Grenada (+1)</option>
+<option value="gp" data-otp-enabled="false" >Guadeloupe (+590)</option>
+<option value="gu" data-otp-enabled="false" >Guam (+1)</option>
+<option value="gt" data-otp-enabled="false" >Guatemala (+502)</option>
+<option value="gn" data-otp-enabled="false" >Guinea (+224)</option>
+<option value="gy" data-otp-enabled="false" >Guyana (+592)</option>
+<option value="ht" data-otp-enabled="false" >Haiti (+509)</option>
+<option value="hn" data-otp-enabled="false" >Honduras (+504)</option>
+<option value="hk" data-otp-enabled="false" >Hong Kong (+852)</option>
+<option value="hu" data-otp-enabled="false" >Hungary (+36)</option>
+<option value="is" data-otp-enabled="false" >Iceland (+354)</option>
+<option value="in" data-otp-enabled="false" >India (+91)</option>
+<option value="id" data-otp-enabled="false" >Indonesia (+62)</option>
+<option value="iq" data-otp-enabled="false" >Iraq (+964)</option>
+<option value="ie" data-otp-enabled="false" >Ireland (+353)</option>
+<option value="il" data-otp-enabled="false" >Israel (+972)</option>
+<option value="it" data-otp-enabled="false" >Italy (+39)</option>
+<option value="jm" data-otp-enabled="false" >Jamaica (+1)</option>
+<option value="jp" data-otp-enabled="false" >Japan (+81)</option>
+<option value="jo" data-otp-enabled="false" >Jordan (+962)</option>
+<option value="ke" data-otp-enabled="false" >Kenya (+254)</option>
+<option value="kr" data-otp-enabled="false" >Korea, Republic of (+82)</option>
+<option value="xk" data-otp-enabled="false" >Kosovo (+383)</option>
+<option value="kw" data-otp-enabled="false" >Kuwait (+965)</option>
+<option value="kg" data-otp-enabled="false" >Kyrgyzstan (+996)</option>
+<option value="la" data-otp-enabled="false" >Laos (+856)</option>
+<option value="lv" data-otp-enabled="false" >Latvia (+371)</option>
+<option value="lb" data-otp-enabled="false" >Lebanon (+961)</option>
+<option value="ls" data-otp-enabled="false" >Lesotho (+266)</option>
+<option value="lr" data-otp-enabled="false" >Liberia (+231)</option>
+<option value="ly" data-otp-enabled="false" >Libya (+218)</option>
+<option value="li" data-otp-enabled="false" >Liechtenstein (+423)</option>
+<option value="lt" data-otp-enabled="false" >Lithuania (+370)</option>
+<option value="lu" data-otp-enabled="false" >Luxembourg (+352)</option>
+<option value="mo" data-otp-enabled="false" >Macao (+853)</option>
+<option value="mk" data-otp-enabled="false" >Macedonia (+389)</option>
+<option value="mg" data-otp-enabled="false" >Madagascar (+261)</option>
+<option value="mw" data-otp-enabled="false" >Malawi (+265)</option>
+<option value="my" data-otp-enabled="false" >Malaysia (+60)</option>
+<option value="mv" data-otp-enabled="false" >Maldives (+960)</option>
+<option value="ml" data-otp-enabled="false" >Mali (+223)</option>
+<option value="mt" data-otp-enabled="false" >Malta (+356)</option>
+<option value="mq" data-otp-enabled="false" >Martinique (+596)</option>
+<option value="mr" data-otp-enabled="false" >Mauritania (+222)</option>
+<option value="mu" data-otp-enabled="false" >Mauritius (+230)</option>
+<option value="mx" data-otp-enabled="false" >Mexico (+52)</option>
+<option value="mc" data-otp-enabled="false" >Monaco (+377)</option>
+<option value="mn" data-otp-enabled="false" >Mongolia (+976)</option>
+<option value="me" data-otp-enabled="false" >Montenegro (+382)</option>
+<option value="ms" data-otp-enabled="false" >Montserrat (+1)</option>
+<option value="ma" data-otp-enabled="false" >Morocco/Western Sahara (+212)</option>
+<option value="mz" data-otp-enabled="false" >Mozambique (+258)</option>
+<option value="na" data-otp-enabled="false" >Namibia (+264)</option>
+<option value="np" data-otp-enabled="false" >Nepal (+977)</option>
+<option value="nl" data-otp-enabled="false" >Netherlands (+31)</option>
+<option value="nz" data-otp-enabled="false" >New Zealand (+64)</option>
+<option value="ni" data-otp-enabled="false" >Nicaragua (+505)</option>
+<option value="ne" data-otp-enabled="false" >Niger (+227)</option>
+<option value="ng" data-otp-enabled="false" >Nigeria (+234)</option>
+<option value="no" data-otp-enabled="false" >Norway (+47)</option>
+<option value="om" data-otp-enabled="false" >Oman (+968)</option>
+<option value="pk" data-otp-enabled="false" >Pakistan (+92)</option>
+<option value="ps" data-otp-enabled="false" >Palestinian Territory (+970)</option>
+<option value="pa" data-otp-enabled="false" >Panama (+507)</option>
+<option value="py" data-otp-enabled="false" >Paraguay (+595)</option>
+<option value="pe" data-otp-enabled="false" >Peru (+51)</option>
+<option value="ph" data-otp-enabled="false" >Philippines (+63)</option>
+<option value="pl" data-otp-enabled="false" >Poland (+48)</option>
+<option value="pt" data-otp-enabled="false" >Portugal (+351)</option>
+<option value="pr" data-otp-enabled="false" >Puerto Rico (+1)</option>
+<option value="qa" data-otp-enabled="false" >Qatar (+974)</option>
+<option value="re" data-otp-enabled="false" >Reunion/Mayotte (+262)</option>
+<option value="ro" data-otp-enabled="false" >Romania (+40)</option>
+<option value="ru" data-otp-enabled="false" >Russia/Kazakhstan (+7)</option>
+<option value="rw" data-otp-enabled="false" >Rwanda (+250)</option>
+<option value="ws" data-otp-enabled="false" >Samoa (+685)</option>
+<option value="sm" data-otp-enabled="false" >San Marino (+378)</option>
+<option value="sa" data-otp-enabled="false" >Saudi Arabia (+966)</option>
+<option value="sn" data-otp-enabled="false" >Senegal (+221)</option>
+<option value="rs" data-otp-enabled="false" >Serbia (+381)</option>
+<option value="sc" data-otp-enabled="false" >Seychelles (+248)</option>
+<option value="sl" data-otp-enabled="false" >Sierra Leone (+232)</option>
+<option value="sg" data-otp-enabled="false" >Singapore (+65)</option>
+<option value="sk" data-otp-enabled="false" >Slovakia (+421)</option>
+<option value="si" data-otp-enabled="false" >Slovenia (+386)</option>
+<option value="za" data-otp-enabled="false" >South Africa (+27)</option>
+<option value="es" data-otp-enabled="false" >Spain (+34)</option>
+<option value="lk" data-otp-enabled="false" >Sri Lanka (+94)</option>
+<option value="kn" data-otp-enabled="false" >St Kitts and Nevis (+1)</option>
+<option value="lc" data-otp-enabled="false" >St Lucia (+1)</option>
+<option value="vc" data-otp-enabled="false" >St Vincent Grenadines (+1)</option>
+<option value="sd" data-otp-enabled="false" >Sudan (+249)</option>
+<option value="sr" data-otp-enabled="false" >Suriname (+597)</option>
+<option value="sz" data-otp-enabled="false" >Swaziland (+268)</option>
+<option value="se" data-otp-enabled="false" >Sweden (+46)</option>
+<option value="ch" data-otp-enabled="false" >Switzerland (+41)</option>
+<option value="tw" data-otp-enabled="false" >Taiwan (+886)</option>
+<option value="tj" data-otp-enabled="false" >Tajikistan (+992)</option>
+<option value="tz" data-otp-enabled="false" >Tanzania (+255)</option>
+<option value="th" data-otp-enabled="false" >Thailand (+66)</option>
+<option value="tg" data-otp-enabled="false" >Togo (+228)</option>
+<option value="to" data-otp-enabled="false" >Tonga (+676)</option>
+<option value="tt" data-otp-enabled="false" >Trinidad and Tobago (+1)</option>
+<option value="tn" data-otp-enabled="false" >Tunisia (+216)</option>
+<option value="tr" data-otp-enabled="false" >Turkey (+90)</option>
+<option value="tc" data-otp-enabled="false" >Turks and Caicos Islands (+1)</option>
+<option value="ug" data-otp-enabled="false" >Uganda (+256)</option>
+<option value="ua" data-otp-enabled="false" >Ukraine (+380)</option>
+<option value="ae" data-otp-enabled="false" >United Arab Emirates (+971)</option>
+<option value="gb" data-otp-enabled="false" >United Kingdom (+44)</option>
+<option value="us" data-otp-enabled="false" selected>United States (+1)</option>
+<option value="uy" data-otp-enabled="false" >Uruguay (+598)</option>
+<option value="uz" data-otp-enabled="false" >Uzbekistan (+998)</option>
+<option value="ve" data-otp-enabled="false" >Venezuela (+58)</option>
+<option value="vn" data-otp-enabled="false" >Vietnam (+84)</option>
+<option value="vg" data-otp-enabled="false" >Virgin Islands, British (+1)</option>
+<option value="vi" data-otp-enabled="false" >Virgin Islands, U.S. (+1)</option>
+<option value="ye" data-otp-enabled="false" >Yemen (+967)</option>
+<option value="zm" data-otp-enabled="false" >Zambia (+260)</option>
+<option value="zw" data-otp-enabled="false" >Zimbabwe (+263)</option></select>
+                  </div>
+                  <label for="phone-number">Phone number:</label>
+                  <input name="phone_number" id="phone-number" type="text" class="prepend full-width" data-js-hook="sms-notification-field">
+                  <div class="sms-atl-error" id="sms-atl-error"></div>
+                  <div class="clearfix"></div>
+                  <div class="opt-container-section" id="otp-container" style="display:none">
+                    <a href="#" id="btn-subcriber-change-number">Change number</a>
+                    <label for="otp">Enter OTP:</label>
+                    <input name="otp" id="otp" type="text" class="prepend full-width">
+                    <p id="timer">Resend OTP in: <span id="countdown">30</span> seconds </p>
+                    <p id="resend">
+                      Didn't receive the OTP?
+                      <a href="#" id="resend-otp-btn" >Resend OTP </a>
+                    </p>
+                    </div>
+                </div>
+              </div>
+
+                <input type="hidden" name="captcha_error" id="captcha_error" value="false" autocomplete="off" />
+                <input type="submit" value="Subscribe via Text Message" class="flat-button full-width g-recaptcha" id="subscribe-btn-sms" data-disabled-text="Subscribing..." data-sitekey=6LcH-b0UAAAAACVQtMb14LBhflMA9y0Nmu7l_W6d data-callback="submitNewSmsSubscriber" data-error-callback="smsSubscriberCaptchaError">
+              <div class="terms_and_privacy_information bottom small">Message and data rates may apply. By subscribing you agree to our <a target="_blank" rel="noopener" class="accessible-link" href="https://www.anthropic.com/privacy">Privacy Policy</a>, the Atlassian <a target="_blank" rel="noopener" class="accessible-link" href="https://www.atlassian.com/legal/product-specific-terms#statuspage-specific-terms">Terms of Service</a>, and the Atlassian <a target="_blank" rel="noopener" class="accessible-link" href="https://www.atlassian.com/legal/privacy-policy">Privacy Policy</a>. This site is protected by reCAPTCHA and the Google <a target="_blank" rel="noopener" class="accessible-link" href="https://policies.google.com/privacy">Privacy Policy</a> and <a target="_blank" rel="noopener" class="accessible-link" data-js-hook="captcha-terms-of-service-link" href="https://policies.google.com/terms">Terms of Service</a> apply.</div>
+</form>          </div>
+
+          <div class="updates-dropdown-section slack" id="updates-dropdown-slack" style="display:none" role="tabpanel" aria-labelledby="updates-dropdown-slack-btn">
+            <div class="directions">
+              Get incident updates and maintenance status messages in Slack.
+            </div>
+            <a value="Subscribe via Slack" class="flat-button full-width" id="subscribe-btn-slack" data-disabled-text="Subscribing..." data-revert-on-success="true" style="margin-top:.75rem" href="https://subscriptions.statuspage.io/slack_authentication/kickoff?page_code=tymt9n04zgry">Subscribe via Slack</a>
+            <div class="terms_and_privacy_information bottom small">By subscribing you acknowledge our <a target="_blank" rel="noopener" class="accessible-link" href="https://www.anthropic.com/privacy">Privacy Policy</a>. In addition, you agree to the Atlassian <a target="_blank" rel="noopener" class="accessible-link" href="https://www.atlassian.com/legal/cloud-terms-of-service">Cloud Terms of Service</a> and acknowledge Atlassian's <a target="_blank" rel="noopener" class="accessible-link" href="https://www.atlassian.com/legal/privacy-policy">Privacy Policy</a>.</div>
+          </div>
+
+          <div class="updates-dropdown-section teams" id="updates-dropdown-teams" style="display:none" role="tabpanel" aria-labelledby="updates-dropdown-teams-btn">
+            <div class="directions">
+              Get incident updates and maintenance status messages in Microsoft Teams channel.
+            </div>
+            <form id="subscribe-form-teams" action="/subscriptions/teams.json" accept-charset="UTF-8" data-remote="true" method="post">
+              <div class="control-group">
+                <div class="controls">
+                  <label for="endpoint-webhooks">Channel's Webhook URL:</label>
+                  <input type="text" name="endpoint" id="endpoint-webhooks" data-js-hook="endpoint" class="full-width" aria-describedby="url-help-block" />
+                  <p class="help-block" id="url-help-block"> <a target="_blank" rel="noopener" href="https://support.atlassian.com/statuspage/docs/set-up-microsoft-teams-integration/">Here&#39;s where to find</a> the URL of a teams channel</p>
+                </div>
+              </div>
+              <input type="submit" value="Subscribe via Teams" class="flat-button full-width" id="subscribe-btn-teams" data-disabled-text="Subscribing..." data-js-hook="updates-dropdown-close" >
+</form>            <div class="terms_and_privacy_information bottom small">By subscribing you acknowledge our <a target="_blank" rel="noopener" class="accessible-link" href="https://www.anthropic.com/privacy">Privacy Policy</a>. In addition, you agree to the Atlassian <a target="_blank" rel="noopener" class="accessible-link" href="https://www.atlassian.com/legal/cloud-terms-of-service">Cloud Terms of Service</a> and acknowledge Atlassian's <a target="_blank" rel="noopener" class="accessible-link" href="https://www.atlassian.com/legal/privacy-policy">Privacy Policy</a>.</div>
+          </div>
+
+          <div class="updates-dropdown-section webhook" id="updates-dropdown-webhook" style="display:none" role="tabpanel" aria-labelledby="updates-dropdown-webhook-btn">
+            <div class="directions">
+              Get webhook notifications whenever Claude <strong>creates</strong> an incident, <strong>updates</strong> an incident, <strong>resolves</strong> an incident or <strong>changes</strong> a component status.
+            </div>
+            <form id="subscribe-form-webhook" action="/subscriptions/webhook.json" accept-charset="UTF-8" data-remote="true" method="post">
+              <div class="control-group">
+                <div class="controls">
+                  <label for="endpoint-webhooks">Webhook URL:</label>
+                  <input type="text" name="endpoint" id="endpoint-webhooks" data-js-hook="endpoint" class="full-width" aria-describedby="url-help-block" />
+                  <p class="help-block" id="url-help-block">The URL we should send the webhooks to</p>
+                </div>
+              </div>
+
+              <div class="control-group">
+                <div class="controls">
+                  <label for="email-webhooks">Email address:</label>
+                  <input type="text" name="email" id="email-webhooks" data-js-hook="email" class="full-width" aria-describedby="email-help-block" />
+                  <p class="help-block" id="email-help-block">We'll send you email if your endpoint fails</p>
+                </div>
+              </div>
+
+                <input type="hidden" name="captcha_error" id="captcha_error" value="false" autocomplete="off" />
+                <input type="submit" value=Subscribe To Notifications class="flat-button full-width g-recaptcha" id="subscribe-btn-webhook" data-disabled-text="Subscribing..." data-sitekey=6LcQ-b0UAAAAAJjfdwO_-ozGC-CzWDj4Pm1kJ2Ah data-callback="submitNewWebhookSubscriber" data-error-callback="webhookSubscriberCaptchaError">
+                <div class="terms_and_privacy_information bottom small"><div class="privacy_policy_information small">By subscribing you agree to our <a target="_blank" rel="noopener" class="accessible-link" href="https://www.anthropic.com/privacy">Privacy Policy</a>.</div> This site is protected by reCAPTCHA and the Google <a target="_blank" rel="noopener" class="accessible-link" href="https://policies.google.com/privacy">Privacy Policy</a> and <a target="_blank" rel="noopener" class="accessible-link" data-js-hook="captcha-terms-of-service-link" href="https://policies.google.com/terms">Terms of Service</a> apply.</div>
+
+</form>          </div>
+
+
+          <div class="updates-dropdown-section support" id="updates-dropdown-support" style="display:none" role="tabpanel" aria-labelledby="updates-dropdown-support-btn">
+            Visit our <a target="_blank" href="https://support.claude.com">support site</a>.
+          </div>
+
+          <div class="updates-dropdown-section atom" id="updates-dropdown-atom" role="tabpanel" aria-labelledby="updates-dropdown-atom-btn">
+            Get the <a href="https://status.claude.com/history.atom" target="_blank">Atom Feed</a> or <a href="https://status.claude.com/history.rss" target="_blank">RSS Feed</a>.
+          </div>
+      </div>
+    </div>
+  </div>
+
+<script>
+  $(function () {
+    const phoneNumberInput = $('#phone-number');
+    const errorDiv = $('#sms-atl-error')
+    if(errorDiv.length){
+      function checkSelectedCountry() {
+        const selectedCountry = $('#phone-country').val();
+        const isOtpEnabled = $('#phone-number-country-code').attr('data-otp-enabled') === 'true';
+        const form = document.getElementById('subscribe-form-sms');
+        form.action = '/subscriptions/new-sms';
+        const isOtpFlow = document.getElementById('otp_verify_flow');
+        document.getElementById('otp-container').style.display = "none";
+        if(false && selectedCountry === 'sg') { // Replace 'SG' with the actual value representing Singapore in your select tag
+          phoneNumberInput.prop('disabled', true);
+          errorDiv.html(`Due to new Singapore government regulations, we're currently not supporting text subscriptions in Singapore.<a href="https://community.atlassian.com/t5/Statuspage-articles/Attention-SMS-notifications-will-be-disabled-on-August-1st-2023/ba-p/2424398" target="_blank"> Learn more.</a> <br> Select another method to subscribe.`);
+        } else {
+          phoneNumberInput.prop('readonly', false);
+          errorDiv.html('');
+          if(false){
+            if(isOtpEnabled){
+              document.getElementById('subscribe-btn-sms').value = "Send OTP";
+            }
+            else {
+              isOtpFlow.value = false;
+              document.getElementById('subscribe-btn-sms').value = "Subscribe via Text Message";
+            }
+          }
+        }
+      }
+
+      $('#phone-country').on('change', checkSelectedCountry);
+      checkSelectedCountry();
+    }
+  });
+
+  document.addEventListener('DOMContentLoaded', function() {
+    const dropdown = document.querySelector('#phone-number-country-code .phone-country');
+    if (dropdown){
+      const wrapperDiv = document.getElementById('phone-number-country-code');
+      const selectedOption = dropdown.options[dropdown.selectedIndex];
+      const otpEnabled = selectedOption.getAttribute('data-otp-enabled');
+
+      wrapperDiv.setAttribute('data-otp-enabled', otpEnabled);
+
+      dropdown.addEventListener('change', function() {
+        const selectedOption = dropdown.options[dropdown.selectedIndex];
+        const otpEnabled = selectedOption.getAttribute('data-otp-enabled');
+
+        wrapperDiv.setAttribute('data-otp-enabled', otpEnabled);
+      });
+    }
+  });
+
+  var countdownTimer;
+  var resendBtn = document.getElementById('resend');
+  var timer = document.getElementById('timer');
+  var form = document.getElementById('subscribe-form-sms');
+  var RESEND_TIMER = 30;
+  $(function() {
+    $('#subscribe-form-sms').on('ajax:success', function(e, data, status, xhr){
+      const form = this;
+      const action = form.getAttribute('action');
+      if (data.type === 'success' && data.otp_flow === true) {
+        document.getElementById('subscriber_code').value = data.subscriber_code
+        document.getElementById('otp-container').style.display = "block";
+        $('#phone-number').prop('readonly', true);
+        var display = document.getElementById('countdown');
+        disableResend();
+        startTimer(RESEND_TIMER, display)
+        document.getElementById('subscribe-btn-sms').value = "Verify OTP and Subscribe";
+        document.getElementById('otp_verify_flow').value = true;
+        form.action = '/subscriptions/verify-otp';
+      } else if (data.type === 'success' && action.includes('verify')){
+        document.getElementById('otp-container').style.display = "none";
+        $('#phone-number').val('').prop('readonly', false);
+        $('#otp').val('');
+        document.getElementById('subscribe-btn-sms').value = "Send OTP";
+        document.getElementById('otp_verify_flow').value = false;
+        form.action = '/subscriptions/new-sms';
+        SP.currentPage.updatesDropdown.hide();
+      }
+    });
+    $("#btn-subcriber-change-number").on('click', () => {
+      document.getElementById('otp-container').style.display = "none";
+      $('#phone-number').prop('readonly', false);
+      document.getElementById('subscribe-btn-sms').value = "Send OTP";
+      form.action = '/subscriptions/new-sms';
+      return false
+    })
+    $('#resend-otp-btn').on('click', function(e) {
+      e.preventDefault();
+      let phoneNumber = $('#phone-number').val();
+      let countryCode = $('.phone-country').val();
+      $.ajax({
+        type: 'POST',
+        url: "/subscriptions/new-sms",
+        data: {
+          phone_number: phoneNumber,
+          phone_country: countryCode,
+          type: 'resend'
+        },
+      }).done(function(data) {
+        var messageOptions = (data.type !== undefined && data.type !== null) ? { cssClass: data.type } : {};
+        HRB.utils.notify(data.text, messageOptions);
+        var display = document.getElementById('countdown');
+        disableResend();
+        timer.style.display = "none"
+        if (data.type === 'success') {
+          startTimer(RESEND_TIMER, display);
+        }
+      })
+    });
+  })
+
+  function startTimer(duration, display){
+    var timer = duration, seconds;
+    clearInterval(countdownTimer);
+    countdownTimer = setInterval(function () {
+      seconds = parseInt(timer % 60, 10);
+      display.textContent = seconds;
+      if(--timer < 0){
+        enableResend();
+        clearInterval(countdownTimer);
+      }
+    }, 1000);
+    disableResend();
+  }
+  function enableResend(){
+    resendBtn.style.display = "block";
+    timer.style.display = "none"
+  }
+  function disableResend(){
+    resendBtn.style.display = "none";
+    timer.style.display = "block"
+  }
+
+  $(function() {
+    $('#subscribe-form-email').on('submit', function() {
+      var tokenField = document.getElementById('email-otp-token-field');
+      if (!tokenField) {
+        return;
+      }
+      let page_code = "tymt9n04zgry"
+      let key = keyForEmailOtpToken($('#email').val(), page_code);
+      tokenField.value = localStorage.getItem(key);
+    });
+  });
+
+  var emailOtpCountdownTimer;
+  var emailOtpResendBtn = document.getElementById('resend-email-otp');
+  var emailOtpTimer = document.getElementById('email-otp-timer');
+  var emailOtpForm = document.getElementById('subscribe-form-email');
+  var EMAIL_OTP_RESEND_TIMER = 600;
+  $(function() {
+    $('#subscribe-form-email').on('ajax:success', function(e, data, status, xhr){
+      const form = this;
+      const action = form.getAttribute('action');
+      if (data.type === 'success' && data.email_otp_verify_flow === true) {
+        document.getElementById('email-otp-container').style.display = "block";
+        var display = document.getElementById('email-otp-countdown');
+        display.textContent = EMAIL_OTP_RESEND_TIMER;
+        disableEmailOtpResend();
+        startEmailOtpTimer(EMAIL_OTP_RESEND_TIMER, display)
+        document.getElementById('subscribe-btn-email').value = "Verify OTP and Subscribe";
+        document.getElementById('email_otp_verify_flow').value = true;
+        form.action = '/subscriptions/verify-email-otp';
+      } else if (data.type === 'success' && action.includes('verify')){
+        let email =  $('#email')
+        let page_code = "tymt9n04zgry"
+        let key = keyForEmailOtpToken(email.val(), page_code);
+        localStorage.setItem(key, data.email_otp_auth_token);
+
+        document.getElementById('email-otp-container').style.display = "none";
+        email.val('').prop('readonly', false);
+        $('#email-otp').val('');
+        document.getElementById('subscribe-btn-email').value = "Send OTP";
+        document.getElementById('email_otp_verify_flow').value = false;
+        form.action = '/subscriptions/new-email';
+        SP.currentPage.updatesDropdown.hide();
+      }
+    });
+    $('#resend-email-otp-btn').on('click', function(e) {
+      e.preventDefault();
+      let email = $('#email').val();
+      $.ajax({
+        type: 'POST',
+        url: "/subscriptions/new-email",
+        data: {
+          email: email
+        },
+      }).done(function(data) {
+        var messageOptions = (data.type !== undefined && data.type !== null) ? { cssClass: data.type } : {};
+        HRB.utils.notify(data.text, messageOptions);
+        if (data.type === 'success') {
+          var display = document.getElementById('email-otp-countdown');
+          display.textContent = EMAIL_OTP_RESEND_TIMER;
+          disableEmailOtpResend();
+          emailOtpTimer.style.display = "none"
+          startEmailOtpTimer(EMAIL_OTP_RESEND_TIMER, display);
+        }
+      })
+    });
+  })
+
+  function startEmailOtpTimer(duration, display){
+    var timer = duration, seconds;
+    clearInterval(emailOtpCountdownTimer);
+    emailOtpCountdownTimer = setInterval(function () {
+      seconds = parseInt(timer, 10);
+      display.textContent = seconds;
+      if(--timer < 0){
+        enableEmailOtpResend();
+        clearInterval(emailOtpCountdownTimer);
+      }
+    }, 1000);
+    disableEmailOtpResend();
+  }
+
+  function enableEmailOtpResend(){
+    emailOtpResendBtn.style.display = "block";
+    emailOtpTimer.style.display = "none"
+  }
+  function disableEmailOtpResend(){
+    emailOtpResendBtn.style.display = "none";
+    emailOtpTimer.style.display = "block"
+  }
+  function keyForEmailOtpToken(email, pageCode) {
+    return email + '|' + pageCode+ '|SUBSCRIBE_VIA_EMAIL';
+  }
+</script>
+
+      <div class="clearfix"></div>
+    </div>
+
+</div>
+ <!-- this is outside of the .container so that the cover photo can go full width on mobile -->
+
+
+  <div class="container">
+      <div class="history-nav border-color">
+  <ul>
+    <li>
+      <a class="button current border-color"  href="https://status.claude.com/history" aria-label="Incidents" aria-current=page>Incidents</a>
+    </li>
+    <li>
+      <a class="button border-color" href="https://status.claude.com/uptime" aria-label="Uptime" >Uptime</a>
+    </li>
+  </ul>
+</div>
+
+
+    <div data-react-class="HistoryIndex" data-react-props="{&quot;page_status&quot;:{&quot;page&quot;:{&quot;name&quot;:&quot;Claude&quot;,&quot;subdomain&quot;:&quot;anthropic&quot;,&quot;domain&quot;:&quot;status.claude.com&quot;,&quot;created_at&quot;:&quot;2023-01-25T06:38:50.038Z&quot;,&quot;updated_at&quot;:&quot;2026-09-27T14:59:31.887Z&quot;,&quot;url&quot;:&quot;https://status.claude.com&quot;,&quot;hidden_from_search&quot;:false,&quot;css_body_background_color&quot;:&quot;FAF9F5&quot;,&quot;css_font_color&quot;:&quot;141413&quot;,&quot;css_light_font_color&quot;:&quot;87867F&quot;,&quot;css_greens&quot;:&quot;76AD2A&quot;,&quot;css_yellows&quot;:&quot;FAA72A&quot;,&quot;css_oranges&quot;:&quot;E86235&quot;,&quot;css_reds&quot;:&quot;E04343&quot;,&quot;allow_page_subscribers&quot;:true,&quot;allow_incident_subscribers&quot;:true,&quot;notifications_from_email&quot;:null,&quot;allow_email_subscribers&quot;:true,&quot;allow_sms_subscribers&quot;:true,&quot;twitter_username&quot;:null,&quot;branding&quot;:&quot;basic&quot;,&quot;support_url&quot;:&quot;https://support.claude.com&quot;,&quot;allow_webhook_subscribers&quot;:true,&quot;css_border_color&quot;:&quot;DEDCD1&quot;,&quot;css_graph_color&quot;:&quot;2C84DB&quot;,&quot;css_link_color&quot;:&quot;141413&quot;,&quot;page_description&quot;:null,&quot;activity_score&quot;:2561,&quot;headline&quot;:&quot;Claude API Status&quot;,&quot;viewers_must_be_team_members&quot;:false,&quot;ip_filters&quot;:null,&quot;css_blues&quot;:&quot;2C84DB&quot;,&quot;time_zone&quot;:&quot;UTC&quot;,&quot;notifications_reply_to_email&quot;:null,&quot;notifications_email_footer&quot;:&quot;You received this email because you are subscribed to Claude&#39;s service status notifications.&quot;,&quot;allow_rss_atom_feeds&quot;:true,&quot;black_hole&quot;:null,&quot;over_allocations_cohort&quot;:null,&quot;over_allocations_resolved_at&quot;:null,&quot;custom_components_limit&quot;:null,&quot;allow_slack_subscribers&quot;:true,&quot;css_no_data&quot;:&quot;B0AEA5&quot;,&quot;deleted_at&quot;:null,&quot;allow_teams_subscription&quot;:true,&quot;max_maintenance_automation_allowed&quot;:null,&quot;custom_email_template&quot;:false,&quot;hero_cover&quot;:{&quot;updated_at&quot;:null,&quot;original_url&quot;:&quot;&quot;,&quot;size&quot;:null,&quot;normal_url&quot;:&quot;&quot;,&quot;retina_url&quot;:&quot;&quot;},&quot;transactional_logo&quot;:{&quot;updated_at&quot;:&quot;2025-09-16T16:45:16.000+00:00&quot;,&quot;original_url&quot;:&quot;//dka575ofm4ao0.cloudfront.net/pages-transactional_logos/original/362807/NEW_claude_status_banner-183284a4-558d-4835-b3a4-a601e0a4daa8.png&quot;,&quot;size&quot;:47876,&quot;normal_url&quot;:&quot;//dka575ofm4ao0.cloudfront.net/pages-transactional_logos/normal/362807/NEW_claude_status_banner-183284a4-558d-4835-b3a4-a601e0a4daa8.png&quot;,&quot;retina_url&quot;:&quot;//dka575ofm4ao0.cloudfront.net/pages-transactional_logos/retina/362807/NEW_claude_status_banner-183284a4-558d-4835-b3a4-a601e0a4daa8.png&quot;},&quot;favicon_logo&quot;:{&quot;updated_at&quot;:&quot;2025-09-16T16:45:21.000+00:00&quot;,&quot;size&quot;:3534,&quot;url&quot;:&quot;//dka575ofm4ao0.cloudfront.net/pages-favicon_logos/original/362807/NEW_spark-96-96-2225c423-f16f-42a4-b9d1-c58c10b998cb.png&quot;},&quot;email_logo&quot;:{&quot;updated_at&quot;:&quot;2025-09-16T16:45:42.000+00:00&quot;,&quot;original_url&quot;:&quot;//dka575ofm4ao0.cloudfront.net/pages-email_logos/original/362807/NEW_claude_status_email.png-d88779a1-c7b3-456d-b84e-1d0cdd4614e9.png&quot;,&quot;size&quot;:50640,&quot;normal_url&quot;:&quot;//dka575ofm4ao0.cloudfront.net/pages-email_logos/normal/362807/NEW_claude_status_email.png-d88779a1-c7b3-456d-b84e-1d0cdd4614e9.png&quot;,&quot;retina_url&quot;:&quot;//dka575ofm4ao0.cloudfront.net/pages-email_logos/retina/362807/NEW_claude_status_email.png-d88779a1-c7b3-456d-b84e-1d0cdd4614e9.png&quot;},&quot;twitter_logo&quot;:{&quot;updated_at&quot;:null,&quot;size&quot;:null,&quot;url&quot;:&quot;&quot;},&quot;id&quot;:&quot;tymt9n04zgry&quot;,&quot;organization_id&quot;:&quot;bq4z6w6cgm46&quot;}},&quot;components&quot;:[{&quot;status&quot;:&quot;operational&quot;,&quot;name&quot;:&quot;claude.ai&quot;,&quot;created_at&quot;:&quot;2023-07-11T17:52:24.275Z&quot;,&quot;updated_at&quot;:&quot;2026-09-22T02:11:43.697Z&quot;,&quot;position&quot;:1,&quot;description&quot;:null,&quot;showcase&quot;:true,&quot;start_date&quot;:&quot;2023-07-11T00:00:00.000Z&quot;,&quot;id&quot;:&quot;rwppv331jlwc&quot;,&quot;group_id&quot;:null,&quot;page_id&quot;:&quot;tymt9n04zgry&quot;,&quot;group&quot;:false,&quot;only_show_if_degraded&quot;:false},{&quot;status&quot;:&quot;operational&quot;,&quot;name&quot;:&quot;Claude Console (platform.claude.com)&quot;,&quot;created_at&quot;:&quot;2023-07-11T17:52:49.982Z&quot;,&quot;updated_at&quot;:&quot;2026-09-02T01:24:22.227Z&quot;,&quot;position&quot;:2,&quot;description&quot;:null,&quot;showcase&quot;:true,&quot;start_date&quot;:&quot;2023-07-11T00:00:00.000Z&quot;,&quot;id&quot;:&quot;0qbwn08sd68x&quot;,&quot;group_id&quot;:null,&quot;page_id&quot;:&quot;tymt9n04zgry&quot;,&quot;group&quot;:false,&quot;only_show_if_degraded&quot;:false},{&quot;status&quot;:&quot;operational&quot;,&quot;name&quot;:&quot;Claude API (api.anthropic.com)&quot;,&quot;created_at&quot;:&quot;2023-07-11T17:53:10.880Z&quot;,&quot;updated_at&quot;:&quot;2026-09-22T02:11:43.710Z&quot;,&quot;position&quot;:3,&quot;description&quot;:null,&quot;showcase&quot;:true,&quot;start_date&quot;:&quot;2023-07-11T00:00:00.000Z&quot;,&quot;id&quot;:&quot;k8w3r06qmzrp&quot;,&quot;group_id&quot;:null,&quot;page_id&quot;:&quot;tymt9n04zgry&quot;,&quot;group&quot;:false,&quot;only_show_if_degraded&quot;:false},{&quot;status&quot;:&quot;operational&quot;,&quot;name&quot;:&quot;Claude Code&quot;,&quot;created_at&quot;:&quot;2025-05-22T21:35:29.822Z&quot;,&quot;updated_at&quot;:&quot;2026-09-22T02:11:43.723Z&quot;,&quot;position&quot;:4,&quot;description&quot;:null,&quot;showcase&quot;:true,&quot;start_date&quot;:&quot;2025-02-06T00:00:00.000Z&quot;,&quot;id&quot;:&quot;yyzkbfz2thpt&quot;,&quot;group_id&quot;:null,&quot;page_id&quot;:&quot;tymt9n04zgry&quot;,&quot;group&quot;:false,&quot;only_show_if_degraded&quot;:false},{&quot;status&quot;:&quot;operational&quot;,&quot;name&quot;:&quot;Claude Cowork&quot;,&quot;created_at&quot;:&quot;2026-04-01T17:39:47.692Z&quot;,&quot;updated_at&quot;:&quot;2026-09-22T02:11:43.736Z&quot;,&quot;position&quot;:5,&quot;description&quot;:null,&quot;showcase&quot;:true,&quot;start_date&quot;:&quot;2026-04-01T00:00:00.000Z&quot;,&quot;id&quot;:&quot;bpp5gb3hpjcl&quot;,&quot;group_id&quot;:null,&quot;page_id&quot;:&quot;tymt9n04zgry&quot;,&quot;group&quot;:false,&quot;only_show_if_degraded&quot;:false},{&quot;status&quot;:&quot;operational&quot;,&quot;name&quot;:&quot;Claude for Government&quot;,&quot;created_at&quot;:&quot;2026-02-17T23:24:51.249Z&quot;,&quot;updated_at&quot;:&quot;2026-06-30T14:45:50.487Z&quot;,&quot;position&quot;:6,&quot;description&quot;:null,&quot;showcase&quot;:true,&quot;start_date&quot;:&quot;2026-02-17T00:00:00.000Z&quot;,&quot;id&quot;:&quot;0scnb50nvy53&quot;,&quot;group_id&quot;:null,&quot;page_id&quot;:&quot;tymt9n04zgry&quot;,&quot;group&quot;:false,&quot;only_show_if_degraded&quot;:false}],&quot;months&quot;:[{&quot;name&quot;:&quot;March&quot;,&quot;year&quot;:2026,&quot;starts_on&quot;:0,&quot;days&quot;:31,&quot;incidents&quot;:[{&quot;code&quot;:&quot;z5scppyhphjk&quot;,&quot;name&quot;:&quot;Unavailable connectors in Claude.ai desktop applications&quot;,&quot;message&quot;:&quot;We have resolved an issue that resulted in the unavailability of connectors in the Claude.ai desktop application. Affected connectors were removed from organization allowlists, and can be manually re-added while we work to automatically restore impacted allowlists.&quot;,&quot;impact&quot;:&quot;major&quot;,&quot;timestamp&quot;:&quot;Mar \u003cvar data-var=&#39;date&#39;\u003e31\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e20:12\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e22:59\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;65w1yxq40m3l&quot;,&quot;name&quot;:&quot;Opus 4.6 and Sonnet 4.6 error rate elevated&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;major&quot;,&quot;timestamp&quot;:&quot;Mar \u003cvar data-var=&#39;date&#39;\u003e31\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e19:41\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e22:09\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;k3z0fjwdjkzl&quot;,&quot;name&quot;:&quot;Elevated errors on Claude Opus 4.6&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Mar \u003cvar data-var=&#39;date&#39;\u003e31\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e08:53\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e09:44\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;q5qk1234v205&quot;,&quot;name&quot;:&quot;Dispatch sessions not responding in Claude Desktop&quot;,&quot;message&quot;:&quot;The issue affecting Dispatch has been resolved. We fixed an underlying issue that prevent the agent from sending responses to user messages. Please update to Claude desktop app 1.1.9493. We apologize for any inconvenience caused.&quot;,&quot;impact&quot;:&quot;major&quot;,&quot;timestamp&quot;:&quot;Mar \u003cvar data-var=&#39;date&#39;\u003e29\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e00:53\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e04:44\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;pgxwhv06t0y8&quot;,&quot;name&quot;:&quot;Elevated errors on Opus 4.6 Fast Mode&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Mar \u003cvar data-var=&#39;date&#39;\u003e28\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e13:01\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e14:53\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;b9802k1zb5l2&quot;,&quot;name&quot;:&quot;Elevated error rates on Opus 4.6&quot;,&quot;message&quot;:&quot;This incident has been mitigated as of 9:30 PT / 16:30 UTC.&quot;,&quot;impact&quot;:&quot;major&quot;,&quot;timestamp&quot;:&quot;Mar \u003cvar data-var=&#39;date&#39;\u003e27\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e06:59\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e16:46\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;d8r794mwjg8d&quot;,&quot;name&quot;:&quot;Elevated connection reset errors in Cowork&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Mar \u003cvar data-var=&#39;date&#39;\u003e25\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e14:33\u003c/var\u003e - Mar \u003cvar data-var=&#39;date&#39;\u003e27\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e15:05\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;vcp3jwhttwrg&quot;,&quot;name&quot;:&quot;Elevated errors on Claude Opus 4.6 and Sonnet 4.6&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;major&quot;,&quot;timestamp&quot;:&quot;Mar \u003cvar data-var=&#39;date&#39;\u003e26\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e21:56\u003c/var\u003e - Mar \u003cvar data-var=&#39;date&#39;\u003e27\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e00:49\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;zq248kgmyyyk&quot;,&quot;name&quot;:&quot;Elevated errors for MCP calls&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;major&quot;,&quot;timestamp&quot;:&quot;Mar \u003cvar data-var=&#39;date&#39;\u003e26\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e22:25\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e22:41\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;9qwph3lqc885&quot;,&quot;name&quot;:&quot;Elevated errors on Claude Opus 4.6&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;major&quot;,&quot;timestamp&quot;:&quot;Mar \u003cvar data-var=&#39;date&#39;\u003e25\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e15:04\u003c/var\u003e - Mar \u003cvar data-var=&#39;date&#39;\u003e26\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e00:14\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;9rt6y2y4gkh1&quot;,&quot;name&quot;:&quot;Elevated Errors on claude.ai&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;none&quot;,&quot;timestamp&quot;:&quot;Mar \u003cvar data-var=&#39;date&#39;\u003e25\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e13:45\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e15:43\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;yvb76l3ryzpb&quot;,&quot;name&quot;:&quot;Elevated errors on Claude Opus 4.6&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Mar \u003cvar data-var=&#39;date&#39;\u003e25\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e09:35\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e13:10\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;0kxm85c9w7rw&quot;,&quot;name&quot;:&quot;Elevated errors on Claude.ai [retroactive]&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Mar \u003cvar data-var=&#39;date&#39;\u003e23\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e17:03\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e17:10\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;f4wqmj8rhjsc&quot;,&quot;name&quot;:&quot;Claude.ai and Claude login down&quot;,&quot;message&quot;:&quot;This incident has been resolved. Logins and authentication for claude.ai and platform.claude.com have returned to normal&quot;,&quot;impact&quot;:&quot;critical&quot;,&quot;timestamp&quot;:&quot;Mar \u003cvar data-var=&#39;date&#39;\u003e22\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e18:31\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e18:51\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;cjwz4sx4pl5j&quot;,&quot;name&quot;:&quot;Delayed response completion on Claude.ai&quot;,&quot;message&quot;:&quot;As of 13:02 UTC / 06:02 PT this incident has been mitigated.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Mar \u003cvar data-var=&#39;date&#39;\u003e22\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e11:14\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e13:13\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;tj7zxr47cfx6&quot;,&quot;name&quot;:&quot;Elevated error rates on Claude Opus and Sonnet 4.6&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;major&quot;,&quot;timestamp&quot;:&quot;Mar \u003cvar data-var=&#39;date&#39;\u003e21\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e00:07\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e01:42\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;bf1hsq5gbm9b&quot;,&quot;name&quot;:&quot;Elevated errors on Claude Opus 4.6&quot;,&quot;message&quot;:&quot;This incident started at 8:53 PT / 15:53 UTC and the errors have now returned to baseline since 9:14 PT / 16:14 UTC.&quot;,&quot;impact&quot;:&quot;critical&quot;,&quot;timestamp&quot;:&quot;Mar \u003cvar data-var=&#39;date&#39;\u003e19\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e15:59\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e16:16\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;mfhmykgrbzt5&quot;,&quot;name&quot;:&quot;Elevated errors on Claude Sonnet 4.6&quot;,&quot;message&quot;:&quot;As of 8:42 PT / 15:42 UTC the error rate has now returned to baseline.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Mar \u003cvar data-var=&#39;date&#39;\u003e19\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e15:37\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e15:46\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;6wlrxz9pqz8f&quot;,&quot;name&quot;:&quot;Elevated errors across surfaces&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;major&quot;,&quot;timestamp&quot;:&quot;Mar \u003cvar data-var=&#39;date&#39;\u003e19\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e00:28\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e01:38\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;p88wl8gmb05c&quot;,&quot;name&quot;:&quot;Elevated errors on Claude.ai&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;major&quot;,&quot;timestamp&quot;:&quot;Mar \u003cvar data-var=&#39;date&#39;\u003e18\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e15:16\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e16:05\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;0dvq4gvy5f5f&quot;,&quot;name&quot;:&quot;Increased errors on Opus 4.6&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;major&quot;,&quot;timestamp&quot;:&quot;Mar \u003cvar data-var=&#39;date&#39;\u003e18\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e12:30\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e13:58\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;s914kvccjthq&quot;,&quot;name&quot;:&quot;Elevated errors on Claude Opus 4.6&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;major&quot;,&quot;timestamp&quot;:&quot;Mar \u003cvar data-var=&#39;date&#39;\u003e18\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e06:41\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e09:45\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;mhnzmndv58bt&quot;,&quot;name&quot;:&quot;Elevated errors on Claude Opus 4.6&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;major&quot;,&quot;timestamp&quot;:&quot;Mar \u003cvar data-var=&#39;date&#39;\u003e17\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e19:47\u003c/var\u003e - Mar \u003cvar data-var=&#39;date&#39;\u003e18\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e00:25\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;t252hkdgt81f&quot;,&quot;name&quot;:&quot;Elevated errors on Claude Sonnet 4.6&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Mar \u003cvar data-var=&#39;date&#39;\u003e17\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e14:07\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e15:45\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;66wxjy8wc8fx&quot;,&quot;name&quot;:&quot;Elevated errors on Claude Sonnet 4.6&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Mar \u003cvar data-var=&#39;date&#39;\u003e17\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e08:04\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e13:03\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;h04m7sftmtk5&quot;,&quot;name&quot;:&quot;Elevated errors on Claude Opus 4.6&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Mar \u003cvar data-var=&#39;date&#39;\u003e17\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e09:46\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e11:45\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;0266tzhrb7rn&quot;,&quot;name&quot;:&quot;Elevated errors on Claude Sonnet 4.6&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Mar \u003cvar data-var=&#39;date&#39;\u003e16\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e14:02\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e16:35\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;81m3f5p97qkk&quot;,&quot;name&quot;:&quot;Elevated errors on Claude.ai&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Mar \u003cvar data-var=&#39;date&#39;\u003e16\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e13:56\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e14:21\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;t2m389x6k1tq&quot;,&quot;name&quot;:&quot;Elevated errors on Claude.ai&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Mar \u003cvar data-var=&#39;date&#39;\u003e16\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e12:01\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e12:36\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;q58b2gkv64pw&quot;,&quot;name&quot;:&quot;Elevated errors on Claude Opus 4.6 and Sonnet 4.6&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;major&quot;,&quot;timestamp&quot;:&quot;Mar \u003cvar data-var=&#39;date&#39;\u003e13\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e18:37\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e21:27\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;tdp33ycsk4rb&quot;,&quot;name&quot;:&quot;Elevated errors on Claude Sonnet 4.6&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;major&quot;,&quot;timestamp&quot;:&quot;Mar \u003cvar data-var=&#39;date&#39;\u003e12\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e16:34\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e18:00\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;28hx7gp8hnzw&quot;,&quot;name&quot;:&quot;Elevated errors on Claude Sonnet 4.6 and on Claude.ai&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Mar \u003cvar data-var=&#39;date&#39;\u003e12\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e16:07\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e16:28\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;gtj167mtk9pg&quot;,&quot;name&quot;:&quot;Elevated errors on Sonnet 4.6&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Mar \u003cvar data-var=&#39;date&#39;\u003e12\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e15:42\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e15:48\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;jm3b4jjy2jrt&quot;,&quot;name&quot;:&quot;Elevated errors on Claude.ai (including login issues for Claude Code)&quot;,&quot;message&quot;:&quot;The incident is now resolved. To recap we had an incident starting at 07:17 PT / 14:17 UTC and the errors returned to baseline at 10:11 PT / 17:11 UTC.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Mar \u003cvar data-var=&#39;date&#39;\u003e11\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e14:44\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e17:28\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;pqpgkf52p3tg&quot;,&quot;name&quot;:&quot;Claude Desktop app unresponsive&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;major&quot;,&quot;timestamp&quot;:&quot;Mar \u003cvar data-var=&#39;date&#39;\u003e8\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e17:57\u003c/var\u003e - Mar \u003cvar data-var=&#39;date&#39;\u003e10\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e16:52\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;jbc4ybjk83c6&quot;,&quot;name&quot;:&quot;Filesystem connector missing from Claude Desktop&quot;,&quot;message&quot;:&quot;Filesystem extension has been restored to allowlists&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Mar \u003cvar data-var=&#39;date&#39;\u003e6\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e17:16\u003c/var\u003e - Mar \u003cvar data-var=&#39;date&#39;\u003e8\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e15:49\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;qy1zsq4wwp1q&quot;,&quot;name&quot;:&quot;Elevated errors on Claude Haiku 4.5&quot;,&quot;message&quot;:&quot;Today between 5:35 PT / 13:35 UTC and 6:44 PT / 14:44 UTC Haiku 4.5 had an elevated error rate. We are now at the baseline error rate.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Mar \u003cvar data-var=&#39;date&#39;\u003e7\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e13:58\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e16:58\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;htjkfrfnzq12&quot;,&quot;name&quot;:&quot;Elevated TCP three-way handshake failures on api.anthropic.com&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Mar \u003cvar data-var=&#39;date&#39;\u003e6\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e15:34\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e16:23\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;5dbf8slk8mhr&quot;,&quot;name&quot;:&quot;Elevated errors on Claude Haiku 4.5&quot;,&quot;message&quot;:&quot;Errors have returned to the baseline as of 8:08 PT / 16:08 UTC.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Mar \u003cvar data-var=&#39;date&#39;\u003e4\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e15:58\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e17:01\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;cvh0kqnmzjks&quot;,&quot;name&quot;:&quot;Elevated errors on Claude Opus 4.6&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Mar \u003cvar data-var=&#39;date&#39;\u003e4\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e14:14\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e15:57\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;4xx67ythzxg5&quot;,&quot;name&quot;:&quot;Elevated errors on Claude Haiku 4.5&quot;,&quot;message&quot;:&quot;The incident for Haiku 4.5 has been between 6:45 PT / 14:45 UTC and 6:50 PT / 14:50 UTC.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Mar \u003cvar data-var=&#39;date&#39;\u003e4\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e14:47\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e14:55\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;p7nq2jdg4zwj&quot;,&quot;name&quot;:&quot;Outage in Usage Reporting&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;major&quot;,&quot;timestamp&quot;:&quot;Mar \u003cvar data-var=&#39;date&#39;\u003e3\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e16:49\u003c/var\u003e - Mar \u003cvar data-var=&#39;date&#39;\u003e4\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e08:32\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;v3j5tpfcr3dn&quot;,&quot;name&quot;:&quot;Elevated errors on Claude Sonnet 4.6&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Mar \u003cvar data-var=&#39;date&#39;\u003e3\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e15:40\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e16:38\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;s0pmy4yywshv&quot;,&quot;name&quot;:&quot;Elevated errors on Claude Haiku 4.5&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;major&quot;,&quot;timestamp&quot;:&quot;Mar \u003cvar data-var=&#39;date&#39;\u003e3\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e14:51\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e15:39\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;kyj825w6vxr8&quot;,&quot;name&quot;:&quot;Elevated errors on Claude Opus 4.6&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Mar \u003cvar data-var=&#39;date&#39;\u003e3\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e06:59\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e14:29\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;yf48hzysrvl5&quot;,&quot;name&quot;:&quot;Elevated errors in claude.ai, cowork, platform, claude code&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Mar \u003cvar data-var=&#39;date&#39;\u003e3\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e03:15\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e10:18\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;vqnfq1179169&quot;,&quot;name&quot;:&quot;Elevated errors on Claude Haiku 4.5&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Mar \u003cvar data-var=&#39;date&#39;\u003e2\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e17:56\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e21:16\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;0j8dkb38jymf&quot;,&quot;name&quot;:&quot;Elevated errors on Claude Opus 4.6&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Mar \u003cvar data-var=&#39;date&#39;\u003e2\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e16:50\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e17:55\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;63943gpfb97z&quot;,&quot;name&quot;:&quot;Elevated errors in claude.ai&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Mar \u003cvar data-var=&#39;date&#39;\u003e2\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e17:08\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e17:23\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;5zg05jnrqmzg&quot;,&quot;name&quot;:&quot;Elevated errors on Claude Opus 4.6&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Mar \u003cvar data-var=&#39;date&#39;\u003e2\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e14:35\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e15:50\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;0ghc53zpsfmt&quot;,&quot;name&quot;:&quot;Elevated errors on claude.ai, console, and claude code&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;major&quot;,&quot;timestamp&quot;:&quot;Mar \u003cvar data-var=&#39;date&#39;\u003e2\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e11:49\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e15:47\u003c/var\u003e UTC&quot;}]},{&quot;name&quot;:&quot;February&quot;,&quot;year&quot;:2026,&quot;starts_on&quot;:0,&quot;days&quot;:28,&quot;incidents&quot;:[{&quot;code&quot;:&quot;pmx7385vm0z1&quot;,&quot;name&quot;:&quot;Elevated errors on Claude Opus 4.6&quot;,&quot;message&quot;:&quot;Between 9:50 PT / 17:50 UTC and 10:12 PT / 18:12 UTC we had a high rate of errors on Claude Opus 4.6. This has now ended&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Feb \u003cvar data-var=&#39;date&#39;\u003e28\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e18:09\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e18:34\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;ddyyz34c24vt&quot;,&quot;name&quot;:&quot;Elevated errors on claude.ai&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;major&quot;,&quot;timestamp&quot;:&quot;Feb \u003cvar data-var=&#39;date&#39;\u003e28\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e12:57\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e15:50\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;0xc7ybw5wd3x&quot;,&quot;name&quot;:&quot;Sonnet 4.6 elevated error rate&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Feb \u003cvar data-var=&#39;date&#39;\u003e27\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e19:32\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e19:43\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;70jm56f7jlpk&quot;,&quot;name&quot;:&quot;Claude Desktop login issues&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Feb \u003cvar data-var=&#39;date&#39;\u003e27\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e14:00\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e17:21\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;zp9x05pcbwxq&quot;,&quot;name&quot;:&quot;Elevated errors on claude.ai&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;major&quot;,&quot;timestamp&quot;:&quot;Feb \u003cvar data-var=&#39;date&#39;\u003e27\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e13:14\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e17:17\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;9s03yn69ky6m&quot;,&quot;name&quot;:&quot;Outage in usage reporting&quot;,&quot;message&quot;:&quot;This incident has been resolved. Impact: Feb 26 ~02:00 to Feb 27 06:20 UTC. Usage report API endpoints and analytics dashboards experienced errors and missing data due to an internal data service issue. All endpoints have been restored and historical data is now displaying correctly. We apologize for any inconvenience caused.&quot;,&quot;impact&quot;:&quot;none&quot;,&quot;timestamp&quot;:&quot;Feb \u003cvar data-var=&#39;date&#39;\u003e26\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e15:56\u003c/var\u003e - Feb \u003cvar data-var=&#39;date&#39;\u003e27\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e14:23\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;6rw4nd44bqqh&quot;,&quot;name&quot;:&quot;Elevated errors on claude.ai&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;major&quot;,&quot;timestamp&quot;:&quot;Feb \u003cvar data-var=&#39;date&#39;\u003e27\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e12:59\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e13:12\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;3kjy2zn2w2bj&quot;,&quot;name&quot;:&quot;Claude Code showing \&quot;JSON Parse error: Unexpected EOF\&quot; and writing excessive files on Windows&quot;,&quot;message&quot;:&quot;We&#39;ve confirmed this issue is resolved in Claude Code v2.1.61. Run `claude update` for the latest.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Feb \u003cvar data-var=&#39;date&#39;\u003e26\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e19:57\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e23:07\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;d392wcgvxl01&quot;,&quot;name&quot;:&quot;Claude Desktop failing to open for some users&quot;,&quot;message&quot;:&quot;If Claude fails to launch on your computer, please download the latest version from download the latest version on https://claude.com/download. We have now fixed the underlying issue.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Feb \u003cvar data-var=&#39;date&#39;\u003e25\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e16:23\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e23:54\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;p4y2931r0pmy&quot;,&quot;name&quot;:&quot;Elevated errors on Claude Opus 4.6&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;major&quot;,&quot;timestamp&quot;:&quot;Feb \u003cvar data-var=&#39;date&#39;\u003e25\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e19:15\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e19:37\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;bdxgsy48hp00&quot;,&quot;name&quot;:&quot;Elevated error rates across multiple models&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;major&quot;,&quot;timestamp&quot;:&quot;Feb \u003cvar data-var=&#39;date&#39;\u003e25\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e17:15\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e17:46\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;37smd4qkjv2r&quot;,&quot;name&quot;:&quot;Elevated errors on Claude Sonnet 4.6 and Opus 4.6&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Feb \u003cvar data-var=&#39;date&#39;\u003e25\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e13:58\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e16:22\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;61lq9gtznd0s&quot;,&quot;name&quot;:&quot;Elevated errors on Claude Sonnet 4.6&quot;,&quot;message&quot;:&quot;As of 5:10 PT / 13:10 UTC errors are back to baseline.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Feb \u003cvar data-var=&#39;date&#39;\u003e24\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e12:22\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e13:26\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;5pr1d63fdjml&quot;,&quot;name&quot;:&quot;Intermittent errors in skills-related functionality&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Feb \u003cvar data-var=&#39;date&#39;\u003e17\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e20:15\u003c/var\u003e - Feb \u003cvar data-var=&#39;date&#39;\u003e24\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e11:51\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;krthksf7mfyq&quot;,&quot;name&quot;:&quot;Elevated errors on Claude Sonnet 4.6&quot;,&quot;message&quot;:&quot;As of 23:27 PT / 7:27 UTC the errors are back to the baseline.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Feb \u003cvar data-var=&#39;date&#39;\u003e24\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e07:22\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e07:41\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;vx606lmrr9dh&quot;,&quot;name&quot;:&quot;Elevated errors on Claude Haiku 4.5&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;major&quot;,&quot;timestamp&quot;:&quot;Feb \u003cvar data-var=&#39;date&#39;\u003e23\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e14:06\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e15:59\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;svd7kk1vlhmc&quot;,&quot;name&quot;:&quot;Elevated errors on Claude Sonnet 4.5&quot;,&quot;message&quot;:&quot;As of 03:26 PT / 11:26 UTC the error rate has now reduced to the baseline.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Feb \u003cvar data-var=&#39;date&#39;\u003e23\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e11:21\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e11:36\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;162g24n9sm8p&quot;,&quot;name&quot;:&quot;Elevated errors on Claude Opus 4.6&quot;,&quot;message&quot;:&quot;As of 01:30 PT / 09:30 UTC the error rates have returned to baseline&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Feb \u003cvar data-var=&#39;date&#39;\u003e23\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e08:00\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e09:58\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;87lmxddjpxnn&quot;,&quot;name&quot;:&quot;Opus 4.6 elevated error rates&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Feb \u003cvar data-var=&#39;date&#39;\u003e21\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e22:16\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e23:11\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;j6qqhxswnpgw&quot;,&quot;name&quot;:&quot;Some Windows users unable to use Cowork&quot;,&quot;message&quot;:&quot;Some Windows users on v1.1.3918 of Desktop saw a \&quot;Virtualization is not enabled\&quot; message and were not able to use Cowork. Resolved in v1.1.3963&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Feb \u003cvar data-var=&#39;date&#39;\u003e21\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e05:00\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e05:00\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;rypj3860pyv0&quot;,&quot;name&quot;:&quot;Sonnet 4 errors&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Feb \u003cvar data-var=&#39;date&#39;\u003e20\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e19:42\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e20:17\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;wvcltv77dcfm&quot;,&quot;name&quot;:&quot;Elevated errors on Claude Sonnet 4.5&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Feb \u003cvar data-var=&#39;date&#39;\u003e20\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e14:37\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e15:37\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;p66ph1brd3zc&quot;,&quot;name&quot;:&quot;Claude&#39;s responses not appearing in Cowork&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;major&quot;,&quot;timestamp&quot;:&quot;Feb \u003cvar data-var=&#39;date&#39;\u003e19\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e15:30\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e16:03\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;kqxx66h5qsy2&quot;,&quot;name&quot;:&quot;Elevated error rates across multiple models&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;major&quot;,&quot;timestamp&quot;:&quot;Feb \u003cvar data-var=&#39;date&#39;\u003e18\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e15:36\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e18:28\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;3qnc3g20hgp8&quot;,&quot;name&quot;:&quot;Elevated errors on Claude Sonnet 4.6&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Feb \u003cvar data-var=&#39;date&#39;\u003e18\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e13:20\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e15:35\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;cn4x4rg7cg0l&quot;,&quot;name&quot;:&quot;Elevated errors on Claude Opus 4.5&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Feb \u003cvar data-var=&#39;date&#39;\u003e18\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e10:49\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e12:09\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;ftrsh0r62qks&quot;,&quot;name&quot;:&quot;Cowork new task page not loading&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;major&quot;,&quot;timestamp&quot;:&quot;Feb \u003cvar data-var=&#39;date&#39;\u003e18\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e03:23\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e04:07\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;d6lxkq6m53yy&quot;,&quot;name&quot;:&quot;CSS errors on Claude.ai&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Feb \u003cvar data-var=&#39;date&#39;\u003e17\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e23:56\u003c/var\u003e - Feb \u003cvar data-var=&#39;date&#39;\u003e18\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e00:10\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;bryrpn54npvn&quot;,&quot;name&quot;:&quot;opus 4.6 elevated errors&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;none&quot;,&quot;timestamp&quot;:&quot;Feb \u003cvar data-var=&#39;date&#39;\u003e17\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e19:20\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e21:05\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;55dry9k1s8vg&quot;,&quot;name&quot;:&quot;New user-created skills are not working in Claude.ai&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Feb \u003cvar data-var=&#39;date&#39;\u003e17\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e15:26\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e20:04\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;rrgvzzm78zln&quot;,&quot;name&quot;:&quot;Elevated errors on Claude Sonnet 4.5&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Feb \u003cvar data-var=&#39;date&#39;\u003e17\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e18:01\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e19:02\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;kpcyy3yl6r8v&quot;,&quot;name&quot;:&quot;Elevated errors on Claude Opus 4.6&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Feb \u003cvar data-var=&#39;date&#39;\u003e17\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e13:13\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e16:39\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;r3w8gj1cx65g&quot;,&quot;name&quot;:&quot;Elevated errors on Claude Opus 4.6&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Feb \u003cvar data-var=&#39;date&#39;\u003e16\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e16:05\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e19:15\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;8zk0t14kl1m8&quot;,&quot;name&quot;:&quot;Elevated errors on Opus 4.6&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Feb \u003cvar data-var=&#39;date&#39;\u003e16\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e14:32\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e15:06\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;49s6mwrdyz8j&quot;,&quot;name&quot;:&quot;Issues with Code Execution Tool&quot;,&quot;message&quot;:&quot;We have deployed a fix for Code Execution tool on the API.&quot;,&quot;impact&quot;:&quot;none&quot;,&quot;timestamp&quot;:&quot;Feb \u003cvar data-var=&#39;date&#39;\u003e14\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e16:13\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e16:39\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;bybkm0xccbm6&quot;,&quot;name&quot;:&quot;Elevated errors on Claude models&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;major&quot;,&quot;timestamp&quot;:&quot;Feb \u003cvar data-var=&#39;date&#39;\u003e14\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e07:27\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e08:44\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;9zrz07205y1r&quot;,&quot;name&quot;:&quot;MCP not working in Research in claude.ai&quot;,&quot;message&quot;:&quot;This issue has been resolved.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Feb \u003cvar data-var=&#39;date&#39;\u003e13\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e17:56\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e23:21\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;04srdy8n8cwl&quot;,&quot;name&quot;:&quot;Elevated errors on Opus 4.6 Fast Mode&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Feb \u003cvar data-var=&#39;date&#39;\u003e13\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e17:13\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e21:27\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;95wtp412zh3z&quot;,&quot;name&quot;:&quot;Elevated errors on Opus 4.6&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Feb \u003cvar data-var=&#39;date&#39;\u003e12\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e14:18\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e15:17\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;trwd5kvsclv6&quot;,&quot;name&quot;:&quot;Elevated errors on Claude Haiku 4.5&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Feb \u003cvar data-var=&#39;date&#39;\u003e11\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e14:52\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e15:43\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;0750m396cf4p&quot;,&quot;name&quot;:&quot;Elevated errors on Claude Sonnet 4.5&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Feb \u003cvar data-var=&#39;date&#39;\u003e11\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e13:22\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e14:55\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;3fsrljm3n64g&quot;,&quot;name&quot;:&quot;Elevated errors on Opus 4.6&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Feb \u003cvar data-var=&#39;date&#39;\u003e11\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e08:21\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e08:37\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;90yshy009sqy&quot;,&quot;name&quot;:&quot;Elevated errors on Opus 4.6 Fast Mode&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;none&quot;,&quot;timestamp&quot;:&quot;Feb \u003cvar data-var=&#39;date&#39;\u003e10\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e22:11\u003c/var\u003e - Feb \u003cvar data-var=&#39;date&#39;\u003e11\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e05:41\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;cm6rfz7dzy90&quot;,&quot;name&quot;:&quot;Opus 4.6 Fast Mode small amount of errors&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Feb \u003cvar data-var=&#39;date&#39;\u003e10\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e11:23\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e16:28\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;mm4pj02mp4gq&quot;,&quot;name&quot;:&quot;Elevated errors on Claude models&quot;,&quot;message&quot;:&quot;As of 16:27 UTC / 8:27 PT the incident has been resolved.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Feb \u003cvar data-var=&#39;date&#39;\u003e7\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e15:59\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e16:31\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;2gjynbb7ydph&quot;,&quot;name&quot;:&quot;Elevated error rates on claude.ai&quot;,&quot;message&quot;:&quot;This issue has been resolved.&quot;,&quot;impact&quot;:&quot;none&quot;,&quot;timestamp&quot;:&quot;Feb \u003cvar data-var=&#39;date&#39;\u003e6\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e19:30\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e19:30\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;plhlsqf2svt6&quot;,&quot;name&quot;:&quot;Conversation compaction temporarily disabled on claude.ai&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Feb \u003cvar data-var=&#39;date&#39;\u003e5\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e15:58\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e20:32\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;pvbysfjjrf8m&quot;,&quot;name&quot;:&quot;Elevated errors on Claude models&quot;,&quot;message&quot;:&quot;The outage between 16:20 UTC / 8:20 PT and 16:55 UTC / 8:55 PT has now been resolved.&quot;,&quot;impact&quot;:&quot;major&quot;,&quot;timestamp&quot;:&quot;Feb \u003cvar data-var=&#39;date&#39;\u003e4\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e16:39\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e17:06\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;vcsmyx922y7z&quot;,&quot;name&quot;:&quot;Elevated errors on Claude Opus 4.5 and Sonnet 4.5&quot;,&quot;message&quot;:&quot;The issue has been fully resolved. The timelines are:\n\n* 02:00 PT / 10:00 UTC to 02:35 PT / 10:35 UTC\n* 02:54 PT / 10:54 UTC to 03:01 PT / 11:01 UTC&quot;,&quot;impact&quot;:&quot;major&quot;,&quot;timestamp&quot;:&quot;Feb \u003cvar data-var=&#39;date&#39;\u003e4\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e10:13\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e11:11\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;v4v6psj8hkh3&quot;,&quot;name&quot;:&quot;Elevated errors on Claude Opus 4.5&quot;,&quot;message&quot;:&quot;Users experienced errors on Opus 4.5 between 12:08 PM and 2:38 PM PT (20:08 and 22:38 UTC).&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Feb \u003cvar data-var=&#39;date&#39;\u003e3\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e21:02\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e23:06\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;54rr0gbh596p&quot;,&quot;name&quot;:&quot;Elevated error rate establishing new connections to Claude.ai connectors&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Feb \u003cvar data-var=&#39;date&#39;\u003e3\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e18:42\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e20:47\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;mhxgcgjrjy7k&quot;,&quot;name&quot;:&quot;SSO and magic link sign-in degraded on Claude Desktop&quot;,&quot;message&quot;:&quot;SSO and magic link sign-in degraded on Claude Desktop&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Feb \u003cvar data-var=&#39;date&#39;\u003e3\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e20:30\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e20:30\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;d8v3zr02my00&quot;,&quot;name&quot;:&quot;Elevated error rate on API across all Claude models&quot;,&quot;message&quot;:&quot;This is a repeat of the earlier incident today. The incident started at 9:52 PT / 17:52 UTC and ended at 9:56 PT / 17:56 UTC. The percentage of requests impacted was also smaller.&quot;,&quot;impact&quot;:&quot;critical&quot;,&quot;timestamp&quot;:&quot;Feb \u003cvar data-var=&#39;date&#39;\u003e3\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e18:00\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e18:03\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;pr6yx3bfr172&quot;,&quot;name&quot;:&quot;Elevated error rate on API across all Claude models&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;critical&quot;,&quot;timestamp&quot;:&quot;Feb \u003cvar data-var=&#39;date&#39;\u003e3\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e15:46\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e15:56\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;lvvsg4wy0mhj&quot;,&quot;name&quot;:&quot;Elevated errors on Claude Opus 4.5&quot;,&quot;message&quot;:&quot;Users experienced errors on Opus 4.5 between 15:09 PT / 23:09 UTC to 15:15 PT / 23:15.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Feb \u003cvar data-var=&#39;date&#39;\u003e2\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e23:15\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e23:18\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;qtmzycrwksws&quot;,&quot;name&quot;:&quot;Credit purchase issues \u0026 delays&quot;,&quot;message&quot;:&quot;The incident has been resolved&quot;,&quot;impact&quot;:&quot;major&quot;,&quot;timestamp&quot;:&quot;Feb \u003cvar data-var=&#39;date&#39;\u003e1\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e21:59\u003c/var\u003e - Feb \u003cvar data-var=&#39;date&#39;\u003e2\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e02:08\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;9qghqkbxtvml&quot;,&quot;name&quot;:&quot;Elevated errors on Claude Sonnet 4.5&quot;,&quot;message&quot;:&quot;As of 2026-02-01 03:55 PT / 11:55 UTC the errors are back to the baseline.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Feb \u003cvar data-var=&#39;date&#39;\u003e1\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e11:47\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e12:34\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;y74v1yzcnzvb&quot;,&quot;name&quot;:&quot;Elevated errors on Claude Opus 4.5&quot;,&quot;message&quot;:&quot;The errors have returned to baseline as of 2026-02-01 02:51 / 10:51 UTC.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Feb \u003cvar data-var=&#39;date&#39;\u003e1\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e10:54\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e11:42\u003c/var\u003e UTC&quot;}]},{&quot;name&quot;:&quot;January&quot;,&quot;year&quot;:2026,&quot;starts_on&quot;:4,&quot;days&quot;:31,&quot;incidents&quot;:[{&quot;code&quot;:&quot;rl6pphjrc2r4&quot;,&quot;name&quot;:&quot;Some users are experiencing memory leaks in Claude Code 2.1.27&quot;,&quot;message&quot;:&quot;This incident has been resolved. Update Claude Code to 2.1.29.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Jan \u003cvar data-var=&#39;date&#39;\u003e31\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e20:18\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e21:06\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;29wh90pcv3r1&quot;,&quot;name&quot;:&quot;Some users are experiencing delays in purchasing additional API credits&quot;,&quot;message&quot;:&quot;During the outage, all of the following were delayed:\n- customer balances\n- billing for standard API usage\n- issuing credit auto-recharge invoices\n- access shutoff/restore for $0 in credits, and for reaching spend limits\n\nThe outage has now been resolved. There is no longer a system delay for any of the above.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Jan \u003cvar data-var=&#39;date&#39;\u003e29\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e19:10\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e20:39\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;5nq70md45xh4&quot;,&quot;name&quot;:&quot;Elevated errors on Claude Opus 4.5&quot;,&quot;message&quot;:&quot;As of 06:12 PT / 14:12 UTC, we have mitigated the issue.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Jan \u003cvar data-var=&#39;date&#39;\u003e28\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e13:52\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e14:14\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;jg3crnxm1j28&quot;,&quot;name&quot;:&quot;Elevated errors on Claude Opus 4.5&quot;,&quot;message&quot;:&quot;As of 03:50 PT / 11:50 UTC we have fully recovered.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Jan \u003cvar data-var=&#39;date&#39;\u003e28\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e11:30\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e12:30\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;8wbm1h0pk78b&quot;,&quot;name&quot;:&quot;Elevated errors on Claude Sonnet 3.7&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Jan \u003cvar data-var=&#39;date&#39;\u003e28\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e10:13\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e10:36\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;833cdm540lld&quot;,&quot;name&quot;:&quot;Degraded performance on Claude Console&quot;,&quot;message&quot;:&quot;This incident is resolved.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Jan \u003cvar data-var=&#39;date&#39;\u003e27\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e22:28\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e23:07\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;nkwk08nf2259&quot;,&quot;name&quot;:&quot;Elevated errors on Claude Haiku 3.5&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Jan \u003cvar data-var=&#39;date&#39;\u003e27\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e14:23\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e14:56\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;1f8s9zn12cfh&quot;,&quot;name&quot;:&quot;Increased rate of errors for Opus 4.5&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Jan \u003cvar data-var=&#39;date&#39;\u003e25\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e08:05\u003c/var\u003e - Jan \u003cvar data-var=&#39;date&#39;\u003e26\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e14:32\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;5dvcj03m4d57&quot;,&quot;name&quot;:&quot;Elevated errors: Invalid `signature` in `thinking` block&quot;,&quot;message&quot;:&quot;This issue is resolved for new requests. However, for responses from one platform received between 2026-01-23 00:00 UTC - 2026-01-23 08:00 UTC that are subsequently included in requests sent to a different platform, there may still be errors.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Jan \u003cvar data-var=&#39;date&#39;\u003e23\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e05:09\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e07:47\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;713v1h3z2j5k&quot;,&quot;name&quot;:&quot;Elevated error rates on claude.ai and API&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;major&quot;,&quot;timestamp&quot;:&quot;Jan \u003cvar data-var=&#39;date&#39;\u003e22\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e22:19\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e22:26\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;58sxy43h7kvf&quot;,&quot;name&quot;:&quot;Claude Code Authentication Issues&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;major&quot;,&quot;timestamp&quot;:&quot;Jan \u003cvar data-var=&#39;date&#39;\u003e22\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e16:22\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e16:49\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;ct82mw4kc0kt&quot;,&quot;name&quot;:&quot;Elevated errors on claude.ai&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;major&quot;,&quot;timestamp&quot;:&quot;Jan \u003cvar data-var=&#39;date&#39;\u003e22\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e16:06\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e16:49\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;yrxt885v63jw&quot;,&quot;name&quot;:&quot;Elevated errors on Claude Sonnet 4.5&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Jan \u003cvar data-var=&#39;date&#39;\u003e21\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e14:44\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e15:32\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;l3q16xnl4t2f&quot;,&quot;name&quot;:&quot;Elevated errors on Claude Opus 4.5 and Sonnet 4.5&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Jan \u003cvar data-var=&#39;date&#39;\u003e20\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e16:41\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e17:34\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;6ykk5hyrg95v&quot;,&quot;name&quot;:&quot;Compaction is having issues&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Jan \u003cvar data-var=&#39;date&#39;\u003e15\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e07:28\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e17:02\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;tgzm3mf45wzc&quot;,&quot;name&quot;:&quot;Elevated error rates on Opus 4.5 and Sonnet 4.5&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;critical&quot;,&quot;timestamp&quot;:&quot;Jan \u003cvar data-var=&#39;date&#39;\u003e14\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e08:34\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e14:17\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;09v917vcc8kg&quot;,&quot;name&quot;:&quot;Increased rate of errors for Opus 4.5&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Jan \u003cvar data-var=&#39;date&#39;\u003e13\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e07:27\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e07:49\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;zt2q0ltqcvbx&quot;,&quot;name&quot;:&quot;Elevated rate of errors for multiple models&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;major&quot;,&quot;timestamp&quot;:&quot;Jan \u003cvar data-var=&#39;date&#39;\u003e12\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e18:10\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e20:14\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;s2g3slcdq9jk&quot;,&quot;name&quot;:&quot;Increased rate of errors for Opus 4.5&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;major&quot;,&quot;timestamp&quot;:&quot;Jan \u003cvar data-var=&#39;date&#39;\u003e12\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e19:21\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e20:14\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;cns634h0tfmv&quot;,&quot;name&quot;:&quot;Elevated error rates on Sonnet 4.5 1M context&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Jan \u003cvar data-var=&#39;date&#39;\u003e10\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e14:33\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e15:41\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;846yxgg3v8nr&quot;,&quot;name&quot;:&quot;Degraded performance for API requests involving structured outputs.&quot;,&quot;message&quot;:&quot;We&#39;ve deployed a fix to resolve the issue.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Jan \u003cvar data-var=&#39;date&#39;\u003e10\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e03:37\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e06:38\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;pttlfp1vg4g3&quot;,&quot;name&quot;:&quot;New Subscription Activation \u0026 Payment Issues&quot;,&quot;message&quot;:&quot;The fix finished deploying approximately 2 hours ago and new purchases should work correctly going forward. We&#39;re closing this statuspage for now, and will work to restore access and/or provide refunds as needed for all affected customers.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Jan \u003cvar data-var=&#39;date&#39;\u003e9\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e19:41\u003c/var\u003e - Jan \u003cvar data-var=&#39;date&#39;\u003e10\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e04:55\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;jlg58yl731jj&quot;,&quot;name&quot;:&quot;Increased latency on Sonnet 4.5&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Jan \u003cvar data-var=&#39;date&#39;\u003e8\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e17:23\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e21:57\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;4hr61fgdzbtc&quot;,&quot;name&quot;:&quot;Claude subscription usage limits not visible in Claude.ai and Claude Code&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Jan \u003cvar data-var=&#39;date&#39;\u003e7\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e19:07\u003c/var\u003e - Jan \u003cvar data-var=&#39;date&#39;\u003e8\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e05:06\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;1y7x01b0ldlj&quot;,&quot;name&quot;:&quot;Elevated error rates on Opus 4.5&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Jan \u003cvar data-var=&#39;date&#39;\u003e7\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e09:09\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e10:04\u003c/var\u003e UTC&quot;},{&quot;code&quot;:&quot;m4bbg9f9lfjk&quot;,&quot;name&quot;:&quot;Errors on requests to Haiku 3.5&quot;,&quot;message&quot;:&quot;This incident has been resolved.&quot;,&quot;impact&quot;:&quot;minor&quot;,&quot;timestamp&quot;:&quot;Jan \u003cvar data-var=&#39;date&#39;\u003e6\u003c/var\u003e, \u003cvar data-var=&#39;time&#39;\u003e00:26\u003c/var\u003e - \u003cvar data-var=&#39;time&#39;\u003e00:29\u003c/var\u003e UTC&quot;}]}],&quot;show_component_filter&quot;:true,&quot;show_uptime_calendar&quot;:true,&quot;component_filter&quot;:null,&quot;start_time&quot;:&quot;2026-01-01T00:00:00Z&quot;,&quot;end_time&quot;:&quot;2026-03-31T23:59:59Z&quot;,&quot;a11yHeadings&quot;:true}"></div>
+
+    <div class="page-footer border-color font-small">
+  <a href="/" aria-label="Back to current status">
+    <span class="current-status-arrow">&larr;</span> Current Status
+  </a>
+  <span class="color-secondary powered-by"><a class="color-secondary" target="_blank" rel="noopener noreferrer nofollow" href="https://www.atlassian.com/software/statuspage?utm_campaign=status.claude.com&amp;utm_content=SP-notifications&amp;utm_medium=powered-by&amp;utm_source=inapp">Powered by Atlassian Statuspage</a></span>
+</div>
+
+  </div>
+
+
+  
+</div>
+
+
+    <script src="https://dka575ofm4ao0.cloudfront.net/assets/status_manifest-9446cbd3af4b0e3706e85200ffeb5f09d6410458c7aea582354bfd4bc5546b5e.js"></script>
+    <div id="cpt-notification-container" role="status" aria-live="polite" aria-atomic="true"></div>
+    
+
+
+
+
+    <!-- all of the content_for stuff -->
+      <script src="https://dka575ofm4ao0.cloudfront.net/assets/register_subscription_form-589b657fec607087fc5c740c568270907310bc4f6aaa20256e70f01b103025ca.js"></script>
+
+  <script type="text/javascript">
+      $(function() {
+          SP.currentPage.registerSubscriptionForm('email');
+
+          SP.currentPage.registerSubscriptionForm('sms');
+
+          SP.currentPage.registerSubscriptionForm('webhook');
+
+        SP.currentPage.registerSubscriptionForm('teams');
+      });
+
+
+
+
+
+  </script>
+    <script src="https://dka575ofm4ao0.cloudfront.net/assets/status_common-a86dffb81955091741c3de8bded6ce66ae0c6d8f736b57b580f853d9f892727e.js"></script>
+    
+
+
+      <script>
+  /** INITIALIZATION **/
+  var recaptchaIds = {}
+
+  // Unfortunately there's no unique selectors on the parent divs that recaptcha adds. The first unique selector
+  // is the iframe rendered 2 levels deep. So this waits until the iframes are added to the page, then finds
+  // the parent div and sets the z index so that it'll render above our modals & dropdowns from the start.
+  function setZIndex(captchaCount, startTime) {
+    // bail after 10s just in case so we don't do this forever if something whaky happens
+    if (new Date() - startTime > 10000) {
+      return;
+    }
+
+    var iframes = document.querySelectorAll('iframe[title="recaptcha challenge"]');
+    if (iframes.length != captchaCount) {
+      setTimeout(function() {
+        setZIndex(captchaCount, startTime);
+      }, 500);
+    }
+
+    for (var i = 0; i < iframes.length; i++) {
+      // incident subscribe modal is 1050, so this has to be above that
+      iframes[i].parentElement.parentElement.style.zIndex = "1100";
+    }
+  }
+
+  function updateCaptchaIframeTitle(captchaCount, startTime, updates=0) {
+
+    if (new Date() - startTime > 10000 || captchaCount === updates) {
+      return;
+    }
+    var iframesWithTitle = document.querySelectorAll('iframe[title="recaptcha challenge expires in two minutes"]');
+
+    if (iframesWithTitle.length != captchaCount) {
+      setTimeout(function() {
+        updateCaptchaIframeTitle(captchaCount, startTime, iframesWithTitle.length + updates);
+      }, 500);
+    }
+
+    for (var i = 0; i < iframesWithTitle.length; i++) {
+      iframesWithTitle[i].title = "recaptcha";
+    }
+  }
+
+  function addIncidentCaptcha() {
+    var incidentCaptcha = document.createElement('div');
+    incidentCaptcha.setAttribute('id', 'subscribe-incident-recaptcha');
+    incidentCaptcha.setAttribute('class', 'g-recaptcha');
+    incidentCaptcha.setAttribute('data-sitekey', '6LcZ-b0UAAAAAENi956aWzynTT2ZJ80dGU3F80Op');
+    incidentCaptcha.setAttribute('data-callback', 'submitIncidentSubscriberSuccess');
+    incidentCaptcha.setAttribute('data-error-callback', 'submitIncidentSubscriberError');
+    incidentCaptcha.setAttribute('data-size', 'invisible');
+    document.body.appendChild(incidentCaptcha);
+    var incidentCode = document.createElement('input');
+    incidentCode.setAttribute('type', 'hidden');
+    incidentCode.setAttribute('id', 'submit_incident_code');
+    document.body.appendChild(incidentCode);
+  }
+
+  var onloadCallback = function() {
+    // if there is an incident, then add incident captcha element
+    if (document.getElementsByClassName('modal-open-incident-subscribe').length > 0) {
+      addIncidentCaptcha();
+    }
+
+    var captchas = document.getElementsByClassName("g-recaptcha");
+
+    for(var i = 0; i < captchas.length; i++) {
+      var elId = captchas[i].id;
+      recaptchaIds[elId] = grecaptcha.enterprise.render(elId);
+    }
+
+    setZIndex(captchas.length, new Date());
+    updateCaptchaIframeTitle(captchas.length, new Date());
+  }
+
+
+  /** SUBSCRIBE DROPDOWN */
+
+  // callbacks for captcha success
+  function submitNewSubscriber(type, error) {
+    if (error) document.querySelector('#subscribe-form-' + type + ' #captcha_error').value = 'true';
+
+    document.getElementById('subscribe-form-' + type).dispatchEvent(new Event('submit', {bubbles: true, cancelable: true}));
+    grecaptcha.enterprise.reset(recaptchaIds['subscribe-btn-' + type]);
+  }
+  function submitNewEmailSubscriber(token) {
+    submitNewSubscriber('email');
+  }
+  function submitNewSmsSubscriber(token) {
+    submitNewSubscriber('sms');
+  }
+  function submitNewWebhookSubscriber(token) {
+    submitNewSubscriber('webhook');
+  }
+  function submitIncidentSubscriber(token, error) {
+    var incidentCode = document.getElementById('submit_incident_code').value;
+    var incidentForm = document.getElementById('subscribe-form-' + incidentCode);
+
+    incidentForm.querySelector('input[name="captcha_error"]').value = error;
+    incidentForm.querySelector('input[name="g-recaptcha-response"]').value = token;
+    incidentForm.dispatchEvent(new Event('submit', {bubbles: true, cancelable: true}));
+    grecaptcha.enterprise.reset(recaptchaIds['subscribe-incident-recaptcha']);
+  }
+  function submitIncidentSubscriberSuccess(token) {
+    submitIncidentSubscriber(token, 'false');
+  }
+
+  // callbacks if we get captcha network errors
+  function emailSubscriberCaptchaError(token) {
+    submitNewSubscriber('email', true);
+  }
+  function smsSubscriberCaptchaError(token) {
+    submitNewSubscriber('sms', true);
+  }
+  function webhookSubscriberCaptchaError(token) {
+    submitNewSubscriber('webhook', true);
+  }
+  function submitIncidentSubscriberError(token) {
+    submitIncidentSubscriber(token, 'true');
+  }
+
+  // tracking clicks
+  ['email', 'sms', 'webhook'].forEach(function(type) {
+    var el = document.getElementById('subscribe-btn-' + type);
+    el && el.addEventListener("click", function() {
+      $.ajax({
+        type: "POST",
+        url: "/subscriptions/track_attempt",
+        data: {
+          type: type
+        }
+      })
+    })
+  })
+
+  // form submission success callbacks
+  $('#subscribe-form-email').on('ajax:success', function(e, data, status, xhr){
+    if (data.type === 'success') {
+      SP.currentPage.updatesDropdown.hide();
+      var emailField = document.getElementById('email');
+      if (emailField) {
+        emailField.value = '';
+      }
+    }
+  });
+  $('#subscribe-form-sms').on('ajax:success', function(e, data, status, xhr){
+    if (data.type === 'success' && data.otp_flow !== true) {
+      SP.currentPage.updatesDropdown.hide();
+      var phoneField = document.getElementById('phone-number');
+      if (phoneField) {
+        phoneField.value = '';
+      }
+    }
+  });
+  $('#subscribe-form-webhook').on('ajax:success', function(e, data, status, xhr){
+    if (data.type === 'success') {
+      SP.currentPage.updatesDropdown.hide();
+      document.getElementById('endpoint-webhooks').value = '';
+      document.getElementById('email-webhooks').value = '';
+    }
+  });
+
+  $('a.subscribe').on('click', function() {
+    document.body.style.overflow = "hidden";
+    document.body.style.height = "100vh";
+  });
+
+  $('div.modal-open-incident-subscribe').on('hidden', function(){
+    document.body.style.overflow = "";
+    document.body.style.height = "";
+  });
+
+  function submitCaptchaIncidentSubscribe(event) {
+    var incidentCode = event.target.id.split('-')[2];
+    event.preventDefault();
+
+    $.ajax({
+      type: "POST",
+      url: "/subscriptions/track_attempt",
+      data: {
+        type: 'incident'
+      }
+    })
+
+    document.getElementById('submit_incident_code').value = incidentCode;
+    grecaptcha.enterprise.execute(recaptchaIds['subscribe-incident-recaptcha']);
+  }
+</script>
+
+<script src='https://www.recaptcha.net/recaptcha/enterprise.js?onload=onloadCallback&render=explicit' async defer></script>
+
+
+    
+  <script src="https://dka575ofm4ao0.cloudfront.net/packs/common-d522f51f06b1f46eed6f.chunk.js"></script>
+  <script src="https://dka575ofm4ao0.cloudfront.net/packs/globals-f0ed210cb69ec1ce3c04.chunk.js"></script>
+
+    <script src="https://dka575ofm4ao0.cloudfront.net/packs/runtime-f8635dba2422c4df0e0e.js"></script>
+    
+    
+    <script src="https://dka575ofm4ao0.cloudfront.net/packs/status-9d53d644e360c1101a8b.chunk.js"></script>
+    <script src="https://dka575ofm4ao0.cloudfront.net/packs/components-0d8b078095df0d2be21c.chunk.js"></script>
+
+
+    <script>
+  window.addEventListener('load', function () {
+    const urlParams = new URLSearchParams(window.location.search);
+    const messageToken = urlParams.get('slack_message_token');
+    const channelName = escape(urlParams.get('channel_name'));
+
+    if(!!messageToken) {
+      switch(messageToken) {
+        case 'slack_auth_error':
+          HRB.utils.notify('The Slack authorization attempt was unsuccessful. Try again.', {cssClass:'error'});
+          break;
+        case 'subscribers_disabled_error':
+          HRB.utils.notify('Slack subscriptions are not enabled on this page.', {cssClass:'error'});
+          break;
+        case 'direct_message_channel_error':
+          HRB.utils.notify('Subscriptions aren’t supported in direct messages. Try subscribing again and choose a channel instead.', {cssClass:'error'});
+          break
+        case 'duplicate_error':
+          HRB.utils.notify("You're already subscribed to get Slack notifications in that channel.", {cssClass:'error'});
+          break;
+        case 'duplicate_private_channel_error':
+          HRB.utils.notify(`You're already subscribed to get Slack notifications in #${channelName}. Invite the @Statuspage app to that channel to start getting status updates.`, {cssClass: 'error'});
+          break;
+        case 'default_success':
+          HRB.utils.notify("You're now subscribed to get Statuspage updates in Slack!", {cssClass:'success'});
+          break;
+        case 'private_channel_success':
+          HRB.utils.notify(`IMPORTANT: Invite the @Statuspage app to your Slack channel #${channelName} to start getting status updates.`, {cssClass:'success'});
+          break;
+      }
+    }
+  });
+</script>
+
+    
+<!-- FOR FLASH NOTICES -->
+
+<!-- FOR ERROR -->
+
+
+    <script>
+  $(function() {
+    var $link = $('<span class="color-secondary powered-by"><a class="color-secondary" target="_blank" rel="noopener noreferrer nofollow" href="https://www.atlassian.com/software/statuspage?utm_campaign=status.claude.com&amp;utm_content=SP-notifications&amp;utm_medium=powered-by&amp;utm_source=inapp">Powered by Atlassian Statuspage</a></span>');
+
+  	var setPoweredByStyles = function() {
+  		if (!$('.powered-by').length) {
+  			$link.appendTo($('.page-footer'))
+  		}
+  		$('.powered-by').attr('style', 'display: inline !important; visibility:visible !important; opacity: 1 !important; position:static !important; text-indent:0px !important; transform:scale(1) !important');
+  	}
+
+  	setInterval(setPoweredByStyles, 1000);
+  });
+</script>
+
+
+
+
+
+  </body>
+</html>

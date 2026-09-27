@@ -1,0 +1,9 @@
+{
+  "url": "https://status.claude.com/api/v2/incidents/bryrpn54npvn.json",
+  "final_url": "https://status.claude.com/api/v2/incidents/bryrpn54npvn.json",
+  "status": 200,
+  "retrieved_at_utc": "2026-09-27T16:14:42.975306Z",
+  "sha256": "20f58c908f3bf01395df437657c70ccba7ea62e4605ce9e8407e797bcca846d5",
+  "bytes": 2888,
+  "cache_file": "raw/1710cdbbd116631a2cd6abe6a651db48af98305f09c79513c6d01974a14fca30.json"
+}
