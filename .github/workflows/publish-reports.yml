@@ -1,0 +1,80 @@
+name: Build reliability reports
+on:
+  workflow_dispatch:
+    inputs:
+      config:
+        description: 'Configuration filename in configs/, or all'
+        required: true
+        default: all
+        type: string
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - 'configs/**'
+      - 'examples/**'
+      - 'tests/**'
+      - 'requirements.txt'
+      - '.github/workflows/publish-reports.yml'
+      - '**/trend_data.json'
+      - '**/*Report*.md'
+  pull_request:
+    paths:
+      - 'scripts/**'
+      - 'configs/**'
+      - 'examples/**'
+      - 'tests/**'
+      - 'requirements.txt'
+      - '.github/workflows/**'
+      - '**/trend_data.json'
+      - '**/*Report*.md'
+permissions:
+  contents: read
+concurrency:
+  group: reliability-reports-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  test-and-build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - name: Install rendering dependencies
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo apt-get install -y fonts-noto-cjk
+          python3 -m venv .venv
+          .venv/bin/pip install -r requirements.txt
+      - name: Unit and regression tests
+        run: .venv/bin/python -m unittest discover -s tests -v
+      - name: Build configured reading reports without changing archives
+        env:
+          REPORT_CONFIG: ${{ inputs.config || 'all' }}
+          MPLBACKEND: Agg
+        run: |
+          .venv/bin/python - <<'PY'
+          import os
+          from pathlib import Path
+          import subprocess
+          import sys
+          configs = {p.name: p for p in sorted(Path('configs').glob('*.json'))}
+          selected = os.environ['REPORT_CONFIG']
+          if selected != 'all' and selected not in configs:
+              raise SystemExit('Select an existing configuration filename, or all')
+          chosen = list(configs.values()) if selected == 'all' else [configs[selected]]
+          if not chosen:
+              raise SystemExit('No report configurations found')
+          for config in chosen:
+              subprocess.run([sys.executable, 'scripts/publish_report.py', '--config', str(config),
+                              '--output', str(Path('build') / config.stem)], check=True)
+          PY
+      - name: Store reading packages and verification manifests
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: reliability-reading-reports-${{ github.run_id }}
+          path: build/
+          if-no-files-found: error
+          retention-days: 14

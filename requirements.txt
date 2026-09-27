@@ -1,0 +1,2 @@
+matplotlib==3.10.8
+mistune==3.2.1

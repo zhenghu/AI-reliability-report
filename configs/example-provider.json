@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "synthetic": true,
+  "company": {
+    "id": "exampleai",
+    "name": "ExampleAI"
+  },
+  "report": {
+    "date": "2024-09-30",
+    "version": "v0-example",
+    "title": "ExampleAI 合成示例报告"
+  },
+  "inputs": {
+    "markdown": "../examples/sample-provider/report.md",
+    "data": "../examples/sample-provider/trend_data.json"
+  },
+  "output": {
+    "directory": "../build/ExampleAI/2024-09-30/v0-example",
+    "stem": "ExampleAI_Reliability_Report_2024-09-30_v0-example",
+    "charts_directory": "charts"
+  },
+  "groups": [
+    {
+      "id": "Total",
+      "label": "整体"
+    },
+    {
+      "id": "Inference",
+      "label": "推理 API"
+    },
+    {
+      "id": "Console",
+      "label": "管理控制台"
+    }
+  ],
+  "overall_group": "Total",
+  "integrity": {
+    "markdown_sha256": "0723dbd606ddba9115fed8221976b162ba8ed41b581a459e4aeca8979e3dec95",
+    "data_sha256": "369753573c1012fd8b250f71d933cb980e21dbd00b2764ff45d9e8a909304c5e"
+  }
+}
