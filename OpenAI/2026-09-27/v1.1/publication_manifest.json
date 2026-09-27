@@ -1,0 +1,151 @@
+{
+  "kind": "GitHub reading copy; not original audit package",
+  "version": "v1.1",
+  "data_cutoff_utc": "2026-09-26T22:51:22.220908+00:00",
+  "source_markdown_sha256": "ddcaa1bf2830002a2dd30c7497221a51a35e1ddb33369f6f856909095acf9598",
+  "source_trend_data_sha256": "a6076510b063149e2bdf659395caf294addfad060507f94500601be72ccd2b5f",
+  "original_markdown_preserved_byte_for_byte": true,
+  "charts_rerendered_from_original_script_and_data": true,
+  "original_interactive_html_uploaded": false,
+  "original_audit_zip_uploaded": false,
+  "full_incident_index_included": false,
+  "statistics_reclassified_or_refreshed": false,
+  "files": {
+    "OpenAI_Reliability_Report_2026-09-27_v1.1.md": {
+      "bytes": 42354,
+      "sha256": "ddcaa1bf2830002a2dd30c7497221a51a35e1ddb33369f6f856909095acf9598"
+    },
+    "OpenAI_Reliability_Report_2026-09-27_v1.1_github.html": {
+      "bytes": 2640970,
+      "sha256": "b4b1e2236ee0e28b622f9fffe1aea4eaf996a008fbc5507f3f818dcc603c8090"
+    },
+    "OpenAI_Reliability_Trends_2026-09-27/01_annual_incidents.png": {
+      "bytes": 140715,
+      "sha256": "22f9732c420332627b683e45d328a47f96959e0ec1913dcc2fb50404ca1c1f7c"
+    },
+    "OpenAI_Reliability_Trends_2026-09-27/01_annual_incidents.svg": {
+      "bytes": 97511,
+      "sha256": "4b3b319dea4614c51cafb86f492615ac14208941b20e9f2fda86482272501a81"
+    },
+    "OpenAI_Reliability_Trends_2026-09-27/01_annual_incidents_mobile.svg": {
+      "bytes": 91566,
+      "sha256": "047b84ba179a8d23beb545c14e1911506c48aa37fdd4b20005b32e9f6f7e815f"
+    },
+    "OpenAI_Reliability_Trends_2026-09-27/02_incidents_per_30_days.png": {
+      "bytes": 135135,
+      "sha256": "02e74b57c4ae4b69063971f71e002fe3019f3c835d4181f5b54f21b934464196"
+    },
+    "OpenAI_Reliability_Trends_2026-09-27/02_incidents_per_30_days.svg": {
+      "bytes": 102438,
+      "sha256": "a6ed752e08159cadca5b5487b557812bf27369de8b9f2e25882045673656a59a"
+    },
+    "OpenAI_Reliability_Trends_2026-09-27/02_incidents_per_30_days_mobile.svg": {
+      "bytes": 95064,
+      "sha256": "264c4808a6d3fef360f893b682b856619b15c1e92d654e90ce0c4bbca8ba35af"
+    },
+    "OpenAI_Reliability_Trends_2026-09-27/03_full_hours.png": {
+      "bytes": 151007,
+      "sha256": "7c4e67d9b92808e2573e0329299d2e14279e6c25d66ebead7358a85a35808500"
+    },
+    "OpenAI_Reliability_Trends_2026-09-27/03_full_hours.svg": {
+      "bytes": 101580,
+      "sha256": "785fdf4a09dd20092ac7ab6e9ee78026101d6631fab603c736596f3ad5f08bdc"
+    },
+    "OpenAI_Reliability_Trends_2026-09-27/03_full_hours_mobile.svg": {
+      "bytes": 94498,
+      "sha256": "60874acea1295df39fa242b81959ffe2815aac68d0ab2abf8ac5f8bd2bf8ba2e"
+    },
+    "OpenAI_Reliability_Trends_2026-09-27/04_full_partial_hours.png": {
+      "bytes": 148636,
+      "sha256": "23bbd28d04799df7b3704deefdf101b2ff85e2f4724946956842e2e5a8ff0b95"
+    },
+    "OpenAI_Reliability_Trends_2026-09-27/04_full_partial_hours.svg": {
+      "bytes": 103188,
+      "sha256": "37a807c4f817ad0f9c67d14023c6f298bcbf82d5eefc470b54cac1bb2f49a489"
+    },
+    "OpenAI_Reliability_Trends_2026-09-27/04_full_partial_hours_mobile.svg": {
+      "bytes": 95398,
+      "sha256": "5cfbfeb58c3ba2534f6327bd8b1221628e70cfa20637227b5023e747009caaf8"
+    },
+    "OpenAI_Reliability_Trends_2026-09-27/05_all_hours.png": {
+      "bytes": 147771,
+      "sha256": "62787acddc2b570f8b43d47e53c67167663416c74b6f0333861485c98c585636"
+    },
+    "OpenAI_Reliability_Trends_2026-09-27/05_all_hours.svg": {
+      "bytes": 104867,
+      "sha256": "b5f7911b63a23395e02a06b064431da81a837a3ecaf58d027f90accf017199b1"
+    },
+    "OpenAI_Reliability_Trends_2026-09-27/05_all_hours_mobile.svg": {
+      "bytes": 96023,
+      "sha256": "cd2cac4720799b983a40d91ccd5059cd13c88af9e996e39f0ea8344b7bc16d6a"
+    },
+    "OpenAI_Reliability_Trends_2026-09-27/06_availability_full.png": {
+      "bytes": 168687,
+      "sha256": "7bdd69208abddd46b5e95f1141efe024ce85fe6800a27664dd2a227161b78e6f"
+    },
+    "OpenAI_Reliability_Trends_2026-09-27/06_availability_full.svg": {
+      "bytes": 109838,
+      "sha256": "7eb18f84e18370171528a01948d4cb42e63c3f6e93c421d76ba4850e884e0113"
+    },
+    "OpenAI_Reliability_Trends_2026-09-27/06_availability_full_mobile.svg": {
+      "bytes": 102320,
+      "sha256": "1edc1c8653c9cb550a14f05c01f6705305520833ae9096e481b5fb1a2e8c0986"
+    },
+    "OpenAI_Reliability_Trends_2026-09-27/07_availability_full_partial.png": {
+      "bytes": 161730,
+      "sha256": "52e1798a90a73cd7940394b5b8b2d8718bae9cea34813810e065cbdea109fb4f"
+    },
+    "OpenAI_Reliability_Trends_2026-09-27/07_availability_full_partial.svg": {
+      "bytes": 110294,
+      "sha256": "09ee138e1387a00ec577116dc1d42bec0e0c475193174aba1ea32532e63a209f"
+    },
+    "OpenAI_Reliability_Trends_2026-09-27/07_availability_full_partial_mobile.svg": {
+      "bytes": 102762,
+      "sha256": "1ecc644327306c3c4e17702514817bb688a8caec2eae2d8f4d7447391a8ee588"
+    },
+    "OpenAI_Reliability_Trends_2026-09-27/08_availability_all.png": {
+      "bytes": 156229,
+      "sha256": "625d152b52a3c38c8b72eab2f96cd6be88e29475bcfe442839ad00f4b6e2e761"
+    },
+    "OpenAI_Reliability_Trends_2026-09-27/08_availability_all.svg": {
+      "bytes": 110855,
+      "sha256": "12e58b9c45a101d0554be4d37f5dd1c0ef94b37078a247a41aa58d573b735a32"
+    },
+    "OpenAI_Reliability_Trends_2026-09-27/08_availability_all_mobile.svg": {
+      "bytes": 103322,
+      "sha256": "be06a3d34ce1972397ac75a52cb6ff16cf7b6d8864ea02a257250a6f037e6245"
+    },
+    "OpenAI_Reliability_Trends_2026-09-27/09_matched_window_counts.png": {
+      "bytes": 92475,
+      "sha256": "83dd027bfbdcb14a0c240e46e0095d6fd9bb8119e2b99b3cb8e4077c8c9a33d4"
+    },
+    "OpenAI_Reliability_Trends_2026-09-27/09_matched_window_counts.svg": {
+      "bytes": 79733,
+      "sha256": "3f28f3bd295db82e19d51614b2714ca712b5b632f05458a355cd1e7a913ddcd0"
+    },
+    "OpenAI_Reliability_Trends_2026-09-27/09_matched_window_counts_mobile.svg": {
+      "bytes": 72456,
+      "sha256": "6836599fded6a171a3019ba9e160c24992b9f17c5df3448b767ab16bb813706f"
+    },
+    "annual_incidents.png": {
+      "bytes": 62796,
+      "sha256": "aaba408be2474837efa63b807c4a5dcca5d5c7a4974e02161765155c7ff74148"
+    },
+    "annual_trend_data.csv": {
+      "bytes": 5881,
+      "sha256": "ea82518233b62d4e2776f2c223af85c0ca9a8a8f426a9f3fb88c7d5d8fdc3b41"
+    },
+    "availability_modes_2026.png": {
+      "bytes": 99987,
+      "sha256": "8f9611e5aecff1f8b8dffa95700a0f2835c7ded2542ab12482c03df3af275354"
+    },
+    "matched_window_trend_data.csv": {
+      "bytes": 2171,
+      "sha256": "1f63907c35672f79b372aa7ce05240278a819927376375c0178710a31c77b3d2"
+    },
+    "trend_data.json": {
+      "bytes": 26108,
+      "sha256": "a6076510b063149e2bdf659395caf294addfad060507f94500601be72ccd2b5f"
+    }
+  }
+}
