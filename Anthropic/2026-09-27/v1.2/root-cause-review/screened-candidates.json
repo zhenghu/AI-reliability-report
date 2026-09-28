@@ -1,0 +1,329 @@
+[
+  {
+    "incident_id": "306rf7bb75mm",
+    "source_record_sha256": "46ed38eba1af8ff95cdfbfc310a486e2c74582fe213c1b435c8c1e52d802616a",
+    "matched_statements": [
+      {
+        "update_id": "6v37jjgz212c",
+        "quote": "We are deploying a mitigation and will post updates within the next 20 minute."
+      }
+    ],
+    "review_decision": "现有候选文字只有根因调查/修复过程或未展开的现象，未增加具体归因。"
+  },
+  {
+    "incident_id": "x0465yqg246w",
+    "source_record_sha256": "80fe72673db78b3047324b6b8845c481ba6804b9b6120d5f03f687f31a68b1c5",
+    "matched_statements": [
+      {
+        "update_id": "qrmtqbbm9wyn",
+        "quote": "We are currently investigating reports of users being unable to purchase credits due to phone number verification errors"
+      }
+    ],
+    "review_decision": "手机验证及问卷流程问题仅为故障链，后续更新还修正了购买受影响范围，不能从首条公告推断技术根因。"
+  },
+  {
+    "incident_id": "mzyhcbn140fg",
+    "source_record_sha256": "5434e9d5e6045dde97616fa9420f1b49e2161d2ee8cba7e48dd839b2a13eb030",
+    "matched_statements": [
+      {
+        "update_id": "rh2t3v31t45v",
+        "quote": "We have identified and addressed the root cause of unauthorized posts on @AnthropicAI, our official X account."
+      }
+    ],
+    "review_decision": "现有候选文字只有根因调查/修复过程或未展开的现象，未增加具体归因。"
+  },
+  {
+    "incident_id": "bktpjrm292p3",
+    "source_record_sha256": "5a9b9d599fd18cd5bf55915062f2d5bf5c35cf318fdc14a4a2a04296d1ae6680",
+    "matched_statements": [
+      {
+        "update_id": "yrbxd4n7h18x",
+        "quote": "We've identified the root cause and we are implementing a mitigation."
+      }
+    ],
+    "review_decision": "现有候选文字只有根因调查/修复过程或未展开的现象，未增加具体归因。"
+  },
+  {
+    "incident_id": "th916r7yfg00",
+    "source_record_sha256": "c4b76764ea58b492633a41b00900d57f97a25bb4f7669f4fc4718086435f2632",
+    "matched_statements": [
+      {
+        "update_id": "wn6rhhjxygbb",
+        "quote": "We think we've established a new root cause for the errors and we're actively working to confirm our hypothesis."
+      }
+    ],
+    "review_decision": "现有候选文字只有根因调查/修复过程或未展开的现象，未增加具体归因。"
+  },
+  {
+    "incident_id": "nchdhw4rmpd2",
+    "source_record_sha256": "cafa2e93635b6f2012623ea12c79197f41aedc63097e2381c21c14f05b815ea4",
+    "matched_statements": [
+      {
+        "update_id": "fz8ycwmqs4h8",
+        "quote": "We've identified and mitigated the root cause and are monitoring the current state."
+      }
+    ],
+    "review_decision": "现有候选文字只有根因调查/修复过程或未展开的现象，未增加具体归因。"
+  },
+  {
+    "incident_id": "vgdmw7cp6xdg",
+    "source_record_sha256": "156d4e7187f6eb801faafb948057e1642034d48043f70cb6419e11600dddae4d",
+    "matched_statements": [
+      {
+        "update_id": "b936mzshrj4w",
+        "quote": "We have identified the root cause and rollout the fix soon."
+      }
+    ],
+    "review_decision": "现有候选文字只有根因调查/修复过程或未展开的现象，未增加具体归因。"
+  },
+  {
+    "incident_id": "p30zymgkqbvw",
+    "source_record_sha256": "eba14e80d9de644cf00b4174fe3e52b5c447c769cab253515133708c739250ad",
+    "matched_statements": [
+      {
+        "update_id": "x60pp3sww779",
+        "quote": "We are deploying a fix."
+      }
+    ],
+    "review_decision": "现有候选文字只有根因调查/修复过程或未展开的现象，未增加具体归因。"
+  },
+  {
+    "incident_id": "byhrswvrg2w3",
+    "source_record_sha256": "275e19b8f5d3e94f3c4c9a4ed6717e691159b0068347d6720b16d057f26e4da4",
+    "matched_statements": [
+      {
+        "update_id": "4f93dwnj5tmk",
+        "quote": "We haven't yet resolved the root cause, and we are working on that."
+      }
+    ],
+    "review_decision": "现有候选文字只有根因调查/修复过程或未展开的现象，未增加具体归因。"
+  },
+  {
+    "incident_id": "kmyd15zlf718",
+    "source_record_sha256": "a5d7d94500fb20d7a665988ad4eb64fede10db17a9c706fb771ff578f36ee9fb",
+    "matched_statements": [
+      {
+        "update_id": "2b7527mk32y5",
+        "quote": "Our team is actively working to identify the root cause."
+      }
+    ],
+    "review_decision": "现有候选文字只有根因调查/修复过程或未展开的现象，未增加具体归因。"
+  },
+  {
+    "incident_id": "hdq52ff34bbk",
+    "source_record_sha256": "4bdb386b736265145e3bb465b9fa0200ad9c86e2b134beead1844573cad2d30e",
+    "matched_statements": [
+      {
+        "update_id": "cmyh0x58dvqp",
+        "quote": "Our team is actively working to identify the root cause."
+      },
+      {
+        "update_id": "wd8p936pmg26",
+        "quote": "We have identified the root cause, deployed a fix, and all systems are now operating normally."
+      }
+    ],
+    "review_decision": "现有候选文字只有根因调查/修复过程或未展开的现象，未增加具体归因。"
+  },
+  {
+    "incident_id": "3fq7j7zbfrkm",
+    "source_record_sha256": "60227165d4329170efd72af2e1effb62fdcee679ae2be09c736c953e20784887",
+    "matched_statements": [
+      {
+        "update_id": "vsx1lknj7hqx",
+        "quote": "The issue has been resolved (no regressions since we've been monitoring)."
+      }
+    ],
+    "review_decision": "现有候选文字只有根因调查/修复过程或未展开的现象，未增加具体归因。"
+  },
+  {
+    "incident_id": "4kv6xfjg5cz2",
+    "source_record_sha256": "dab8697364790feedea8b1bbae61207a17cc68c77552ba5b942d4d7812d5761d",
+    "matched_statements": [
+      {
+        "update_id": "0mn1zlnbm52z",
+        "quote": "Our team is actively working to identify the root cause."
+      }
+    ],
+    "review_decision": "现有候选文字只有根因调查/修复过程或未展开的现象，未增加具体归因。"
+  },
+  {
+    "incident_id": "538r2y9cjmhk",
+    "source_record_sha256": "aa668af04fce79172dee65a88bd50e53d96097e1855d6ac9688142edb325f80b",
+    "matched_statements": [
+      {
+        "update_id": "tl4dl7t09vk5",
+        "quote": "Our team is actively working to identify the root cause."
+      }
+    ],
+    "review_decision": "现有候选文字只有根因调查/修复过程或未展开的现象，未增加具体归因。"
+  },
+  {
+    "incident_id": "1y63m9yzpjn2",
+    "source_record_sha256": "7f40fbeacd294313a1cda52f01fe7075898e08f3fd548ef7e01171823a3e1d66",
+    "matched_statements": [
+      {
+        "update_id": "flrnxhb5n13m",
+        "quote": "Our team is actively working to identify the root cause."
+      }
+    ],
+    "review_decision": "现有候选文字只有根因调查/修复过程或未展开的现象，未增加具体归因。"
+  },
+  {
+    "incident_id": "5g213mxxlbsw",
+    "source_record_sha256": "d5a6118afc96ab0958d1a9899512098a233f56c7c2115d9b44b250317f53bf6b",
+    "matched_statements": [
+      {
+        "update_id": "216zhvbkdpkf",
+        "quote": "We are aware of an issue affecting a large number of users causing 529 overloaded responses from our APIs."
+      }
+    ],
+    "review_decision": "529 overloaded是响应现象，未说明资源瓶颈或触发原因。"
+  },
+  {
+    "incident_id": "pttlfp1vg4g3",
+    "source_record_sha256": "e855ee5f0bed68e8cbb24e7390b2654e842aeed768804893c08bde47a322ad43",
+    "matched_statements": [
+      {
+        "update_id": "j0f8g9z7h66w",
+        "quote": "The fix finished deploying approximately 2 hours ago and new purchases should work correctly going forward."
+      }
+    ],
+    "review_decision": "现有候选文字只有根因调查/修复过程或未展开的现象，未增加具体归因。"
+  },
+  {
+    "incident_id": "qtmzycrwksws",
+    "source_record_sha256": "06e9cb3f8428f32522a6423288a81e8fb7376a46541719f971d4703d5a4fb6de",
+    "matched_statements": [
+      {
+        "update_id": "0wzggqmk4qk2",
+        "quote": "The root cause has been discovered and engineers are working on a fix"
+      }
+    ],
+    "review_decision": "现有候选文字只有根因调查/修复过程或未展开的现象，未增加具体归因。"
+  },
+  {
+    "incident_id": "0750m396cf4p",
+    "source_record_sha256": "d9fe6c142f5272876931697d60d93a141736f96d1e3bbe47cae6051564ea36e5",
+    "matched_statements": [
+      {
+        "update_id": "wvww8csr0p8h",
+        "quote": "Our team is actively working to identify the root cause."
+      }
+    ],
+    "review_decision": "现有候选文字只有根因调查/修复过程或未展开的现象，未增加具体归因。"
+  },
+  {
+    "incident_id": "r3w8gj1cx65g",
+    "source_record_sha256": "3b3b83a006b66d5bb4968d3b06f584d28f757a62be88841f1596b242e966897e",
+    "matched_statements": [
+      {
+        "update_id": "z30v8v59ggjh",
+        "quote": "Our team is actively working to identify the root cause."
+      }
+    ],
+    "review_decision": "现有候选文字只有根因调查/修复过程或未展开的现象，未增加具体归因。"
+  },
+  {
+    "incident_id": "55dry9k1s8vg",
+    "source_record_sha256": "c7c374550367b1f628ccbb36ef8f4f752d8e992e422138522456f0c920d6f509",
+    "matched_statements": [
+      {
+        "update_id": "kfssq0d0h09t",
+        "quote": "Our team is actively working to identify the root cause."
+      }
+    ],
+    "review_decision": "现有候选文字只有根因调查/修复过程或未展开的现象，未增加具体归因。"
+  },
+  {
+    "incident_id": "d392wcgvxl01",
+    "source_record_sha256": "931661f5d265ffb67f46e031bcee3446e43303d95f528752318076b69aa8f13f",
+    "matched_statements": [
+      {
+        "update_id": "mkvrr4rt7zt1",
+        "quote": "We are currently working on deploying a fix to the Claude Desktop app."
+      }
+    ],
+    "review_decision": "现有候选文字只有根因调查/修复过程或未展开的现象，未增加具体归因。"
+  },
+  {
+    "incident_id": "mhnzmndv58bt",
+    "source_record_sha256": "9a29a1eb98b09d3c16506d95008ea492642fae9b2b24be80c814954bf07a2bd6",
+    "matched_statements": [
+      {
+        "update_id": "d9p8pknn8zkr",
+        "quote": "We have identified mitigations which we are continuing to regularly employ as we investigate the root cause."
+      }
+    ],
+    "review_decision": "现有候选文字只有根因调查/修复过程或未展开的现象，未增加具体归因。"
+  },
+  {
+    "incident_id": "6wlrxz9pqz8f",
+    "source_record_sha256": "44ff69ffac5a23826443b7d23654a0ac8cfee388a6c61bf8b47566cfde4fb68b",
+    "matched_statements": [
+      {
+        "update_id": "vscdht7k10d5",
+        "quote": "Our team is actively working to identify the root cause."
+      }
+    ],
+    "review_decision": "现有候选文字只有根因调查/修复过程或未展开的现象，未增加具体归因。"
+  },
+  {
+    "incident_id": "tj7zxr47cfx6",
+    "source_record_sha256": "44d58c144ddc6085c65cc1a43e38ad1dfc118853cfd8fdd369032e81b0e596fa",
+    "matched_statements": [
+      {
+        "update_id": "ctbxq6ybf483",
+        "quote": "Our team is actively working to identify the root cause."
+      }
+    ],
+    "review_decision": "现有候选文字只有根因调查/修复过程或未展开的现象，未增加具体归因。"
+  },
+  {
+    "incident_id": "w3389p5qg7kp",
+    "source_record_sha256": "889039aa3865c56285b902f64e96f2524aecf98a30f51d2a12f7dabc06524ff0",
+    "matched_statements": [
+      {
+        "update_id": "kl13t1s3k98v",
+        "quote": "Root cause identified."
+      },
+      {
+        "update_id": "kl13t1s3k98v",
+        "quote": "Fixes have been merged and are progressing through our deployment pipeline."
+      }
+    ],
+    "review_decision": "现有候选文字只有根因调查/修复过程或未展开的现象，未增加具体归因。"
+  },
+  {
+    "incident_id": "s9w82lp9dcn9",
+    "source_record_sha256": "888c3df5136a29fb46aaa81f3c5eb2087ec42d44b6117b9063289610b02efe93",
+    "matched_statements": [
+      {
+        "update_id": "x45743b3zt77",
+        "quote": "Learn more here: https://anthropic.com/news/redeploying-fable-5"
+      }
+    ],
+    "review_decision": "主动暂停记录，按特殊事件单列；不能从复盘链接名称推断技术原因。"
+  },
+  {
+    "incident_id": "7ykkywg6yln4",
+    "source_record_sha256": "0597d4c80c0f2ed3ec9fc8cafc1e5834a6048a299c7b550ff54e146d66cf12d9",
+    "matched_statements": [
+      {
+        "update_id": "7p4j2k44ctrg",
+        "quote": "Our team is actively working to identify the root cause."
+      }
+    ],
+    "review_decision": "现有候选文字只有根因调查/修复过程或未展开的现象，未增加具体归因。"
+  },
+  {
+    "incident_id": "d23j8s7t8rx2",
+    "source_record_sha256": "74cedaabc5fe7090c760c7c2d95fd1970555f471f3966dc4a6eb790147d4fecc",
+    "matched_statements": [
+      {
+        "update_id": "rtjs0zvgp4lb",
+        "quote": "Our team is actively working to identify the root cause."
+      }
+    ],
+    "review_decision": "现有候选文字只有根因调查/修复过程或未展开的现象，未增加具体归因。"
+  }
+]

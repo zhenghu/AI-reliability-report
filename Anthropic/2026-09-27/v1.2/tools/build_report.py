@@ -168,13 +168,15 @@ Cowork 和 Claude for Government 的观察天数更短。更少的已披露事�
 ('明确无用户影响',f'{len(noimpact)} 条，保留公告但排除时长'),
 ('结构校验','48 列、UTF-8 BOM、920 唯一 ID、原始 JSON 哈希、引文、正长度、UTC、并集一致性')])}
 
-本次仅调整无法判定的等级，保留 v1.1 已确认分析阶段；官方兜底阶段绑定原始字段、更新ID和组件ID。时间缺失仍缺失；重开、分服务、真实窗口优先和无用户影响排除规则继续生效。红色兜底按F统计，但不能解读为已从正文证明全产品不可用。
+v1.2 基础分析仅调整无法判定的等级，保留 v1.1 已确认分析阶段；官方兜底阶段绑定原始字段、更新ID和组件ID。时间缺失仍缺失；重开、分服务、真实窗口优先和无用户影响排除规则继续生效。红色兜底按F统计，但不能解读为已从正文证明全产品不可用。
 
-原分析的未知结论及兜底来源都有记录级理由，可从 CSV 的 `evidence_json.assessment` 与 HTML 索引检索。额外技术复盘的完整 HTTP 下载在上一轮返回 403，已停止该路径；只保存可读取的摘录，不声称完整复盘正文归档。根因 not_disclosed 仅表示在已取得材料中未明确披露。
+原分析的未知结论及兜底来源都有记录级理由，可从 CSV 的 `evidence_json.assessment` 与 HTML 索引检索。上一轮额外技术复盘的完整 HTTP 下载返回 403，已停止该路径。2026-09-28 本次通过网页读取工具取得关联官方复盘正文，用于根因专题的补充归因；仍未归档原始 HTTP 字节，冻结 CSV 的根因字段保留原结论。根因 not_disclosed 仅表示在对应轮次已取得材料中未明确披露。
 
 可用于公开事故基线、功能风险识别与监测设计。用于生产 SLO 或供应商比较前，还需请求量、模型/地域分布、成功率、延迟分位数、重试后任务完成率和输出质量评测。
 
-## 九、交付物与复算入口
+{(ROOT/'root-cause-review/main-report-section.md').read_text()}
+
+## 十、交付物与复算入口
 
 - [单一事故 CSV](incidents.csv)：48 列、完整原始对象与更新、复核判断、证据及时间阶段。
 - [全量分析](analysis.json)、[分析区间](assessed-intervals.json)、[窗口配置](service_windows.json)、[年度/月度趋势 JSON](trend_data.json)。
@@ -226,6 +228,8 @@ out=re.sub(r'href="([^"]+)"',lambda m:'href="'+html.escape(report_link(html.unes
 打开 [Anthropic 根目录主报告](../../Anthropic_Claude_Availability_Report_2026-09-27_v1.2.html)。开篇含整体及六个应用的年度汇总表和同图趋势折线；采用分析优先、官方颜色兜底。已内嵌全部图表和920条审阅索引，可离线浏览。主交付为48列UTF-8 BOM的 incidents.csv。
 
 冻结快照和原始证据位于同级 `../v1.0/`，v1.2不修改它。../v1.1/reviews/ 保留三个互不重叠时间片的全文语义审阅记录；tools/analyze.py 合并并绑定原始对象hash。分析无法判断时采用官方颜色兜底，仍无等级或时间的数据不填0，时间代理不冒充真实停机。完整口径见事故等级定义.md。
+
+根因专题（2026-09-28补充）：root-cause-review/ 保留916起逐事故台账、32条归因复核、工程方向与新增来源说明；运行 root-cause-review/build.py 可重建专题。只更新报告展示时，先生成专题，再运行 tools/build_report.py 和 tools/verify.py；冻结CSV与可用性数据保持不变。
 
 复算：在仓库根运行 `python3 Anthropic/2026-09-27/v1.2/tools/analyze.py`，再运行 tools/fallback_list.py 生成调整明细，随后用已有含 reportlab 和 pypdfium2 的 Python 运行 tools/charts.py，再运行 tools/build_report.py 和 tools/verify.py。全部无网络，重新生成本版本派生物，不改变v1.0。绘图实际环境为内置Python3.12、ReportLab4.4.9及PDFium；无额外安装。
 

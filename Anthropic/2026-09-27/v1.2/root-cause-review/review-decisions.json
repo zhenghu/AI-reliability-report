@@ -1,0 +1,194 @@
+{
+  "3667134hg62q": {
+    "theme": "变更与配置",
+    "evidence_level": "M",
+    "assessment": "负载均衡配置错误；回滚恢复。配置为何未被验证未披露。",
+    "engineering_direction": "发布与配置安全"
+  },
+  "0qyp857kns2b": {
+    "theme": "变更与配置",
+    "evidence_level": "T",
+    "assessment": "维护操作使集群部分不可用；维护步骤及防护失效未披露。",
+    "engineering_direction": "发布与配置安全"
+  },
+  "vyw1vz0h6c1x": {
+    "theme": "数据与协议完整性",
+    "evidence_level": "T",
+    "assessment": "图像处理缺陷导致图片被裁为正方形；代码机制未披露。",
+    "engineering_direction": "数据与协议完整性"
+  },
+  "qn4crqd8ym36": {
+    "theme": "基础设施与依赖",
+    "evidence_level": "L",
+    "assessment": "仅披露后端服务临时中断，不能进一步归因为容量或网络。",
+    "engineering_direction": "依赖隔离与恢复"
+  },
+  "q5dvt5ph7tzx": {
+    "theme": "基础设施与依赖",
+    "evidence_level": "L",
+    "assessment": "上游基础设施问题；未说明底层机制，曾切换模型缓解。",
+    "engineering_direction": "依赖隔离与恢复"
+  },
+  "kygj9sjs8dxr": {
+    "theme": "推理与输出质量",
+    "evidence_level": "T",
+    "assessment": "官方确认回复一致性缺陷，并明确无提示泄漏；更深机制未知。",
+    "engineering_direction": "语义质量可靠性"
+  },
+  "7gftd1ybnk3v": {
+    "theme": "基础设施与依赖",
+    "evidence_level": "L",
+    "assessment": "指定模型的基础设施问题；不能推断硬件或GPU原因。",
+    "engineering_direction": "依赖隔离与恢复"
+  },
+  "926d2gm87s8c": {
+    "theme": "数据与协议完整性",
+    "evidence_level": "L",
+    "assessment": "来源送达模型却未持久化到聊天，定位到数据链路但写入失败原因未知。",
+    "engineering_direction": "数据与协议完整性"
+  },
+  "kn7mvrgb0c8m": {
+    "theme": "基础设施与依赖",
+    "evidence_level": "L",
+    "assessment": "明确依赖GCP及关联服务故障；本记录未给出供应商底层机制。",
+    "engineering_direction": "依赖隔离与恢复"
+  },
+  "4q9qw2g0nlcb": {
+    "theme": "推理与输出质量",
+    "evidence_level": "T",
+    "assessment": "推理栈发布导致质量退化，回滚；不套用其他月份复盘的编译器原因。",
+    "engineering_direction": "语义质量可靠性"
+  },
+  "zr0lqy5rpx9w": {
+    "theme": "客户端与软件兼容",
+    "evidence_level": "T",
+    "assessment": "确认回归缺陷，未披露具体变更或代码。",
+    "engineering_direction": "客户端状态与兼容"
+  },
+  "34c8pmy9lb6b": {
+    "theme": "数据与协议完整性",
+    "evidence_level": "M",
+    "assessment": "部分MCP连接无法降级至SSE；协议回退为何失败仍未知。",
+    "engineering_direction": "数据与协议完整性"
+  },
+  "h26lykctfnsz": {
+    "theme": "推理与输出质量",
+    "evidence_level": "M",
+    "assessment": "公告确认推理栈发布；关联官方复盘进一步说明TPU运行时配置与优化导致输出异常。",
+    "engineering_direction": "语义质量可靠性"
+  },
+  "72f99lh1cj2c": {
+    "theme": "推理与输出质量",
+    "evidence_level": "M",
+    "assessment": "关联复盘披露上下文路由错误及近似top-k编译问题；同一公告涉及多机制，不按一因一事故计。",
+    "engineering_direction": "语义质量可靠性"
+  },
+  "gr1vrcvz9jd4": {
+    "theme": "基础设施与依赖",
+    "evidence_level": "L",
+    "assessment": "上游错误暴露内部基础设施问题并拖慢恢复；双方具体机制未披露。",
+    "engineering_direction": "依赖隔离与恢复"
+  },
+  "m05thlr411w6": {
+    "theme": "客户端与软件兼容",
+    "evidence_level": "T",
+    "assessment": "确认客户端代码问题，未披露触发路径。",
+    "engineering_direction": "客户端状态与兼容"
+  },
+  "kfs1w8vywj9d": {
+    "theme": "变更与配置",
+    "evidence_level": "T",
+    "assessment": "错误边缘代理部署触发故障，回滚后仍在调查深层原因。",
+    "engineering_direction": "发布与配置安全"
+  },
+  "p0svq4j6sk04": {
+    "theme": "基础设施与依赖",
+    "evidence_level": "L",
+    "assessment": "只确认第三方供应商故障，未给出供应商名称与技术机制。",
+    "engineering_direction": "依赖隔离与恢复"
+  },
+  "49cmvxrrk228": {
+    "theme": "基础设施与依赖",
+    "evidence_level": "R",
+    "assessment": "仅说明上游已实施修复；可确认恢复动作，不能据此认定技术根因。",
+    "engineering_direction": "依赖隔离与恢复"
+  },
+  "6rrnsb1y0kbn": {
+    "theme": "订阅与权益控制",
+    "evidence_level": "T",
+    "assessment": "iOS指定版本引入购买激活缺陷；新购修复后，存量权益仍需修复。",
+    "engineering_direction": "订阅与权益一致性"
+  },
+  "9s03yn69ky6m": {
+    "theme": "基础设施与依赖",
+    "evidence_level": "L",
+    "assessment": "内部数据服务影响报表及分析接口；具体数据故障机制未披露。",
+    "engineering_direction": "依赖隔离与恢复"
+  },
+  "3kjy2zn2w2bj": {
+    "theme": "客户端与软件兼容",
+    "evidence_level": "M",
+    "assessment": "Windows配置文件并发写争用，产生非确定性损坏；已知关联客户端版本。",
+    "engineering_direction": "客户端状态与兼容"
+  },
+  "htjkfrfnzq12": {
+    "theme": "基础设施与依赖",
+    "evidence_level": "L",
+    "assessment": "上游对等互联点网络退化导致连接超时；链路退化原因未披露。",
+    "engineering_direction": "依赖隔离与恢复"
+  },
+  "pqpgkf52p3tg": {
+    "theme": "客户端与软件兼容",
+    "evidence_level": "M",
+    "assessment": "夏令时跳过小时使任务时间解析无法收敛，应用进入无限循环。",
+    "engineering_direction": "客户端状态与兼容"
+  },
+  "z5scppyhphjk": {
+    "theme": "数据与协议完整性",
+    "evidence_level": "M",
+    "assessment": "连接器被从组织允许列表移除导致不可用；移除的深层原因未披露。",
+    "engineering_direction": "数据与协议完整性"
+  },
+  "zqsk02ryfmrd": {
+    "theme": "客户端与软件兼容",
+    "evidence_level": "T",
+    "assessment": "指定客户端版本恢复旧会话时崩溃；底层代码缺陷未披露。",
+    "engineering_direction": "客户端状态与兼容"
+  },
+  "snxm62gpxfc9": {
+    "theme": "变更与配置",
+    "evidence_level": "M",
+    "assessment": "基础设施变更改变GitHub连接出口IP，与客户IP允许列表不兼容。",
+    "engineering_direction": "发布与配置安全"
+  },
+  "g613ntyj2pwf": {
+    "theme": "订阅与权益控制",
+    "evidence_level": "M",
+    "assessment": "错误要求使用量额度，使本应可用的模型访问被拒绝。",
+    "engineering_direction": "订阅与权益一致性"
+  },
+  "kmbpgrsszf72": {
+    "theme": "证书与状态通信",
+    "evidence_level": "M",
+    "assessment": "状态站点证书无效；不能进一步断言是到期或自动续期失败。",
+    "engineering_direction": "可观测性与事故通信"
+  },
+  "vr9tpk8w7zr8": {
+    "theme": "基础设施与依赖",
+    "evidence_level": "L",
+    "assessment": "上游云服务问题造成远程会话失败或断开，具体机制未披露。",
+    "engineering_direction": "依赖隔离与恢复"
+  },
+  "r1pqn1kb4hvk": {
+    "theme": "客户端与软件兼容",
+    "evidence_level": "M",
+    "assessment": "Windows更新使Cowork工作区失去本机磁盘访问，涉及外部系统兼容。",
+    "engineering_direction": "客户端状态与兼容"
+  },
+  "t8fpw9vcshl9": {
+    "theme": "基础设施与依赖",
+    "evidence_level": "L",
+    "assessment": "Google Play确认服务问题，影响订阅；未披露技术机制。",
+    "engineering_direction": "订阅与权益一致性"
+  }
+}

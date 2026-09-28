@@ -1,0 +1,32 @@
+{
+  "review_date": "2026-09-28",
+  "incident_cutoff_utc": "2026-09-27T16:10:43Z",
+  "method": "Reuse prior per-record semantic review, recheck all 32 existing attributions against saved updates, and screen all 916 incident update texts for additional causal statements. Screening is not independent full-text re-review. Read linked official postmortem as supplemental evidence.",
+  "sources": [
+    {
+      "url": "https://www.anthropic.com/engineering/a-postmortem-of-three-recent-issues",
+      "published_date": "2025-09-17",
+      "retrieved_date": "2026-09-28",
+      "access": "Web reader returned article text; original HTTP bytes not archived",
+      "scope": "Linked explicitly by h26lykctfnsz and 72f99lh1cj2c; does not apply to all model-quality incidents",
+      "notes": [
+        "TPU运行时配置与优化导致异常token输出；公告包含该官方复盘链接。",
+        "短上下文误路由至长上下文服务池；另有近似top-k编译缺陷。Haiku已确认，部分其他模型的关联仍有不确定性。"
+      ]
+    },
+    {
+      "url": "https://sre.google/workbook/canarying-releases/",
+      "scope": "Engineering reference for representative canary evaluation; not evidence about Anthropic internal controls."
+    },
+    {
+      "url": "https://docs.aws.amazon.com/wellarchitected/2022-03-31/framework/rel_mitigate_interaction_failure_limit_retries.html",
+      "scope": "Engineering reference for bounded retry/backoff/jitter; not an incident cause."
+    }
+  ],
+  "unchanged": [
+    "incidents.csv",
+    "analysis.json",
+    "assessed-intervals.json",
+    "trend_data.json"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "validation": "passed",
+  "incident_rows": 916,
+  "excluded_maintenance": 4,
+  "original_attributions_reviewed": 32,
+  "supplementary_postmortem_linked_incidents": 2,
+  "evidence_level_total": 916,
+  "original_source_csv_sha256": "4aa72387190eaa3be98fb337ad886312d2f6aff8b7bb6b366309169612b3e0a9",
+  "original_csv_unchanged": true,
+  "evidence_quotes_checked": 32,
+  "local_links": "passed",
+  "limitations": [
+    "Not an independent fresh full-text review of all 916 incidents; reuses prior semantic review and screens for causal statements.",
+    "Public evidence does not support a complete root-cause distribution or causal allocation of downtime."
+  ]
+}

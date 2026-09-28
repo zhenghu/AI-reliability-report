@@ -2,8 +2,8 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 1585,
-      "sha256": "6fb4fb89ddd6464a398f6ff3c93a8fbcc8dcb569849802a5dd0a435a68215907"
+      "bytes": 1922,
+      "sha256": "ec950699eed6b68c6119d05ae6395ec78cef7c4ced40b136543b852e4a38ea7d"
     },
     {
       "path": "analysis.json",
@@ -161,6 +161,56 @@
       "sha256": "9c2d5f3de5b4eccaa4236371dd72f8451cc389e7eddc36659e33a3c64bee8e8d"
     },
     {
+      "path": "root-cause-review/Claude_事故根因与可靠性工程方向.html",
+      "bytes": 38888,
+      "sha256": "c02a6c439f4af3842ea6c4b307f0c37dc7b0f8883fbf7538c99ecfc9c03f0fbb"
+    },
+    {
+      "path": "root-cause-review/Claude_事故根因与可靠性工程方向.md",
+      "bytes": 23148,
+      "sha256": "9ca2eddca05f3e8dd1348e106203c7ee3856c2eddd46f9ceda9ee46b754f3608"
+    },
+    {
+      "path": "root-cause-review/build.py",
+      "bytes": 29213,
+      "sha256": "8ca81d0430f99d90deb86661b5a91d26690b893e2368eabbf9885598f6e59926"
+    },
+    {
+      "path": "root-cause-review/incident-root-causes.csv",
+      "bytes": 468171,
+      "sha256": "ac61e2e672c0a6640722b0dec7bb14c1bfcefc7e4eb51af6b22a8409e4a02e4c"
+    },
+    {
+      "path": "root-cause-review/main-report-section.md",
+      "bytes": 4156,
+      "sha256": "bfcf2d98556c51513ceecf501b6ac4b065ea33734e9ee4dc100c3e09f21ff95c"
+    },
+    {
+      "path": "root-cause-review/review-decisions.json",
+      "bytes": 7963,
+      "sha256": "8d0b2c3ac8b1e502a88120895fb4d9609fa1e427978746d044ab50439f141bdf"
+    },
+    {
+      "path": "root-cause-review/screened-candidates.json",
+      "bytes": 13104,
+      "sha256": "08f4542e9782b40a4bb753626d6a2af921849291e2ebd4e7960d608790f3e310"
+    },
+    {
+      "path": "root-cause-review/source-notes.json",
+      "bytes": 1624,
+      "sha256": "7ee64f971cc05157dcdfb67b9024ba802e96c27ea758c0adb5f1f180f7708722"
+    },
+    {
+      "path": "root-cause-review/summary.json",
+      "bytes": 755,
+      "sha256": "2794e3fdf8e49031d112d5732185032ee6edf9177306f327524c5d38f441ed7a"
+    },
+    {
+      "path": "root-cause-review/verification.json",
+      "bytes": 664,
+      "sha256": "4590beb1b93dbdd87f14d6f6623c51f6ca6be134285ae393b9d1892b78af4e31"
+    },
+    {
       "path": "sensitivity-2026.csv",
       "bytes": 9028,
       "sha256": "f716c9c531374aa285a758412c88a5c1fb77ecbc9d93e13f9582ed716b815fe3"
@@ -182,8 +232,8 @@
     },
     {
       "path": "tools/build_report.py",
-      "bytes": 29994,
-      "sha256": "cee38b431dc99dd644ccf09ae3f1847f87aa0c6ffd41093a5a70a273c8e79153"
+      "bytes": 30537,
+      "sha256": "a099d8546b9989cbbefaa6fdba3359be6db5e25511666af45536c7b01f352d16"
     },
     {
       "path": "tools/charts.py",
@@ -222,13 +272,13 @@
     },
     {
       "path": "../../Anthropic_Claude_Availability_Report_2026-09-27_v1.2.html",
-      "bytes": 4357601,
-      "sha256": "b86173ed75367a8cf180d15856bd391de9e34a305824b6e77d0a04a75aeaadcb"
+      "bytes": 4362551,
+      "sha256": "1b3c4f65eb25a2bd7b4d474bc4b50ed4e4271ec7b6c75ead0500314b8c3750d7"
     },
     {
       "path": "../../Anthropic_Claude_Availability_Report_2026-09-27_v1.2.md",
-      "bytes": 35698,
-      "sha256": "c955252fb5d550eb96d4f83329ec490cdf2d808a169c060381da19563091354b"
+      "bytes": 40045,
+      "sha256": "b533eeaf9d05c9ad3edd85b250bd9c304e287aae6e78584891481175120f9a67"
     }
   ],
   "frozen_input_snapshot_sha256": "8640df4db07717aa32f4d26b6c913c95bca43f455ea24af74f05bb3b10786969",

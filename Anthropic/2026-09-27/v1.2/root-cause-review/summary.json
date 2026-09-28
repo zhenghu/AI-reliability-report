@@ -1,0 +1,25 @@
+{
+  "incidents": 916,
+  "excluded_maintenance": 4,
+  "previous_vendor_stated": 32,
+  "evidence_levels": {
+    "U": 880,
+    "M": 11,
+    "T": 9,
+    "L": 11,
+    "N": 3,
+    "R": 1,
+    "S": 1
+  },
+  "prior_attribution_themes": {
+    "变更与配置": 4,
+    "数据与协议完整性": 4,
+    "基础设施与依赖": 11,
+    "推理与输出质量": 4,
+    "客户端与软件兼容": 6,
+    "订阅与权益控制": 2,
+    "证书与状态通信": 1
+  },
+  "note": "Themes describe the 32 previously attributed records including one recovery-only record, not population-wide root-cause proportions. No impact-time attribution or availability recalculation.",
+  "source_csv_sha256": "4aa72387190eaa3be98fb337ad886312d2f6aff8b7bb6b366309169612b3e0a9"
+}
