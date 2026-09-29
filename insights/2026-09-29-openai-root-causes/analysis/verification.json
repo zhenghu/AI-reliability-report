@@ -1,0 +1,64 @@
+{
+  "input_name": "OpenAI_all_incidents_2021-02_to_2026-09-27.csv",
+  "input_sha256": "98ce305ebb39f3c32db363f1c9a74406963415f20bf9cc10afc78d526a348111",
+  "rows": 1007,
+  "fields": 26,
+  "record_types": {
+    "incident": 1006,
+    "maintenance": 1
+  },
+  "updates": 3612,
+  "retrieved_at_utc": [
+    "2026-09-26T22:51:22.220908+00:00"
+  ],
+  "writeups": 76,
+  "writeup_share_of_incident_records": 0.07554671968190854,
+  "extraction_types": {
+    "markdown": 51,
+    "text_node": 25
+  },
+  "annual": [
+    {
+      "year": "2021",
+      "incidents": 10,
+      "writeups": 0
+    },
+    {
+      "year": "2022",
+      "incidents": 43,
+      "writeups": 7
+    },
+    {
+      "year": "2023",
+      "incidents": 172,
+      "writeups": 15
+    },
+    {
+      "year": "2024",
+      "incidents": 187,
+      "writeups": 13
+    },
+    {
+      "year": "2025",
+      "incidents": 339,
+      "writeups": 18
+    },
+    {
+      "year": "2026",
+      "incidents": 255,
+      "writeups": 23
+    }
+  ],
+  "identical_writeup_groups": [
+    [
+      "01JMYB767FP69QVV5C72Y42ZJN",
+      "01JMYB76J0TCVZDY7PMK8BQQXQ"
+    ]
+  ],
+  "limitations": [
+    "Write-up coverage is not root-cause disclosure coverage.",
+    "No-write-up incidents may still contain causes in updates; these are not fully adjudicated here.",
+    "Publication year is not necessarily actual impact year.",
+    "Exact text deduplication does not establish independent physical root causes."
+  ]
+}

@@ -46,6 +46,8 @@ python scripts/collect_incidents.py validate work/openai-run/incidents.csv
 
 ## OpenAI · 2026-09-27 · v1.1
 
+新增专题（2026-09-29）：[OpenAI 事故根因、故障模式与技术方向](insights/2026-09-29-openai-root-causes/report.md) · [来源与证据边界](insights/2026-09-29-openai-root-causes/sources.md) · [复核数据与复算说明](insights/2026-09-29-openai-root-causes/README.md)。基于冻结数据中的 76 条公开复盘，整理 14 个代表案例与 7 类故障模式；不改变下述可用性统计，也不将复盘样本当作全量根因占比。
+
 **《OpenAI 服务可靠性与历史事故分析报告》——年度趋势增强版**
 
 归档目录：[`OpenAI/2026-09-27/v1.1/`](OpenAI/2026-09-27/v1.1/)
